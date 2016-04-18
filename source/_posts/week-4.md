@@ -12,6 +12,19 @@ thumbnailImagePosition: right
 autoThumbnailImage: yes
 ---
 
+This week we're filling this shortening evenings with some great events.
+It's all about quality, not quantity.
+
+Without further ado the agenda for the week is as follows:
+- Screen@Redbrick
+- Associate Talks
+- Helpdesk Talks
+- Intercom@Redbrick
+
+Interested?? OF COURSE YOU ARE for more info, click below or check
+our [Facebook page](https://www.facebook.com/dcuredbrick).
+
+<!-- more -->
 = Screen@Redbrick =
 ======================
 We've had to postpone this as we have admin exams at 6pm.
@@ -19,7 +32,7 @@ So we're going to reschedule for next week and change up the movie to the cheesy
 1995 classic "Hackers" Sorry for the inconvenience, we'll make sure you guys get
 all of next week's details sooner. We're still ironing out a few bugs on this
 end.
-<!-- more -->
+
 = Associate Talks: elephant =
 ================================
 Topic: "Spammers Hate Him! One weird trick for staying secure online"
