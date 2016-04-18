@@ -1,13 +1,13 @@
-# static-site
+# Static-Site
 [![Build Status](https://travis-ci.org/redbrick/static-site.svg?branch=master)](https://travis-ci.org/redbrick/static-site)
 
-A static Site for redbrick.dcu.ie generated with [hexo](hexo.io) using a theme
+A Static Site for [redbrick](http://redbrick.dcu.ie) generated with [hexo](hexo.io) using a theme
 based off [tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak)
 Documentation for hexo can be found [here](hexo.io/docs/) and the themes documentaion can be
 found in
 [themes/tranquilpeak/docs](https://github.com/redbrick/static-site/tree/master/themes/tranquilpeak/docs)
 
-Demo at [butlerx site](redbrick.dcu.ie/~butlerx/demo)
+Demo at [butlerx site](http://redbrick.dcu.ie/~butlerx/demo)
 
 ## Requirements
 
