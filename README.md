@@ -23,6 +23,7 @@ Demo at [butlerx site](http://redbrick.dcu.ie/~butlerx/demo)
 
 Inside the main repo run `npm install` this will install all the dependencies
 for hexo.
+
 Inside the theme folder(theme/tranquilpeak)
   - Run `npm install` to install all NPM dependencies
   - Run `bower install` to install all Bower dependencies
