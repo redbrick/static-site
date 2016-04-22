@@ -6,7 +6,7 @@ keywords:
   - help
 ---
 
-<sub> - [Helpdesk](../) - [Joining](../joining) - [Tutorials](../tutorials) - [Exams](../exams) - </sub>
+<sub> - [Helpdesk](../) - [Joining](../joining) - [Tutorials](../tutorials) - [Exams](../exams) - [Services](../services)- </sub>
 
 Joining Redbrick is easy.
 
