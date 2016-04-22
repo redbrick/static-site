@@ -6,7 +6,7 @@ keyworsd:
 - helpdesk
 - support
 ---
-<sub> - [Helpdesk](.) - [Joining](./joining) - [Tutorials](./tutorials) - [Exams](./exams) -</sub>
+<sub> - [Helpdesk](.) - [Joining](./joining) - [Tutorials](./tutorials) - [Exams](./exams) - [Services](./services) -</sub>
 
 The Redbrick Helpdesk is staffed by our team of highly skilled volunteer
 Education Officers.

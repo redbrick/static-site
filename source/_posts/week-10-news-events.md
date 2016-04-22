@@ -1,44 +1,29 @@
 ---
-title: Week-10 News & Events
-date: 2013-12-01 18:47:05
+title: 'Week 10  News & Events'
 author: polka
-tags:
-- Christmas
-- Egm
-- Pints
+date: '2012-04-08 17:29:50'
 ---
+Hey guys, semester two is nearly over and done with already! However, as always, Redbrick have a few events to keep you going!
 
-It's beginning to sound a lot like Christmas... With the end of the semester looming, here's what's happening with Redbrick this week!
+*   Society Awards
+*   Facebook Talk
+*   Annual Redbrick Quiz
 
-*   Monday Social Pints
-*   Christmas Party
-*   Facebook Page
-*   Exams
-*   EGM
-*   Project Services
+## Society Awards
 
-## Monday Social Pints
+Just a quick update on the society awards! Redbrick were nominated for a number of awards, and came on the shortlist for most of the awards we applied for this year. In the end, we came in a very close second for Society of the Year. While we didn't get it this year, we hope to bring Redbrick to the top and bring home an award next year!
 
-We're having a small get together this week, from 6pm onwards on Monday we'll be having a few pints together in the NuBar. It's a good opportunity to sit down, chill out, and escape assignments and exams for a short while! Keep an eye out for the Redbrick hoodies if you don't recognise anyone!
+## Facebook Talk
 
-## Christmas Party
+This week, Senior Engineer Ryan Mack is coming in on Wednesday the 11th of April to speak about Facebook. Hosted in association with the School of Computing, it will no doubt be incredibly interesting, as Ryan has been involved in the implementation of Timeline and the recent changes in Photos on Facebook. The talk begins at 5pm, and will be hosted in HG23\. Ruth McIntyre from Facebook Ireland will also be there, as a representative of the university hiring team.
 
-We will be hosting our annual Christmas party in week 11 this year, with a number of wonderful societies! Get your Santa hats, Christmas jumpers and tinsel at the ready, we'll have drink specials, and a very special visit from a man in a red suit... With presents of course! Refreshments will be available on the night, we'll have more information for you all before then!  
-Facebook event: [https://www.facebook.com/events/1381206022127635/](https://www.facebook.com/events/1381206022127635/)
+## Annual Redbrick Quiz
 
-## Exams
+Our annual quiz will be held during week 11, due to some unforeseen circumstances! However, your committee is working behind the scenes to make it as awesome as ever! We will have a few rounds of general knowledge questions, as well as some techy style questions, so be sure to swot up on these areas. We'll confirm the venue with you next week, but we will let you in on what prizes are available on the night! Teams will be made up of four people apiece.
 
-Interested in running for one of our open positions as System Administrator, Webmaster, or Helpdesk? Let us know! You must register to sit an exam before running for these positions. Email [committee](/about/contact/committee) to register to sit one of these exams as soon as possible, if you are interested.
+For the quiz, the prizes are as follows:  
+1st Prize - Hard Drives  
+2nd Prize - Nerf Guns  
+3rd Prize - Bacon Popcorn
 
-## EGM
-
-We have a number of open positions on our committee, so we're looking for interested people to get involved. We currently have the following positions open: System Administrator, Helpdesk, Webmaster, Secretary and Events Officer. Be sure to come along to the EGM, even if you don't want to run for anything, we will have loads of pizza and little something for our Christmas Party... Time and date yet to be confirmed, but once we know - you'll know!  
-Facebook event: [https://www.facebook.com/events/454988594620806/](https://www.facebook.com/events/454988594620806/)
-
-## Project Services
-
-Making a web application for your third or fourth year project and need somewhere to host it? Redbrick provide free Virtual Private Servers (VPS) with port 80 and 443 publicly accessible from the internet for all members. More info can be found on our wiki at [http://wiki.redbrick.dcu.ie/mw/Rbvm](http://wiki.redbrick.dcu.ie/mw/Rbvm), or by contacting [admins](/about/contact/admins)
-
-## Facebook Page
-
-Our new Facebook like page is fully set up, and we'll be holding a competition before the end of the semester, so give the page a cheeky like and keep an eye our, just so you don't miss it [https://www.facebook.com/dcuredbrick](https://www.facebook.com/dcuredbrick)
+We will also be holding a raffle on the night, where you can win an Asus netbook! We'll have a few other spot prizes on the night, a full update to follow next week.
