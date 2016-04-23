@@ -2,7 +2,7 @@
 title: 'Past Committees'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../the-committees) -</sub>
+ <sub> - [About](../) - [Committee](../committee) - [Constitution](../constitution) - [Regulations](../regulations) - [Contact](../contact) - [Past Committees](../past-committees) -</sub>
 Over the years Redbrick has had many many people serve on its committee. Bellow is a list of each year and the names of the people who were a part of the committee. There is also an interesting page on our wiki which shows this is one [diagram](http://wiki.redbrick.dcu.ie/mw/Committee_Timeline).
 
 *   [Committee 2015-2016](./the-committee-2015-2016)

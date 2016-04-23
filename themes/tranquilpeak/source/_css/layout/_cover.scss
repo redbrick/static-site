@@ -8,4 +8,6 @@
     left:              0;
     // position the cover below the whole blog
     z-index:           map-get($z-indexes, l-cover);
+    -webkit-filter:blur(2px); /* Chrome, Safari, Opera */
+    filter:blur(2px);
 }
