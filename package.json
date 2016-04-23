@@ -1,7 +1,16 @@
 {
   "name": "Redbrick-site",
   "version": "0.0.1",
+  "description": "Statically generated sight for redbrick.dcu.ie",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redbrick/static-site"
+  },
+  "bugs": {
+    "url": "http://github.com/redbrick/static-site/issues"
+  },
+  "license": "MIT",
   "hexo": {
     "version": "3.2.0"
   },

@@ -19,12 +19,10 @@ Demo at [butlerx site](http://redbrick.dcu.ie/~butlerx/demo)
 6. **ESLint config Google** : v0.4.0 or higher. Run `npm install eslint -g`
 
 ## Setup
-> All this could be automated with a grunt script
 
-Inside the main repo run `npm install` this will install all the dependencies
-for hexo.
+Inside the main repo run `./setup` this is a bash script that will install all the dependencies.
 
-Inside the theme folder(theme/tranquilpeak)
+It will run `npm install from the main folder and inside the theme folder(theme/tranquilpeak) it'll
   - Run `npm install` to install all NPM dependencies
   - Run `bower install` to install all Bower dependencies
 
