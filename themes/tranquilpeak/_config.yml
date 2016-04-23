@@ -67,28 +67,29 @@ sidebar:
             title: global.archives
             url: /all-archives
             icon: archive
-#    author_links:
-#        github:
-#            title: global.github
-#            url: https://github.com/redbrick
-#            icon: github
-#        twitter:
-#            title: global.twitter
-#            url: https://twitter.com/redbrickdcu
-#            icon: twitter
-#        facebook:
-#            title: global.facebook
-#            url: https://facebook.com/dcuredbrick
-#            icon: facebook
-#        mail:
-#            title: global.mail
-#            url: mailto:committee@redbrick.dcu.ie
-#            icon: envelope-o
     rss:
         rss:
             title: global.rss
             url: /atom.xml
             icon: rss
+social:
+  menu:
+    github:
+        title: global.github
+        url: https://github.com/redbrick
+        icon: github
+    twitter:
+        title: global.twitter
+        url: https://twitter.com/redbrickdcu
+        icon: twitter
+    facebook:
+        title: global.facebook
+        url: https://facebook.com/dcuredbrick
+        icon: facebook
+    mail:
+        title: global.mail
+        url: mailto:committee@redbrick.dcu.ie
+        icon: envelope-o
 
 # Header configuration
 # The link at the right of the header is customizable

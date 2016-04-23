@@ -1,0 +1,21 @@
+<div id=social>
+  <% for (var i in theme.social) { %>
+    <ul class="social-buttons">
+    <% for (var n in theme.social[i]) { %>
+      <li class="social-button">
+        <% if (url_for(theme.social[i][n].url).indexOf(config.url) < 0 && url_for(theme.social[i][n].url).indexOf(':') >= 0) { %>
+          <a  class="social-button-link <% if (theme.social[i][n].class) { %><%= theme.social[i][n].class %><% } %>" href="<%- url_for(theme.social[i][n].url) %>" target="_blank">
+            <% } else { %>
+              <a  class="social-button-link <% if (theme.social[i][n].class) { %><%= theme.social[i][n].class %><% } %>"
+                <% if (theme.social[i][n].url.indexOf("/") === 0 && theme.social[i][n].url.length === 1) { %> href="<%- url_for(' ') %>"
+                <% } else if (theme.social[i][n].url.indexOf("/") === 0) { %> href="<%- url_for(theme.social[i][n].url.substr(1)) %>"
+                <% } else { %> href="<%- url_for(theme.social[i][n].url) %>"<% } %>
+              <% } %>
+              <i class="social-button-icon fa fa-lg <%= 'fa-' + theme.social[i][n].icon %>"></i>
+            <span class="social-button-desc"><%= __(theme.social[i][n].title) %></span>
+          </a>
+        </li>
+      <% } %>
+    </ul>
+  <% } %>
+</div>
