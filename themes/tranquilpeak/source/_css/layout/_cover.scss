@@ -10,4 +10,5 @@
     z-index:           map-get($z-indexes, l-cover);
     -webkit-filter:blur(2px); /* Chrome, Safari, Opera */
     filter:blur(2px);
+    opacity:0.7;
 }

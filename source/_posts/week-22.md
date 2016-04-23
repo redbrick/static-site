@@ -10,11 +10,7 @@ tags:
 
 Hi all:
 
-We’ve had a busy week with a talk, quiz and the AGM. Last week was the AGM or
-the shuffling of Committee, when we say good bye to some old faces and hello to
-some new ones. As those of you who attended the AGM know, I was appointed as
-Redbrick’s new and shiny secretary, I look forward to a year writing badly
-worded but informing announces for my adoring public.
+We’ve had a busy week with a talk, quiz and the AGM. Last week was the AGM or the shuffling of Committee, when we say good bye to some old faces and hello to some new ones. As those of you who attended the AGM know, I was appointed as Redbrick’s new and shiny secretary, I look forward to a year writing badly worded but informing announces for my adoring public.
 Now down to business…
 
 <!-- more -->
