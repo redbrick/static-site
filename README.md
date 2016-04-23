@@ -42,8 +42,8 @@ To generate new pages run `hexo new page <title>` this will create a new page in
 source/<title>/index.md
 To edit the sidebar you need to edit theme/tranquilpeak/_config.yaml, this is
 where all the theme is controlled from.
+
 ### CSS and Templates
-You can edit the css for the theme in theme/tranquilpeak/source/_css
-You can edit the templates in theme/tranquilpeak/layout
-If you edit the theme it will need to be regenerated. This is done by running
-`grunt buildProd` from theme/tranquilpeak
+You can edit the css for the theme in theme/tranquilpeak/source/_css  
+You can edit the templates in theme/tranquilpeak/layout  
+If you edit the theme it will need to be regenerated. This is done by running `grunt buildProd` from theme/tranquilpeak

@@ -14,6 +14,7 @@
 <html lang="<%= config.language %>">
     <%- partial('_partial/head') %>
     <body>
+      <%- partial('_partial/script', {post: page}) %>
         <div id="blog">
             <%- partial('_partial/header', {sidebarBehavior: sidebarBehavior}) %>
             <%- partial('_partial/sidebar', {sidebarBehavior: sidebarBehavior}) %>
@@ -35,5 +36,4 @@
         <%- partial('_partial/about', null, {cache: !config.relative_link}) %>
         <%- partial('_partial/cover', null, {cache: !config.relative_link}) %>
     </body>
-    <%- partial('_partial/script', {post: page}) %>
 </html>
