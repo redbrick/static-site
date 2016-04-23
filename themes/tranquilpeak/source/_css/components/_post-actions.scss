@@ -23,13 +23,13 @@
         z-index: map-get($z-indexes, c-post-bottom-bar) + 2;
 
         li.post-action {
-            float:     left;
+            float:     right;
             // Fix a bug on Firefox. the right part of button `previous` fall down without this `min-width`
             min-width: 42px;
 
             &:last-child {
                 .post-action-btn {
-                    margin-left: 15px;
+                    margin-right: 15px;
                 }
             }
         }
@@ -43,11 +43,11 @@
         z-index: map-get($z-indexes, c-post-bottom-bar) + 1;
 
         li.post-action {
-            float: right;
+            float: left;
 
             &:nth-child(n + 3) {
                 .post-action-btn {
-                    margin-right: 15px;
+                    margin-left: 15px;
                 }
             }
         }
