@@ -1,9 +1,8 @@
 ---
 title: Contact & Services
+type: about
 date: 2016-04-17 16:22:40
 ---
-
-<sub> - [About](../) - [Committee](../committee) - [Constitution](../constitution) - [Regulations](../regulations) - [Contact](../contact) - [Past Committees](../past-committees) -</sub>
 
 ### Redbrick Admin Team
 - This address can be used to contact the Admin team if you have any requests regarding your account or any special service requests.

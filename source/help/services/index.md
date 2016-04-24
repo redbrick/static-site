@@ -1,8 +1,7 @@
 ---
-title: Info
+title: Services
+type: help
 ---
-
-<sub> - [Helpdesk](../) - [Joining](../joining) - [Tutorials](../tutorials) - [Exams](../exams) - [Services](../services) -</sub>
 
 Redbrick offers a great range of services to our members, and we are always looking for more to offer. if you have any ideas, feel free to mail us with your suggestions.
 

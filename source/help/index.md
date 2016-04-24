@@ -1,12 +1,12 @@
 ---
 title: Helpdesk
 date: 2016-04-17 16:15:35
+type: help
 keyworsd:
 - help
 - helpdesk
 - support
 ---
-<sub> - [Helpdesk](.) - [Joining](./joining) - [Tutorials](./tutorials) - [Exams](./exams) - [Services](./services) -</sub>
 
 The Redbrick Helpdesk is staffed by our team of highly skilled volunteer
 Education Officers.

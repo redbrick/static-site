@@ -1,9 +1,8 @@
 ---
 title: Committee
+type: about
 date: 2016-04-17 16:22:40
 ---
-
-<sub> - [About](../) - [Committee](../committee) - [Constitution](../constitution) - [Regulations](../regulations) - [Contact](../contact) - [Past Committees](../past-committees) -</sub>
 
 The Committee is a 12 person team which is elected yearly to run all aspects of
 the society
