@@ -1379,6 +1379,33 @@ a.fancybox {
   .markdown h6 {
     font-size: 1.5rem; } }
 
+#menu {
+  font-size: 14px;
+  text-align: center;
+  list-style-type: none; }
+  #menu ul.menu-buttons {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0 20px 0; }
+    #menu ul.menu-buttons li.menu-button {
+      display: inline;
+      text-decoration: none; }
+      #menu ul.menu-buttons li.menu-button .menu-button-link {
+        color: #000000;
+        display: inline-block;
+        height: 100%;
+        text-decoration: none;
+        padding: 14px 16px;
+        text-align: center; }
+        #menu ul.menu-buttons li.menu-button .menu-button-link:hover, #menu ul.menu-buttons li.menu-button .menu-button-link:active {
+          text-decoration: none;
+          color: #262626; }
+    #menu ul.menu-buttons:first-child {
+      margin-top: 5px; }
+
 .pagination-bar {
   height: auto;
   width: 100%;

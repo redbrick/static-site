@@ -1,12 +1,11 @@
 ---
 title: Joining
 date: 2016-04-17 16:15:35
+type: help
 keywords:
   - join
   - help
 ---
-
-<sub> - [Helpdesk](../) - [Joining](../joining) - [Tutorials](../tutorials) - [Exams](../exams) - [Services](../services)- </sub>
 
 Joining Redbrick is easy.
 

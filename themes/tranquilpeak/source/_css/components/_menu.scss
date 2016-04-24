@@ -1,12 +1,11 @@
-#social {
-    font-family:        map-get($font-families, 'social');
-    font-size: 20px;
-    padding: 30px;
+#menu {
+    font-family:        map-get($font-families, 'menu');
+    font-size: 14px;
     text-align: center;
     list-style-type: none;
 
-// social's buttons
-  ul.social-buttons {
+// menu's buttons
+  ul.menu-buttons {
     list-style-type: none;
     width:       100%;
     overflow: hidden;
@@ -14,12 +13,12 @@
     text-align: center;
     margin:  20px 0 20px 0;
 
-    li.social-button {
+    li.menu-button {
       display: inline;
       text-decoration: none;
 
-      .social-button-link {
-        color:   map-get($social, color);
+      .menu-button-link {
+        color:   map-get($menu, color);
         display: inline-block;
         height:  100%;
         text-decoration: none;
@@ -29,7 +28,7 @@
         &:hover,
         &:active {
             text-decoration: none;
-            color:           lighten(map-get($social, color), 15);
+            color:           lighten(map-get($menu, color), 15);
         }
       }
     }

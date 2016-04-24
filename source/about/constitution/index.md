@@ -1,9 +1,8 @@
 ---
 title: Constitution
+type: about
 date: 2016-04-17 16:22:40
 ---
-
-<sub> - [About](../) - [Committee](../committee) - [Constitution](../constitution) - [Regulations](../regulations) - [Contact](../contact) - [Past Committees](../past-committees) -</sub>
 
 ## DUBLIN CITY UNIVERSITY: Dublin City University Networking Society CONSTITUTION
 ## 1. Name of Society:
