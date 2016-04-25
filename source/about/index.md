@@ -11,7 +11,7 @@ In October of 1995 a group of friends started the ball rolling on the idea of a 
 
 RedBrick's social side has grown a lot also, with the society celebrating its [20th Anniversary][4] back in April 2016. The society continues to run their annual Freshers Ball, Halloween Party, Christmas Party and Tech Week throughout the year.
 
-As one of the biggest societies in DCU, we're always looking for new membership. The membership fee itself is a paltry &euro;4.00 until Clubs &  Socs Day 2 (generally mid Feburary) when the membership cost drops to &euro;2.00! However outside of Clubs & Socs days it becomes a little awkward to sign up, but it is more than doable - check [here][5] for details on how to pay.
+As one of the biggest societies in DCU, we're always looking for new membership. The membership fee itself is a paltry &euro;4.00 until Clubs & Socs Day 2 (generally mid February) when the membership cost drops to &euro;2.00! However outside of Clubs & Socs days it becomes a little awkward to sign up, but it is more than doable - check [here][5] for details on how to pay.
 Our current main server is [Azazel][6], with Pygmalion also providing login services to users. See the [RedBrick Hardware Inventory][7] for descriptions of our servers and other equipment.
 
 [1]: https://dcu.ie
