@@ -2,11 +2,19 @@
 title: 'Digital Discovery Week'
 author: tziegler
 date: '2011-11-13 02:32:50'
+thumbnailImage: ddw.png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
+tags:
+ - web design
+ - Digital Discovery Week
 ---
 Redbrick in association with the [Student's Union](http://www.dcusu.ie/) are extremely proud to host the first annual Digital Discovery Week in DCU. The idea of Digital Discovery Week is to show how computing is everywhere in our day to day lives and to engage those of us that are quite technical as well as those that may not be studying computing.
 
 We have a whole week jam packed full of events that are aimed at everybody in DCU and we encourage everyone, not just Redbrick members, to come along to any event and learn something new.
 
+<!-- more -->
+{% image nocaption right ddw.png ddw%}
 **Visit [DigitalDiscovery.dcu.ie](http://digitaldiscovery.dcu.ie) for updated event info.**
 
 Here's a rundown of what's happening:

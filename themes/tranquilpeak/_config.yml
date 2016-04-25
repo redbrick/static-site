@@ -90,54 +90,55 @@ social:
         title: global.mail
         url: mailto:committee@redbrick.dcu.ie
         icon: envelope-o
+#Navigation
 about:
   menu:
     about:
-      title: About
-      url: /about
-      icon: info-circle
+        title: About
+        url: /about
+        icon: info-circle
     committee:
-      title: Committee
-      url: /about/committee
-      icon: users
+        title: Committee
+        url: /about/committee
+        icon: users
     constitution:
-      title: Constitution
-      url: /about/constitution
-      icon: file
+        title: Constitution
+        url: /about/constitution
+        icon: file
     regulations:
-      title: Regulations
-      url: /about/regulations
-      icon: flag
+        title: Regulations
+        url: /about/regulations
+        icon: flag
     contact:
-      title: Contact
-      url: /about/contact
-      icon: comments
+        title: Contact
+        url: /about/contact
+        icon: comments
     past-committees:
-      title: Past Committees
-      url: /about/past-committees
-      icon: user-times
+        title: Past Committees
+        url: /about/past-committees
+        icon: user-times
 help:
   menu:
     helpdesk:
-      title: Helpdesk
-      url: /help
-      icon: question-circle
+        title: Helpdesk
+        url: /help
+        icon: question-circle
     joining:
-      title: Joining
-      url: /help/joining/
-      icon: sign-in
+        title: Joining
+        url: /help/joining
+        icon: sign-in
     tutorials:
-      title: Tutorial
-      url: /help/tutorial
-      icon: desktop
+        title: Tutorial
+        url: /help/tutorials
+        icon: desktop
     exams:
-      title: Exams
-      url: /help/exams
-      icon: file-text
+        title: Exams
+        url: /help/exams
+        icon: file-text
     services:
-      title: Services
-      url: /help/services
-      icon: terminal
+        title: Services
+        url: /help/services
+        icon: terminal
 
 # Header configuration
 # The link at the right of the header is customizable
