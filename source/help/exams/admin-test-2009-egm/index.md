@@ -42,7 +42,7 @@ Best of luck!
 1.  How would forward a port from your local computer to the internal network on redbrick? What would be a good reason for doing this? (3 marks)
 2.  Check what kernel your currently running? (1 mark)
 3.  What does chmod 4765 filename do? (3 marks)
-4.  How do you search for all the man pages containing a particaular word? (2 marks)
+4.  How do you search for all the man pages containing a particular word? (2 marks)
 5.  Whats the difference between find and ls (2 marks)
 6.  finds gone, so's ls, how do see whats in the current working directory (2 marks)
 7.  whats busybox? Whats it useful for? (3 marks)
