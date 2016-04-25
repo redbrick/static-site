@@ -2,7 +2,7 @@
 title: Helpdesk
 date: 2016-04-17 16:15:35
 type: help
-keyworsd:
+keywords:
 - help
 - helpdesk
 - support
