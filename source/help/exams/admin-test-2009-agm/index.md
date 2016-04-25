@@ -32,7 +32,7 @@ It's 2008 and RedBrick has been haxxored, you alone must write a bunch of hacky 
 6.  You've gone and catted a binary, and your screen is in a wide variety of languages, none of which contain latin characters? How do you go about fixing this? (3 marks)
 7.  How would you suspend a process? What signal would you send it? How would you resume it? What signal would you use? (3 marks)
 8.  Why should you avoid using kill -9? (2 marks)
-9.  What architechure is murphy? What are it's benefits for RedBrick wide synergistic protocol exchange? (I'll accept what the architechure is good at either) (2 marks)
+9.  What architecture is murphy? What are it's benefits for RedBrick wide synergistic protocol exchange? (I'll accept what the architecture is good at either) (2 marks)
 10.  What's a crontab? How would you edit such sorcery? (2 marks)
 11.  What temperature should the redbrick room be at? (1 mark)
 12.  It's late, it's nearly time to run the test, and I haven't slept last night. Finish this one yourself  

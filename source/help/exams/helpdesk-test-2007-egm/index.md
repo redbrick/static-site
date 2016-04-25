@@ -72,6 +72,6 @@ title: 'Helpdesk test 2007 EGM'
     3.  Who's the most sarcastic member of redbrick?
     4.  redbrick.dcu.ie - explain
 
-    Author's Note: At the time of writing the website was not accesible via http://redbrick.dcu.ie for historical reasons. This issue has since been resolved.
+    Author's Note: At the time of writing the website was not accessible via http://redbrick.dcu.ie for historical reasons. This issue has since been resolved.
 
     1.  screen.
