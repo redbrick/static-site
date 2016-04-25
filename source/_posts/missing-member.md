@@ -2,9 +2,15 @@
 title: 'Missing Member'
 author: Haus
 date: '2012-02-04 14:48:24'
+tags:
+ - missing member
+ - bunbun
+thumbnailImage: bunbun.jpg
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
-**Update: A poster has been made. Please print it off and put it up in your local area, no matter where you are.[  
-![Missing Poster](http://www.redbrick.dcu.ie/includes/images/uploads/bunbun_small.jpg)](http://www.redbrick.dcu.ie/includes/images/uploads/bunbun.jpg)**
+**Update: A poster has been made. Please print it off and put it up in your local area, no matter where you are.  
+{% image nocaption left bunbun_small.jpg bunbun_small%}
 
 One of our members has been reported as missing to the Gardai.  
 
@@ -13,6 +19,7 @@ If anyone has seen Paul Bunbury(bunbun) since Thursday the 2nd of February at ap
 [Email Us](/about/contact/committee)
 
 Here's the post made on boards.ie about him, it includes a picture of him: [http://tinyurl.com/75bhc5j](http://tinyurl.com/75bhc5j)
+{% image nocaption right bunbun.jpg bunbun%}
 
 Please retweet this post or make another post to twitter with the hashtag #FindPaulB [http://tinyurl.com/FindPaulB](http://tinyurl.com/FindPaulB)
 
