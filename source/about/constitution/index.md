@@ -73,7 +73,7 @@ _Other suggested positions include:_
 6. The Secretary shall give notice to all members of the Society's’ meetings, events, and functions.
 7. The Secretary shall assist the Public Relations Officer (PRO) or other officers to organize fundraising events and sponsorship where necessary.
 8. The Treasurer’s function shall be to administer the funds of the Society and to maintain accounts and budgets.
-9. The Treasurer shall be responsible for the maintenance of accounts subject to the decision of the committee in compliance with the relegations set down by the Society Life Committee.
+9. The Treasurer shall be responsible for the maintenance of accounts subject to the decision of the committee in compliance with the regulations set down by the Society Life Committee.
 10. The Treasurer shall keep full records of income and expenditure of the Society. The Treasurer shall also keep a record of who authorized various expenditures and shall issue receipts.
 11. The Treasurer must countersign all cheques and withdrawal forms for the Society’s bank account.
 12. Where the Treasurer is decreed as unavailable, another designated person may countersign cheques and withdrawal forms for the Society in consultation with the Society Life Committee.
