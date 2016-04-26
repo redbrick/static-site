@@ -2,7 +2,6 @@
 title: 'The Committee 1996-1997'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Sean Cullen (hyper)](http://www.redbrick.dcu.ie/about/contact/hyper)

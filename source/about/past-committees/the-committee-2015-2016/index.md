@@ -2,7 +2,6 @@
 title: "The Committee 2012-2013\t"
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <div>**Chairperson:**</div>
 
 *   Lorcan Boyle (zergless)

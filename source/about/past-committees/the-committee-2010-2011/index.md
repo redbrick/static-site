@@ -2,7 +2,6 @@
 title: 'The Committee 2010-2011'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Lotta Mikkonen (attol)](../../about/contact/attol)

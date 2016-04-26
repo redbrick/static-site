@@ -2,7 +2,6 @@
 title: 'Admin Test 2011'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>	##############
 	# Scripting  #
 	# (40 marks) #

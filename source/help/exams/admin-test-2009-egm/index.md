@@ -2,7 +2,6 @@
 title: 'Admin Test 2009 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 All questions can be answered in the context of any version of UNIX (except for the OpenBSD, Solaris and Linux sections obviously!). Indicating which version of UNIX you refer to in your answer is preferred but not required. Negative marking applies throughout for answers that are clearly incorrect or demonstrate incompetence.
 
 Humourous answers while appreciated gain no extra marks*. **Keep answers short and concise** - don't waste time writing when one or two word answers will suffice.  

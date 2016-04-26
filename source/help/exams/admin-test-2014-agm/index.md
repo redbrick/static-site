@@ -2,7 +2,6 @@
 title: 'Admin Test AGM 2014'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 -------------------- Scripting (40 marks) --------------------  
 1) It has come to our attention that a number of associates are running some new dodgy services that are listening on network ports. You should write a script that will kill any processes that are listening on ports 1337 and anything over port 9000\. Make sure to only to kill those processes belong to that of the associate user group. (13 marks)  
 

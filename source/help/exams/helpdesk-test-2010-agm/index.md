@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2010 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>                        (                        
                          )      /                
                     (   (     (##)---._ _        

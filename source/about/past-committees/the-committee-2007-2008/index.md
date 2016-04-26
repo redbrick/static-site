@@ -2,7 +2,6 @@
 title: 'The Committee 2007-2008'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Andrew Harford ( receive )](../../about/contact/receive)

@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2006 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>1.  
 How do I send a private message to someone on chat?  
 

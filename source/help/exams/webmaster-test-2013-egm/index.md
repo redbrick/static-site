@@ -2,7 +2,6 @@
 title: 'Webmaster test 2013 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 [ WEBMASTER EXAM 2013 ]
 
 Note on the root section: This section does not specifically test your ability as webmaster, 

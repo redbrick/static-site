@@ -2,7 +2,6 @@
 title: 'The Committee 2004-2005'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Michelle Graham (drusilla)](http://www.redbrick.dcu.ie/about/contact/drusilla)

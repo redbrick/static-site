@@ -2,7 +2,6 @@
 title: 'The Committee 1999-2000'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Jonathan Lundberg ( spock )](http://www.redbrick.dcu.ie/about/contact/spock)

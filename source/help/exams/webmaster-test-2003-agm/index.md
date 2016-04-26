@@ -2,7 +2,6 @@
 title: 'Webmaster test 2003 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 1 hour long. Attempt all sections. Keep your answers concise - there is no point in writing an essay for a question that's worth 3 marks.
 
 ## Section A - General Web Knowledge

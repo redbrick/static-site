@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2002 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>1) On Mother, how does one make a web page?
 
 2) I started elm, and it gave me this message

@@ -2,7 +2,6 @@
 title: 'Admin Test 2001 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>Redbrick Admin Test : - written by Noel Fitzpatrick (noelfitz) proofed by Phil
 Reynolds (phil).
                         contributions by Dave Murphy (drjolt) and Brian

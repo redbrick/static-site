@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2001 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 1.  <span style="font-size: 10pt; font-family: Comic Sans MS; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">I want to make a webpage but I can’t copy my files from my floppy. I type in : “cp a:\webpage\*.htm ~/public_html” but it doesn’t work. What am I doing wrong?</span>
 2.  <span style="font-size: 10pt; font-family: Comic Sans MS; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">My friend changed his password but he has forgotten what he changed it to (excess alcohol seems to be the problem!). Can you mail me his password please?</span>
 3.  <span style="font-size: 10pt; font-family: Comic Sans MS; color: #000000; background-color: transparent; font-weight: normal; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">Please can you tell me how to attach a word file to an e-mail. the file is on the a: drive When I try to attach it won't let me select a:</span>

@@ -2,7 +2,6 @@
 title: 'Admin Exam 2014 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 We have created an admintest2k14 folder in your homedir. answer all questions in a text file in that directory.  
 (you may use nano, vim or vi. you will be judged on your choice of text editor)  
 Total marks 287

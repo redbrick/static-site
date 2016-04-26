@@ -2,7 +2,6 @@
 title: 'Webmaster test 2002 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 1 hour long. Attempt all sections; there are no trick questions. For optional questions, you may answer more than one option, the marks from the highest scored options will be awarded.  
 
 You may refer to the [reference sheet on regular expressions](webmaster2002-regex.shtml).  

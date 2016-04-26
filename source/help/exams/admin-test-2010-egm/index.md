@@ -2,7 +2,6 @@
 title: 'Admin Test 2010 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 1\. The first half hour is for scripting. During this time, man, info, apropos, perldoc, pydoc, etc (anything that's installed on redbrick) may be accessed. The internet may not.
 
 2\. After the first half hour you may not access anything other than a text editor.

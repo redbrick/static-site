@@ -2,7 +2,6 @@
 title: 'The Committee 2008-2009'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Kat Farrell ( angelkat )](../../about/contact/angelkat)

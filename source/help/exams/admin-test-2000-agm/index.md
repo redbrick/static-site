@@ -2,7 +2,6 @@
 title: 'Admin Test 2000 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>DCU Networking Society - System Administrator Test.
 Friday, February 11th 2000, 2pm.
 

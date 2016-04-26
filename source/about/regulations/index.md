@@ -3,7 +3,6 @@ title: Regulations
 date: 2016-04-17 16:22:40
 ---
 
-<sub> - [About](../) - [Committee](../committee) - [Constitution](../constitution) - [Regulations](../regulations) - [Contact](../contact) - [Past Committees](../past-committees) -</sub>
 
 1. Members wishing to run networked programs must first obtain the permission of the committee. The committee reserves the right to shut down such programs without notice.
 2. Members wishing to make an announcement to the membership are encouraged to use the Newsgroup system, but in cases where mailing the membership is considered vital, the permission of the committee must be obtained first.

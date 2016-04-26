@@ -2,7 +2,6 @@
 title: 'Helpdesk Test 2011 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 Instructions:  
 · Most questions appear in the form of a hey/email from a user  
 · Try to answer as if you were replying to the user  
