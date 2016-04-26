@@ -11,7 +11,7 @@ tags:
 ---
 
 Things are starting to wind down. This week we have a Q&A session with Helpdesk and a continuation of our LAMP stack tutorial. More info inside.
-<!-- more -->
+
 *   Helpdesk Talk
 *   Admin Training
 *   Project Services

@@ -17,7 +17,6 @@ Ubuntu Ireland. We offered three options for attendees, Ubuntu 12.04, OpenSuse
 boot, it was simple business from there, except for some pesky Windows 8
 machines.
 
-<!-- more -->
 {% image nocaption right linux.png linx%}
 We were lucky enough to have CDs already from Ubuntu, along with some
 stickers for people to decorate their machines should they wish. We also had

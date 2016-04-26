@@ -4,7 +4,7 @@ author: polka
 date: '2013-11-10 17:58:56'
 ---
 This week is looking to be great! We have Webdevelopment 101 tutorial with Maximilian Hoffmann and our annual Linux Installfest. So if you want to learn some web or get Linux installed on your laptop, this is the week for you!
-<!-- more -->
+
 *   Web Development Talk
 *   Linux Installfest
 *   Admin Exam

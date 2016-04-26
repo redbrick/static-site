@@ -18,7 +18,6 @@ Firstly we'd like to thank everyone who came along to the Tech University Open H
 
 Now on to the good stuff, what's coming up this week you say?  
 
-<!-- more -->
 **Hangout on Air - Perspectives on Engineering at Google****  
 When: Tuesday October 7th from 5 -6pm  
 Where: HG10**  

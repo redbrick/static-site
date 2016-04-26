@@ -24,7 +24,6 @@ Without further ado the agenda for the week is as follows:
 Interested?? OF COURSE YOU ARE for more info, click below or check
 our [Facebook page](https://www.facebook.com/dcuredbrick).
 
-<!-- more -->
 = Screen@Redbrick =
 ======================
 We've had to postpone this as we have admin exams at 6pm.

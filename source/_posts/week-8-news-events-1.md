@@ -4,7 +4,7 @@ author: polka
 date: '2013-11-17 18:09:39'
 ---
 A normal week here at Redbrick this week. Our helpdesk talk is Developing on Redbrick and our Admins will be showing you how to setup a LAMP stack using the Redbrick VMs.
-<!-- more -->
+
 *   Helpdesk Talk
 *   Admin Training
 *   EGM
