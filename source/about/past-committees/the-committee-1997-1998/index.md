@@ -2,7 +2,6 @@
 title: 'The Committee 1997-1998'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   <span style="text-decoration: line-through;">Patrick Grant ( floppy )</span>

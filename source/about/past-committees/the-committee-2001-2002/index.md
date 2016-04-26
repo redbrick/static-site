@@ -2,7 +2,6 @@
 title: 'The Committee 2001-2002'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Donal Mulligan ( thor )](http://www.redbrick.dcu.ie/about/contact/thor)

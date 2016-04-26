@@ -2,7 +2,6 @@
 title: 'Admin Test 2013 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>Redbrick Admin Exam 2013
 --------------------------------------------------
 

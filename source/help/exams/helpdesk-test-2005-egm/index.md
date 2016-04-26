@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2005 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 G'day, Below are 33 questions, regarding `how do i use redbrick?'. All of these questions are in the form of a mail or a hey from an imaginary user, called Joe Bloggs (jb@redbrick.dcu.ie). **All questions should be answered as if you were replying to him for real**. Each question is worth 3 marks, but you should try to get as much into your answers as possible, as there may be more than one correct answer.
 
 You can assume for the questions, that the user is using the following programs (unless specified otherwise):

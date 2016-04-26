@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2008 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 Instructions:  
 1\. Most questions appear in the form of a hey/mail from a redbrick user  
 2\. Answer as if you were replying to the user.  

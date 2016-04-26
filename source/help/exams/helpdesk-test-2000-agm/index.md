@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2000 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>-------------------------------Helpdesk Test April 2000-------------------------------
 
 1) "I want to change my real name to Ted Bundy, how do I do this?"

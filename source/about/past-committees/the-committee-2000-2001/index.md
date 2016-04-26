@@ -2,7 +2,6 @@
 title: 'The Committee 2000-2001'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Karl Podesta ( kpodesta )](http://www.redbrick.dcu.ie/about/contact/kpodesta)

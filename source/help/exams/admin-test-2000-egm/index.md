@@ -2,7 +2,6 @@
 title: 'Admin Test 2000 egm'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>Here goes,
 All questions that are general (e.g. 3.1) use the UNIX variant OS of your choice, we don't 
 expect you to be FreeBSD specific, except where specified as "on redbrick", or in the FreeBSD section. A right answer for your OS will do fine.

@@ -2,7 +2,6 @@
 title: 'Admin Test 2010 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 ## The rules
 
 1.  **ALL GLORY TO THE HYPNOTOAD.**

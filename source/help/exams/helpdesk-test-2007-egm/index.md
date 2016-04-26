@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2007 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 [![Redbrick Logo](../../images/redbrick_logo.png)](../../ "Redbrick Homepage")
 
 *   How do I send a private message to someone on chat?

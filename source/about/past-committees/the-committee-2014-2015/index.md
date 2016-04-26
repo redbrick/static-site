@@ -2,7 +2,6 @@
 title: "The Committee 2014-2015"
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <div>**Chairperson:**</div>
 
 *   Richie Walsh (koffee)

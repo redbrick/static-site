@@ -2,7 +2,6 @@
 title: 'Webmaster test 2004 AGM Answers'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 ## Note:
 
 There are various ways to answer most questions. If the candidate explained the key points with a suitable amount of information they got the question right.

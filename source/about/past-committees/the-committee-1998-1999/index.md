@@ -2,7 +2,6 @@
 title: 'The Committee 1998-1999'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Justin Moran ( cain )](http://www.redbrick.dcu.ie/about/contact/thalia)

@@ -2,7 +2,6 @@
 title: 'Admin test 2008 AGM Answers'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 Admin test for 2008 AGM
 
 # Admin test 2008 AGM

@@ -2,7 +2,6 @@
 title: 'Webmaster test 2000 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 "It's a good test. *nod of approval*." - Singer, 3/4/2000
 
 There are 6 sections to this test, totalling 150 Marks. This is an HOUR long test, and you must attempt ALL Sections.

@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2006 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>Q. 1 -   
 Hey,  
          Im having a problem, i dont know how to connect to redbrick,  

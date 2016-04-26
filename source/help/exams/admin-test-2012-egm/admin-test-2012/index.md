@@ -2,7 +2,6 @@
 title: 'Admin Test 2012'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 252 marks total  
 __________________________________  
 

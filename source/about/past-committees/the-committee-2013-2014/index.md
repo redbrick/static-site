@@ -2,7 +2,6 @@
 title: "The Committee 2013-2014"
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <div>**Chairperson:**</div>
 
 *   [Vadim Clyne-Kelly (VadimCK)](../../about/contact/vadimck)

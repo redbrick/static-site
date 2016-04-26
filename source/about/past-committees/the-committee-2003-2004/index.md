@@ -2,7 +2,6 @@
 title: 'The Committee 2003-2004'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [David Johnston ( emperor )](http://www.redbrick.dcu.ie/about/contact/emperor)

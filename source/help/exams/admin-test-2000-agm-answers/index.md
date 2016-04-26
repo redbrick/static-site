@@ -2,7 +2,6 @@
 title: 'Admin Test 2000 AGM Answers'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>Redbrick System Administrator Test
 February 11th, 2000
 

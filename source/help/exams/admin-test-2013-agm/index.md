@@ -2,7 +2,6 @@
 title: 'Admin Test 2013 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre> _________________________________
 / Welcome to the 2013 admin test! \
 \   By VadimCK, isaac702 and gw   /

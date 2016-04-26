@@ -2,7 +2,6 @@
 title: 'Admin Test 2012 EGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 ----------------------------------  
 Scripting (40 marks)  
 ----------------------------------  

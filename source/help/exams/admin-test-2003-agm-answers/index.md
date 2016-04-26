@@ -2,7 +2,6 @@
 title: 'Admin Test 2003 AGM Answers'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 ## 0\. Scripting (30 marks)
 
 1.  <pre>#!/bin/sh

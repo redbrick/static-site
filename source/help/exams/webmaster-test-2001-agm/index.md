@@ -2,7 +2,6 @@
 title: 'Webmaster test 2001 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 Instructions: Attempt all sections. You have 1 hour to complete the test.
 
 Keep your answers short and to the point, length is relevent to the marks allocated for that question. Any unneccarily pedantic answers result in 0 marks for that section. You've been warned. There are no trick questions.

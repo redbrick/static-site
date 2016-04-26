@@ -2,7 +2,6 @@
 title: 'Admin Test 2000 egm Answers'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre>From: valen@RedBrick.DCU.IE (John Looney)
 Newsgroups: redbrick.babble,redbrick.computing.unix
 Subject: Re: Last Admin Test.

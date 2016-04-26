@@ -2,7 +2,6 @@
 title: 'Admin Test 2009 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 277 marks total. All rounds are not weighted equally.
 
 The first half hour is for scripting. During this time, man and info pages (along with perldoc, etc - anything that's **preinstalled on redbrick**, no external docs allowed!) may be accessed. After this time, you may not access anything other then your text editor. We're watching you. Johan has a knife.

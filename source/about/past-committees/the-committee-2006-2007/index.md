@@ -2,7 +2,6 @@
 title: 'The Committee 2006-2007'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 <span>**Chairperson:**</span>
 
 *   [Charlie Von Metzradt ( phaxx )](http://www.redbrick.dcu.ie/about/contact/phaxx)

@@ -2,7 +2,6 @@
 title: 'Admin test 2008 egm'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <pre id="line1">ll questions can be answered in the context of any version of UNIX 
 (except for the FreeBSD and Linux sections obviously!). Indicating which 
 version of UNIX you refer to in your answer is preferred but not required. 

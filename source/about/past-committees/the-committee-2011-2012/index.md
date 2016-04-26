@@ -2,7 +2,6 @@
 title: 'The Committee 2011-2012'
 ---
 
- <sub> - [About](../../) - [Committee](../../committee) - [Constitution](../../constitution) - [Regulations](../../regulations) - [Contact](../../contact) - [Past Committees](../../past-committees) -</sub>
 **Chairperson:**
 
 *   [Dave Larkan (tziegler)](../../about/contact/tziegler)

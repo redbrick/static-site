@@ -2,7 +2,6 @@
 title: 'Admin test 2006 egm'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 # DCU Networking Society System Administrator Test 2006
 
 All questions can be answered in the context of any version of UNIX (except for the FreeBSD and Linux sections obviously!). Indicating which version of UNIX you refer to in your answer is preferred but not required. Negative marking applies throughout for answers that are clearly incorrect or demonstrate incompetence.

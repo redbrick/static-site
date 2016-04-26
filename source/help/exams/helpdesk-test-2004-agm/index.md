@@ -2,7 +2,6 @@
 title: 'Helpdesk test 2004 AGM'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 <span style="font-size: 11pt;">Howdy,  
          Below are 33 questions regarding ``how do I use redbrick''. All questions are in the  
 form of a mail or hey from our imaginary user <span style="color: #0000ff;"><span style="text-decoration: underline;">jblg@rebrick.dcu.ie. <span style="color: #000000;">All questions should be  

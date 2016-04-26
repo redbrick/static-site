@@ -2,7 +2,6 @@
 title: '2014 AGM Webmaster Exam'
 ---
 
- <sub> - [Helpdesk](../../) - [Joining](../../joining) - [Tutorials](../../tutorials) - [Exams](../../exams) -</sub>
 # [WEBMASTER EXAM 2014]
 
 Note on the root section: This section does not specifically test your ability as webmaster, but tests your root competency. As such, if you fail this section, the score will not count towards the overall test score, and all other questions will be marked out of 90 - you just won't be given root access. If you pass this section, however, it will positively affect your ability to carry out webmaster duties, and as such the entire test will be marked out of 130.
