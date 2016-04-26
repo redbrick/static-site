@@ -35,4 +35,6 @@ node_modules
 # Mac Users
 .DS_Store
 
+# hexo directories
 public
+db.json
