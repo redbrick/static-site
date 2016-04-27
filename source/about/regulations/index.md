@@ -1,6 +1,7 @@
 ---
 title: Regulations
 date: 2016-04-17 16:22:40
+type: about
 ---
 
 
