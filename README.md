@@ -34,10 +34,10 @@ To deploy edit the `deploy` section in _config.yaml then run `hexo deploy` you
 can also run `hexo generate --deploy`
 
 ## Development
-To generate new posts run `hexo new posts <title>` this will create a new post
-in source/_post/<title>.md
-To generate new pages run `hexo new page <title>` this will create a new page in
-source/<title>/index.md
+To generate new posts run `hexo new posts [title]` this will create a new post
+in source/_post/[title].md
+To generate new pages run `hexo new page [title]` this will create a new page in
+source/[title]/index.md
 To edit the sidebar you need to edit theme/tranquilpeak/_config.yaml, this is
 where all the theme is controlled from.
 
