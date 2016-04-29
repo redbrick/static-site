@@ -27,21 +27,24 @@ It will run `npm install from the main folder and inside the theme folder(theme/
   - Run `bower install` to install all Bower dependencies
 
 ## Generate
-To demo the site run `hexo server` this will a server at localhost:4000
-To generate html to be deployed first set `url` & `root` in _config.yaml
-Then Run `hexo generate` the generated site will be in the public directory
-To deploy edit the `deploy` section in _config.yaml then run `hexo deploy` you
-can also run `hexo generate --deploy`
+- To demo the site run `hexo server`. This will create a server that runs on localhost:4000
+- To generate HTML to be deployed 
+  1. Set `url` & `root` in _config.yaml
+  2. Run `hexo generate` - The generated site will be located in the public directory
+- To deploy: 
+  1. Edit the `deploy` section in _config.yaml 
+  2. Run `hexo deploy`
+    - Alternatively, you can run `hexo generate --deploy`
 
 ## Development
-To generate new posts run `hexo new posts [title]` this will create a new post
-in source/_post/[title].md
-To generate new pages run `hexo new page [title]` this will create a new page in
-source/[title]/index.md
-To edit the sidebar you need to edit theme/tranquilpeak/_config.yaml, this is
-where all the theme is controlled from.
+- To generate new posts 
+  - Run `hexo new posts [title]` This will create a new post in source/_post/[title].md
+- To generate new pages:
+  - Run `hexo new page [title]` this will create a new page in source/[title]/index.md
+- To edit the sidebar:
+  - Edit theme/tranquilpeak/_config.yaml - this is where all the theme configuration is controlled from.
 
 ### CSS and Templates
-You can edit the css for the theme in theme/tranquilpeak/source/_css  
-You can edit the templates in theme/tranquilpeak/layout  
-If you edit the theme it will need to be regenerated. This is done by running `grunt buildProd` from theme/tranquilpeak
+- You can edit the css for the theme in theme/tranquilpeak/source/_css  
+- You can edit the templates in theme/tranquilpeak/layout  
+- If you edit the theme it will need to be regenerated. This is done by running `grunt buildProd` from theme/tranquilpeak
