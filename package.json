@@ -1,6 +1,6 @@
 {
   "name": "Redbrick-site",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Statically generated sight for redbrick.dcu.ie",
   "private": false,
   "repository": {
