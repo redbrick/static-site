@@ -41,6 +41,7 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Webmaster Tests
 
+*   There was no exam in 2016
 *   [2014 AGM](./webmaster-test-2014-agm)
 *   [2013 EGM](./webmaster-test-2013-egm)
 *   [2009 AGM](./webmaster-test-2009-agm)
