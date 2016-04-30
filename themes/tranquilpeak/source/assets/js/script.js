@@ -11895,6 +11895,9 @@ return jQuery;
     resizer.run();
   });
 })(jQuery);
+;$('.input').on('click', function(){
+	 $(this.parent).addClass('input--filled');
+});
 ;(function($) {
   'use strict';
   

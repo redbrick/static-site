@@ -156,7 +156,8 @@ header:
 author:
     email: committee@redbrick.dcu.ie
     location: Redbrick is DCU's Networking Society, Clubs and Societies Office, Dublin City University, Glasnevin, Dublin 9.
-    bio: Redbrick is DCU’s Computer Networking society. We host events for everything computing related this ranges from, how to setup your own website and storing your photos online to System Administration and Computer Programming Tutorials. We also host a number of services for our membership. <a href="http://redbrick.dcu.ie/about">more</a>
+    bio: Redbrick is DCU’s Computer Networking society. We host events for everything computing related this ranges from, how to setup your own website and storing your photos online to System Administration and Computer Programming Tutorials. We also host a number of services for our membership.
+    url: /about
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     picture: brick.png
