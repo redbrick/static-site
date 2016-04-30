@@ -1,7 +1,7 @@
 <%
     var tableOfContents = null;
     var postContent = post.content;
-    var type = post.type
+    var type = post.type;
 
     // Generate and insert table of contents in post content
     if ((/<!--(\s*)[t|T][o|O][c|C](\s*)-->/).test(postContent)) {
@@ -31,6 +31,9 @@
     <%- partial('page/menu', {type: type})%>
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
+            <% if (post.contact) { %>
+              <%- partial('page/contact', { title: post.title }) %>
+            <% } %>
             <%- postContent %>
             <%- partial('post/gallery') %>
         </div>

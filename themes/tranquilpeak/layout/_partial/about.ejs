@@ -19,7 +19,7 @@
         <% } %>
             <h4 id="about-card-name"><%= config.author %></h4>
         <% if (__('author.bio')) { %>
-            <h5 id="about-card-bio"><%- theme.author.bio %></h5>
+          <h5 id="about-card-bio"><%- theme.author.bio %> <a href=<%- theme.author.url %>>more</a></h5>
         <% } %>
         <% if (theme.author.location) { %>
             <h5 id="about-card-location">
