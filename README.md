@@ -16,7 +16,7 @@ Demo at [butlerx site](http://redbrick.dcu.ie/~butlerx/demo)
 3. **Grunt CLI** : v0.1.13 or higher. Run `npm install grunt-cli -g`
 4. **Bower** : v1.4.1 or higher. Run `npm install bower -g`
 5. **ESLint** : v2.3.0 or higher. Run `npm install eslint -g`
-6. **ESLint config Google** : v0.4.0 or higher. Run `npm install eslint -g`
+6. **ESLint config Google** : v0.4.0 or higher. Run `npm install eslint eslint-config-google -g`
 
 ## Setup
 
