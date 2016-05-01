@@ -53,7 +53,7 @@ Topic: How to get up and running with Redbrick.
 Where: LG25
 When: Wednesday 15th October 15:00
 Cian Butler will be guiding you through your first steps using Redbrick
-services. He'll be walking through how to use your webspace, logging into IRC
+services. He'll be walking through how to use your web space, logging into IRC
 and how to run programmes on our development servers. With the rest of the
 committee on hand to help out we should have you up and running in no time.
 

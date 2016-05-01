@@ -4,7 +4,7 @@ date: 2013-12-01 18:47:05
 author: polka
 tags:
 - Christmas
-- Egm
+- EGM
 - Pints
 ---
 
@@ -20,7 +20,7 @@ It's beginning to sound a lot like Christmas... With the end of the semester loo
 <!-- more -->
 ## Monday Social Pints
 
-We're having a small get together this week, from 6pm onwards on Monday we'll be having a few pints together in the NuBar. It's a good opportunity to sit down, chill out, and escape assignments and exams for a short while! Keep an eye out for the Redbrick hoodies if you don't recognise anyone!
+We're having a small get together this week, from 6pm on wards on Monday we'll be having a few pints together in the NuBar. It's a good opportunity to sit down, chill out, and escape assignments and exams for a short while! Keep an eye out for the Redbrick hoodies if you don't recognise anyone!
 
 ## Christmas Party
 

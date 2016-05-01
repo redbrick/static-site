@@ -15,7 +15,7 @@ Just a quick update on the society awards! Redbrick were nominated for a number 
 
 ## Facebook Talk
 
-This week, Senior Engineer Ryan Mack is coming in on Wednesday the 11th of April to speak about Facebook. Hosted in association with the School of Computing, it will no doubt be incredibly interesting, as Ryan has been involved in the implementation of Timeline and the recent changes in Photos on Facebook. The talk begins at 5pm, and will be hosted in HG23\. Ruth McIntyre from Facebook Ireland will also be there, as a representative of the university hiring team.
+This week, Senior Engineer Ryan Mack is coming in on Wednesday the 11th of April to speak about Facebook. Hosted in association with the School of Computing, it will no doubt be incredibly interesting, as Ryan has been involved in the implementation of Time-line and the recent changes in Photos on Facebook. The talk begins at 5pm, and will be hosted in HG23\. Ruth McIntyre from Facebook Ireland will also be there, as a representative of the university hiring team.
 
 ## Annual Redbrick Quiz
 

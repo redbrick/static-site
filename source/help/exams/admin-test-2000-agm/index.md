@@ -28,8 +28,8 @@ a)	Write a script or command, in the scripting language or shell of your
 	choice, to:  search every file in a users home directory for the string
 	'i hate <insert your username here>', and to delete that users account if
 	the string is found.   ( 31 )
-b)	Describe briefly each of the following: perl, awk, grep		( 3 x 3 )
-[ This was a typo - I meant to ask perl, awk and sed ]
+b)	Describe briefly each of the following: Perl, awk, grep		( 3 x 3 )
+[ This was a typo - I meant to ask Perl, awk and sed ]
 
 3.	Security  ( 40 )
 a)	Explain what is meant by Real UID, Effective UID and Saved UID?  Which
@@ -56,7 +56,7 @@ a)	What does the first letter of the permissions on each of these devices
 b)	What is the third type of device?  ( 5 )
 c)	What is the difference between a real and pseudo terminal? (5)
 
-5\. Filesystems ( 20 )
+5\. File systems ( 20 )
 a)	What happens to the contents of /example, if you mount a drive at that
 	point.  ( 5 )
 b)	What sequence of commands would you use to setup and mount a newly 

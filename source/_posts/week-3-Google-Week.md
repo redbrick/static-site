@@ -30,7 +30,7 @@ When: Wednesday 8th October
 Where: QG22**  
 We'll have 3 talks as follows. We can guarantee you these talks are fantastic having heard from two of the speakers on Friday!  
 
-**Time 1.00 - 2.00** A talk given by DCU alum and Redbrick member John Looney. John is a member of the SRE team responsible for Google's Datacentre and he'll be giving us a talk called: "Perspectives on studying Computer Science"  
+**Time 1.00 - 2.00** A talk given by DCU alum and Redbrick member John Looney. John is a member of the SRE team responsible for Google's Data centre and he'll be giving us a talk called: "Perspectives on studying Computer Science"  
 
 **Time 2.00 - 3.00** "Systems at Scale: Tales from Google Site Reliability Engineering" This talk will be given by Andrew Widdowson, a Mountain View SRE. Andrew will be talking about how the smallest keystroke can make the biggest impact when dealing with systems at scale.  
 

@@ -22,7 +22,7 @@ Things are starting to wind down. This week we have a Q&A session with Helpdesk 
 
 ## Helpdesk Talk
 
-This week's helpdesk talk will be a simple drop in session in LG26 on Tuesday at 5pm. Any questions about previous talks? Questions about problems you have? Want to just annoy Andrew and Niall? Sounds like you should come along. As always, there will some good ol' Firehouse pizza. If you missed talks from previous weeks you can find the slides here: [http://www.redbrick.dcu.ie/~newb/slides/helpdesk/](http://www.redbrick.dcu.ie/~newb/slides/helpdesk/).
+This week's Helpdesk talk will be a simple drop in session in LG26 on Tuesday at 5pm. Any questions about previous talks? Questions about problems you have? Want to just annoy Andrew and Niall? Sounds like you should come along. As always, there will some good ol' Firehouse pizza. If you missed talks from previous weeks you can find the slides here: [http://www.redbrick.dcu.ie/~newb/slides/helpdesk/](http://www.redbrick.dcu.ie/~newb/slides/helpdesk/).
 
 ## Admin Training
 
@@ -42,11 +42,11 @@ With a few available positions on the committee, we will be holding an EGM durin
 *   Secretary
 *   Helpdesk
 
-If you think you would be interested in running for any of the above positions, you can contact us at committee@redbrick.dcu.ie to learn more about the positions. If you are interested in running for our admin, helpdesk or webmaster positions, you must sit and pass an exam to run. Previous exams can be found at: [http://www.redbrick.dcu.ie/help/exams.](http://www.redbrick.dcu.ie/help/exams)
+If you think you would be interested in running for any of the above positions, you can contact us at committee@redbrick.dcu.ie to learn more about the positions. If you are interested in running for our admin, Helpdesk or webmaster positions, you must sit and pass an exam to run. Previous exams can be found at: [http://www.redbrick.dcu.ie/help/exams.](http://www.redbrick.dcu.ie/help/exams)
 
 ## Christmas Party
 
-We'll be hosting our annual intersocs Christmas party in week 11 as well as our EGM. Date and time will be confirmed soon, but we will have food, presents, and a special visit from Santa...
+We'll be hosting our annual Intersocs Christmas party in week 11 as well as our EGM. Date and time will be confirmed soon, but we will have food, presents, and a special visit from Santa...
 
 ## Irish Cancer Society Fundraiser
 
@@ -54,4 +54,4 @@ Some of our members who have been affected by cancer are working together to rai
 
 ## Trip Away
 
-We here on committee are busy planning a trip away for the intersemester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](/about/contact/committee) if you have any ideas!
+We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](/about/contact/committee) if you have any ideas!

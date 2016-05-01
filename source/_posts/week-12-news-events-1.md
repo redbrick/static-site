@@ -3,7 +3,7 @@ title: 'Week 12  News & Events'
 author: polka
 date: '2011-12-11 12:00:00'
 ---
-The Christmas season is upon us, and wih the final week of this semester beginning, Redbrick are taking it easy in preparation for the holidays. As always though, there's something happening!
+The Christmas season is upon us, and with the final week of this semester beginning, Redbrick are taking it easy in preparation for the holidays. As always though, there's something happening!
 
 *   Movie Night
 *   Downtime
