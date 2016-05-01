@@ -8,7 +8,7 @@ tags:
 - Amazon
 - Raspberry Pi
 - Opennet
-- Symentec
+- Symantec
 ---
 
 Tech Week is back again this year with lots of techy goodness planned.

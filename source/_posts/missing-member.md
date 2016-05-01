@@ -27,7 +27,7 @@ He was last seen in the Redbrick/Engsoc Common Room (N109A) but nobody has been 
 
 Any information about his whereabouts since Thursday the 2nd of February at 4pm will be greatly appreciated.
 
-There have also been posts made to the Redbrick facebook group about him: [https://www.facebook.com/groups/167418566612957/](https://www.facebook.com/groups/167418566612957/)
+There have also been posts made to the Redbrick Facebook group about him: [https://www.facebook.com/groups/167418566612957/](https://www.facebook.com/groups/167418566612957/)
 
 Please keep an eye out for him and spread the word.
 

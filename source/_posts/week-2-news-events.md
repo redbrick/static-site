@@ -32,7 +32,7 @@ On Saturday and Sunday, the 3rd and 4th of March, DCU will hold host to a Scienc
 
 ## BYOPC LAN
 
-TCD's Netsoc (Internet Society) will be hosting an intersocs LAN on Saturday the 18th of February, in association with DUCSS (TCD's Computer Science Society), UCD Netsoc, and Redbrick. Be ready to start gaming from 6pm until 10am the following morning! All you need to bring is yourself, a computer, and if possible, some extra ethernet cables and extension leads as supplies may be limited.
+TCD's NetSoc (Internet Society) will be hosting an Intersocs LAN on Saturday the 18th of February, in association with DUCSS (TCD's Computer Science Society), UCD NetSoc, and Redbrick. Be ready to start gaming from 6pm until 10am the following morning! All you need to bring is yourself, a computer, and if possible, some extra Ethernet cables and extension leads as supplies may be limited.
 
 ## Android Application for DCUfm
 

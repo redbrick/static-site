@@ -28,7 +28,7 @@ the help section we maintain.
 
 We also run regular tutorial in the CA labs in DCU, any member can attend and we
 will guide you through the basics and answer any queries, watch out for notices
-and posters around campus or on RedBrick.
+and posters around campus or on Redbrick.
 
 The Helpdesk tutorials start [here](http://wiki.redbrick.dcu.ie/mw/Helpdesk).
 

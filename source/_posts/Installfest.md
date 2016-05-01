@@ -18,10 +18,10 @@ boot, it was simple business from there, except for some pesky Windows 8
 machines.
 
 <!-- more -->
-{% image nocaption right linux.png linx%}
-We were lucky enough to have CDs already from Ubuntu, along with some
+{% image nocaption right linux.png linux%}
+We were lucky enough to have CD's already from Ubuntu, along with some
 stickers for people to decorate their machines should they wish. We also had
-USBs of all distros on hold on our Ubuntu lanyards.
+UBS's of all distros on hold on our Ubuntu lanyards.
 
 Overall it was a great Installfest! Special thanks go to Ubuntu Ireland for
 their kind donations, and Firehouse for tasty pizza.

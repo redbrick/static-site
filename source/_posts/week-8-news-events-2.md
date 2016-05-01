@@ -3,7 +3,7 @@ title: 'Week 8 News & Events'
 author: polka
 date: '2013-11-17 18:09:39'
 ---
-A normal week here at Redbrick this week. Our helpdesk talk is Developing on Redbrick and our Admins will be showing you how to setup a LAMP stack using the Redbrick VMs.
+A normal week here at Redbrick this week. Our Helpdesk talk is Developing on Redbrick and our Admins will be showing you how to setup a LAMP stack using the Redbrick VMs.
 <!-- more -->
 *   Helpdesk Talk
 *   Admin Training
@@ -36,4 +36,4 @@ Some of our members who have been affected by cancer are working together to rai
 
 ## Trip Away
 
-We here on committee are busy planning a trip away for the intersemester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](/about/contact/committee) if you have any ideas!
+We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](/about/contact/committee) if you have any ideas!

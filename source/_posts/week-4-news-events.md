@@ -31,7 +31,7 @@ Techweek makes its return for 2012! Starting on the 5th of March, it's sure to b
 
 ## Chromebook Testing
 
-Rebrick and Engineering Soc have received 30 Chromebooks to distribute to its members for testing. This is only open to members of either society, but is a fantastic opportunity to try out this brand new, top of the range technology - and to give your feedback on it!
+Redbrick and Engineering Soc have received 30 Chromebooks to distribute to its members for testing. This is only open to members of either society, but is a fantastic opportunity to try out this brand new, top of the range technology - and to give your feedback on it!
 
 You will be responsible for the Chromebook for the remainder of the semester and will be required to fill out a 5 minute survey at the end of the trial, with the possibility of winning a prize.
 

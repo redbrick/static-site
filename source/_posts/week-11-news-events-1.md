@@ -8,7 +8,7 @@ It's nearly Christmas time, and with the season to be jolly stepping into gear a
 *   “What's the Bright Idea”
 *   Netsoc Intersocs LAN
 *   Clubs & Societies Ball
-*   Intersociety Christmas Party
+*   Inter-society Christmas Party
 
 ## “What's the Bright Idea” Undergraduate Awards
 
@@ -20,13 +20,13 @@ Check out [http://www.undergraduateawards.com/](http://www.undergraduateawards.c
 
 ## NetSoc LAN
 
-NetSoc (Dublin University Internet Society) will be hosting an intersocs BYOPC LAN on the 10th of December in [Trinity Halls](http://www.tcd.ie/Maps/map.php?q=Trinity%20Hall). Be ready to start gaming from 6pm until 10am the following morning! You will need to bring your PC, an ethernet cable (if possible), power adapters, cables and the like.  
+NetSoc (Dublin University Internet Society) will be hosting an Intersocs BYOPC LAN on the 10th of December in [Trinity Halls](http://www.tcd.ie/Maps/map.php?q=Trinity%20Hall). Be ready to start gaming from 6pm until 10am the following morning! You will need to bring your PC, an Ethernet cable (if possible), power adapters, cables and the like.  
 Thinking of getting lost? Here is a [Map](http://www.tcd.ie/Maps/map.php?q=Trinity%20Hall) anyway.
 
 ## Clubs & Societies Ball
 
 The C&S Ball is on Tuesday of this week in the Crowne Plaza Hotel. Tickets are no longer available, but for those who got their hands on some, we'll be seeing you there! Don't forget, event starts at 7pm with a mulled wine reception, and is sure to be a night to remember.
 
-## Intersociety Christmas Party
+## Inter-society Christmas Party
 
-And finally, the event everyone's been waiting for! Redbrick, in association with ArtSoc, Games Soc, Airsoft, Strange Things, Paranormal Soc and Eng Soc, is hosting the Intersociety Christmas Party! Head to The Slipper (Matt Weldon's) on the Ballymun Road at 8pm on the 8th of December. Highlights of the night to include a visit from Santa Claus, presents and much, much more. No doubt this will be a night to remember, so come along and party hard!
+And finally, the event everyone's been waiting for! Redbrick, in association with ArtSoc, Games Soc, Airsoft, Strange Things, Paranormal Soc and Eng Soc, is hosting the Inter-society Christmas Party! Head to The Slipper (Matt Weldon's) on the Ballymun Road at 8pm on the 8th of December. Highlights of the night to include a visit from Santa Claus, presents and much, much more. No doubt this will be a night to remember, so come along and party hard!

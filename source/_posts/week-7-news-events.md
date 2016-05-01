@@ -33,7 +33,7 @@ We'll be showing off the Redbrick/Engineering soc common room(N109) on Tuesday f
 
 ### Resignations and EGM
 
-Shane Stacey (Isaac702) has resigned from his post as helpdesk as he wishes to run for the open admin position. So the positions currently up for grabs are admin and helpdesk. If you're interested in running for either position email [committee](/about/contact/committee). In order to be eligible for either position you will need to pass a test so please let us know ASAP if you're interested in applying. Previous tests are available online to give you a rough idea of what to expect ([http://www.redbrick.dcu.ie/help/exams](http://www.redbrick.dcu.ie/help/exams)).
+Shane Stacey (Isaac702) has resigned from his post as Helpdesk as he wishes to run for the open admin position. So the positions currently up for grabs are admin and Helpdesk. If you're interested in running for either position email [committee](/about/contact/committee). In order to be eligible for either position you will need to pass a test so please let us know ASAP if you're interested in applying. Previous tests are available online to give you a rough idea of what to expect ([http://www.redbrick.dcu.ie/help/exams](http://www.redbrick.dcu.ie/help/exams)).
 
 The EGM will be held on Wednesday 21/11(week 9) at 2pm. Location TBC.
 
