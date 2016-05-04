@@ -1,6 +1,40 @@
 ---
 title: 'Helpdesk Exam EGM 2014'
 ---
+## Main Exam
+```
+                       __________________________
+              __..--/".'                        '.
+      __..--""      | |                          |
+     /              | |                          |
+    /               | |    ___________________   |
+   ;                | |   :__________________/:  |
+   |                | |   |                 '.|  |
+   |                | |   |                  ||  |
+   |                | |   |                  ||  |
+   |                | |   |                  ||  |
+   |                | |   |                  ||  |
+   |                | |   |                  ||  |
+   |                | |   |                  ||  |`
+   |                | |   |                  ||  |
+   |                | |   |______......-----"\|  |
+   |                | |   |_______......-----"   |
+   |                | |                          |
+   |                | |                          |
+   |                | |                  ____----|
+   |                | |_____.....----|#######|---|
+   |                | |______.....----""""       |
+   |                | |                          |
+   |. ..            | |   ,                      |
+   |... ....        | |  (c ----- """           .'
+   |..... ......  |\|_|    ____......------"""|"
+   |. .... .......| |""""""                   |
+   '... ..... ....| |                         |
+     "-._ .....  .| |                         |
+         "-._.....| |             ___...---"""'
+             "-._.| | ___...---"""
+                 """""             "So you want to helpdesk?".
+```
 
 28 questions. Assume questions are emails from the user. Please answer as if you were replying to the user. “Google it” or “Check the wiki” are not acceptable answers. Bonus marks may be awarded for amusing answers, but probably not. You have one hour. GO!  
 
@@ -53,14 +87,16 @@ title: 'Helpdesk Exam EGM 2014'
 **25.** I like nano but people slag me for not using vim. How do I use this vim thing? I launched it, and I can't type, or get out of it. (5 marks)  
 
 **26.** When I try to compile a java program on redbrick I just get this  
-
+```
 Error occurred during initialization of VM  
 Could not reserve enough space for object heap  
 Could not create the Java virtual machine.  
-
+```
 what am I doing wrong? (5 marks)  
 
-**27.** Hi all  
+**27.** 
+```
+Hi all  
 I am a final year business student.  
 I am currently working on My FYP and have run into difficulty in a particular section.  
 The project is to develop a conceptual framework for the development of an e-Supply Chain Management (e-SCM) System for small-to-medium enterprises (SMEs).  
@@ -72,7 +108,7 @@ The goal is not to develop the product, rather to envision:
 
 I am having issues with a particular section where I must devise a software development plan. I have no background in software development or programming so i am struggling to understand the requirements.  
 I was wondering if it might be possible to meet with a member of your team to talk about the information and requirements for such a task. thank you for your time. (3 Marks)  
-
+```
 **28.** Hi i was hoping to sign up for redbrick i know i missed clubs and socs but was hoping i still could. (2 marks)  
 
 **SUPER LOL BONUS ROUND**  
