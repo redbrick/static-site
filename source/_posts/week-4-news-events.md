@@ -20,7 +20,8 @@ Both the second semester and Redbrick are in full swing, and here's what we feel
 *   Missing Member
 
  <!-- more -->
-{% image nocaption right shdd-rb.jpg shdd-rb%} ## Admin Training
+## Admin Training
+{% image nocaption right shdd-rb.jpg shdd-rb%}
 
 This week sees the return of admin training! For those that attended, we'll be continuing from the topics we covered last semester.
 

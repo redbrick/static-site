@@ -26,7 +26,8 @@ Reading week is here, though not all of us get a break! There's still a few thin
 *   Helpdesk Exam
 
  <!-- more -->
-{% image nocaption right wbdateexm.png wbdateexm%} ## IrlCPC Practice
+## IrlCPC Practice
+{% image nocaption right wbdateexm.png wbdateexm%}
 
 For those of you that have registered for the IrlCPC programming contest in Cork, we're continuing our practice sessions! The contest is only two weeks away, so come along to try out some problems.
 

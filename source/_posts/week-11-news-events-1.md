@@ -19,7 +19,8 @@ It's nearly Christmas time, and with the season to be jolly stepping into gear a
 *   Inter-society Christmas Party
 
 <!-- more -->
-{% image nocaption right pubquiz.png pubquiz%} ## “What's the Bright Idea” Undergraduate Awards
+## “What's the Bright Idea” Undergraduate Awards
+{% image nocaption right pubquiz.png pubquiz%}
 
 “What’s the Bright Idea” is an event organised by the non-profit awards organisation, The Undergraduate Awards. This event is going to be a celebration of bright, young individuals and their bright ideas.The event is on this Monday, the 5th of December in the Odessa.
 

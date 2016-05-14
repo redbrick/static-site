@@ -20,7 +20,8 @@ This week is looking to be great! We have Web development 101 tutorial with Maxi
 *   Irish Cancer Society Fundraiser
 
 <!-- more -->
-{% image nocaption right week7.png week7%} ## Web Development Talk
+## Web Development Talk
+{% image nocaption right week7.png week7%}
 
 This week instead of our Helpdesk talk we will be having our very own Maximilian Hoffmann (tsov). Max is currently working for Terminal4 while finishing his final year, and he'll be showing us how to create a good looking website easily. We will be going from the very basics upwards, so if you have no experience don't worry! There may be a sneaky surprise as well at the talk, so bring along your friends! We will be covering a number of topics during the workshop, including:
 

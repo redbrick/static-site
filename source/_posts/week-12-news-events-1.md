@@ -17,7 +17,8 @@ The Christmas season is upon us, and with the final week of this semester beginn
 *   Merry Christmas
 
 <!-- more -->
-{% image nocaption right W12.jpg W12%} ## Movie Night
+## Movie Night
+{% image nocaption right W12.jpg W12%}
 
 This Tuesday, the 13th of December, Redbrick in association with Strange Things will be hosting a movie night! Come along at 6pm to Q120 to see "Rare Exports - A Christmas Tale". Refreshments will be provided, and it's the perfect excuse for taking a break from all those assignments and study!
 

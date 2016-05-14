@@ -32,7 +32,8 @@ As we said at the start of the year, today is the final day of the grace periods
 
 A boolette tournament will be held in conjunction with Gamessoc tomorrow (Monday) at 6pm in C165\. Boolette is a card game which combines strategy card lay with the concepts of Boolean logic. For more information : [http://boolette.alamzy.com/](http://boolette.alamzy.com/)
 
-{% image nocaption right bowling.jpg bowling%} ### Qzar
+### Qzar
+{% image nocaption right bowling.jpg bowling%}
 
 A little delayed, but better late than never, right? We'll be meeting up in the Hub at 2 on Wednesday and then heading off to Leisureplex Coolock. We have 20 pots available so if you're interested then send an email to [committee](/about/contact/committee) with "Qzar" in the title. First come first served! It will be just 4 euros per person for bowling and Qzar. Bring bus fare as we'll be getting the 17a there.
 

@@ -24,7 +24,8 @@ This weeks web update includes:
 *   Tech Week
 
  <!-- more -->
-{% image nocaption right wbdate2.png wbdate2%} ## Message from the Chair
+## Message from the Chair
+{% image nocaption right wbdate2.png wbdate2%}
 
 When the news that our close friend Paul was missing I was in Brussels as part of a Redbrick trip and, like many others I have spoken to, couldn't believe it was true. It was incredible to watch as our members, without being prompted or asked or pushed, dropped everything and worked together to help and find him. From getting people to retweet to getting the article to page 2 on Reddit, it was all so amazing to watch. It was a deeply humbling experience. I feel incredibly proud of the members of Redbrick for all the continued work in searching for bunbun. As most of you are aware he was last seen on Thursday the 2nd of February and has not been seen since.
 
