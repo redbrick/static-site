@@ -5,7 +5,7 @@ date: '2011-10-10 00:30:00'
 thumbnailImage: programming.png
 thumbnailImagePosition: right
 autoThumbnailImage: yes
-tags: 
+tags:
   - talks
 ---
 Well here we are in Week 3 already. How the hell did that happen? It has been a hectic week signing up all our new members and getting the Freshers ball sorted. But now I'd like to talk about what we're doing with the feedback we've received from members so far.

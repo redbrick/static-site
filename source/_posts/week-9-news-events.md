@@ -48,7 +48,8 @@ Congratulations to all of the new committee - hopefully they will do a great job
 
 The Redbrick annual quiz is planned for week 10, final details are to be confirmed and will be released next week. However, it is planned to be held on the Thursday of that week.
 
-{% image nocaption right helix.jpg helix%} ## Connector Conference
+## Connector Conference
+{% image nocaption right helix.jpg helix%}
 
 The conference is on Wednesday the 4<sup>th</sup> of April in the Helix, kicks off at 2pm and only lasts two hours. Featured speakers include:
 

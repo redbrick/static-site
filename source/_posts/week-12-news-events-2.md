@@ -18,7 +18,8 @@ Here's what's happening this week.
 *   Moving Murphy
 
 <!-- more -->
-{% image nocaption right BarsPints.jpg BarsPints%} ## Pre-Exam Pints
+## Pre-Exam Pints
+{% image nocaption right BarsPints.jpg BarsPints%}
 
 As it's the end of the year, we think that we should all reflect on the past year, and what better way than with a few pints? We plan to head to the NuBar for around 6:30pm on Tuesday the 24th. It'll be a great chance to chill out and catch up before the exams begin.
 

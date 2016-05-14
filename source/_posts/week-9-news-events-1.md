@@ -23,7 +23,8 @@ Things are starting to wind down. This week we have a Q&A session with Helpdesk 
 *   Irish Cancer Society Fundraiser
 *   Trip Away
 <!-- more -->
-{% image nocaption right week9.png week9%} ## Helpdesk Talk
+## Helpdesk Talk
+{% image nocaption right week9.png week9%}
 
 This week's Helpdesk talk will be a simple drop in session in LG26 on Tuesday at 5pm. Any questions about previous talks? Questions about problems you have? Want to just annoy Andrew and Niall? Sounds like you should come along. As always, there will some good ol' Firehouse pizza. If you missed talks from previous weeks you can find the slides here: [http://www.redbrick.dcu.ie/~newb/slides/helpdesk/](http://www.redbrick.dcu.ie/~newb/slides/helpdesk/).
 
