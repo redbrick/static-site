@@ -1,13 +1,12 @@
 ---
 title: {{ title }}
 date: {{ date }}
+author:
 thumbnailImage: {{ title }}.png
 thumbnailImagePosition: right
 autoThumbnailImage: yes
-author: 
 tags:
 ---
-
 
  <!-- more -->
 {% image nocaption right {{ title }}.png {{ title }}%}

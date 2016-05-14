@@ -1,7 +1,15 @@
 ---
-title: 'Week 10  News & Events'
+title: 'Week 10 News & Events'
 author: polka
 date: '2011-11-27 16:00:00'
+thumbnailImage: fbwebupdate.png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
+tags:
+  - committee
+  - FOSDEM
+  - Intersocs
+  - christmas
 ---
 Week 10 has arrived and Christmas is coming ever closer, but the semester isn’t over yet! While the rest of college is winding down, Redbrick is planning a few events to keep you occupied.
 
@@ -12,7 +20,8 @@ Week 10 has arrived and Christmas is coming ever closer, but the semester isn’
 *   FOSDEM Trip
 *   Intersocs LAN
 
-## Committee Changes
+ <!-- more -->
+{% image nocaption right fbwebupdate.png fbwebupdate%} ## Committee Changes
 
 At our EGM last week, we elected new members to our committee to fill the roles of Secretary, Helpdesk and System Administrator. We’d like to welcome Niall Gaffney (gamma) and Craig Duff (duff) to the committee, and welcome back Shane Stacey (isaac702). The committee would also like to thank Lotta Mikkonen (attol) and Paul Bunbury (bunbun) for all their work and dedication while involved with the committee! The position of Public Relations Officer has also become available as Meabh Landers (timelady) has decided to step down. Please contact [committee](/about/contact/committee) for more information about the position if you’re interested in running!
 

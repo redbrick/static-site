@@ -2,6 +2,9 @@
 title: 'Week 10  News & Events'
 author: polka
 date: '2012-04-08 17:29:50'
+thumbnailImage: brightidea.png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 ---
 Hey guys, semester two is nearly over and done with already! However, as always, Redbrick have a few events to keep you going!
 
@@ -9,7 +12,8 @@ Hey guys, semester two is nearly over and done with already! However, as always,
 *   Facebook Talk
 *   Annual Redbrick Quiz
 
-## Society Awards
+<!-- more -->
+{% image nocaption right brightidea.png brightidea%} ## Society Awards
 
 Just a quick update on the society awards! Redbrick were nominated for a number of awards, and came on the shortlist for most of the awards we applied for this year. In the end, we came in a very close second for Society of the Year. While we didn't get it this year, we hope to bring Redbrick to the top and bring home an award next year!
 
