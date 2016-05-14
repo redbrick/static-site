@@ -2,6 +2,9 @@
 title: Week 22 - New Committee | Birthday
 author: butlerx
 date: 2016-04-04
+thumbnailImage: cake.jpg
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 tags:
   - announce
   - birthday
@@ -32,6 +35,7 @@ The results of the AGM election on Thursday are as follows:
 
 Redbrick 20 th Birthday
 ===========================================================
+{% image nocaption right cake.jpg 270px 480px cake%}
 - Date: Saturday 09/04
 - Time: 19:00
 - Location: Opium Cafe, Wexford Street, Dublin
