@@ -9,12 +9,12 @@ thumbnailImage: bunbun.jpg
 thumbnailImagePosition: right
 autoThumbnailImage: yes
 ---
-**Update: A poster has been made. Please print it off and put it up in your local area, no matter where you are.  
-{% image nocaption left bunbun_small.jpg bunbun_small%}
-
 One of our members has been reported as missing to the Gardai.  
 
 If anyone has seen Paul Bunbury(bunbun) since Thursday the 2nd of February at approx. 4pm can they please either contact Whitehall Garda Station on 01 666 4500 or get in touch with us.
+<!-- more -->
+**Update: A poster has been made. Please print it off and put it up in your local area, no matter where you are.  
+{% image nocaption left bunbun_small.jpg bunbun_small%}
 
 [Email Us](/about/contact/committee)
 
