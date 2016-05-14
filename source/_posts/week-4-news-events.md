@@ -2,6 +2,14 @@
 title: 'Week 4 News & Events'
 author: polka
 date: '2012-02-26 00:15:51'
+thumbnailImage: shdd-rb.jpg
+thumbnailImagePosition: right
+autoThumbnailImage: yes
+tags:
+  - admin training
+  - techweek
+  - science hackday
+  - chromebook
 ---
 Both the second semester and Redbrick are in full swing, and here's what we feel you should be keeping an eye on for this week!
 
@@ -11,7 +19,8 @@ Both the second semester and Redbrick are in full swing, and here's what we feel
 *   Chromebook Testing
 *   Missing Member
 
-## Admin Training
+ <!-- more -->
+{% image nocaption right shdd-rb.jpg shdd-rb%} ## Admin Training
 
 This week sees the return of admin training! For those that attended, we'll be continuing from the topics we covered last semester.
 

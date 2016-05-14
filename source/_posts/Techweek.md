@@ -2,6 +2,9 @@
 title: Techweek
 date: 2014-02-28 21:55:00
 author: Twister
+thumbnailImage: techweek.png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 tags:
 - Techweek
 - TechWeekDCU
@@ -18,6 +21,8 @@ We have something tech for everyone with topics such as 3D Modelling, Web Develo
 [techweek.dcu.ie](http://techweek.dcu.ie/) for more info!
 
 <!-- more -->
+{% image nocaption right techweek.png techweek%}
+
 DCU President Brian MacCraith will be powering on this exciting week as DCU embraces a celebration of all things Technology.
 
 There will be inspiring talks covering a world wide web of topics delivered by the best in the Tech Industry. Companies such as Amazon, Openet and Symantec will be providing an excellent opportunity for students to get a real feel for the places they can go in the tech field.

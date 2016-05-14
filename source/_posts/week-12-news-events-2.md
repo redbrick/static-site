@@ -2,6 +2,12 @@
 title: 'Week 12  News & Events'
 author: fructus
 date: '2012-04-23 14:46:39'
+thumbnailImage: BarsPints.jpg
+thumbnailImagePosition: right
+autoThumbnailImage: yes
+tags: 
+	- pints
+	- downtime
 ---
 It may be the last week, but the Redbrick committee still have a few things to say. Firstly, we would like to wish good luck to everyone taking exams in the coming weeks, and best of luck for the future to all the fourth years, we hope to see them return as associate members next year.  
 
@@ -11,7 +17,8 @@ Here's what's happening this week.
 *   Daniel Downtime
 *   Moving Murphy
 
-## Pre-Exam Pints
+<!-- more -->
+{% image nocaption right BarsPints.jpg BarsPints%} ## Pre-Exam Pints
 
 As it's the end of the year, we think that we should all reflect on the past year, and what better way than with a few pints? We plan to head to the NuBar for around 6:30pm on Tuesday the 24th. It'll be a great chance to chill out and catch up before the exams begin.
 

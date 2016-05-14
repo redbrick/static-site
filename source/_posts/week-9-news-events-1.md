@@ -2,16 +2,19 @@
 title: Week-9 News & Events
 date: 2013-11-24 18:28:47
 author: polka
+thumbnailImage: week9.png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
 tags:
-- Helpdesk
-- Fundraising
-- Trip
-- Christmas
-- Admin
+  - Helpdesk
+  - Fundraising
+  - Trip
+  - Christmas
+  - Admin
 ---
 
 Things are starting to wind down. This week we have a Q&A session with Helpdesk and a continuation of our LAMP stack tutorial. More info inside.
-<!-- more -->
+
 *   Helpdesk Talk
 *   Admin Training
 *   Project Services
@@ -19,8 +22,8 @@ Things are starting to wind down. This week we have a Q&A session with Helpdesk 
 *   Christmas Party
 *   Irish Cancer Society Fundraiser
 *   Trip Away
-
-## Helpdesk Talk
+<!-- more -->
+{% image nocaption right week9.png week9%} ## Helpdesk Talk
 
 This week's Helpdesk talk will be a simple drop in session in LG26 on Tuesday at 5pm. Any questions about previous talks? Questions about problems you have? Want to just annoy Andrew and Niall? Sounds like you should come along. As always, there will some good ol' Firehouse pizza. If you missed talks from previous weeks you can find the slides here: [http://www.redbrick.dcu.ie/~newb/slides/helpdesk/](http://www.redbrick.dcu.ie/~newb/slides/helpdesk/).
 

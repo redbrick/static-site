@@ -2,6 +2,14 @@
 title: 'Week 11  News & Events'
 author: polka
 date: '2011-12-03 14:30:52'
+thumbnailImage: pubquiz.png
+thumbnailImagePosition: right
+autoThumbnailImage: yes
+tags: 
+ - ideas
+ - intersocs
+ - clubs and socs
+ - christmas
 ---
 It's nearly Christmas time, and with the season to be jolly stepping into gear and DCU quieting down for the end of semester, Redbrick has a few choice events to keep you going! Events this week include;
 
@@ -10,7 +18,8 @@ It's nearly Christmas time, and with the season to be jolly stepping into gear a
 *   Clubs & Societies Ball
 *   Inter-society Christmas Party
 
-## “What's the Bright Idea” Undergraduate Awards
+<!-- more -->
+{% image nocaption right pubquiz.png pubquiz%} ## “What's the Bright Idea” Undergraduate Awards
 
 “What’s the Bright Idea” is an event organised by the non-profit awards organisation, The Undergraduate Awards. This event is going to be a celebration of bright, young individuals and their bright ideas.The event is on this Monday, the 5th of December in the Odessa.
 

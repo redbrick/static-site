@@ -8,8 +8,8 @@ language: en-GB
 timezone: Europe/Dublin
 
 # URL
-url: http://redbrick.github.io
-root: /
+url: http://redbrick.dcu.ie
+root: /~butlerx/demo/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -71,4 +71,12 @@ theme: tranquilpeak
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/redbrick/redbrick.github.io.git
+  repo:
+- type: rsync
+  host: redbrick.dcu.ie
+  user: butlerx
+  root: /home/committe/butlerx/public_html/demo/
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false

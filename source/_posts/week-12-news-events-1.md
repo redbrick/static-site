@@ -2,6 +2,13 @@
 title: 'Week 12  News & Events'
 author: polka
 date: '2011-12-11 12:00:00'
+thumbnailImage: W12.jpg
+thumbnailImagePosition: right
+autoThumbnailImage: yes
+tags: 
+	- christmas
+	- downtime
+  - movie night
 ---
 The Christmas season is upon us, and with the final week of this semester beginning, Redbrick are taking it easy in preparation for the holidays. As always though, there's something happening!
 
@@ -9,7 +16,8 @@ The Christmas season is upon us, and with the final week of this semester beginn
 *   Downtime
 *   Merry Christmas
 
-## Movie Night
+<!-- more -->
+{% image nocaption right W12.jpg W12%} ## Movie Night
 
 This Tuesday, the 13th of December, Redbrick in association with Strange Things will be hosting a movie night! Come along at 6pm to Q120 to see "Rare Exports - A Christmas Tale". Refreshments will be provided, and it's the perfect excuse for taking a break from all those assignments and study!
 
