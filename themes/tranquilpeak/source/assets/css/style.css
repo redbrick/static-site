@@ -2717,7 +2717,10 @@ blockquote {
       margin: 0 auto; }
   #sidebar ul.sidebar-buttons {
     padding: 0;
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale; }
     #sidebar ul.sidebar-buttons li.sidebar-button {
       display: block;
       width: 100%;

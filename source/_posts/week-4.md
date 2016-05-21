@@ -7,7 +7,7 @@ tags:
   - intercom
   - screen
   - associate
-thumbnailImage: intercom.png
+thumbnailImage: logo.png
 thumbnailImagePosition: right
 autoThumbnailImage: yes
 ---
