@@ -39,3 +39,5 @@ node_modules
 .deploy_git
 public
 db.json
+_bower_components
+source/assets
