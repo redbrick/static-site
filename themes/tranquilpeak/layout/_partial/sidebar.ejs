@@ -12,7 +12,7 @@
 <nav id="sidebar" data-behavior="<%= sidebarBehavior %>">
     <% if (authorPicture) { %>
         <div class="sidebar-profile">
-            <a href="<%- url_for('/#about') %>">
+            <a href="<%- url_for('/') %>">
                     <img class="sidebar-profile-picture" src="<%= authorPicture %>"/>
             </a>
             <span class="sidebar-profile-name"><%= config.author %></span>
