@@ -1078,6 +1078,12 @@
     return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr);
   };
 })(jQuery, 'smartresize');
+;$(document).ready(function(){
+    $('#menu-buttons menu-button').each(function(index) {
+        if(this.href.trim() == window.location)
+            $(this).addClass("active");
+    });
+});
 ;(function($) {
   'use strict';
 
