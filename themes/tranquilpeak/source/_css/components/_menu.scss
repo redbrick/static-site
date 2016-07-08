@@ -27,13 +27,18 @@
 
         &:hover,
         &:active {
-            text-decoration: none;
-            color:           lighten(map-get($menu, color), 15);
+          text-decoration: none;
+          color:           lighten(map-get($menu, color), 15);
         }
       }
     }
     &:first-child {
-        margin-top: 5px;
+      margin-top: 5px;
     }
+  }
+
+  .active {
+    border-bottom: 2px dashed #999;
+    text-decoration: none;
   }
 }

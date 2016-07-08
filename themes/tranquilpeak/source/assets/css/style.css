@@ -2546,9 +2546,9 @@ blockquote {
   top: 0;
   left: 0;
   z-index: -1;
-  -webkit-filter: blur(2px);
   /* Chrome, Safari, Opera */
-  filter: blur(2px);
+  -webkit-filter: blur(2px) hue-rotate(90deg) sepia(0.5);
+  filter: blur(2px) hue-rotate(90deg) sepia(0.5);
   opacity: 0.7; }
 
 #footer {
@@ -3669,6 +3669,9 @@ a.fancybox {
           color: #262626; }
     #menu ul.menu-buttons:first-child {
       margin-top: 5px; }
+  #menu .active {
+    border-bottom: 2px dashed #999;
+    text-decoration: none; }
 
 .pagination-bar {
   height: auto;
@@ -4927,10 +4930,8 @@ figure.highlight,
   .codeblock.swift .number,
   .codeblock.swift .type {
     color: #0086b3; }
-  figure.highlight.yml .line
-.attr,
-  .codeblock.yml .line
-.attr {
+  figure.highlight.yml .line .attr,
+  .codeblock.yml .line .attr {
     color: #63a35c; }
   figure.highlight.yml .line,
   figure.highlight.yml .string,
