@@ -1079,7 +1079,7 @@
   };
 })(jQuery, 'smartresize');
 ;$(document).ready(function(){
-    $('#menu-buttons menu-button').each(function(index) {
+    $('#menu-buttons a').each(function(index) {
         if(this.href.trim() == window.location)
             $(this).addClass("active");
     });
