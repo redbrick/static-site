@@ -11,11 +11,15 @@
     "url": "http://github.com/redbrick/static-site/issues"
   },
   "license": "MIT",
+  "scripts":{
+    "postinstall":"cd themes/tranquilpeak && npm install"
+  },
   "hexo": {
     "version": "3.2.0"
   },
   "dependencies": {
     "hexo": "^3.2.0",
+    "hexo-cli": "latest",
     "hexo-cli-extras": "^1.0.3",
     "hexo-deployer-git": "^0.1.0",
     "hexo-deployer-rsync": "^0.1.1",
