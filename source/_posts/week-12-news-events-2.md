@@ -6,8 +6,8 @@ thumbnailImage: BarsPints.jpg
 thumbnailImagePosition: right
 autoThumbnailImage: yes
 tags: 
-	- pints
-	- downtime
+ - pints
+ - downtime
 ---
 It may be the last week, but the Redbrick committee still have a few things to say. Firstly, we would like to wish good luck to everyone taking exams in the coming weeks, and best of luck for the future to all the fourth years, we hope to see them return as associate members next year.  
 
