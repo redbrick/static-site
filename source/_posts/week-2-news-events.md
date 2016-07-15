@@ -6,10 +6,10 @@ thumbnailImage: wbdate2.png
 thumbnailImagePosition: right
 autoThumbnailImage: yes
 tags:
-	- DCUfm
-	- Techweek
-	- science heckday
-	- LAN
+ - DCUfm
+ - Techweek
+ - science heckday
+ - LAN
 ---
 One of our members, Paul Bunbury, is still missing. If you have seen him anytime since February the 2nd, please let us know! (more information below).  
 

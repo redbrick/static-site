@@ -6,9 +6,9 @@ thumbnailImage: W12.jpg
 thumbnailImagePosition: right
 autoThumbnailImage: yes
 tags: 
-	- christmas
-	- downtime
-  - movie night
+ - christmas
+ - downtime
+ - movie night
 ---
 The Christmas season is upon us, and with the final week of this semester beginning, Redbrick are taking it easy in preparation for the holidays. As always though, there's something happening!
 
