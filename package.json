@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "scripts":{
-    "setup": "git clone git@github.com:redbrick/hexo-theme-icarus.git themes/redbrick-theme && npm install",
+    "setup": "git clone git@github.com:redbrick/hexo-theme-icarus.git themes/redbrick-theme",
     "postinstall": "cd themes/redbrick-theme && npm install"
   },
   "hexo": {
