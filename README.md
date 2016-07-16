@@ -13,18 +13,14 @@ Demo at [butlerx site](http://redbrick.dcu.ie/~butlerx/demo)
 
 1. **Node** : v0.10.35 or higher. Download [Node](https://nodejs.org/download/)
 2. **Hexo CLI** : v0.1.4 or higher. Run `npm install hexo-cli -g`
-3. **Grunt CLI** : v0.1.13 or higher. Run `npm install grunt-cli -g`
-4. **Bower** : v1.4.1 or higher. Run `npm install bower -g`
-5. **ESLint** : v2.3.0 or higher. Run `npm install eslint -g`
-6. **ESLint config Google** : v0.4.0 or higher. Run `npm install eslint eslint-config-google -g`
+3. **ESLint** : v2.3.0 or higher. Run `npm install eslint -g`
+4. **ESLint config Google** : v0.4.0 or higher. Run `npm install eslint eslint-config-google -g`
 
 ## Setup
 
-Inside the main repo run `./setup` this is a bash script that will install all the dependencies.
-
-It will run `npm install` from the main folder and inside the theme folder(theme/tranquilpeak) it'll
-  - Run `npm install` to install all NPM dependencies
-  - Run `bower install` to install all Bower dependencies
+To set up just run:
+  - `npm run setup` this will install the theme
+  - `npm install` this will install all the dependencies
 
 ## Generate
 - To demo the site run `hexo server`. This will create a server that runs on localhost:4000
