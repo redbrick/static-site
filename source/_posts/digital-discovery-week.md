@@ -2,9 +2,7 @@
 title: 'Digital Discovery Week'
 author: tziegler
 date: '2011-11-13 02:32:50'
-thumbnailImage: ddw.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+banner: ddw.png
 tags:
  - web design
  - Digital Discovery Week

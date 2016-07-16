@@ -12,7 +12,8 @@
   },
   "license": "MIT",
   "scripts":{
-    "postinstall":"cd themes/tranquilpeak && npm install"
+    "setup": "git clone git@github.com:redbrick/hexo-theme-icarus.git themes/redbrick-theme && npm install",
+    "postinstall": "cd themes/redbrick-theme && npm install"
   },
   "hexo": {
     "version": "3.2.0"
