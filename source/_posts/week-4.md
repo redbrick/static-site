@@ -7,9 +7,8 @@ tags:
   - intercom
   - screen
   - associate
-thumbnailImage: logo.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: logo.png
+banner: intercom.png
 ---
 
 This week we're filling this shortening evenings with some great events.
@@ -59,7 +58,7 @@ committee on hand to help out we should have you up and running in no time.
 
 = Intercom@Redbrick =
 ==================
-{% image nocaption right intercom.png intercom%}
+![intercom](intercom.png)
 This week we see another company come to pay us a visit; this week it's
 Intercom.
 Intercom has only recently had its 3rd birthday, yet it's making huge a serious

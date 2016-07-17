@@ -6,9 +6,8 @@ tags:
 - Linux
 - Installfest
 - Linux Install
-thumbnailImage: linux.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: linux.png
+banner: linux.png
 ---
 
 This year we were able to host our annual Installfest, thanks to the support of
@@ -18,7 +17,7 @@ boot, it was simple business from there, except for some pesky Windows 8
 machines.
 
 <!-- more -->
-{% image nocaption right linux.png linux%}
+![linux](linux.png)
 We were lucky enough to have CD's already from Ubuntu, along with some
 stickers for people to decorate their machines should they wish. We also had
 UBS's of all distros on hold on our Ubuntu lanyards.
