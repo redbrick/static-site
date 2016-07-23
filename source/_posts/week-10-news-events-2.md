@@ -6,9 +6,8 @@ tags:
 - Christmas
 - EGM
 - Pints
-thumbnailImage: week10.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: week10.png
+banner: week10.png
 ---
 
 It's beginning to sound a lot like Christmas... With the end of the semester looming, here's what's happening with Redbrick this week!
@@ -21,14 +20,13 @@ It's beginning to sound a lot like Christmas... With the end of the semester loo
 *   Project Services
 
 <!-- more -->
-{% image nocaption right week10.png week10%}
 ## Monday Social Pints
 
 We're having a small get together this week, from 6pm on wards on Monday we'll be having a few pints together in the NuBar. It's a good opportunity to sit down, chill out, and escape assignments and exams for a short while! Keep an eye out for the Redbrick hoodies if you don't recognise anyone!
 
 ## Christmas Party
 
-{% image nocaption right xmas-party.png xmas-party.png%} We will be hosting our annual Christmas party in week 11 this year, with a number of wonderful societies! Get your Santa hats, Christmas jumpers and tinsel at the ready, we'll have drink specials, and a very special visit from a man in a red suit... With presents of course! Refreshments will be available on the night, we'll have more information for you all before then!  
+![Christmas Party](xmas-party.png) We will be hosting our annual Christmas party in week 11 this year, with a number of wonderful societies! Get your Santa hats, Christmas jumpers and tinsel at the ready, we'll have drink specials, and a very special visit from a man in a red suit... With presents of course! Refreshments will be available on the night, we'll have more information for you all before then!  
 Facebook event: [https://www.facebook.com/events/1381206022127635/](https://www.facebook.com/events/1381206022127635/)
 
 ## Exams

@@ -2,16 +2,13 @@
 title: EGM
 author: teapott
 date: '2013-10-21 00:06:14'
-thumbnailImage: egm.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+banner: egm.png
+thumbnail: egm.png
 tags:
  - egm
 ---
-This year Redbrick's EGM is taking place on Wednesday October 23<sup>rd</sup> in QG21\. During this meeting we will hold elections for the following positions: System Administrator, Webmaster, Treasurer, Public Relations Officer & First Year Rep
-<!-- more -->
-{% image nocaption right egm.png egm%}
 This year Redbrick's EGM is taking place on Wednesday October 23<sup>rd</sup> in QG21\. During this meeting we will hold elections for the following positions:
+<!-- more -->
 
 *   System Administrator
 *   Webmaster

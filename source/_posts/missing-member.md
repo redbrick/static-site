@@ -5,21 +5,20 @@ date: '2012-02-04 14:48:24'
 tags:
  - missing member
  - bunbun
-thumbnailImage: bunbun.jpg
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: bunbun.jpg
+banner: bunbun.jpg
 ---
 One of our members has been reported as missing to the Gardai.  
 
 If anyone has seen Paul Bunbury(bunbun) since Thursday the 2nd of February at approx. 4pm can they please either contact Whitehall Garda Station on 01 666 4500 or get in touch with us.
 <!-- more -->
 **Update: A poster has been made. Please print it off and put it up in your local area, no matter where you are.  
-{% image nocaption left bunbun_small.jpg bunbun_small%}
+![bunbun_small%}](bunbun_small.jpg)
 
 [Email Us](/about/contact/committee)
 
 Here's the post made on boards.ie about him, it includes a picture of him: [http://tinyurl.com/75bhc5j](http://tinyurl.com/75bhc5j)
-{% image nocaption right bunbun.jpg bunbun%}
+![bunbun](bunbun.jpg)
 
 Please retweet this post or make another post to twitter with the hashtag #FindPaulB [http://tinyurl.com/FindPaulB](http://tinyurl.com/FindPaulB)
 

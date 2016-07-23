@@ -2,9 +2,8 @@
 title: 'Week 11  News & Events'
 author: fructus
 date: '2012-04-16 19:00:27'
-thumbnailImage: Week11a.jpg
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: Week11a.jpg
+banner: Week11a.jpg
 tags:
  - table quiz
 ---
@@ -12,7 +11,6 @@ There's not a lot happening this week, but we do have the Annual Redbrick Table 
 
 <!-- more -->
 ## Annual Redbrick Table Quiz
-{% image nocaption right Week11a.jpg Week11a%}
 
 The quiz will take place on Tuesday the 17<sup>th</sup> in the Nubar. Sign up for the quiz is from 6:30PM and we plan to kick off at 7:00PM sharp. Teams will consist of 4 people at €3 per person, €12 in total per team. This is also open to non Redbrick members, so bring your friends! There are some cool prizes to be won.
 

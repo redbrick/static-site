@@ -3,6 +3,7 @@ title: 'Digital Discovery Week'
 author: tziegler
 date: '2011-11-13 02:32:50'
 banner: ddw.png
+thumbnail: ddw.png
 tags:
  - web design
  - Digital Discovery Week
@@ -12,7 +13,6 @@ Redbrick in association with the [Student's Union](http://www.dcusu.ie/) are ext
 We have a whole week jam packed full of events that are aimed at everybody in DCU and we encourage everyone, not just Redbrick members, to come along to any event and learn something new.
 
 <!-- more -->
-{% image nocaption right ddw.png ddw%}
 **Visit [DigitalDiscovery.dcu.ie](http://digitaldiscovery.dcu.ie) for updated event info.**
 
 Here's a rundown of what's happening:

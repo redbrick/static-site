@@ -2,14 +2,13 @@
 title: 'Week 8 News & Events'
 author: polka
 date: '2013-11-17 18:09:39'
-thumbnailImage: week8.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: week8.png
+banner: week8.png
 tags:
   - Helpdesk
   - irish cancer society
   - admin training
-  - egm 
+  - egm
 ---
 A normal week here at Redbrick this week. Our Helpdesk talk is Developing on Redbrick and our Admins will be showing you how to setup a LAMP stack using the Redbrick VMs.
 
@@ -18,9 +17,9 @@ A normal week here at Redbrick this week. Our Helpdesk talk is Developing on Red
 *   EGM
 *   Irish Cancer Society Fundraiser
 *   Trip Away
+
 <!-- more -->
 ## Helpdesk Talk
-{% image nocaption right week8.png week8%}
 
 This week our wonderful Helpdesk team will be introducing you to our development server - Pygmalion. They'll be talking you through the basics of logging in, writing your programs, and of course, compiling them. If you're a seasoned developer or new to programming, this should be a good talk for anyone. Naturally, there will be pizza! If you missed talks from previous weeks you can find the slides here: [http://www.redbrick.dcu.ie/~newb/slides/helpdesk/](http://www.redbrick.dcu.ie/~newb/slides/helpdesk/)
 
