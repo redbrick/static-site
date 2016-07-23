@@ -65,6 +65,17 @@ feed:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 neat_enable: true
+neat_html:
+  enable: false
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  exclude:
+    - '*.min.js'
 ## Themes: https://hexo.io/themes/
 theme: redbrick-theme
 
