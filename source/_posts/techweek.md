@@ -2,9 +2,8 @@
 title: Techweek
 date: 2014-02-28 21:55:00
 author: Twister
-thumbnailImage: techweek.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: techweek.png
+banner: techweek.png
 tags:
 - Techweek
 - TechWeekDCU
@@ -21,7 +20,6 @@ We have something tech for everyone with topics such as 3D Modelling, Web Develo
 [techweek.dcu.ie](http://techweek.dcu.ie/) for more info!
 
 <!-- more -->
-{% image nocaption right techweek.png techweek%}
 
 DCU President Brian MacCraith will be powering on this exciting week as DCU embraces a celebration of all things Technology.
 

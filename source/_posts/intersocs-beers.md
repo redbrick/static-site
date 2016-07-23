@@ -2,9 +2,9 @@
 title: 'Intersocs Beers'
 author: vadimck
 date: '2011-06-29 17:49:08'
-thumbnailImage: hanginthere.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: hanginthere.png
+banner: hanginthere.png
+
 tags:
   - Intersocs
 ---
@@ -14,4 +14,3 @@ Be sure to come along and get to know the faces of other socs.
 
 It takes place this Friday 1st July at 7:30pm in TGI Fridays, St. Stephens Green.
 <!-- more -->
-{% image nocaption right hanginthere.png hanginthere%}

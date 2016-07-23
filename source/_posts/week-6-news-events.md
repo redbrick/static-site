@@ -2,9 +2,8 @@
 title: 'Week 6 News & Events'
 author: polka
 date: '2012-03-11 21:16:00'
-thumbnailImage: wbdateexm.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: wbdateexm.png
+banner: wbdateexm.png
 tags:
   - irlcpc
   - pints
@@ -25,9 +24,8 @@ Reading week is here, though not all of us get a break! There's still a few thin
 *   System Administrator Exam
 *   Helpdesk Exam
 
- <!-- more -->
+<!-- more -->
 ## IrlCPC Practice
-{% image nocaption right wbdateexm.png wbdateexm%}
 
 For those of you that have registered for the IrlCPC programming contest in Cork, we're continuing our practice sessions! The contest is only two weeks away, so come along to try out some problems.
 

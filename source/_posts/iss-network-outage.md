@@ -2,9 +2,8 @@
 title: 'ISS Network Outage'
 author: polka
 date: '2011-12-19 21:00:00'
-thumbnailImage: downtime.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: downtime.png
+banner: downtime.png
 tags:
   - ISS
   - Network Outage
@@ -13,4 +12,3 @@ Due to ISS network outages, Redbrick is going to experience some downtime on Wed
 
 Services will continue as normal apart from these two days, and we apologise for any inconvenience caused.
 <!-- more -->
-{% image nocaption right downtime.png downtime%}

@@ -5,9 +5,8 @@ author: kylar
 tags:
 - Google
 - Associate
-thumbnailImage: googleAtDcu2.jpg
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+banner: googleAtDcu2.jpg
+thumbnail: googleAtDcu2.jpg
 ---
 
 It's week 3 and Redbrick our kicking off our events for the year with a bang!
@@ -24,7 +23,6 @@ When: Tuesday October 7th from 5 -6pm
 Where: HG10**  
 Hear from Google Engineers, from Dublin and Mountain View. They'll be talking about their path to Google and their career experiences to date.
 
-{% image nocaption right googleAtDcu2.jpg 435px 272px googleAtDcu2%}
 **Google @ DCU  
 When: Wednesday 8th October  
 Where: QG22**  

@@ -2,9 +2,8 @@
 title: 'Week 9  News & Events'
 author: fructus
 date: '2012-04-01 20:00:00'
-thumbnailImage: helix.jpg
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: helix.jpg
+banner: helix.jpg
 tags:
   - new committee
   - connector
@@ -16,7 +15,7 @@ As we get closer and closer to the end of semester two, we have elected our new 
 *   New Committee
 *   Redbrick Annual Quiz
 *   Connector Conference
- <!-- more -->
+<!-- more -->
 
 ## New Committee
 
@@ -49,7 +48,7 @@ Congratulations to all of the new committee - hopefully they will do a great job
 The Redbrick annual quiz is planned for week 10, final details are to be confirmed and will be released next week. However, it is planned to be held on the Thursday of that week.
 
 ## Connector Conference
-{% image nocaption right helix.jpg helix%}
+![helix](helix.jpg)
 
 The conference is on Wednesday the 4<sup>th</sup> of April in the Helix, kicks off at 2pm and only lasts two hours. Featured speakers include:
 

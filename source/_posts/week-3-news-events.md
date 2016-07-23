@@ -2,9 +2,8 @@
 title: 'Week 3 News & Events'
 author: polka
 date: '2012-02-20 00:18:34'
-thumbnailImage: code.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: code.png
+banner: code.png
 tags:
   - science hackday
   - admin training
@@ -19,9 +18,8 @@ With exam results out, and RAG week looming, here's what's happening with Redbri
 *   AMS Brony Panel
 *   Missing Member
 
- <!-- more -->
+<!-- more -->
 ## Science Hackday
-{% image nocaption right code.png code%}
 
 Science Hackday Dublin will be hosted in The Hub on the 3<sup>rd</sup> and 4<sup>th</sup> of March. The event starts at 9am on the Saturday, and ends at 6pm on the Sunday. This is looking to be a great event and there are only a few places left, so check out [http://www.sciencehackdaydublin.com/](http://www.sciencehackdaydublin.com/) if you're interested.
 
