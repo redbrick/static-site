@@ -62,13 +62,9 @@ feed:
   path: atom.xml
   limit: 20
 
-# Search generator
-search:
-  path: search.xml
-  field: all
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+neat_enable: true
 ## Themes: https://hexo.io/themes/
 theme: redbrick-theme
 
