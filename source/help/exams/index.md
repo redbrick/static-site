@@ -60,6 +60,7 @@ you must first pass an exam. Here are some exams from previous years.
 *   [2016 AGM](./helpdesk-test-2016-agm)
 *   [2015 AGM](./helpdesk-test-2015-agm)
 *   [2014 EGM](./helpdesk-test-2014-egm)
+*   [2014 AGM](./helpdesk-test-2014-agm)
 *   [2011 EGM](./helpdesk-test-2011-egm)
 *   [2011 AGM](./helpdesk-test-2011-agm)
 *   [2010 AGM](./helpdesk-test-2010-agm)
