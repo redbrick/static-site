@@ -15,6 +15,7 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Admins Tests
 
+*   [2016 AGM](./admin-test-2016-agm)
 *   [2014 EGM](./admin-test-2014-egm)
 *   [2014 AGM](./admin-test-2014-agm)
 *   [2013 EGM](./admin-test-2013-egm)
@@ -44,6 +45,7 @@ you must first pass an exam. Here are some exams from previous years.
 *   There was no exam in 2016
 *   [2014 AGM](./webmaster-test-2014-agm)
 *   [2013 EGM](./webmaster-test-2013-egm)
+*   [2012 AGM](https://www.redbrick.dcu.ie/~vadimck/webmasterexam2012LAWL/) ([If you didnt get it](http://www.redbrick.dcu.ie/~vadimck/webexam2012/?gg=Nijaush4))
 *   [2009 AGM](./webmaster-test-2009-agm)
 *   There was no exam in 2008
 *   Missing - exams from 2005-test-2007
@@ -55,6 +57,8 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Helpdesk Test
 
+*   [2016 AGM](./helpdesk-test-2016-agm)
+*   [2015 AGM](./helpdesk-test-2015-agm)
 *   [2014 EGM](./helpdesk-test-2014-egm)
 *   [2011 EGM](./helpdesk-test-2011-egm)
 *   [2011 AGM](./helpdesk-test-2011-agm)
