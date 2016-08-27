@@ -16,8 +16,8 @@ These are available on our wiki.
 
 The Helpdesk team can also be contacted by Email, and over IRC in the channel #helpdesk. You can access IRC by using one of the methods available here.
 
-The Helpdesk can be emailed at the <a href="mailto:helpdesk@redbrick.dcu.ie?Subject=[sent from website]" target="_top">Helpdesk Email address.</a>
+The Helpdesk can be emailed at the [Helpdesk Email address][/about/contact/helpdesk].
 
 The Helpdesk Team:
-- Cormac Smartt(<a href="mailto:pints@redbrick.dcu.ie?Subject=[sent from website]" target="_top">pints</a>)
+- Cormac Smartt(pints)
 - 1 open position to be filled.

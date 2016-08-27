@@ -41,7 +41,7 @@ root holders who have volunteered to keep doing stuff.
 Elected System Administrators:
 - Richard Walsh (koffee)
 -  Lorcan Boyle (zergless)
--  To Be Elected - Click here if you're <a href="mailto:admins@redbrick.dcu.ie?Subject=[sent from website]"target="_top">interested</a>.
+-  To Be Elected - Click here if you're [interested][/about/contact/admins].
 
 Esteemed Holders Of Root:
 -  tbolt

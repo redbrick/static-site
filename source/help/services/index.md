@@ -17,7 +17,7 @@ Many people love to code, you can log on to Pygmalion, our development server, w
 You can read more about the various development services we offer in their respective sections:
 
 ## Virtual Machines
-Redbrick offers VMs to any member. If you're interested just [email a member of the admin team](../../about/contact/elected-admins) to get one.
+Redbrick offers VMs to any member. If you're interested just [email a member of the admin team](../../about/contact/admins) to get one.
 
 For more information check out the [wiki](https://wiki.redbrick.dcu.ie/mw/Rbvm).
 
@@ -40,7 +40,7 @@ Redbrick is a great place to learn or use a vast range of programming languages,
 *   Shell
 *   Haskell
 *   Objective C
-*   Node
+*   NodeJs
 *   go
 
 We also have various frameworks
