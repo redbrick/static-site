@@ -1,5 +1,5 @@
 ---
-title:Committee
+title: Committee
 type: about
 contact: true
 ---
