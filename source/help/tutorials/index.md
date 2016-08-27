@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 date: 2016-04-17 16:15:35
-type: help
+type: helpList
 keywords:
 - help
 - tutorials
