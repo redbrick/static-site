@@ -18,6 +18,7 @@
     "version": "3.2.2"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "hexo": "^3.2.2",
     "hexo-cli": "latest",
     "hexo-cli-extras": "^1.0.3",
@@ -35,6 +36,7 @@
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "nodemailer": "^2.5.0"
   }
 }
