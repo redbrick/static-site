@@ -37,6 +37,8 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "nodemailer": "^2.5.0"
+    "jade": "^1.11.0",
+    "nodemailer": "^2.5.0",
+    "serve-favicon": "^2.3.0"
   }
 }
