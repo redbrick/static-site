@@ -32,7 +32,6 @@ app.get('/about/contact/*',function(req,res) {
 });
 
 app.get(baseUrl + 'contact', function(req, res) {
-	console.log(req.query);
 	to = req.query.to
   var mailOptions = {
     from: req.query.name + ' <' + req.query.email + '>',
@@ -42,7 +41,6 @@ app.get(baseUrl + 'contact', function(req, res) {
     replyTo: req.query.email
   }
 
-  console.log(mailOptions);
   smtpTransport.sendMail(mailOptions, function (error, info) {
     if(error) {
       console.log(error);
