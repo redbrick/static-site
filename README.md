@@ -44,3 +44,13 @@ To set up just run:
 - You can edit the css for the theme in theme/tranquilpeak/source/_css
 - You can edit the templates in theme/tranquilpeak/layout
 - If you edit the theme it will need to be regenerated. This is done by running `grunt buildProd` from theme/tranquilpeak
+
+## Deployment
+To deploy to a server run:
+  - npm install
+  - hexo generate
+  - node server
+
+Then using apache or nginx proxy traffic to port 3000. 
+And done. 
+You can create a sevice to run the server on startup if you want refer to express docs and using a service for this
