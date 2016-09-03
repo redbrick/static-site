@@ -32,30 +32,36 @@ app.get('/about/contact/*',function(req,res) {
 });
 
 app.get(baseUrl + 'contact', function(req, res) {
-	to = req.query.to
-  var mailOptions = {
-    from: req.query.name + ' <' + req.query.email + '>',
-    to: to + '@redbrick.dcu.ie',
-    subject: '[Sent from the website] ' + req.query.subject,
-    text : req.query.text,
-    replyTo: req.query.email
-  }
 
-  smtpTransport.sendMail(mailOptions, function (error, info) {
-    if(error) {
-      console.log(error);
-      res.end("error");
+  recaptcha.verify(function(success, error_code) {
+    if (success) {
+      res.send('Recaptcha response valid.');
     } else {
-      console.log("Message sent: " + info.response);
-      res.end("sent");
+      to = req.query.to
+      var mailOptions = {
+        from: req.query.name + ' <' + req.query.email + '>',
+        to: to + '@redbrick.dcu.ie',
+        subject: '[Sent from the website] ' + req.query.subject,
+        text : req.query.text,
+        replyTo: req.query.email
+      }
+
+      smtpTransport.sendMail(mailOptions, function (error, info) {
+        if(error) {
+          console.log(error);
+          res.end("error");
+        } else {
+          console.log("Message sent: " + info.response);
+          res.end("sent");
+        }
+      });
     }
   });
 });
 
 // Handle 404
 app.use(function(req, res) {
-    res.status(400);
-    res.render('404.jade', {title: '404: File Not Found'});
+    res.status(404).sendFile(__dirname + '/public/404.html');
 });
 
 // Handle 500
