@@ -12,7 +12,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "setup": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme"
+    "setup": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
+    "postinstall": "cd themes/redbrick-theme && bower install"
   },
   "hexo": {
     "version": "3.2.2"
