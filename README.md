@@ -49,6 +49,7 @@ To set up just run:
 To deploy to a server run:
   - npm install
   - hexo generate
+  - modify config.json with mailhost info
   - node server
 
 Then using apache or nginx proxy traffic to port 3000. 
