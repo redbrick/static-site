@@ -8,7 +8,7 @@ language: en
 timezone: Europe/Dublin
 
 # URL
-url: http://redbrick.redbrick.dcu.ie
+url: http://redbrick.dcu.ie
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
