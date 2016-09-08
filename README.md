@@ -47,8 +47,9 @@ To set up just run:
 
 ## Deployment
 To deploy to a server run:
-  - npm install
-  - hexo generate
+  - `npm run setup` to download the theme
+  - `npm install`
+  - `hexo generate`
   - modify config.json with mailhost info
   - node server
 
