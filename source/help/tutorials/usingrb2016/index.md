@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf https://drive.google.com/file/d/0BxXeQgjtPmaCUm5xbm8zM0k1RVk/preview %}
+{% pdf http://redbrick.dcu.ie/help/tutorials/usingtb2016/usingtb2016.pdf %}

@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf https://drive.google.com/file/d/0BxXeQgjtPmaCdklLQTdBTlI2WFU/preview %}
+{% pdf http://redbrick.dcu.ie/help/tutorials/AdvancedJavaScript/Advanced_JavaScript.pdf %}
