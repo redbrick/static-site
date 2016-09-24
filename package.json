@@ -14,7 +14,7 @@
   "scripts": {
     "start": "hexo generate && node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
+    "preinstall": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
     "postinstall": "cd themes/redbrick-theme && bower install"
   },
   "hexo": {
