@@ -12,6 +12,8 @@
   },
   "license": "MIT",
   "scripts": {
+    "start": "hexo generate && node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
     "postinstall": "cd themes/redbrick-theme && bower install"
   },
@@ -19,7 +21,11 @@
     "version": "3.2.2"
   },
   "dependencies": {
-    "express": "^4.14.0",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
     "hexo": "^3.2.2",
     "hexo-cli": "latest",
     "hexo-cli-extras": "^1.0.3",
@@ -38,7 +44,7 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "jade": "^1.11.0",
+    "morgan": "~1.7.0",
     "nodemailer": "^2.5.0",
     "serve-favicon": "^2.3.0"
   }
