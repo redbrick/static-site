@@ -13,7 +13,8 @@
   "license": "MIT",
   "scripts": {
     "start": "hexo generate && node ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint",
+    "lint": "./node_modules/.bin/semistandard",
     "preinstall": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
     "postinstall": "cd themes/redbrick-theme && bower install"
   },
@@ -47,6 +48,7 @@
     "hexo-server": "^0.2.0",
     "morgan": "~1.7.0",
     "nodemailer": "^2.5.0",
+    "semistandard": "^9.0.0",
     "serve-favicon": "^2.3.0"
   }
 }
