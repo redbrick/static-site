@@ -48,6 +48,7 @@
     "hexo-server": "^0.2.0",
     "morgan": "~1.7.0",
     "nodemailer": "^2.5.0",
+    "recaptcha2": "^1.0.8",
     "semistandard": "^9.0.0",
     "serve-favicon": "^2.3.0"
   }
