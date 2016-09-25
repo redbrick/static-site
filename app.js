@@ -12,7 +12,7 @@ var app = express();
 var config = require('./config.json');
 var recaptcha = new ReCAPTCHA({
   siteKey: config.recaptcha.siteKey,
-  secretKey: config.repatcha.secretKey
+  secretKey: config.recaptcha.secretKey
 });
 var smtpTransport = nodemailer.createTransport(config.email);
 var baseUrl = '/api/';
