@@ -46,4 +46,4 @@ And done.
 You can create a sevice to run the server on startup if you want refer to express docs and using a service for this
 
 ### Docker
-Theres a docker file if you want to generate a contair that runs in production mode
+There is a docker file if you want to generate a container that runs in production mode
