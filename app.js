@@ -1,5 +1,4 @@
 var express = require('express');
-var nodemailer = require('nodemailer');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -14,8 +13,9 @@ var recaptcha = new ReCAPTCHA({
   siteKey: config.recaptcha.siteKey,
   secretKey: config.recaptcha.secretKey
 });
-var smtpTransport = nodemailer.createTransport(config.email);
 var baseUrl = '/api/';
+
+var smtpTransport = require('./smtpTransport');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
