@@ -54,7 +54,13 @@ function sendEmails (emailData, callback) {
       console.error('Failed to open mailing list.');
       return callback(err);
     }
-    async.each(addresses, sendEmail.bind(null, emailData), function (err) {
+    var realAddresses = addresses.map(function (a) {
+      return a.trim();
+    }).filter(function (a) {
+      // barebones email address validation
+      return /^.+@.+$/.test(a);
+    });
+    async.each(realAddresses, sendEmail.bind(null, emailData), function (err) {
       if (err) {
         console.error('Failed to send email "' + emailData.subject + '" to some recipients.');
       }
