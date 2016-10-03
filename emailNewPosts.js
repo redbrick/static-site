@@ -36,7 +36,7 @@ function writeArrayToFile (filename, array, callback) {
 
 function sendEmail (emailData, address, callback) {
   var mailOptions = {
-    from: 'Redbrick <' + config.email.auth.user + '>',
+    from: config.mailername + ' <' + config.email.auth.user + '>',
     to: address,
     subject: emailData.subject,
     text: wrap80(emailData.body)
