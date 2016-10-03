@@ -53,6 +53,7 @@
     "nodemailer": "^2.5.0",
     "recaptcha2": "^1.0.8",
     "semistandard": "^9.0.0",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "wordwrap": "^1.0.0"
   }
 }

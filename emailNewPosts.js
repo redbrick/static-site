@@ -3,6 +3,7 @@ var path = require('path');
 var async = require('async');
 var parseFrontMatter = require('hexo-front-matter').parse;
 var moment = require('moment');
+var wrap80 = require('wordwrap')(80);
 
 var config = require('./config.json');
 var smtpTransport = require('./smtpTransport');
@@ -38,7 +39,7 @@ function sendEmail (emailData, address, callback) {
     from: 'Redbrick <' + config.email.auth.user + '>',
     to: address,
     subject: emailData.subject,
-    text: emailData.body
+    text: wrap80(emailData.body)
   };
   smtpTransport.sendMail(mailOptions, function (err) {
     if (err) {
