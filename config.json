@@ -11,5 +11,6 @@
   "recaptcha": {
     "siteKey": "",
     "secretKey": ""
-  }
+  },
+  "siteroot": "http://redbrick.dcu.ie"
 }
