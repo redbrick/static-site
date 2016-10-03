@@ -1,31 +1,13 @@
 var express = require('express');
-var spawnSync = require('child_process').spawnSync;
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var ReCAPTCHA = require('recaptcha2');
+var spawn = require('child_process').spawn;
 
 var emailNewPosts = require('./emailNewPosts');
-
-console.log('Generating hexo static files...');
-var hexoGenerate = spawnSync(
-  path.join(process.cwd(), 'node_modules/.bin/hexo'),
-  ['generate'],
-  { encoding: 'utf8' }
-);
-if (hexoGenerate.error) {
-  console.error(hexoGenerate.stderr);
-  throw new Error('Hexo generation failed.');
-}
-console.log(hexoGenerate.stdout);
-console.log('Hexo generation was successful.');
-
-/* asynchronous; server startup will proceed while emails are
- * prepared and sent.
- */
-emailNewPosts();
 
 var app = express();
 
@@ -117,6 +99,27 @@ if (app.get('env') === 'development') {
 // no stacktraces leaked to user
 app.use(function (err, req, res, next) {
   res.status(err.status || 500).sendFile(path.join(__dirname, '/public/404.html'));
+});
+
+console.log('Generating hexo static files...');
+var generateOk = true;
+var hexoGenerate = spawn(
+  path.join(process.cwd(), 'node_modules/.bin/hexo'),
+  ['generate']
+);
+hexoGenerate.stdout.on('data', function (buffer) {
+  console.log(buffer.toString())
+});
+hexoGenerate.stderr.on('data', function (buffer) {
+  console.error(buffer.toString());
+  generateOk = false;
+});
+hexoGenerate.on('close', function () {
+  if (!generateOk) {
+    throw new Error('Hexo generation failed.');
+  }
+  console.log('Hexo generation was successful.');
+  emailNewPosts();
 });
 
 module.exports = app;
