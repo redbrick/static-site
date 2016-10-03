@@ -32,7 +32,7 @@ The results of the AGM election on Thursday are as follows:
 - Lorcan Boyle (zergless) - Admin
 - Richie Walsh (koffee) - Admin
 
-Redbrick 20 th Birthday
+Redbrick 20th Birthday
 ===========================================================
 ![Birthday Cake](cake.jpg "")
 - Date: Saturday 09/04
