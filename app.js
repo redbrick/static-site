@@ -6,6 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var ReCAPTCHA = require('recaptcha2');
 
+var emailNewPosts = require('./emailNewPosts');
+
 var app = express();
 
 var config = require('./config.json');
@@ -97,5 +99,7 @@ if (app.get('env') === 'development') {
 app.use(function (err, req, res, next) {
   res.status(err.status || 500).sendFile(path.join(__dirname, '/public/404.html'));
 });
+
+emailNewPosts();
 
 module.exports = app;
