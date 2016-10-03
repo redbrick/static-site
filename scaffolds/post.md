@@ -2,11 +2,9 @@
 title: {{ title }}
 date: {{ date }}
 author:
-thumbnailImage: {{ title }}.png
-thumbnailImagePosition: right
-autoThumbnailImage: yes
+thumbnail: {{ title }}.png
+banner: {{ title }}.png
 tags:
 ---
 
  <!-- more -->
-{% image nocaption right {{ title }}.png {{ title }}%}
