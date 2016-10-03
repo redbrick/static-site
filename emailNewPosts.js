@@ -50,26 +50,14 @@ function sendEmail (emailData, address, callback) {
   });
 }
 
-function sendEmails (emailData, callback) {
-  readFileAsArray(mailingListFilename, function (err, addresses) {
+function sendEmails (addresses, emailData, callback) {
+  async.each(addresses, sendEmail.bind(null, emailData), function (err) {
     if (err) {
-      console.error('Failed to open mailing list.');
-      return callback(err);
+      console.error('Failed to send email "' + emailData.subject + '" to some recipients.');
+    } else {
+      console.log('Email update for "' + emailData.subject + '" succeeded.');
     }
-    var realAddresses = addresses.map(function (a) {
-      return a.trim();
-    }).filter(function (a) {
-      // barebones email address validation
-      return /^.+@.+$/.test(a);
-    });
-    async.each(realAddresses, sendEmail.bind(null, emailData), function (err) {
-      if (err) {
-        console.error('Failed to send email "' + emailData.subject + '" to some recipients.');
-      } else {
-        console.log('Email update for "' + emailData.subject + '" succeeded.');
-      }
-      callback(err);
-    });
+    callback(err);
   });
 }
 
@@ -99,22 +87,38 @@ function getEmailBody (postData) {
   );
 }
 
+function bail (err, callback) {
+  console.error('Unable to complete email update for new posts:');
+  if (typeof callback === 'function') {
+    callback(err);
+  } else {
+    console.error(err);
+  }
+}
+
 function emailNewPosts (callback) {
   console.log('Sending email update(s) for any new posts...');
-  try {
+  readFileAsArray(mailingListFilename, function (err, addresses) {
+    if (err) {
+      return bail('Unable to read file: ' + mailingListFilename, callback);
+    }
+    var realAddresses = addresses.map(function (a) {
+      return a.trim();
+    }).filter(function (a) {
+      // barebones email address validation
+      return /^.+@.+$/.test(a);
+    });
     readFileAsArray(emailLogFilename, function (err, log) {
       if (err) {
-        console.error('Unable to read file: ' + emailLogFilename);
-        throw err;
+        return bail('Unable to read file: ' + emailLogFilename, callback);
       }
       // if date doesn't exist, choose beginning of (unix) time
       var lastUpdated = new Date(log[0] || 0);
       fs.readdir(postsDirectory, function (err, filenames) {
-        var lastCheckedDirectory = new Date();
         if (err) {
-          console.error('Unable to read directory ' + postsDirectory);
-          throw err;
+          return bail('Unable to read directory ' + postsDirectory, callback);
         }
+        var lastCheckedDirectory = new Date();
         var postFilenames = filenames.filter(function (filename) {
           return filename.indexOf('.md') !== -1;
         }).map(function (filename) {
@@ -122,8 +126,7 @@ function emailNewPosts (callback) {
         });
         async.map(postFilenames, readFileAsString, function (err, posts) {
           if (err) {
-            console.error('Unable to read files in directory: ' + postsDirectory);
-            throw err;
+            return bail('Unable to read files in directory: ' + postsDirectory, callback);
           }
           var emailDataList = posts.map(function (post, index) {
             return {
@@ -143,19 +146,18 @@ function emailNewPosts (callback) {
               senderName: postData.frontMatter.author
             };
           });
-          async.each(emailDataList, sendEmails, function (err) {
+          async.each(emailDataList, sendEmails.bind(null, realAddresses), function (err) {
             if (err) {
               console.error('Failed to send some emails.');
             } else if (emailDataList.length) {
-              console.log('Email update(s) successful.');
+              console.log('Email update(s) successfully sent to ' + realAddresses.length + ' recipients.');
             } else {
               console.log('No email updates were necessary.');
             }
             var updatedEmailLog = [lastCheckedDirectory.toISOString()].concat(log);
             writeArrayToFile(emailLogFilename, updatedEmailLog, function (err) {
               if (err) {
-                console.error('Unable to update email log after send.');
-                throw err;
+                return bail('Unable to update email log after send.', callback);
               }
               if (typeof callback === 'function') {
                 callback();
@@ -165,14 +167,7 @@ function emailNewPosts (callback) {
         });
       });
     });
-  } catch (err) {
-    console.error('Unable to complete email update for new posts:');
-    if (typeof callback === 'function') {
-      callback(err);
-    } else {
-      console.error(err);
-    }
-  }
+  });
 }
 
 module.exports = emailNewPosts;
