@@ -1,7 +1,7 @@
-var nodemailer = require('nodemailer');
+const nodemailer = require('nodemailer');
 
-var config = require('./config.json');
+const config = require('./config.json');
 
-var smtpTransport = nodemailer.createTransport(config.email);
+const smtpTransport = nodemailer.createTransport(config.email);
 
 module.exports = smtpTransport;
