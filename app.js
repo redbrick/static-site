@@ -1,4 +1,5 @@
 var express = require('express');
+var spawnSync = require('child_process').spawnSync;
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -7,6 +8,24 @@ var bodyParser = require('body-parser');
 var ReCAPTCHA = require('recaptcha2');
 
 var emailNewPosts = require('./emailNewPosts');
+
+console.log('Generating hexo static files...');
+var hexoGenerate = spawnSync(
+  path.join(process.cwd(), 'node_modules/.bin/hexo'),
+  ['generate'],
+  { encoding: 'utf8' }
+);
+if (hexoGenerate.error) {
+  console.error(hexoGenerate.stderr);
+  throw new Error('Hexo generation failed.');
+}
+console.log(hexoGenerate.stdout);
+console.log('Hexo generation was successful.');
+
+/* asynchronous; server startup will proceed while emails are
+ * prepared and sent.
+ */
+emailNewPosts();
 
 var app = express();
 
@@ -99,7 +118,5 @@ if (app.get('env') === 'development') {
 app.use(function (err, req, res, next) {
   res.status(err.status || 500).sendFile(path.join(__dirname, '/public/404.html'));
 });
-
-emailNewPosts();
 
 module.exports = app;
