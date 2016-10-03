@@ -39,7 +39,7 @@ function sendEmail (emailData, address, callback) {
     from: emailData.senderName + ' <' + config.email.auth.user + '>',
     to: address,
     subject: '[' + config.mailsubject + '] ' + emailData.subject,
-    text: wrap80(emailData.body)
+    text: emailData.body
   };
   smtpTransport.sendMail(mailOptions, function (err) {
     if (err) {
@@ -75,7 +75,7 @@ function getEmailBody (postData) {
   );
   var directory = moment(date).format('YYYY/MM/DD');
   var permalink = config.siteroot + '/' + path.join(directory, postData.slug);
-  return (
+  return wrap80(
     title + '\n' +
     moment(date).format('DD/MM/YYYY') + '\n' +
     'tags: ' + tags + '\n' +
