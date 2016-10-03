@@ -1,16 +1,17 @@
-var fs = require('fs');
-var path = require('path');
-var async = require('async');
-var parseFrontMatter = require('hexo-front-matter').parse;
-var moment = require('moment');
-var wrap80 = require('wordwrap')(80);
+"use strict";
+const fs = require('fs');
+const path = require('path');
+const async = require('async');
+const parseFrontMatter = require('hexo-front-matter').parse;
+const moment = require('moment');
+const wrap80 = require('wordwrap')(80);
 
-var config = require('./config.json');
-var smtpTransport = require('./smtpTransport');
+const config = require('./config.json');
+const smtpTransport = require('./smtpTransport');
 
-var postsDirectory = path.join(process.cwd(), 'source/_posts');
-var emailLogFilename = path.join(process.cwd(), 'email_update_log');
-var mailingListFilename = path.join(process.cwd(), 'mailing_list');
+const postsDirectory = path.join(process.cwd(), 'source/_posts');
+const emailLogFilename = path.join(process.cwd(), 'email_update_log');
+const mailingListFilename = path.join(process.cwd(), 'mailing_list');
 
 function readFileAsString (filename, callback) {
   fs.readFile(filename, function (err, buffer) {
@@ -35,7 +36,7 @@ function writeArrayToFile (filename, array, callback) {
 }
 
 function sendEmail (emailData, address, callback) {
-  var mailOptions = {
+  let mailOptions = {
     from: emailData.senderName + ' <' + config.email.auth.user + '>',
     to: address,
     subject: '[' + config.mailsubject + '] ' + emailData.subject,
@@ -62,19 +63,19 @@ function sendEmails (addresses, emailData, callback) {
 }
 
 function getEmailBody (postData) {
-  var title = postData.frontMatter.title;
-  var date = new Date(postData.frontMatter.date);
-  var author = postData.frontMatter.author;
-  var tags = (postData.frontMatter.tags || []).map(function (tag) {
+  let title = postData.frontMatter.title;
+  let date = new Date(postData.frontMatter.date);
+  let author = postData.frontMatter.author;
+  let tags = (postData.frontMatter.tags || []).map(function (tag) {
     return '#' + tag;
   }).join(', ');
-  var plainTextContents = (
+  const plainTextContents = (
     postData.contents
       .split(/<[\w\W]+>/).join('') // strip html
       .split(/!\[[\w\W]*\]\([\w\W]*\)/).join('') // strip images
   );
-  var directory = moment(date).format('YYYY/MM/DD');
-  var permalink = config.siteroot + '/' + path.join(directory, postData.slug);
+  let directory = moment(date).format('YYYY/MM/DD');
+  let permalink = config.siteroot + '/' + path.join(directory, postData.slug);
   return wrap80(
     title + '\n' +
     moment(date).format('DD/MM/YYYY') + '\n' +
@@ -102,7 +103,7 @@ function emailNewPosts (callback) {
     if (err) {
       return bail('Unable to read file: ' + mailingListFilename, callback);
     }
-    var realAddresses = addresses.map(function (a) {
+    let realAddresses = addresses.map(function (a) {
       return a.trim();
     }).filter(function (a) {
       // barebones email address validation
@@ -113,13 +114,13 @@ function emailNewPosts (callback) {
         return bail('Unable to read file: ' + emailLogFilename, callback);
       }
       // if date doesn't exist, choose beginning of (unix) time
-      var lastUpdated = new Date(log[0] || 0);
+      let lastUpdated = new Date(log[0] || 0);
       fs.readdir(postsDirectory, function (err, filenames) {
         if (err) {
           return bail('Unable to read directory ' + postsDirectory, callback);
         }
-        var lastCheckedDirectory = new Date();
-        var postFilenames = filenames.filter(function (filename) {
+        let lastCheckedDirectory = new Date();
+        let postFilenames = filenames.filter(function (filename) {
           return filename.indexOf('.md') !== -1;
         }).map(function (filename) {
           return path.join(postsDirectory, filename);
@@ -128,7 +129,7 @@ function emailNewPosts (callback) {
           if (err) {
             return bail('Unable to read files in directory: ' + postsDirectory, callback);
           }
-          var emailDataList = posts.map(function (post, index) {
+          let emailDataList = posts.map(function (post, index) {
             return {
               // cut out front matter and surrounding whitespace
               contents: post.replace(/---[\w\W]*---/, '').trim(),
@@ -137,7 +138,7 @@ function emailNewPosts (callback) {
               slug: postFilenames[index].split('/').slice(-1)[0].slice(0, -3)
             };
           }).filter(function (postData) {
-            var date = postData.frontMatter.date;
+            let date = postData.frontMatter.date;
             return new Date(date) > lastUpdated;
           }).map(function (postData) {
             return {
@@ -154,7 +155,7 @@ function emailNewPosts (callback) {
             } else {
               console.log('No email updates were necessary.');
             }
-            var updatedEmailLog = [lastCheckedDirectory.toISOString()].concat(log);
+            let updatedEmailLog = [lastCheckedDirectory.toISOString()].concat(log);
             writeArrayToFile(emailLogFilename, updatedEmailLog, function (err) {
               if (err) {
                 return bail('Unable to update email log after send.', callback);
