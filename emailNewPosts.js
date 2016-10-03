@@ -4,8 +4,10 @@ var async = require('async');
 var parseFrontMatter = require('hexo-front-matter').parse;
 var moment = require('moment');
 var wrap80 = require('wordwrap')(80);
+var yaml = require('js-yaml');
 
-var config = require('./config.json');
+var configFile = fs.readFileSync('./_config.yml', 'utf8');
+var config = yaml.safeLoad(configFile).server;
 var smtpTransport = require('./smtpTransport');
 
 var postsDirectory = path.join(process.cwd(), 'source/_posts');

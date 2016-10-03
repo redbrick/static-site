@@ -5,12 +5,15 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var ReCAPTCHA = require('recaptcha2');
+var yaml = require('js-yaml');
+var fs = require('fs');
 
 var emailNewPosts = require('./emailNewPosts');
 
 var app = express();
 
-var config = require('./config.json');
+var configFile = fs.readFileSync('./_config.yml', 'utf8');
+var config = yaml.safeLoad(configFile).server;
 var recaptcha = new ReCAPTCHA({
   siteKey: config.recaptcha.siteKey,
   secretKey: config.recaptcha.secretKey

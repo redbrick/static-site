@@ -1,6 +1,9 @@
+var fs = require('fs');
+var yaml = require('js-yaml');
 var nodemailer = require('nodemailer');
 
-var config = require('./config.json');
+var configFile = fs.readFileSync('./_config.yml', 'utf8');
+var config = yaml.safeLoad(configFile).server;
 
 var smtpTransport = nodemailer.createTransport(config.email);
 
