@@ -5,9 +5,12 @@ const async = require('async');
 const parseFrontMatter = require('hexo-front-matter').parse;
 const moment = require('moment');
 const wrap80 = require('wordwrap')(80);
+const yaml = require('js-yaml');
 
-const config = require('./config.json');
 const smtpTransport = require('./smtpTransport');
+
+const configFile = fs.readFileSync('./_config.yml', 'utf8');
+const config = yaml.safeLoad(configFile).server;
 
 const postsDirectory = path.join(process.cwd(), 'source/_posts');
 const emailLogFilename = path.join(process.cwd(), 'email_update_log');
