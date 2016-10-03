@@ -2,6 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var async = require('async');
 var parseFrontMatter = require('hexo-front-matter').parse;
+var moment = require('moment');
 
 var config = require('./config.json');
 var smtpTransport = require('./smtpTransport');
@@ -37,7 +38,7 @@ function sendEmail (emailData, address, callback) {
     from: 'Redbrick <' + config.email.auth.user + '>',
     to: address,
     subject: emailData.subject,
-    html: emailData.body // TODO: add plain text alternative
+    text: emailData.body
   };
   smtpTransport.sendMail(mailOptions, function (err) {
     if (err) {
@@ -63,6 +64,8 @@ function sendEmails (emailData, callback) {
     async.each(realAddresses, sendEmail.bind(null, emailData), function (err) {
       if (err) {
         console.error('Failed to send email "' + emailData.subject + '" to some recipients.');
+      } else {
+        console.log('Email update for "' + emailData.subject + '" succeeded.');
       }
       callback(err);
     });
@@ -70,10 +73,33 @@ function sendEmails (emailData, callback) {
 }
 
 function getEmailBody (postData) {
-  return postData.contents;
+  var title = postData.frontMatter.title;
+  var date = new Date(postData.frontMatter.date);
+  var author = postData.frontMatter.author;
+  var tags = (postData.frontMatter.tags || []).map(function (tag) {
+    return '#' + tag;
+  }).join(', ');
+  var plainTextContents = (
+    postData.contents
+      .split(/<[\w\W]+>/).join('') // strip html
+      .split(/!\[[\w\W]*\]\([\w\W]*\)/).join('') // strip images
+  );
+  var directory = moment(date).format('YYYY/MM/DD');
+  var permalink = config.siteroot + '/' + path.join(directory, postData.slug);
+  return (
+    title + '\n' +
+    moment(date).format('DD/MM/YYYY') + '\n' +
+    'tags: ' + tags + '\n' +
+    'posted by ' + author + '\n' +
+    '\n' +
+    'See full post at: ' + permalink + '\n' +
+    '\n' +
+    plainTextContents
+  );
 }
 
 function emailNewPosts (callback) {
+  console.log('Sending email update(s) for any new posts...');
   try {
     readFileAsArray(emailLogFilename, function (err, log) {
       if (err) {
@@ -98,16 +124,18 @@ function emailNewPosts (callback) {
             console.error('Unable to read files in directory: ' + postsDirectory);
             throw err;
           }
-          var postsData = posts.map(function (post) {
+          var emailDataList = posts.map(function (post, index) {
             return {
-              contents: post,
-              frontMatter: parseFrontMatter(post)
+              // cut out front matter and surrounding whitespace
+              contents: post.replace(/---[\w\W]*---/, '').trim(),
+              frontMatter: parseFrontMatter(post),
+              // get filename without parent directory and without '.md'
+              slug: postFilenames[index].split('/').slice(-1)[0].slice(0, -3)
             };
           }).filter(function (postData) {
             var date = postData.frontMatter.date;
             return new Date(date) > lastUpdated;
-          });
-          var emailDataList = postsData.map(function (postData) {
+          }).map(function (postData) {
             return {
               subject: postData.frontMatter.title,
               body: getEmailBody(postData)
@@ -116,8 +144,10 @@ function emailNewPosts (callback) {
           async.each(emailDataList, sendEmails, function (err) {
             if (err) {
               console.error('Failed to send some emails.');
+            } else if (emailDataList.length) {
+              console.log('Email update(s) successful.');
             } else {
-              console.log('Email update successful.');
+              console.log('No email updates were necessary.');
             }
             var updatedEmailLog = [lastCheckedDirectory.toISOString()].concat(log);
             writeArrayToFile(emailLogFilename, updatedEmailLog, function (err) {
@@ -125,7 +155,9 @@ function emailNewPosts (callback) {
                 console.error('Unable to update email log after send.');
                 throw err;
               }
-              callback();
+              if (typeof callback === 'function') {
+                callback();
+              }
             });
           });
         });
