@@ -7,10 +7,8 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-var config = require('./config.json');
 var apiRoutes = require('./routes/api');
 var appRoutes = require('./routes/app');
-
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -23,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//Use API routes
+// Use API routes
 app.use('/api', apiRoutes);
 app.use('/', appRoutes);
 

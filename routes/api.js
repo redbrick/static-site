@@ -10,7 +10,6 @@ var recaptcha = new ReCAPTCHA({
 var smtpTransport = nodemailer.createTransport(config.email);
 var router = express.Router();
 
-
 // contact form email sender
 router.get('/contact', function (req, res) {
   console.log(recaptcha);
