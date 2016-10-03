@@ -92,3 +92,18 @@ deploy:
   delete: true
   verbose: true
   ignore_errors: false
+
+# Server Config
+server:
+  email:
+    host: smtp.gmail.com
+    port: '465'
+    secure: 'true'
+    auth:
+      user: ''
+      pass: ''
+  mailsubject: Redbrick Update
+  recaptcha:
+    siteKey: ''
+    secretKey: ''
+  siteroot: http://redbrick.dcu.ie

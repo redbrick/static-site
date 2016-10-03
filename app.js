@@ -6,12 +6,15 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const ReCAPTCHA = require('recaptcha2');
+const yaml = require('js-yaml');
+const fs = require('fs');
 
 const emailNewPosts = require('./emailNewPosts');
 
 const app = express();
 
-const config = require('./config.json');
+const configFile = fs.readFileSync('./_config.yml', 'utf8');
+const config = yaml.safeLoad(configFile).server;
 const recaptcha = new ReCAPTCHA({
   siteKey: config.recaptcha.siteKey,
   secretKey: config.recaptcha.secretKey
