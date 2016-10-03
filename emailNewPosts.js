@@ -36,9 +36,9 @@ function writeArrayToFile (filename, array, callback) {
 
 function sendEmail (emailData, address, callback) {
   var mailOptions = {
-    from: config.mailername + ' <' + config.email.auth.user + '>',
+    from: emailData.senderName + ' <' + config.email.auth.user + '>',
     to: address,
-    subject: emailData.subject,
+    subject: '[' + config.mailsubject + '] ' + emailData.subject,
     text: wrap80(emailData.body)
   };
   smtpTransport.sendMail(mailOptions, function (err) {
@@ -139,7 +139,8 @@ function emailNewPosts (callback) {
           }).map(function (postData) {
             return {
               subject: postData.frontMatter.title,
-              body: getEmailBody(postData)
+              body: getEmailBody(postData),
+              senderName: postData.frontMatter.author
             };
           });
           async.each(emailDataList, sendEmails, function (err) {

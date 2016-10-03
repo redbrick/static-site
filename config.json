@@ -8,7 +8,7 @@
       "pass": ""
     }
   },
-  "mailername": "Redbrick Update",
+  "mailsubject": "Redbrick Update",
   "recaptcha": {
     "siteKey": "",
     "secretKey": ""
