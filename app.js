@@ -1,21 +1,27 @@
-var express = require('express');
-var nodemailer = require('nodemailer');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var ReCAPTCHA = require('recaptcha2');
+'use strict';
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const ReCAPTCHA = require('recaptcha2');
+const yaml = require('js-yaml');
+const fs = require('fs');
 
-var app = express();
+const emailNewPosts = require('./emailNewPosts');
 
-var config = require('./config.json');
-var recaptcha = new ReCAPTCHA({
+const app = express();
+
+const configFile = fs.readFileSync('./_config.yml', 'utf8');
+const config = yaml.safeLoad(configFile).server;
+const recaptcha = new ReCAPTCHA({
   siteKey: config.recaptcha.siteKey,
   secretKey: config.recaptcha.secretKey
 });
-var smtpTransport = nodemailer.createTransport(config.email);
-var baseUrl = '/api/';
+const baseUrl = '/api/';
+
+const smtpTransport = require('./smtpTransport');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -30,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // dynamically create contact page
 app.get('/about/contact/*', function (req, res) {
-  var options = {
+  let options = {
     root: path.join(__dirname, '/public/'),
     dotfiles: 'deny',
     headers: {
@@ -38,7 +44,7 @@ app.get('/about/contact/*', function (req, res) {
       'x-sent': true
     }
   };
-  var fileName = 'about/contact/contact.html';
+  const fileName = 'about/contact/contact.html';
   res.sendFile(fileName, options, function (err) {
     if (err) {
       console.log(err);
@@ -53,8 +59,8 @@ app.get(baseUrl + 'contact', function (req, res) {
     if (!success) {
       res.send('Recaptcha response invalid.');
     } else {
-      var to = req.query.to;
-      var mailOptions = {
+      let to = req.query.to;
+      let mailOptions = {
         from: req.query.name + ' <' + req.query.email + '>',
         to: to + '@redbrick.dcu.ie',
         subject: '[Sent from the website] ' + req.query.subject,
@@ -74,7 +80,7 @@ app.get(baseUrl + 'contact', function (req, res) {
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
-  var err = new Error('Not Found');
+  const err = new Error('Not Found');
   err.status = 404;
   res.status(err.status).sendFile(path.join(__dirname, '/public/404.html'));
 });
@@ -97,5 +103,7 @@ if (app.get('env') === 'development') {
 app.use(function (err, req, res, next) {
   res.status(err.status || 500).sendFile(path.join(__dirname, '/public/404.html'));
 });
+
+emailNewPosts();
 
 module.exports = app;
