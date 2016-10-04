@@ -16,11 +16,9 @@ const config = yaml.safeLoad(configFile).server;
 const postsDirectory = path.join(process.cwd(), 'source/_posts');
 
 function getLatestPosts (options, callback) {
-  options.offset = parseInt(options.offset) || 0;
-  options.limit = parseInt(options.limit) || 10;
-  options.include = (options.include || '').split(',').filter(function (i) {
-    return i === 'content' || i === 'excerpt';
-  });
+  options.offset = options.offset || 0;
+  options.limit = options.limit || 10;
+  options.include = options.include || [];
 
   fs.readdir(postsDirectory, function (err, filenames) {
     if (err) {

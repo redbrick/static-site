@@ -87,9 +87,9 @@ app.get(baseUrl + 'contact', function (req, res) {
  */
 app.get(path.join(baseUrl, 'posts'), function (req, res) {
   getLatestPosts({
-    offset: req.query.offset,
-    limit: req.query.limit,
-    include: req.query.include
+    offset: parseInt(req.query.offset),
+    limit: parseInt(req.query.limit),
+    include: (req.query.include || '').split(',')
   }, function (err, posts) {
     if (err) {
       return res.status(500).json(err).end();
