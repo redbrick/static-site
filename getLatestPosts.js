@@ -40,12 +40,19 @@ function getLatestPosts (offset, limit, callback) {
       }
 
       const postDataList = posts.map(function (post, index) {
-        const data = parseFrontMatter(post);
+        const frontMatter = parseFrontMatter(post);
+        const directory = moment(frontMatter.date).format('YYYY/MM/DD');
+        const permalink = config.siteroot + '/' + path.join(directory, slugs[index]);
+        const thumbnail = frontMatter.thumbnail ? permalink + '/' + frontMatter.thumbnail : void 0;
 
-        const directory = moment(data.date).format('YYYY/MM/DD');
-        data.permalink = config.siteroot + '/' + path.join(directory, slugs[index]);
-
-        return data;
+        return {
+          title: frontMatter.title,
+          date: frontMatter.date,
+          author: frontMatter.author,
+          tags: frontMatter.tags,
+          permalink: permalink,
+          thumbnail: thumbnail
+        };
       });
 
       const selectedPostData = orderBy(postDataList, function (data) {
