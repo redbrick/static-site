@@ -9,6 +9,7 @@ const ReCAPTCHA = require('recaptcha2');
 const yaml = require('js-yaml');
 const fs = require('fs');
 
+const getLatestPosts = require('./getLatestPosts');
 const emailNewPosts = require('./emailNewPosts');
 
 const app = express();
@@ -75,6 +76,22 @@ app.get(baseUrl + 'contact', function (req, res) {
         }
       });
     }
+  });
+});
+
+/* fetches latest blog posts as JSON list
+ * optional query params:
+ *  - offset (0-indexed starting point - default 0)
+ *  - limit (0-indexed maximum number of returned results - default 10)
+ */
+app.get(path.join(baseUrl, 'posts'), function (req, res) {
+  const offset = parseInt(req.query.offset);
+  const limit = parseInt(req.query.limit);
+  getLatestPosts(offset, limit, function (err, posts) {
+    if (err) {
+      return res.status(500).json(err).end();
+    }
+    res.json(posts).end();
   });
 });
 
