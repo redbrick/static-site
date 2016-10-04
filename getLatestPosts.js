@@ -51,7 +51,6 @@ function getLatestPosts (offset, limit, callback) {
       const selectedPostData = orderBy(postDataList, function (data) {
         return new Date(data.date);
       }).reverse().slice(offset, offset + limit);
-      console.log(offset, limit, offset+limit);
 
       callback(null, selectedPostData);
     });
