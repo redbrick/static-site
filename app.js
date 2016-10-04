@@ -99,7 +99,7 @@ app.get(path.join(baseUrl, 'posts'), function (req, res) {
 });
 
 app.get(baseUrl + 'fetchMeSomeTea', function (req, res) {
-  res.status(418).json({message:"I'm a teapot", image:"https://httpstatusdogs.com/img/418.jpg"});
+  res.status(418).json({message: "I'm a teapot", image: 'https://httpstatusdogs.com/img/418.jpg'});
 });
 
 // catch 404 and forward to error handler
