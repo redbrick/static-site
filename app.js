@@ -83,11 +83,14 @@ app.get(baseUrl + 'contact', function (req, res) {
  * optional query params:
  *  - offset (0-indexed starting point - default 0)
  *  - limit (0-indexed maximum number of returned results - default 10)
+ *  - include (comma-separated list possibly including 'content,excerpt')
  */
 app.get(path.join(baseUrl, 'posts'), function (req, res) {
-  const offset = parseInt(req.query.offset);
-  const limit = parseInt(req.query.limit);
-  getLatestPosts(offset, limit, function (err, posts) {
+  getLatestPosts({
+    offset: req.query.offset,
+    limit: req.query.limit,
+    include: req.query.include
+  }, function (err, posts) {
     if (err) {
       return res.status(500).json(err).end();
     }

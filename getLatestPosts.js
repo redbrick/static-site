@@ -15,9 +15,12 @@ const config = yaml.safeLoad(configFile).server;
 
 const postsDirectory = path.join(process.cwd(), 'source/_posts');
 
-function getLatestPosts (offset, limit, callback) {
-  offset = offset || 0;
-  limit = limit || 10;
+function getLatestPosts (options, callback) {
+  options.offset = parseInt(options.offset) || 0;
+  options.limit = parseInt(options.limit) || 10;
+  options.include = (options.include || '').split(',').filter(function (i) {
+    return i === 'content' || i === 'excerpt';
+  });
 
   fs.readdir(postsDirectory, function (err, filenames) {
     if (err) {
@@ -45,7 +48,7 @@ function getLatestPosts (offset, limit, callback) {
         const permalink = config.siteroot + '/' + path.join(directory, slugs[index]);
         const thumbnail = frontMatter.thumbnail ? permalink + '/' + frontMatter.thumbnail : void 0;
 
-        return {
+        const data = {
           title: frontMatter.title,
           date: frontMatter.date,
           author: frontMatter.author,
@@ -53,11 +56,28 @@ function getLatestPosts (offset, limit, callback) {
           permalink: permalink,
           thumbnail: thumbnail
         };
+
+        // strip out images
+        const content = (
+          frontMatter._content
+            .split(/!\[[\w\W]*\]\([\w\W]*\)/)
+            .join('')
+        );
+
+        if (options.include.indexOf('content') !== -1) {
+          data.content = content.split('<!-- more -->').join('');
+        }
+
+        if (options.include.indexOf('excerpt') !== -1) {
+          data.excerpt = content.split('<!-- more -->')[0];
+        }
+
+        return data;
       });
 
       const selectedPostData = orderBy(postDataList, function (data) {
         return new Date(data.date);
-      }).reverse().slice(offset, offset + limit);
+      }).reverse().slice(options.offset, options.offset + options.limit);
 
       callback(null, selectedPostData);
     });
