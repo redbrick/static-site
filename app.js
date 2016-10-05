@@ -65,7 +65,7 @@ app.get('/about/contact/*', function (req, res) {
   const fileName = 'about/contact/contact.html';
   res.sendFile(fileName, options, function (err) {
     if (err) {
-      logger.log('error', err);
+      logger.error(err);
       res.status(err.status).end();
     }
   });
@@ -138,29 +138,29 @@ app.get(path.join(baseUrl, 'regenerate'), function (req, res) {
 
     fs.writeFile('hexo_lock', 'hexo_lock', function (err) {
       if (err) {
-        return logger.log('error', 'Hexo generation failed.');
+        return logger.error('Hexo generation failed.');
       }
-      logger.log('info', 'Generating hexo static files...');
+      logger.info('Generating hexo static files...');
       var generateOk = true;
       var hexoGenerate = spawn(
         path.join(process.cwd(), 'node_modules/.bin/hexo'),
         ['generate']
       );
       hexoGenerate.stdout.on('data', function (buffer) {
-        logger.log('info', buffer.toString());
+        logger.info(buffer.toString());
       });
       hexoGenerate.stderr.on('data', function (buffer) {
-        logger.log('error', buffer.toString());
+        logger.error(buffer.toString());
         generateOk = false;
       });
       hexoGenerate.on('close', function () {
         if (!generateOk) {
-          return logger.log('error', 'Hexo generation failed.');
+          return logger.error('Hexo generation failed.');
         }
-        logger.log('info', 'Hexo generation was successful.');
+        logger.info('Hexo generation was successful.');
         emailNewPosts(function (err) {
           if (err) {
-            logger.log('error', err);
+            logger.error(err);
           }
           fs.unlink('hexo_lock'); // async delete
         });
