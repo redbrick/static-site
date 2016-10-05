@@ -11,6 +11,7 @@ var ReCAPTCHA = require('recaptcha2');
 const yaml = require('js-yaml');
 const fs = require('fs');
 var spawn = require('child_process').spawn;
+var FileStreamRotator = require('file-stream-rotator');
 
 const getLatestPosts = require('./getLatestPosts');
 const emailNewPosts = require('./emailNewPosts');
@@ -25,6 +26,15 @@ const recaptcha = new ReCAPTCHA({
 });
 const baseUrl = '/api/';
 
+const logDirectory = path.join(__dirname, config.logDirectory);
+fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
+var accessLogStream = FileStreamRotator.getStream({
+  date_format: 'YYYYMMDD',
+  filename: path.join(logDirectory, 'access-%DATE%.log'),
+  frequency: config.logRotationFreqency,
+  verbose: false
+});
+
 const smtpTransport = require('./smtpTransport');
 
 app.set('views', path.join(__dirname, 'views'));
@@ -32,7 +42,9 @@ app.set('view engine', 'ejs');
 
 // Serve Static files generate from hexo
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
+app.use(logger('combined', {
+    stream: accessLogStream
+}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
