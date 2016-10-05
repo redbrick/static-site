@@ -115,41 +115,44 @@ app.get(path.join(baseUrl, 'regenerate'), function (req, res) {
     return res.status(401).end('Bad token.');
   }
 
-  fs.stat('hexo_lock', function (err) {
-    if (err === null) {
-      return res.end('Site generation already in progress. Please wait.');
+  /* Using wx write flag to combine check and write into one atomic operation;
+   * This prevents concurrent initiation of hexo child processes.
+   */
+  fs.writeFile('hexo_lock', 'hexo_lock', { flag: 'wx' }, function (err) {
+    if (err) {
+      if (err.code === 'EEXIST') {
+        return res.status(423).end('Site generation already in progress. Please wait.');
+      }
+      fs.unlink('hexo_lock'); // async delete just in case write started
+      return res.status(500).end('Unable to create lock file for site generation.');
     }
     // don't wait for whole process; go ahead and respond optimistically.
     res.end('Re-generating static site...');
 
-    fs.writeFile('hexo_lock', 'hexo_lock', function (err) {
-      if (err) {
+    console.log('Generating hexo static files...');
+    var generateOk = true;
+    var hexoGenerate = spawn(
+      path.join(process.cwd(), 'node_modules/.bin/hexo'),
+      ['generate']
+    );
+    hexoGenerate.stdout.on('data', function (buffer) {
+      console.log(buffer.toString());
+    });
+    hexoGenerate.stderr.on('data', function (buffer) {
+      console.error(buffer.toString());
+      generateOk = false;
+    });
+    hexoGenerate.on('close', function () {
+      if (!generateOk) {
+        fs.unlink('hexo_lock'); // async delete
         return console.error('Hexo generation failed.');
       }
-      console.log('Generating hexo static files...');
-      var generateOk = true;
-      var hexoGenerate = spawn(
-        path.join(process.cwd(), 'node_modules/.bin/hexo'),
-        ['generate']
-      );
-      hexoGenerate.stdout.on('data', function (buffer) {
-        console.log(buffer.toString());
-      });
-      hexoGenerate.stderr.on('data', function (buffer) {
-        console.error(buffer.toString());
-        generateOk = false;
-      });
-      hexoGenerate.on('close', function () {
-        if (!generateOk) {
-          return console.error('Hexo generation failed.');
+      console.log('Hexo generation was successful.');
+      emailNewPosts(function (err) {
+        if (err) {
+          console.error(err);
         }
-        console.log('Hexo generation was successful.');
-        emailNewPosts(function (err) {
-          if (err) {
-            console.error(err);
-          }
-          fs.unlink('hexo_lock'); // async delete
-        });
+        fs.unlink('hexo_lock'); // async delete
       });
     });
   });
