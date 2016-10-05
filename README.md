@@ -27,6 +27,9 @@ You will also need to create three files:
 - To demo the site run `npm start`. This will create a server that runs on localhost:3000
 - To work on css and have it auto regenerate use `hexo server`. This will create a server that runs on localhost:4000
 
+## Generate via API
+- While the server is live, a visit to `http://[sitehost]/api/regenerate?token=your_secret_token` will run `hexo generate` and send emails for any new posts so long as that process is not already underway.
+
 ## Development
 - To generate new posts
   - Run `hexo new posts [title]` This will create a new post in source/_post/[title].md
