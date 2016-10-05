@@ -4,13 +4,15 @@ require('dotenv-safe').load();
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
-var logger = require('morgan');
+var morgan = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var ReCAPTCHA = require('recaptcha2');
 const yaml = require('js-yaml');
 const fs = require('fs');
 var spawn = require('child_process').spawn;
+var FileStreamRotator = require('file-stream-rotator');
+var logger = require('./logger');
 
 const getLatestPosts = require('./getLatestPosts');
 const emailNewPosts = require('./emailNewPosts');
@@ -25,6 +27,16 @@ const recaptcha = new ReCAPTCHA({
 });
 const baseUrl = '/api/';
 
+const logDirectory = path.join(__dirname, config.logDirectory);
+fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
+
+var accessLogStream = FileStreamRotator.getStream({
+  date_format: 'YYYYMMDD',
+  filename: path.join(logDirectory, 'access-%DATE%.log'),
+  frequency: config.logRotationFreqency,
+  verbose: false
+});
+
 const smtpTransport = require('./smtpTransport');
 
 app.set('views', path.join(__dirname, 'views'));
@@ -32,7 +44,9 @@ app.set('view engine', 'ejs');
 
 // Serve Static files generate from hexo
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
+app.use(morgan('combined', {
+  stream: accessLogStream
+}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -51,7 +65,7 @@ app.get('/about/contact/*', function (req, res) {
   const fileName = 'about/contact/contact.html';
   res.sendFile(fileName, options, function (err) {
     if (err) {
-      console.log(err);
+      logger.error(err);
       res.status(err.status).end();
     }
   });
@@ -129,28 +143,28 @@ app.get(path.join(baseUrl, 'regenerate'), function (req, res) {
     // don't wait for whole process; go ahead and respond optimistically.
     res.end('Re-generating static site...');
 
-    console.log('Generating hexo static files...');
+    logger.info('Generating hexo static files...');
     var generateOk = true;
     var hexoGenerate = spawn(
       path.join(process.cwd(), 'node_modules/.bin/hexo'),
       ['generate']
     );
     hexoGenerate.stdout.on('data', function (buffer) {
-      console.log(buffer.toString());
+      logger.info(buffer.toString());
     });
     hexoGenerate.stderr.on('data', function (buffer) {
-      console.error(buffer.toString());
+      logger.error(buffer.toString());
       generateOk = false;
     });
     hexoGenerate.on('close', function () {
       if (!generateOk) {
         fs.unlink('hexo_lock'); // async delete
-        return console.error('Hexo generation failed.');
+        return logger.error('Hexo generation failed.');
       }
-      console.log('Hexo generation was successful.');
+      logger.log('Hexo generation was successful.');
       emailNewPosts(function (err) {
         if (err) {
-          console.error(err);
+          logger.error(err);
         }
         fs.unlink('hexo_lock'); // async delete
       });
