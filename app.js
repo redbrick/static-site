@@ -1,3 +1,6 @@
+'use strict';
+require('dotenv-safe').load();
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -102,6 +105,52 @@ app.get(baseUrl + 'fetchMeSomeTea', function (req, res) {
   res.status(418).json({message: "I'm a teapot", image: 'https://httpstatusdogs.com/img/418.jpg'});
 });
 
+/* This pretty much violates REST since it has side effects
+ * and doesn't GET anything of substance, but making it a GET
+ * request means you can easily run this from a browser window.
+ * also, normal users won't be hitting this endpoint.
+ */
+app.get(path.join(baseUrl, 'regenerate'), function (req, res) {
+  if (req.query.token !== process.env.SECRET_API_TOKEN) {
+    return res.status(401).end('Bad token.');
+  }
+
+  fs.stat('hexo_lock', function (err) {
+    if (err === null) {
+      return res.end('Site generation already in progress. Please wait.');
+    }
+    // don't wait for whole process; go ahead and respond optimistically.
+    res.end('Re-generating static site...');
+
+    fs.writeFile('hexo_lock', 'hexo_lock', function (err) {
+      if (err) {
+        return console.error('Hexo generation failed.');
+      }
+      console.log('Generating hexo static files...');
+      var generateOk = true;
+      var hexoGenerate = spawn(
+        path.join(process.cwd(), 'node_modules/.bin/hexo'),
+        ['generate']
+      );
+      hexoGenerate.stdout.on('data', function (buffer) {
+        console.log(buffer.toString())
+      });
+      hexoGenerate.stderr.on('data', function (buffer) {
+        console.error(buffer.toString());
+        generateOk = false;
+      });
+      hexoGenerate.on('close', function () {
+        fs.unlink('hexo_lock'); // async delete
+        if (!generateOk) {
+          return console.error('Hexo generation failed.');
+        }
+        console.log('Hexo generation was successful.');
+        emailNewPosts();
+      });
+    });
+  });
+});
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   const err = new Error('Not Found');
@@ -128,25 +177,6 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500).sendFile(path.join(__dirname, '/public/404.html'));
 });
 
-console.log('Generating hexo static files...');
-var generateOk = true;
-var hexoGenerate = spawn(
-  path.join(process.cwd(), 'node_modules/.bin/hexo'),
-  ['generate']
-);
-hexoGenerate.stdout.on('data', function (buffer) {
-  console.log(buffer.toString())
-});
-hexoGenerate.stderr.on('data', function (buffer) {
-  console.error(buffer.toString());
-  generateOk = false;
-});
-hexoGenerate.on('close', function () {
-  if (!generateOk) {
-    throw new Error('Hexo generation failed.');
-  }
-  console.log('Hexo generation was successful.');
-  emailNewPosts();
-});
+emailNewPosts();
 
 module.exports = app;

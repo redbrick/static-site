@@ -15,10 +15,13 @@ Demo on [redbrick.github.io](http://redbrick.github.io), (some links are broken 
 
 To set up run:
   - `npm install` this will install all the dependencies
-You will also need to create two files:
+
+You will also need to create three files:
   - `mailing_list` a newline-separated list of email addresses
   - `email_update_log` a newline-separated reverse-chronological list of times email updates were sent
-Each file can be left blank, though updates for every post in history will be sent if no previous send date is specified.
+  - `.env` by copying `.env.example` and **modifying values (*important*)**
+
+`mailing_list` and `email_update_log` can be left blank, though updates for every post in history will be sent if no previous send date is specified.
 
 ## Generate
 - To demo the site run `npm start`. This will create a server that runs on localhost:3000
