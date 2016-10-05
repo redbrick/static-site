@@ -1,7 +1,11 @@
-var nodemailer = require('nodemailer');
+const nodemailer = require('nodemailer');
 
-var config = require('./config.json');
+const fs = require('fs');
+const yaml = require('js-yaml');
 
-var smtpTransport = nodemailer.createTransport(config.email);
+const configFile = fs.readFileSync('./_config.yml', 'utf8');
+const config = yaml.safeLoad(configFile).server;
+
+const smtpTransport = nodemailer.createTransport(config.email);
 
 module.exports = smtpTransport;

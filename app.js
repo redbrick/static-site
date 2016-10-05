@@ -5,20 +5,24 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var ReCAPTCHA = require('recaptcha2');
+const yaml = require('js-yaml');
+const fs = require('fs');
 var spawn = require('child_process').spawn;
 
-var emailNewPosts = require('./emailNewPosts');
+const getLatestPosts = require('./getLatestPosts');
+const emailNewPosts = require('./emailNewPosts');
 
-var app = express();
+const app = express();
 
-var config = require('./config.json');
-var recaptcha = new ReCAPTCHA({
+const configFile = fs.readFileSync('./_config.yml', 'utf8');
+const config = yaml.safeLoad(configFile).server;
+const recaptcha = new ReCAPTCHA({
   siteKey: config.recaptcha.siteKey,
   secretKey: config.recaptcha.secretKey
 });
-var baseUrl = '/api/';
+const baseUrl = '/api/';
 
-var smtpTransport = require('./smtpTransport');
+const smtpTransport = require('./smtpTransport');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -33,7 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // dynamically create contact page
 app.get('/about/contact/*', function (req, res) {
-  var options = {
+  let options = {
     root: path.join(__dirname, '/public/'),
     dotfiles: 'deny',
     headers: {
@@ -41,7 +45,7 @@ app.get('/about/contact/*', function (req, res) {
       'x-sent': true
     }
   };
-  var fileName = 'about/contact/contact.html';
+  const fileName = 'about/contact/contact.html';
   res.sendFile(fileName, options, function (err) {
     if (err) {
       console.log(err);
@@ -56,8 +60,8 @@ app.get(baseUrl + 'contact', function (req, res) {
     if (!success) {
       res.send('Recaptcha response invalid.');
     } else {
-      var to = req.query.to;
-      var mailOptions = {
+      let to = req.query.to;
+      let mailOptions = {
         from: req.query.name + ' <' + req.query.email + '>',
         to: to + '@redbrick.dcu.ie',
         subject: '[Sent from the website] ' + req.query.subject,
@@ -75,9 +79,32 @@ app.get(baseUrl + 'contact', function (req, res) {
   });
 });
 
+/* fetches latest blog posts as JSON list
+ * optional query params:
+ *  - offset (0-indexed starting point - default 0)
+ *  - limit (0-indexed maximum number of returned results - default 10)
+ *  - include (comma-separated list possibly including 'content,excerpt')
+ */
+app.get(path.join(baseUrl, 'posts'), function (req, res) {
+  getLatestPosts({
+    offset: parseInt(req.query.offset),
+    limit: parseInt(req.query.limit),
+    include: (req.query.include || '').split(',')
+  }, function (err, posts) {
+    if (err) {
+      return res.status(500).json(err).end();
+    }
+    res.json(posts).end();
+  });
+});
+
+app.get(baseUrl + 'fetchMeSomeTea', function (req, res) {
+  res.status(418).json({message: "I'm a teapot", image: 'https://httpstatusdogs.com/img/418.jpg'});
+});
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
-  var err = new Error('Not Found');
+  const err = new Error('Not Found');
   err.status = 404;
   res.status(err.status).sendFile(path.join(__dirname, '/public/404.html'));
 });
