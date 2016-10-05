@@ -73,26 +73,30 @@ app.get('/about/contact/*', function (req, res) {
 
 // contact form email sender
 app.get(baseUrl + 'contact', function (req, res) {
-  recaptcha.verify(function (success, error) {
-    if (!success) {
-      res.send('Recaptcha response invalid.');
-    } else {
-      let to = req.query.to;
-      let mailOptions = {
-        from: req.query.name + ' <' + req.query.email + '>',
-        to: to + '@redbrick.dcu.ie',
-        subject: '[Sent from the website] ' + req.query.subject,
-        text: req.query.text,
-        replyTo: req.query.email
-      };
-      smtpTransport.sendMail(mailOptions, function (error, info) {
-        if (error) {
-          res.end('error');
-        } else {
-          res.end('sent');
-        }
-      });
-    }
+  recaptcha.validate(req.query.recaptcha).then(function () {
+    // validated and secure
+    let to = req.query.to;
+    let mailOptions = {
+      from: req.query.name + ' <' + req.query.email + '>',
+      to: to + '@redbrick.dcu.ie',
+      subject: '[Sent from the website] ' + req.query.subject,
+      text: req.query.text,
+      replyTo: req.query.email
+    };
+    smtpTransport.sendMail(mailOptions, function (error, info) {
+      if (error) {
+        logger.error(error);
+        res.send('error');
+      } else {
+        logger.info(info);
+        res.send('sent');
+      }
+    });
+  })
+  .catch(function (errorCodes) {
+    // invalid
+    logger.error(errorCodes);
+    res.send('error');
   });
 });
 

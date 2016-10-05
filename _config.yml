@@ -103,9 +103,9 @@ server:
       user: ''
       pass: ''
   mailsubject: Redbrick Update
-  recaptcha:
-    siteKey: ''
-    secretKey: ''
   siteroot: http://redbrick.dcu.ie
   logDirectory: ./logs
   logRotationFreqency: 168h # 1 week in hours
+  recaptcha:
+    siteKey: '6LfClyATAAAAAErMssL8Y2iCwGx2JfdcxQHD8biq'
+    secretKey: ''
