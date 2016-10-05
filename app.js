@@ -133,19 +133,23 @@ app.get(path.join(baseUrl, 'regenerate'), function (req, res) {
         ['generate']
       );
       hexoGenerate.stdout.on('data', function (buffer) {
-        console.log(buffer.toString())
+        console.log(buffer.toString());
       });
       hexoGenerate.stderr.on('data', function (buffer) {
         console.error(buffer.toString());
         generateOk = false;
       });
       hexoGenerate.on('close', function () {
-        fs.unlink('hexo_lock'); // async delete
         if (!generateOk) {
           return console.error('Hexo generation failed.');
         }
         console.log('Hexo generation was successful.');
-        emailNewPosts();
+        emailNewPosts(function (err) {
+          if (err) {
+            console.error(err);
+          }
+          fs.unlink('hexo_lock'); // async delete
+        });
       });
     });
   });
