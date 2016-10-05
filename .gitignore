@@ -8,6 +8,9 @@ pids
 *.pid
 *.seed
 
+# Environment variables
+.env
+
 # email update related
 mailing_list
 email_update_log

@@ -27,6 +27,7 @@
     "bower": "^1.7.9",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
+    "dotenv-safe": "^2.3.2",
     "ejs": "~2.4.1",
     "express": "~4.13.4",
     "hexo": "^3.2.2",
