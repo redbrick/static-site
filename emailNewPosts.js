@@ -6,6 +6,7 @@ const parseFrontMatter = require('hexo-front-matter').parse;
 const moment = require('moment');
 const wrap80 = require('wordwrap')(80);
 const yaml = require('js-yaml');
+const logger = require('./logger');
 
 const smtpTransport = require('./smtpTransport');
 const utils = require('./utils');
@@ -29,8 +30,8 @@ function sendEmail (emailData, address, callback) {
   };
   smtpTransport.sendMail(mailOptions, function (err) {
     if (err) {
-      console.error(err);
-      console.error('Unable to send email "' + emailData.subject + '" to recipient: ' + address);
+      logger.error(err);
+      logger.error('Unable to send email "' + emailData.subject + '" to recipient: ' + address);
     }
     callback(err);
   });
@@ -39,9 +40,9 @@ function sendEmail (emailData, address, callback) {
 function sendEmails (addresses, emailData, callback) {
   async.each(addresses, sendEmail.bind(null, emailData), function (err) {
     if (err) {
-      console.error('Failed to send email "' + emailData.subject + '" to some recipients.');
+      logger.error('Failed to send email "' + emailData.subject + '" to some recipients.');
     } else {
-      console.log('Email update for "' + emailData.subject + '" succeeded.');
+      logger.info('Email update for "' + emailData.subject + '" succeeded.');
     }
     callback(err);
   });
@@ -74,16 +75,16 @@ function getEmailBody (postData) {
 }
 
 function bail (err, callback) {
-  console.error('Unable to complete email update for new posts:');
+  logger.error('Unable to complete email update for new posts:');
   if (typeof callback === 'function') {
     callback(err);
   } else {
-    console.error(err);
+    logger.error(err);
   }
 }
 
 function emailNewPosts (callback) {
-  console.log('Sending email update(s) for any new posts...');
+  logger.info('Sending email update(s) for any new posts...');
   readFileAsArray(mailingListFilename, function (err, addresses) {
     if (err) {
       return bail('Unable to read file: ' + mailingListFilename, callback);
@@ -134,11 +135,11 @@ function emailNewPosts (callback) {
           });
           async.each(emailDataList, sendEmails.bind(null, realAddresses), function (err) {
             if (err) {
-              console.error('Failed to send some emails.');
+              logger.error('Failed to send some emails.');
             } else if (emailDataList.length) {
-              console.log('Email update(s) successfully sent to ' + realAddresses.length + ' recipients.');
+              logger.info('Email update(s) successfully sent to ' + realAddresses.length + ' recipients.');
             } else {
-              console.log('No email updates were necessary.');
+              logger.info('No email updates were necessary.');
             }
             let updatedEmailLog = [lastCheckedDirectory.toISOString()].concat(log);
             writeArrayToFile(emailLogFilename, updatedEmailLog, function (err) {

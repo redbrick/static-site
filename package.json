@@ -30,6 +30,7 @@
     "dotenv-safe": "^2.3.2",
     "ejs": "~2.4.1",
     "express": "~4.13.4",
+    "file-stream-rotator": "0.0.7",
     "hexo": "^3.2.2",
     "hexo-cli": "latest",
     "hexo-cli-extras": "^1.0.3",
@@ -56,6 +57,7 @@
     "recaptcha2": "^1.0.8",
     "semistandard": "^9.0.0",
     "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0",
     "wordwrap": "^1.0.0"
   }
 }

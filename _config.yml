@@ -107,3 +107,5 @@ server:
     siteKey: ''
     secretKey: ''
   siteroot: http://redbrick.dcu.ie
+  logDirectory: ./logs
+  logRotationFreqency: 168h # 1 week in hours
