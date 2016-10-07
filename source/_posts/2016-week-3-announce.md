@@ -1,5 +1,5 @@
 ---
-title: 'Week 3: The brickies are back in town!' 
+title: 'Week 3: The brickies are back in town!'
 date: '2016-10-03'
 author: cac
 thumbnail: 2016-week-3.png
