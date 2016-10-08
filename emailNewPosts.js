@@ -5,21 +5,35 @@ const async = require('async');
 const parseFrontMatter = require('hexo-front-matter').parse;
 const moment = require('moment');
 const wrap80 = require('wordwrap')(80);
-const yaml = require('js-yaml');
-const logger = require('./logger');
 
+const config = require('./config.json');
 const smtpTransport = require('./smtpTransport');
-const utils = require('./utils');
-const readFileAsString = utils.readFileAsString;
-const readFileAsArray = utils.readFileAsArray;
-const writeArrayToFile = utils.writeArrayToFile;
-
-const configFile = fs.readFileSync('./_config.yml', 'utf8');
-const config = yaml.safeLoad(configFile).server;
 
 const postsDirectory = path.join(process.cwd(), 'source/_posts');
 const emailLogFilename = path.join(process.cwd(), 'email_update_log');
 const mailingListFilename = path.join(process.cwd(), 'mailing_list');
+
+function readFileAsString (filename, callback) {
+  fs.readFile(filename, function (err, buffer) {
+    if (err) {
+      return callback(err);
+    }
+    callback(null, buffer.toString());
+  });
+}
+
+function readFileAsArray (filename, callback) {
+  readFileAsString(filename, function (err, contents) {
+    if (err) {
+      return callback(err);
+    }
+    callback(null, contents.split('\n'));
+  });
+}
+
+function writeArrayToFile (filename, array, callback) {
+  fs.writeFile(filename, array.join('\n'), callback);
+}
 
 function sendEmail (emailData, address, callback) {
   let mailOptions = {
@@ -30,8 +44,8 @@ function sendEmail (emailData, address, callback) {
   };
   smtpTransport.sendMail(mailOptions, function (err) {
     if (err) {
-      logger.error(err);
-      logger.error('Unable to send email "' + emailData.subject + '" to recipient: ' + address);
+      console.error(err);
+      console.error('Unable to send email "' + emailData.subject + '" to recipient: ' + address);
     }
     callback(err);
   });
@@ -40,9 +54,9 @@ function sendEmail (emailData, address, callback) {
 function sendEmails (addresses, emailData, callback) {
   async.each(addresses, sendEmail.bind(null, emailData), function (err) {
     if (err) {
-      logger.error('Failed to send email "' + emailData.subject + '" to some recipients.');
+      console.error('Failed to send email "' + emailData.subject + '" to some recipients.');
     } else {
-      logger.info('Email update for "' + emailData.subject + '" succeeded.');
+      console.log('Email update for "' + emailData.subject + '" succeeded.');
     }
     callback(err);
   });
@@ -75,16 +89,16 @@ function getEmailBody (postData) {
 }
 
 function bail (err, callback) {
-  logger.error('Unable to complete email update for new posts:');
+  console.error('Unable to complete email update for new posts:');
   if (typeof callback === 'function') {
     callback(err);
   } else {
-    logger.error(err);
+    console.error(err);
   }
 }
 
 function emailNewPosts (callback) {
-  logger.info('Sending email update(s) for any new posts...');
+  console.log('Sending email update(s) for any new posts...');
   readFileAsArray(mailingListFilename, function (err, addresses) {
     if (err) {
       return bail('Unable to read file: ' + mailingListFilename, callback);
@@ -135,11 +149,11 @@ function emailNewPosts (callback) {
           });
           async.each(emailDataList, sendEmails.bind(null, realAddresses), function (err) {
             if (err) {
-              logger.error('Failed to send some emails.');
+              console.error('Failed to send some emails.');
             } else if (emailDataList.length) {
-              logger.info('Email update(s) successfully sent to ' + realAddresses.length + ' recipients.');
+              console.log('Email update(s) successfully sent to ' + realAddresses.length + ' recipients.');
             } else {
-              logger.info('No email updates were necessary.');
+              console.log('No email updates were necessary.');
             }
             let updatedEmailLog = [lastCheckedDirectory.toISOString()].concat(log);
             writeArrayToFile(emailLogFilename, updatedEmailLog, function (err) {
