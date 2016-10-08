@@ -10,7 +10,7 @@ const logDirectory = path.join(__dirname, config.logDirectory);
 
 fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
 
-var winstonLogStream = FileStreamRotator.getStream({
+const winstonLogStream = FileStreamRotator.getStream({
   date_format: 'YYYYMMDD',
   filename: path.join(logDirectory, 'winston-%DATE%.log'),
   frequency: config.logRotationFreqency,
