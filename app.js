@@ -1,18 +1,18 @@
 'use strict';
 require('dotenv-safe').load();
 
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var morgan = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var ReCAPTCHA = require('recaptcha2');
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const morgan = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const ReCAPTCHA = require('recaptcha2');
 const yaml = require('js-yaml');
 const fs = require('fs');
-var spawn = require('child_process').spawn;
-var FileStreamRotator = require('file-stream-rotator');
-var logger = require('./logger');
+const spawn = require('child_process').spawn;
+const FileStreamRotator = require('file-stream-rotator');
+const logger = require('./logger');
 
 const getLatestPosts = require('./getLatestPosts');
 const emailNewPosts = require('./emailNewPosts');
@@ -30,7 +30,7 @@ const baseUrl = '/api/';
 const logDirectory = path.join(__dirname, config.logDirectory);
 fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
 
-var accessLogStream = FileStreamRotator.getStream({
+const accessLogStream = FileStreamRotator.getStream({
   date_format: 'YYYYMMDD',
   filename: path.join(logDirectory, 'access-%DATE%.log'),
   frequency: config.logRotationFreqency,
@@ -148,8 +148,8 @@ app.get(path.join(baseUrl, 'regenerate'), function (req, res) {
     res.end('Re-generating static site...');
 
     logger.info('Generating hexo static files...');
-    var generateOk = true;
-    var hexoGenerate = spawn(
+    let generateOk = true;
+    const hexoGenerate = spawn(
       path.join(process.cwd(), 'node_modules/.bin/hexo'),
       ['generate']
     );
