@@ -2,8 +2,8 @@
 title: {{ title }}
 date: {{ date }}
 author:
-thumbnail: {{ title }}.png
-banner: {{ title }}.png
+thumbnail: {{ title }}
+banner: {{ title }}
 tags:
 ---
 
