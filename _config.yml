@@ -64,18 +64,46 @@ feed:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-neat_enable: true
-neat_html:
-  enable: false
-neat_css:
+hfc_html:
+  enable: true
+hfc_css:
   enable: true
   exclude:
     - '*.min.css'
-neat_js:
+hfc_js:
   enable: true
   mangle: true
   exclude:
     - '*.min.js'
+hfc_favicons:
+  enable: true
+  src: assets/images/logo.png
+  target: /
+  icons:
+    android: true
+    appleIcon: true
+    appleStartup: false
+    coast: false
+    favicons: true
+    firefox: false
+    opengraph: false
+    windows: true
+    yandex: false
+hfc_img:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+  webp: true
+  webpQuality: 75
+  gifslice: true
+  jpegtran: true
+  jpegrecompress: false
+  jpegrecompressQuality: 'medium'
+  optipng: true
+  svgo: true
 ## Themes: https://hexo.io/themes/
 theme: redbrick-theme
 
@@ -84,14 +112,6 @@ theme: redbrick-theme
 deploy:
 - type: git
   repo: git@github.com:redbrick/redbrick.github.io.git
-- type: rsync
-  host: redbrick.dcu.ie
-  user: butlerx
-  root: /home/committe/butlerx/public_html/demo/
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: false
 
 # Server Config
 server:
