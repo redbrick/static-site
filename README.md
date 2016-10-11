@@ -53,7 +53,7 @@ To deploy to a server run:
 
 Then using apache or nginx proxy traffic to port 3000. 
 And done. 
-You can create a sevice to run the server on startup if you want refer to express docs and using a service for this
+You can create a service to run the server on startup if you want refer to express docs and using a service for this
 
 ### Docker
 There is a docker file if you want to generate a container that runs in production mode
