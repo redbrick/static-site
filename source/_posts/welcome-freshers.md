@@ -2,7 +2,6 @@
 title: 'Welcome Freshers!'
 author: polka
 date: '2013-09-23 15:46:27'
-thumbnail: freshers.png
 banner: freshers.png
 tags:
   - freshers

@@ -3,7 +3,6 @@ title: 'Digital Discovery Week'
 author: tziegler
 date: '2011-11-13 02:32:50'
 banner: ddw.png
-thumbnail: ddw.png
 tags:
  - web design
  - Digital Discovery Week

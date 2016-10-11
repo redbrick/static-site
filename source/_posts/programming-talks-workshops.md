@@ -2,7 +2,6 @@
 title: 'Programming Talks and Workshops'
 author: tziegler
 date: '2011-10-10 00:30:00'
-thumbnail: programming.png
 banner: programming.png
 tags:
   - talks

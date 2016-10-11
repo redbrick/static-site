@@ -2,7 +2,6 @@
 title: Techweek
 date: 2014-02-28 21:55:00
 author: Twister
-thumbnail: techweek.png
 banner: techweek.png
 tags:
 - Techweek
