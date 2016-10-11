@@ -302,7 +302,7 @@ Shit in a bag! it's the...
 		E) Des Moines, Iowa  
 
 8\. Get out of this one tonto.  
-
+```
 	Sent in some master mind flayers.                                                                                                                              
 
 	                                      -----    ---------                                                                                                       
@@ -326,5 +326,4 @@ Shit in a bag! it's the...
 
 	Spoot the Rambler           St:13 Dx:9 Co:18 In:14 Wi:7 Ch:14  Neutral                                                                                         
 	Dlvl:1  $:469 HP:9(10) Pw:2(2) AC:10 Exp:1   
-
-</pre>
+```

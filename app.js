@@ -2,6 +2,7 @@
 require('dotenv-safe').load();
 
 const express = require('express');
+const compression = require('compression');
 const path = require('path');
 const favicon = require('serve-favicon');
 const morgan = require('morgan');
@@ -48,6 +49,7 @@ app.use(morgan('combined', {
   stream: accessLogStream
 }));
 app.use(bodyParser.json());
+app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
