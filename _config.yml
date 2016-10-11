@@ -84,14 +84,6 @@ theme: redbrick-theme
 deploy:
 - type: git
   repo: git@github.com:redbrick/redbrick.github.io.git
-- type: rsync
-  host: redbrick.dcu.ie
-  user: butlerx
-  root: /home/committe/butlerx/public_html/demo/
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: false
 
 # Server Config
 server:
