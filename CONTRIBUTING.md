@@ -16,7 +16,7 @@ For developing new features and bug fixes, the `master` branch needs to be pulle
 and built upon. We follows a [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 model, where the master branch is always deployed to production.
 
-tep 2: Branch
+###Step 2: Branch
 
 Create a feature branch and start hacking:
 
