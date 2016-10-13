@@ -2,7 +2,6 @@
 title: 'New Redbrick Site Launched'
 author: tziegler
 date: '2011-09-26 00:00:00'
-thumbnail: site.png
 banner: site.png
 ---
 Well here it is. Just a few hours later than scheduled the new Redbrick site is up and ready for you to explore. And we need you to do just that.

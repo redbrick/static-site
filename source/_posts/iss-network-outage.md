@@ -2,7 +2,6 @@
 title: 'ISS Network Outage'
 author: polka
 date: '2011-12-19 21:00:00'
-thumbnail: downtime.png
 banner: downtime.png
 tags:
   - ISS
