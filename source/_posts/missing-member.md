@@ -2,11 +2,10 @@
 title: 'Missing Member'
 author: Haus
 date: '2012-02-04 14:48:24'
+banner: bunbun.jpg
 tags:
  - missing member
  - bunbun
-thumbnail: bunbun.jpg
-banner: bunbun.jpg
 ---
 One of our members has been reported as missing to the Gardai.  
 

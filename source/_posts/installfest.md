@@ -2,12 +2,11 @@
 title: Redbrick Linux Installfest
 date: 2013-11-18 19:05:15
 author: polka
+banner: linux.png
 tags:
 - Linux
 - Installfest
 - Linux Install
-thumbnail: linux.png
-banner: linux.png
 ---
 
 This year we were able to host our annual Installfest, thanks to the support of

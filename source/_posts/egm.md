@@ -3,7 +3,6 @@ title: EGM
 author: teapott
 date: '2013-10-21 00:06:14'
 banner: egm.png
-thumbnail: egm.png
 tags:
  - egm
 ---
