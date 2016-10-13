@@ -1,6 +1,5 @@
 ---
 title: Week 4 EGM | UKIEPC | Techweek
-thumbnail: 2016-week-4-announce.png
 banner: 2016-week-4-announce.png
 date: 2016-10-10 09:40:26
 author: butlerx

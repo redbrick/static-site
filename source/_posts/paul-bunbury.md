@@ -1,7 +1,6 @@
 ---
 title: 'Paul Bunbury'
 author: polka
-thumbnail: bunbunupdate.png
 banner: bunbunupdate.png
 date: '2012-03-13 19:30:00'
 ---

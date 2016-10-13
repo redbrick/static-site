@@ -2,9 +2,7 @@
 title: 'Intersocs Beers'
 author: vadimck
 date: '2011-06-29 17:49:08'
-thumbnail: hanginthere.png
 banner: hanginthere.png
-
 tags:
   - Intersocs
 ---

@@ -2,7 +2,6 @@
 title: 'New Year. Big Plans.'
 author: tziegler
 date: '2011-09-23 19:37:49'
-thumbnail: reggie.jpg
 banner: reggie.jpg
 tag:
   - new year
