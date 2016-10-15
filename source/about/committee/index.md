@@ -18,8 +18,7 @@ Helpdesk: Tom Doyle (greenday) & Dylan McDonald (grace)
 First Year Rep: George Burac
 
 ## Helpdesk
-The Helpdesk is made up of the friendly team of two Tom Doyle(greenday) & our
-second Education officer Dylan McDonald(grace).
+The Helpdesk is made up of the friendly team of two Tom Doyle(greenday) & Dylan McDonald(grace).
 
 The Helpdesk is what it sounds like, a desk for help. No seriously, we're here
 to help out and answer any questions at all to help you make the most of
