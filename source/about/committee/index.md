@@ -8,14 +8,14 @@ The Committee is a 12 person team which is elected yearly to run all aspects of
 the society
 
 Chairperson:  Noah O' Donnaile (cac)
-Secretary:  Oskar McDermott
+Secretary:  Oskar McDermott (oskar)
 Treasurer: Ross O' Sullivan (sully)
 Events Officer: Cliodhna Harrison (thegirl)
-Public Relations Officer: Senan Kelly
+Public Relations Officer: Senan Kelly (sentriz)
 System Administrators: Richard Walsh (koffee) & Lorcan Boyle (zergless) & Cormac Smartt (pints)
 Webmaster: Cian Butle (butlerx)
 Helpdesk: Tom Doyle (greenday) & Dylan McDonald (grace)
-First Year Rep: George Burac
+First Year Rep: George Burac (georgey)
 
 ## Helpdesk
 The Helpdesk is made up of the friendly team of two Tom Doyle(greenday) & Dylan McDonald(grace).
