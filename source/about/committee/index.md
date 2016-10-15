@@ -15,7 +15,7 @@ Public Relations Officer: Senan Kelly
 System Administrators: Richard Walsh (koffee) & Lorcan Boyle (zergless) & Cormac Smartt (pints)
 Webmaster: Cian Butle (butlerx)
 Helpdesk: Tom Doyle (greenday) & Dylan McDonald (grace)
-First Year Rep: Georgey
+First Year Rep: George Burac
 
 ## Helpdesk
 The Helpdesk is made up of the friendly team of two Tom Doyle(greenday) & our
