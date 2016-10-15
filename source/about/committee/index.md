@@ -8,18 +8,18 @@ The Committee is a 12 person team which is elected yearly to run all aspects of
 the society
 
 Chairperson:  Noah O' Donnaile (cac)
-Secretary:  Cian Butler (butlerx)
-Treasurer: Ross O' Sullivan(sully)
+Secretary:  Oskar McDermott
+Treasurer: Ross O' Sullivan (sully)
 Events Officer: Cliodhna Harrison (thegirl)
-Public Relations Officer: Liam Rooney (ginger)
-System Administrators: Richard Walsh (koffee) & Lorcan Boyle (zergless) & TBD
-Webmaster: TBD
-Helpdesk: Cormac Smartt(pints) & TBD
-First Year Rep: TBD
+Public Relations Officer: Senan Kelly
+System Administrators: Richard Walsh (koffee) & Lorcan Boyle (zergless) & Cormac Smartt (pints)
+Webmaster: Cian Butle (butlerx)
+Helpdesk: Tom Doyle (greenday) & Dylan McDonald (grace)
+First Year Rep: Georgey
 
 ## Helpdesk
-The Helpdesk is made up of the friendly team of two Cormac Smartt(pints) & our
-second Education officer (Helpdesk) will be elected at an EGM to come.
+The Helpdesk is made up of the friendly team of two Tom Doyle(greenday) & our
+second Education officer Dylan McDonald(grace).
 
 The Helpdesk is what it sounds like, a desk for help. No seriously, we're here
 to help out and answer any questions at all to help you make the most of
@@ -41,7 +41,7 @@ root holders who have volunteered to keep doing stuff.
 Elected System Administrators:
 - Richard Walsh (koffee)
 -  Lorcan Boyle (zergless)
--  To Be Elected - Click here if you're [interested][/about/contact/admins].
+-  Cormac Smartt (pints)
 
 Esteemed Holders Of Root:
 -  tbolt
