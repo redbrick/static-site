@@ -13,7 +13,7 @@ Treasurer: Ross O' Sullivan (sully)
 Events Officer: Cliodhna Harrison (thegirl)
 Public Relations Officer: Senan Kelly (sentriz)
 System Administrators: Richard Walsh (koffee) & Lorcan Boyle (zergless) & Cormac Smartt (pints)
-Webmaster: Cian Butle (butlerx)
+Webmaster: Cian Butler (butlerx)
 Helpdesk: Tom Doyle (greenday) & Dylan McDonald (grace)
 First Year Rep: George Burac (georgey)
 
