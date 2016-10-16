@@ -12,11 +12,13 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "hexo generate && node ./bin/www",
+    "server": "hexo g && node ./bin/www",
     "test": "npm run lint",
     "lint": "./node_modules/.bin/semistandard",
     "preinstall": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
-    "postinstall": "cd themes/redbrick-theme && bower install"
+    "postinstall": "cd themes/redbrick-theme && gulp",
+    "generate": "npm run postinstall && hexo g",
+    "start": "npm run generate && node ./bin/www "
   },
   "hexo": {
     "version": "3.2.2"
