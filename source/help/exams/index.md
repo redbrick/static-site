@@ -15,6 +15,7 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Admins Tests
 
+*   [2016 EGM](./admin-test-2016-egm)
 *   [2016 AGM](./admin-test-2016-agm)
 *   [2014 EGM](./admin-test-2014-egm)
 *   [2014 AGM](./admin-test-2014-agm)
@@ -57,6 +58,7 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Helpdesk Test
 
+*   [2016 EGM](./helpdesk-test-2016-egm)
 *   [2016 AGM](./helpdesk-test-2016-agm)
 *   [2015 AGM](./helpdesk-test-2015-agm)
 *   [2014 EGM](./helpdesk-test-2014-egm)
