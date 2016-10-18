@@ -4,39 +4,39 @@ title: 'The Committee 2010-2011'
 
 <span>**Chairperson:**</span>
 
-*   [Lotta Mikkonen (attol)](../../about/contact/attol)
+*   [Lotta Mikkonen (attol)](../../contact/attol)
 
 <span>**Secretary:**</span>
 
-*   [Nina Hanzlikova (geekity)](../../about/contact/geekity)
+*   [Nina Hanzlikova (geekity)](../../contact/geekity)
 
 <span>**Treasurer:**</span>
 
-*   [Conor Forde (fordy)](../../about/contact/fordy)
+*   [Conor Forde (fordy)](../../contact/fordy)
 
 <span>**Events Officer:**</span>
 
-*   [Aisling Mulholland (crash)](../../about/contact/crash)
+*   [Aisling Mulholland (crash)](../../contact/crash)
 
 <span>**Public Relations Officer:**</span>
 
-*   [Carri Fuery (carri)](../../about/contact/carri)
+*   [Carri Fuery (carri)](../../contact/carri)
 
 <span>**First Year Representative**</span>
 
-*   [Dave Larkan (tziegler)](../../about/contact/tziegler)
+*   [Dave Larkan (tziegler)](../../contact/tziegler)
 
 <span>**System Administrators:**</span>
 
-*   [James Reilly (fun)](../../about/contact/fun)
-*   [Austin Halpin (haus)](../../about/contact/haus)
-*   <span style="text-decoration: line-through;">[Seamus Ronan (train)](../../about/contact/train)</span>
+*   [James Reilly (fun)](../../contact/fun)
+*   [Austin Halpin (haus)](../../contact/haus)
+*   <span style="text-decoration: line-through;">[Seamus Ronan (train)](../../contact/train)</span>
 
 <span>**Webmaster:**</span>
 
-*   [Craig Gavagan MacEntee (creadak)](../../about/contact/creadak)
+*   [Craig Gavagan MacEntee (creadak)](../../contact/creadak)
 
 <span>**Education Officers:**</span>
 
-*   [Shane Stacey (isaac702)](../../about/contact/isaac702)
-*   [Paul Bunbury (bunbun)](../../about/contact/bunbun)
+*   [Shane Stacey (isaac702)](../../contact/isaac702)
+*   [Paul Bunbury (bunbun)](../../contact/bunbun)

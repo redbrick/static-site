@@ -4,7 +4,7 @@ title: 'Webmaster test 2002 AGM'
 
 1 hour long. Attempt all sections; there are no trick questions. For optional questions, you may answer more than one option, the marks from the highest scored options will be awarded.  
 
-You may refer to the [reference sheet on regular expressions](webmaster2002-regex.shtml).  
+You may refer to the reference sheet on regular expressions(these were lost to the winds of time)
 
 Section A - General Web "Stuff" (spot the question that's been on the last 3 tests)
 
