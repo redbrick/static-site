@@ -16,7 +16,7 @@
     "test": "npm run lint",
     "lint": "./node_modules/.bin/semistandard",
     "preinstall": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
-    "postinstall": "cd themes/redbrick-theme && npm install && gulp",
+    "postinstall": "cd themes/redbrick-theme && npm install",
     "generate": "npm run postinstall && hexo g",
     "start": "npm run generate && node ./bin/www "
   },
