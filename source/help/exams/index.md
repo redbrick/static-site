@@ -28,18 +28,18 @@ you must first pass an exam. Here are some exams from previous years.
 *   [2010 AGM](./admin-test-2010-agm)
 *   [2009 AGM](./admin-test-2009-agm)
 *   [2009 EGM](./admin-test-2009-egm)
-*   [2008 AGM](./admin-test-2008-agm) ([Answers](./admin-test-2008-agm-Answers))
+*   [2008 AGM](./admin-test-2008-agm) ([Answers](./admin-test-2008-agm-answers))
 *   [2008 EGM](./admin-test-2008-egm)
 *   [2007 AGM](./admin-test-2007-agm)
 *   [2006 EGM](./admin-test-2006-egm)
 *   [2005 AGM](./admin-test-2005-agm)
 *   [2005 EGM](./admin-test-2005-egm)
-*   [2004 AGM](./admin-test-2004-agm) ([Answers](./admin-test-2004-agm-Answers))
-*   [2003 AGM](./admin-test-2003-agm) ([Answers](./admin-test-2003-agm-Answers))
+*   [2004 AGM](./admin-test-2004-agm) ([Answers](./admin-test-2004-agm-answers))
+*   [2003 AGM](./admin-test-2003-agm) ([Answers](./admin-test-2003-agm-answers))
 *   [2002 AGM](./admin-test-2002-agm)
 *   [2001 AGM](./admin-test-2001-agm)
-*   [2000 EGM](./admin-test-2000-egm) ([Answers](./admin-test-2000-egm-Answers))
-*   [2000 AGM](./admin-test-2000-agm) ([Answers](./admin-test-2000-agm-Answers))
+*   [2000 EGM](./admin-test-2000-egm) ([Answers](./admin-test-2000-egm-answers))
+*   [2000 AGM](./admin-test-2000-agm) ([Answers](./admin-test-2000-agm-answers))
 
 ## Webmaster Tests
 

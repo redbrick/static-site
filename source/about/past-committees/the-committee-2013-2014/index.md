@@ -8,11 +8,11 @@ title: "The Committee 2013-2014"
 
 **Secretary:**
 
-*   [Jessica McGowan (teapott)](../../teapott)
+*   [Jessica McGowan (teapott)](../../contact/teapott)
 
 **Treasurer:**
 
-*   [Lorcan Boyle (zergless)](../../zergless)
+*   [Lorcan Boyle (zergless)](../../contact/zergless)
 
 **Events Officer:**
 
