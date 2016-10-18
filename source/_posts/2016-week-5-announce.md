@@ -6,7 +6,7 @@ author: oskar
 tags:
   - EGM
   - UKIEPC
-  - Intro to Linux
+  - Linux
   - Pycon
 ---
 
@@ -16,23 +16,23 @@ My name is Oskar and I'm your new bad-boy secretary.
 My first action as secretary is to inform you of all the events and goings
 on happening in Redbrick. Let’s hit it.
 
-EGM:
+##EGM:
 Redbrick held its EGM on Wednesday, electing a new committee and coming to
 the conclusion that pineapple on pizza is a-okay.
 The new additions to the committee are as follows:
-•       Admin - Cormac Smartt (pints)
-•       First year rep - George Burac (georgey)
-•       Helpdesk - Tom Doyle (greenday)
-•       Helpdesk - Dylan McDonald (grace)
-•       Public Relations Officer - Senan Kelly (sentriz)
-•       Secretary - Oskar McDermott (oskar)
-•       Webmaster - Cian Butler (butlerx)
+- Admin - Cormac Smartt (pints)
+- First year rep - George Burac (georgey)
+- Helpdesk - Tom Doyle (greenday)
+- Helpdesk - Dylan McDonald (grace)
+- Public Relations Officer - Senan Kelly (sentriz)
+- Secretary - Oskar McDermott (oskar)
+- Webmaster - Cian Butler (butlerx)
 
-UKIEPC:
--When: Actual event Saturday 29th October 11am – 4pm
--Registration: 26th October
--Where: Hosted in DCU School of Computing
--More information here:
+##UKIEPC:
+- When: Actual event Saturday 29th October 11am – 4pm
+- Registration: 26th October
+- Where: Hosted in DCU School of Computing
+- More information here:
 http://www.computing.dcu.ie/event/ukireland-intercollegiate-programming-competition-ukiepc
 
 The UKIEPC is the UK & Ireland Intercollegiate Programming Competition run
@@ -48,10 +48,10 @@ It’s free and apparently there’s t-shirts and pizzas (not sure about
 whether or not they’re with pineapple) given to the entrants so I would
 definitely recommend coming.
 
-Intro to Linux:
--When: Wednesday 19th, 3-4pm.
--Where: LG25
--More information here: https://www.facebook.com/events/1787222271546156/
+##Intro to Linux:
+- When: Wednesday 19th, 3-4pm.
+- Where: LG25
+- More information here: https://www.facebook.com/events/1787222271546156/
 
 Have you ever wondered how to install Linux but not lose your precious
 Windows or Mac OS?
@@ -59,10 +59,10 @@ Windows or Mac OS?
 Have you ever wanted something you were not afraid to break?
 Come to our new helpdesk team’s first ever workshop!
 
-PyCon Ireland 2016:
--When: Saturday 5th – Sunday 6th November.
--Where: Radisson Blu Royal Hotel Dublin
--More information here: http://python.ie/pycon-2016/
+##PyCon Ireland 2016:
+- When: Saturday 5th – Sunday 6th November.
+- Where: Radisson Blu Royal Hotel Dublin
+- More information here: http://python.ie/pycon-2016/
 
 Python Ireland’s two day convention is back and this year features talks
 on Data Science Tools, Machine Learning, Data Visualisation and Cleaning
