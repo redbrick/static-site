@@ -4,33 +4,33 @@ title: "The Committee 2013-2014"
 
 <div>**Chairperson:**</div>
 
-*   [Vadim Clyne-Kelly (VadimCK)](../../about/contact/vadimck)
+*   [Vadim Clyne-Kelly (VadimCK)](../../contact/vadimck)
 
 **Secretary:**
 
-*   [Jessica McGowan (teapott)](../../about/teapott)
+*   [Jessica McGowan (teapott)](../../contact/teapott)
 
 **Treasurer:**
 
-*   [Lorcan Boyle (zergless)](../../about/zergless)
+*   [Lorcan Boyle (zergless)](../../contact/zergless)
 
 **Events Officer:**
 
-*   [Jerry Onianwa  (jerbumz)](../../about/contact/jerbumz)
+*   [Jerry Onianwa  (jerbumz)](../../contact/jerbumz)
 
 **Public Relations Officer:**
 
-*   [Tríona Barrow (polka)](../../about/contact/polka)
+*   [Tríona Barrow (polka)](../../contact/polka)
 
 **First Year Representative**
 
-*   [Sean Healey (space)](../../about/contact/space)
+*   [Sean Healey (space)](../../contact/space)
 
 **System Administrators:**
 
-*   [Richie Walsh (koffee)](../../about/contact/koffee)
-*   [Ciaran McNally (mak)](../../about/contact/mak)
-*   [Emmanuel Caillé (twister)](../../about/contact/twister)
+*   [Richie Walsh (koffee)](../../contact/koffee)
+*   [Ciaran McNally (mak)](../../contact/mak)
+*   [Emmanuel Caillé (twister)](../../contact/twister)
 
 **Webmaster:**
 
@@ -38,5 +38,5 @@ title: "The Committee 2013-2014"
 
 **Education Officers:**
 
-*   [Andrew Boylan (fructus)](../../about/contact/fructus)
-*   [Niall Gaffney (gamma)](../../about/contact/gamma)
+*   [Andrew Boylan (fructus)](../../contact/fructus)
+*   [Niall Gaffney (gamma)](../../contact/gamma)

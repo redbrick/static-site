@@ -2,7 +2,7 @@
 title: 'Helpdesk test 2007 EGM'
 ---
 
-[![Redbrick Logo](../../images/redbrick_logo.png)](../../ "Redbrick Homepage")
+[![Redbrick Logo](/assets/images/logo.png)](../../ "Redbrick Homepage")
 
 *   How do I send a private message to someone on chat?
 *   Hey,  
