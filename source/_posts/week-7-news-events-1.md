@@ -5,9 +5,9 @@ date: '2013-11-10 17:58:56'
 thumbnail: week7.png
 banner: week7.png
 tags:
-  - web dev
+  - web design
   - installfest
-  - admin exams
+  - admin
   - irsih cancer society
 ---
 This week is looking to be great! We have Web development 101 tutorial with Maximilian Hoffmann and our annual Linux Installfest. So if you want to learn some web or get Linux installed on your laptop, this is the week for you!

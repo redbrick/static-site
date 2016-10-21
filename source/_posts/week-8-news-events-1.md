@@ -5,10 +5,10 @@ date: '2013-11-17 18:09:39'
 thumbnail: week8.png
 banner: week8.png
 tags:
-  - Helpdesk
+  - helpdesk
   - irish cancer society
-  - admin training
-  - egm
+  - admin
+  - EGM
 ---
 A normal week here at Redbrick this week. Our Helpdesk talk is Developing on Redbrick and our Admins will be showing you how to setup a LAMP stack using the Redbrick VMs.
 

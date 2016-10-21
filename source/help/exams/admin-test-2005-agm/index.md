@@ -1,5 +1,5 @@
 ---
-title: 'Admin Test 2005 agm'
+title: 'Admin Test 2005 AGM'
 ---
 
 All questions can be answered in the context of any version of UNIX (except for the Solaris, FreeBSD and Linux sections obviously!). Indicating which version of UNIX you refer to in your answer is preferred but not required. Negative marking applies throughout for answers that are clearly incorrect or demonstrate incompetence.

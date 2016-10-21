@@ -5,7 +5,7 @@ date: '2012-04-01 20:00:00'
 thumbnail: helix.jpg
 banner: helix.jpg
 tags:
-  - new committee
+  - committee
   - connector
   - table quiz
 ---
