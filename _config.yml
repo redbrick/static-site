@@ -71,7 +71,7 @@ hfc_css:
   exclude:
     - '*.min.css'
 hfc_js:
-  enable: true
+  enable: false
   mangle: true
   exclude:
     - '*.min.js'
@@ -87,10 +87,10 @@ hfc_favicons:
     favicons: true
     firefox: false
     opengraph: false
-    windows: true
+    windows: false
     yandex: false
 hfc_img:
-  enable: true
+  enable: false
   interlaced: false
   multipass: false
   optimizationLevel: 2

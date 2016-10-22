@@ -6,7 +6,7 @@ thumbnail: wbdate2.png
 banner: wbdate2.png
 tags:
  - DCUfm
- - Techweek
+ - TechWeekDCU
  - science heckday
  - LAN
 ---

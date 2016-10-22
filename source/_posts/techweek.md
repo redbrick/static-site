@@ -4,7 +4,6 @@ date: 2014-02-28 21:55:00
 author: Twister
 banner: techweek.png
 tags:
-- Techweek
 - TechWeekDCU
 - Amazon
 - Raspberry Pi

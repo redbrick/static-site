@@ -10,10 +10,10 @@ tags:
   - qzar
   - bowling
   - hoodies
-  - egm
-  - digital dicovery
+  - EGM
+  - Digital Dicovery Week
   - bowling
-  - admin training
+  - admin
 ---
 It may be reading week for some but we've made sure to keep week 7 action packed.  
 

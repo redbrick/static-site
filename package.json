@@ -18,7 +18,9 @@
     "preinstall": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
     "postinstall": "cd themes/redbrick-theme && npm install",
     "generate": "npm run postinstall && hexo g",
-    "start": "npm run generate && node ./bin/www "
+    "start": "npm run generate && node ./bin/www ",
+    "clean": "hexo clean",
+    "regenerate": "npm run clean && npm run generate"
   },
   "hexo": {
     "version": "3.2.2"
@@ -34,7 +36,7 @@
     "express": "~4.13.4",
     "file-stream-rotator": "0.0.7",
     "hexo": "^3.2.2",
-    "hexo-cli": "latest",
+    "hexo-cli": "^1.0.2",
     "hexo-cli-extras": "^1.0.3",
     "hexo-deployer-git": "^0.1.0",
     "hexo-deployer-rsync": "^0.1.1",

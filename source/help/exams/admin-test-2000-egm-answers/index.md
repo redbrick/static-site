@@ -1,5 +1,5 @@
 ---
-title: 'Admin Test 2000 egm Answers'
+title: 'Admin Test 2000 EGM Answers'
 ---
 
 <pre>From: valen@RedBrick.DCU.IE (John Looney)

@@ -5,11 +5,11 @@ author: polka
 thumbnail: week9.png
 banner: week9.png
 tags:
-  - Helpdesk
+  - helpdesk
   - Fundraising
   - Trip
   - Christmas
-  - Admin
+  - admin
 ---
 
 Things are starting to wind down. This week we have a Q&A session with Helpdesk and a continuation of our LAMP stack tutorial. More info inside.
