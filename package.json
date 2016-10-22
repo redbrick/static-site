@@ -13,7 +13,7 @@
   "license": "MIT",
   "scripts": {
     "server": "hexo g && node ./bin/www",
-    "test": "npm run lint",
+    "test": "npm run lint && npm run generate",
     "lint": "./node_modules/.bin/semistandard",
     "preinstall": "git clone https://github.com/redbrick/hexo-theme-icarus.git themes/redbrick-theme",
     "postinstall": "cd themes/redbrick-theme && npm install",
