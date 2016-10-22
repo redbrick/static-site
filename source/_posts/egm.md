@@ -4,7 +4,7 @@ author: teapott
 date: '2013-10-21 00:06:14'
 banner: egm.png
 tags:
- - egm
+ - EGM
 ---
 This year Redbrick's EGM is taking place on Wednesday October 23<sup>rd</sup> in QG21\. During this meeting we will hold elections for the following positions:
 <!-- more -->

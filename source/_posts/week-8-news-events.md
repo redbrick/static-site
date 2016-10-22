@@ -5,7 +5,7 @@ date: '2012-03-25 23:02:57'
 thumbnail: pizza.png
 banner: pizza.png
 tags:
-  - agm
+  - AGM
   - exams
 ---
 We're flying through semester two, and here's what's happening with Redbrick this week!

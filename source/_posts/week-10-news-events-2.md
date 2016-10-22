@@ -5,7 +5,7 @@ author: polka
 tags:
 - Christmas
 - EGM
-- Pints
+- pints
 thumbnail: week10.png
 banner: week10.png
 ---

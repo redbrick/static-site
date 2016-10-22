@@ -24,7 +24,7 @@ title: 'The Committee 1998-1999'
 
 <span>**System Administrators:**</span>
 
-*   [Adam Kelly ( cthulhu )/a>](http://www.redbrick.dcu.ie/about/contact/wibble)
+*   [Adam Kelly ( cthulhu )](http://www.redbrick.dcu.ie/about/contact/wibble)
 *   [John Looney ( valen )](http://www.redbrick.dcu.ie/about/contact/wibble)
 *   [Hoi Chau Wong ( whc )](http://www.redbrick.dcu.ie/about/contact/wibble)
 *   [Colin Whittaker ( grimnar)](http://www.redbrick.dcu.ie/about/contact/wibble)
