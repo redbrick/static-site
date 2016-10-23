@@ -1,40 +1,45 @@
 ---
 title: 'The Committee 1997-1998'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Patrick Grant
+    nick: floppy
+    resigned: true
+  - position: Chairperson
+    name: Mike Bennet
+    nick: thalia
+  - position: Secretary
+    name: Jonathan Lundberg
+    nick: spock
+  - position: Treasurer
+    name: Aoife McGoveran
+    nick: hms
+  - position: Public Relations Officer
+    name: Dave O'Flynn
+    nick: firefly
+  - position: Events Officer
+    name: Kevin O'Donovan
+    nick: kod
+  - position: System Administrator
+    name: Dermot Hanley
+    nick: wibble
+  - position: System Administrator
+    name: Ka Chun Leung
+    nick: plop
+  - position: System Administrator
+    name: David Murphy
+    nick: drjolt
+  - position: Webmaster
+    name: Andrew Lawless
+    nick: andy
+  - position: Helpdesk
+    name: Shane O'hUid
+    nick: wishkah
+  - position: Helpdesk
+    name: Daire McKenna
+    nick: fatwa
+  - position: Helpdesk
+    name: John Barker
+    nick: barkerj
 ---
-
-<span>**Chairperson:**</span>
-
-*   <span style="text-decoration: line-through;">Patrick Grant ( floppy )</span>
-*   [Mike Bennett ( thalia )](http://www.redbrick.dcu.ie/about/contact/thalia)
-
-<span>**Secretary:**</span>
-
-*   [Jonathan Lundberg ( spock )](http://www.redbrick.dcu.ie/about/contact/spock)
-
-<span>**Treasurer:**</span>
-
-*   [Aoife McGoveran ( hms )](http://www.redbrick.dcu.ie/about/contact/hms)
-
-<span>**Events Officer:**</span>
-
-*   [Kevin O'Donovan ( kod )](http://www.redbrick.dcu.ie/about/contact/kod)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Dave O'Flynn ( firefly )](http://www.redbrick.dcu.ie/about/contact/firefly)
-
-<span>**System Administrators:**</span>
-
-*   [Dermot Hanley ( wibble )](http://www.redbrick.dcu.ie/about/contact/wibble)
-*   [Ka Chun Leung ( plop )](http://www.redbrick.dcu.ie/about/contact/plop)
-*   [David Murphy ( drjolt )](http://www.redbrick.dcu.ie/about/contact/drjolt)
-
-<span>**Webmaster:**</span>
-
-*   [Andrew Lawless ( andy )](http://www.redbrick.dcu.ie/about/contact/andy)
-
-<span>**Education Officers:**</span>
-
-*   [Daire McKenna ( fatwa )](http://www.redbrick.dcu.ie/about/contact/fatwa)
-*   [Shane O'hUid ( wishkah )](http://www.redbrick.dcu.ie/about/contact/wishkah)
-*   [John Barker ( barkerj )](http://www.redbrick.dcu.ie/about/contact/barkerj)

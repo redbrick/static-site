@@ -1,46 +1,49 @@
 ---
 title: 'The Committee 2011-2012'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Dave Larkan
+    nick: tziegler
+  - position: Secretary
+    name: Lotta Mikkonen
+    nick: attol
+    resigned: true
+  - position: Secretary
+    name: Niall Gaffney
+    nick: gamma
+  - position: Treasurer
+    name: Nina hanzlikova
+    nick: geekity
+  - position: Public Relations Officer
+    name: Meabh Landers
+    nick: timelady
+    resigned: true
+  - position: Events Officer
+    name: Ciaran McNally
+    nick: mak
+  - position: System Administrator
+    name: James Reilly
+    nick: fun
+  - position: System Administrator
+    name: Austin Halpin
+    nick: haus
+  - position: System Administrator
+    name: Shane Stacey
+    nick: isaac702
+  - position: System Administrator
+    name: Paul Bunbury
+    nick: bunbun
+  - position: Webmaster
+    name: Vadim Clyne-Kelly
+    nick: vadimCK
+  - position: Helpdesk
+    name: Eimear Tyrell
+    nick: beimear
+  - position: Helpdesk
+    name: Craig Duff
+    nick: duff
+  - position: First Year Rep
+    name: Triona Barrow
+    nick: polka
 ---
-
-**Chairperson:**
-
-*   [Dave Larkan (tziegler)](../../contact/tziegler)
-
-**Secretary:**
-
-*   [<span style="text-decoration: line-through;">Lotta Mikkonen (attol)</span>](../../contact/attol)
-*   [Niall Gaffney (gamma)](../../contact/gamma)
-
-**Treasurer:**
-
-*   [Nina Hanzlikova (geekity)](../../contact/geekity)
-
-**Events Officer:**
-
-*   [Ciaran McNally (mak)](../../contact/mak)
-
-**Public Relations Officer:**
-
-*   [<span style="text-decoration: line-through;">Meabh Landers (timelady)</span>](../../contact/timelady)
-*   [Triona Barrow (polka)](../../contact/polka)
-
-**First Year Representative**
-
-*   [Triona Barrow (polka)](../../contact/polka)
-
-**System Administrators:**
-
-*   [<span style="text-decoration: line-through;">Paul Bunbury (bunbun)</span>](../../contact/bunbun)
-*   [James Reilly (fun)](../../contact/fun)
-*   [Austin Halpin (haus)](../../contact/haus)
-*   [Shane Stacey (isaac702)](../../contact/isaac702)
-
-**Webmaster:**
-
-*   [Vadim Clyne-Kelly (vadimck)](../../contact/vadimck)
-
-**Education Officers:**
-
-*   [<span style="text-decoration: line-through;">Shane Stacey (isaac702)</span>](../../contact/isaac702)
-*   [Craig Duff (duff)](../../contact/duff)
-*   [Eimear Tyrell (beimear)](../../contact/beimear)
