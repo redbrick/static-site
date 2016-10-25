@@ -1,41 +1,47 @@
 ---
 title: 'The Committee 2000-2001'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Karl Podesta
+    nick: kpodesta
+  - position: Secretary
+    name: Brian Banbrick
+    nick: moridin
+  - position: Treasurer
+    name: Jonathan Lundberg
+    nick: spock
+  - position: Events Officer
+    name: John Canavan
+    nick: tibor
+  - position: Public Relations Officer
+    name: Kevin Cannon
+    nick: p
+  - position: System Administrators
+    name: Philip Reynolds
+    nick: phil
+  - position: System Administrators
+    name: Sarvesh Singh
+    nick: macbain
+  - position: System Administrators
+    name: Noel Fitzpatrick
+    nick: noelfitz
+  - position: System Administrators
+    name: Mark Dunne
+    nick: pixies
+  - position: System Administrators
+    name: Robert Crosbie
+    nick; bobb
+  - position: Webmaster
+    name: Barry O'Neill
+    nick: bubble
+  - position: Education Officers
+    name: Conor O'Kane
+    nick: cokane
+  - position: Education Officers
+    name: Mark Campbell
+    nick: mark
+  - position: Education Officers
+    name: Donal Hunt
+    nick: redgiant
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Karl Podesta ( kpodesta )](http://www.redbrick.dcu.ie/about/contact/kpodesta)
-
-<span>**Secretary:**</span>
-
-*   [Brian Banbrick ( moridin )](http://www.redbrick.dcu.ie/about/contact/moridin)
-
-<span>**Treasurer:**</span>
-
-*   [Jonathan Lundberg ( spock )](http://www.redbrick.dcu.ie/about/contact/spock)
-
-<span>**Events Officer:**</span>
-
-*   [John Canavan ( tibor )](http://www.redbrick.dcu.ie/about/contact/tibor)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Kevin Cannon ( p )](http://www.redbrick.dcu.ie/about/contact/p)
-
-<span>**System Administrators:**</span>
-
-*   [Philip Reynolds ( phil )](http://www.redbrick.dcu.ie/about/contact/phil)
-*   [Sarvesh Singh ( macbain )](http://www.redbrick.dcu.ie/about/contact/macbain)
-*   [Noel Fitzpatrick ( noelfitz )](http://www.redbrick.dcu.ie/about/contact/noelfitz)
-*   [Mark Dunne ( pixies )](http://www.redbrick.dcu.ie/about/contact/pixies)
-*   [Robert Crosbie ( bobb)](http://www.redbrick.dcu.ie/about/contact/dobb)
-
-<span>**Webmaster:**</span>
-
-*   [Barry O'Neill ( bubble )](http://www.redbrick.dcu.ie/about/contact/bubble)
-
-<span>**Education Officers:**</span>
-
-*   [Conor O'Kane ( cokane )](http://www.redbrick.dcu.ie/about/contact/cokane)
-*   [Mark Campbell ( mark )>](http://www.redbrick.dcu.ie/about/contact/mark)
-*   [Donal Hunt ( redgiant )](http://www.redbrick.dcu.ie/about/contact/redgiant)

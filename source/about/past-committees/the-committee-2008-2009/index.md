@@ -1,45 +1,54 @@
 ---
 title: 'The Committee 2008-2009'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Kat Farrell
+    nick: angelkat
+  - position: Chairperson
+    resigned: true
+    name: Robert O'Reilly
+    nick: robby
+  - position: Secretary
+    name: Damian Rhatigan
+    nick: dano
+  - position: Treasurer
+    name: Leah Doyle
+    nick: bambi
+  - position: Events Officer
+    name: Lotta Mikkonen
+    nick: attol
+  - position: Public Relations Officer
+    name: Caroline Fuery
+    nick: carri
+  - position: Public Relations Officer
+    name: John Needham
+    nick: colossus
+    resigned: true
+  - position: First Year Representative
+    name: Emma Gallagher
+    nick: emma
+  - position: System Administrators
+    name: Eoghan Cotter
+    nick: johan
+  - position: System Administrators
+    name: Cian Brennan
+    nick: lil_cain
+  - position: System Administrators
+    name: Andrew Harford
+    nick: receive
+  - position: Webmaster
+    name: Andrew Martin
+    nick: werdz
+  - position: Education Officers
+    name: Seamus Ronan
+    nick: train
+  - position: Education Officers
+    resigned: true
+    name: Seán Hand
+    nick: revenant
+  - position: Education Officers
+    resigned: true
+    name: Gavin Tubritt
+    nick: gmblitis
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Kat Farrell ( angelkat )](../../contact/angelkat)
-*   [<span style="text-decoration: line-through;">Robert O'Reilly ( robby )</span>](../../contact/robby)
-
-<span>**Secretary:**</span>
-
-*   [Damian Rhatigan ( dano )](../../contact/dano)
-
-<span>**Treasurer:**</span>
-
-*   [Leah Doyle ( bambi )](../../contact/bambi)
-
-<span>**Events Officer:**</span>
-
-*   [Lotta Mikkonen ( attol )](../../contact/attol)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Caroline Fuery ( carri )](../../contact/carri)
-*   [<span style="text-decoration: line-through;">John Needham ( colossus )</span>](../../contact/colossus)
-
-<span>**First Year Representative**</span>
-
-*   [Emma Gallagher ( emma )](../../contact/emma)
-
-<span>**System Administrators:**</span>
-
-*   [Eoghan Cotter ( johan )](../../contact/johan)
-*   [Cian Brennan ( lil_cain )](../../contact/lil_cain)
-*   [Andrew Harford ( receive )](../../contact/receive)
-
-<span>**Webmaster:**</span>
-
-*   [Andrew Martin ( werdz )](../../contact/werdz)
-
-<span>**Education Officers:**</span>
-
-*   [Seamus Ronan ( train )](../../contact/train)
-*   [<span style="text-decoration: line-through;">Seán Hand ( revenant )</span>](../../contact/revenant)
-*   <span style="text-decoration: line-through;">G[avin Tubritt ( gmblitis )](../../contact/gmblitis)</span>

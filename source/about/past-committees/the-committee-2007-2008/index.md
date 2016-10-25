@@ -1,42 +1,53 @@
 ---
 title: 'The Committee 2007-2008'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Andrew Harford
+    nick: receive
+  - position: Secretary
+    name: Kevin Fox
+    nick: undone
+  - position: Treasurer
+    name: Amy
+    nick: amy
+  - position: Treasurer
+    name: Ashley Samuel Dooley Martin
+    nick: mythe
+    resigned: true
+  - position: Events Officer
+    name: Kat Farrell
+    nick: angelkat
+  - position: Public Relations Officer
+    name: Damien Rhatigan
+    nick: dano
+  - position: System Administrators
+    name: Andrew Martin
+    nick: wedz
+  - position: System Administrators
+    name: Cian Brennan
+    nick: lil_cain
+  - position: System Administrators
+    name: Diarmuid Bourke
+    nick: drag0n
+  - position: Webmaster
+    name: Richard Dalton
+    nick: d_fens
+  - position: Education Officers
+    name: Padraig O'Connor
+    nick: landa2
+  - position: Education Officers
+    name: Eoghan Cotter
+    nick: johan
+  - position: Education Officers
+    name: David Ó Laighenáin
+    nick: coconut
+  - position: Education Officers
+    name: Matthew Barrington
+    nick: moju
+    resigned: true
+  - position: Education Officers
+    name: Declan Whelan
+    nick: castle
+    resigned: true
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Andrew Harford ( receive )](../../contact/receive)
-
-<span>**Secretary:**</span>
-
-*   [Kevin Fox ( undone )](../../contact/undone)
-
-<span>**Treasurer:**</span>
-
-*   [Amy ( amy )](../../contact/amy)
-*   [<span style="text-decoration: line-through;">Ashley Samuel Dooley Martin ( mythe )</span>](../../contact/mythe)
-
-<span>**Events Officer:**</span>
-
-*   [Kat Farrell ( angelkat )](../../contact/angelkat)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Damien Rhatigan ( dano )](../../contact/dano)
-
-<span>**System Administrators:**</span>
-
-*   [Andrew Martin ( werdz )](../../contact/werdz)
-*   [Cian Brennan ( lil_cain )](../../contact/lil_cain)
-*   [Diarmuid Bourke ( drag0n )](../../contact/drag0n)
-
-<span>**Webmaster:**</span>
-
-*   [Richard Dalton ( d_fens )](../../contact/d_fens)
-
-<span>**Education Officers:**</span>
-
-*   [Padraig O'Connor ( landa2 )](../../contact/landa2)
-*   [Eoghan Cotter ( johan )](../../contact/johan)
-*   [David Ó Laighenáin ( coconut )](../../contact/coconut)
-*   [<span style="text-decoration: line-through;">Matthew Barrington ( moju )</span>](../../contact/moju)
-*   [<span style="text-decoration: line-through;">Declan Whelan ( castle )</span>](../../contact/castle)

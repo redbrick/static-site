@@ -1,30 +1,33 @@
 ---
 title: 'The Committee 2006-2007'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Charlie Von Metzradt
+    nick: phaxx
+  - position: Secretary
+    name: Jessica N? Chonch?bhair
+    nick: jesjes
+  - position: Treasurer
+    name: Andrew Harford
+    nick: receive
+  - position: Events Officer
+    name: Kat Farrell
+    nick: angelkat
+  - position: Public Relations Officer
+    name: Padraig O'Connor
+    nick: landa2
+    resigned: true
+  - position: Public Relations Officer
+    name: Damien Rhatighan
+    nick: dano
+  - position: System Administrators
+    name: Eoghan Gaffney
+    nick: atlas
+  - position: System Administrators
+    name: Sarunas Vancevicius
+    nick: svan
+  - position: System Administrators
+    name: Stephen Doyle
+    nick: igy
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Charlie Von Metzradt ( phaxx )](http://www.redbrick.dcu.ie/about/contact/phaxx)
-
-<span>**Secretary:**</span>
-
-*   [Jessica N? Chonch?bhair ( jesjes )](http://www.redbrick.dcu.ie/about/contact/jesjes)
-
-<span>**Treasurer:**</span>
-
-*   [Andrew Harford ( receive )](http://www.redbrick.dcu.ie/about/contact/receive)
-
-<span>**Events Officer:**</span>
-
-*   [Kat Farrell ( angelkat )](http://www.redbrick.dcu.ie/about/contact/angelkat)
-
-<span>**Public Relations Officer:**</span>
-
-*   <span style="text-decoration: line-through;">Padraig O'Connor ( landa2 )</span>
-*   [Damien Rhatighan](http://www.redbrick.dcu.ie/about/contact/dano)
-
-<span>**System Administrators:**</span>
-
-*   [Eoghan Gaffney ( atlas )](http://www.redbrick.dcu.ie/about/contact/atlas)
-*   [Sarunas Vancevicius ( svan )](http://www.redbrick.dcu.ie/about/contact/svan)
-*   [Stephen Doyle ( igy )](http://www.redbrick.dcu.ie/about/contact/igy)

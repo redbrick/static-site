@@ -1,40 +1,44 @@
 ---
 title: 'The Committee 1999-2000'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Jonathan Lundberg
+    nick: spock
+ - position: Secretary
+    name: Caroline Sheedy
+    nick: bootie
+ - position: Treasurer
+    name: Damien Martin
+    nick: otto
+ - position: Events Officer
+    name: Orla McGan
+    nick: orly
+ - position: Public Relations Officer
+    name: Julie Kerin
+    ncik: julie
+ - position: System Administrators
+    name: Adam Kelly
+    nick: cthulhu
+ - position: System Administrators
+    name: Hoi Chau Wong
+    nick: whc
+ - position: System Administrators
+    name: Robert Crosbie
+    nick: bobb
+  - position: Webmaster
+    name: Karl Podesta
+    nick: kpodesta
+  - position: Helpdesk
+    name: Conor O'Kane
+    nick: cokane
+  - position: Helpdesk
+    name: Nigel Parkes
+    nick: elmer
+  - position: Helpdesk
+    name: Eileen Gavin
+    nick: munchkin
+  - position: Helpdesk
+    name: Barry O'Neill
+    nick: bubble
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Jonathan Lundberg ( spock )](http://www.redbrick.dcu.ie/about/contact/spock)
-
-<span>**Secretary:**</span>
-
-*   [Caroline Sheedy ( bootie )](http://www.redbrick.dcu.ie/about/contact/bootie)
-
-<span>**Treasurer:**</span>
-
-*   [Damien Martin ( otto )](http://www.redbrick.dcu.ie/about/contact/otto)
-
-<span>**Events Officer:**</span>
-
-*   [Orla McGan ( orly )](http://www.redbrick.dcu.ie/about/contact/kod)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Julie Kerin ( julie )](http://www.redbrick.dcu.ie/about/contact/julie)
-
-<span>**System Administrators:**</span>
-
-*   [Adam Kelly ( cthulhu )](http://www.redbrick.dcu.ie/about/contact/cthulhu)
-*   [Hoi Chau Wong ( whc )](http://www.redbrick.dcu.ie/about/contact/whc)
-*   [Robert Crosbie ( bobb)](http://www.redbrick.dcu.ie/about/contact/bobb)
-
-<span>**Webmaster:**</span>
-
-*   [Karl Podesta ( kpodesta )](http://www.redbrick.dcu.ie/about/contact/kpodesta)
-
-<span>**Education Officers:**</span>
-
-*   [Conor O'Kane ( cokane )](http://www.redbrick.dcu.ie/about/contact/cokane)
-*   [Nigel Parkes ( elmer )](http://www.redbrick.dcu.ie/about/contact/elmer)
-*   [Eileen Gavin ( munchkin )](http://www.redbrick.dcu.ie/about/contact/munchkin)
-*   [Barry O'Neill ( bubble )](http://www.redbrick.dcu.ie/about/contact/bubble)

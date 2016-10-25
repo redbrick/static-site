@@ -1,40 +1,45 @@
 ---
 title: 'The Committee 2005-2006'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Michelle Graham
+    nick: drusilla
+  - position: Secretary
+    name: Dave Couse
+    nick: phreak
+  - position: Treasurer
+    name: Kenneth Barrett
+    nick: sionnach
+  - position: Events Officer
+    name: Bernard McKeever
+    nick: dregin
+  - position: Public Relations Officer
+    name: Jessica Ni Chonchubhair
+    nick: jesjes
+  - position: Public Relations Officer
+    name: Padraig O'Connor
+    nick; landa2
+    resigned: true
+  - position: System Administrators
+    name: Charlie Von Metzradt
+    nick: phaxx
+  - position: System Administrators
+    name: Eoghan Gaffney
+    nick: atlas
+  - position: System Administrators
+    name: Stephen Ryan
+    nick: ryaner
+  - position: Webmaster
+    name: Una Kehoe
+    nick: keloe
+  - position: Education Officers
+    name: Stephen Doyle
+    nick: igy
+  - position: Education Officers
+    name: Simon Kilroy
+    nick: gizmo
+  - position: Education Officers
+    name: Graham Bishop
+    nick: winters
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Michelle Graham (drusilla)](http://www.redbrick.dcu.ie/about/contact/drusilla)
-
-<span>**Secretary:**</span>
-
-*   [Dave Couse ( phreak ))](http://www.redbrick.dcu.ie/about/contact/phreak)
-
-<span>**Treasurer:**</span>
-
-*   [Kenneth Barrett ( sionnach )](http://www.redbrick.dcu.ie/about/contact/sionnach)
-
-<span>**Events Officer:**</span>
-
-*   [Bernard McKeever ( dregin )](http://www.redbrick.dcu.ie/about/contact/dregin)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Jessica Ni Chonchubhair ( jesjes )](http://www.redbrick.dcu.ie/about/contact/jesjes)
-*   <span style="text-decoration: line-through;">Padraig O'Connor ( landa2 )</span>
-
-<span>**System Administrators:**</span>
-
-*   [Charlie Von Metzradt ( phaxx )](http://www.redbrick.dcu.ie/about/contact/phaxx)
-*   [Eoghan Gaffney ( atlas )](http://www.redbrick.dcu.ie/about/contact/atlas)
-*   [Stephen Ryan ( ryaner )](http://www.redbrick.dcu.ie/about/contact/ryaner)
-
-<span>**Webmaster:**</span>
-
-*   [Una Kehoe ( keloe )](http://www.redbrick.dcu.ie/about/contact/keloe)
-
-<span>**Education Officers:**</span>
-
-*   [Stephen Doyle ( igy )](http://www.redbrick.dcu.ie/about/contact/igy)
-*   [Simon Kilroy ( gizmo )](http://www.redbrick.dcu.ie/about/contact/gizmo)
-*   [Graham Bishop ( winters )](http://www.redbrick.dcu.ie/about/contact/winters)
