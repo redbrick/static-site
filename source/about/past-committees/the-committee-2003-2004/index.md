@@ -1,40 +1,45 @@
 ---
 title: 'The Committee 2003-2004'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: David Johnston
+    nick: emperor
+  - position: Secretary
+    name: Cillian Sharkey
+    nick: cns
+  - position: Treasurer
+    name: Seamus O'Toole
+    nick: mael
+  - position: Treasurer
+    name: Grainne Sheerin
+    nick: dimples
+    resigned: true
+  - position: Events Officer
+    name: Martina Frain
+    nick: dramaq
+  - position: Public Relations Officer
+    name: Aisling Devlin
+    nick: aeris
+  - position: System Administrators
+    name: Martin Clarke
+    nick: prolix
+  - position: System Administrators
+    name: Dermot Duffy
+    nick: dizer
+  - position: System Administrators
+    name: Martin Harte
+    nick: tuama
+  - position: Webmaster
+    name: Declan McMullen
+    nick: skyhawk
+  - position: Education Officers
+    name: Eoin Campbell
+    nick: cambo
+  - position: Education Officers
+    name: Una Kehoe
+    nick: keloe
+  - position: Education Officers
+    name: Sun Ning
+    nick: sunshine
 ---
-
-<span>**Chairperson:**</span>
-
-*   [David Johnston ( emperor )](http://www.redbrick.dcu.ie/about/contact/emperor)
-
-<span>**Secretary:**</span>
-
-*   [Cillian Sharkey ( cns )](http://www.redbrick.dcu.ie/about/contact/cns)
-
-<span>**Treasurer:**</span>
-
-*   [Seamus O'Toole ( mael )](http://www.redbrick.dcu.ie/about/contact/mael)
-*   <s>[Grainne Sheerin ( dimples )](http://www.redbrick.dcu.ie/about/contact/dimples)</s>
-
-<span>**Events Officer:**</span>
-
-*   [Martina Frain ( dramaq )](http://www.redbrick.dcu.ie/about/contact/dramaq)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Aisling Devlin ( aeris )](http://www.redbrick.dcu.ie/about/contact/aeris)
-
-<span>**System Administrators:**</span>
-
-*   [Martin Clarke ( prolix )](http://www.redbrick.dcu.ie/about/contact/prolix)
-*   [Dermot Duffy ( dizer )](http://www.redbrick.dcu.ie/about/contact/dizer)
-*   [Martin Harte ( tuama )](http://www.redbrick.dcu.ie/about/contact/tuama)
-
-<span>**Webmaster:**</span>
-
-*   [Declan McMullen (skyhawk)](http://www.redbrick.dcu.ie/about/contact/skyhawk)
-
-<span>**Education Officers:**</span>
-
-*   [Eoin Campbell ( cambo )](http://www.redbrick.dcu.ie/about/contact/cambo)
-*   [Una Kehoe ( keloe )](http://www.redbrick.dcu.ie/about/contact/keloe)
-*   [Sun Ning ( sunshine )](http://www.redbrick.dcu.ie/about/contact/sunshine)

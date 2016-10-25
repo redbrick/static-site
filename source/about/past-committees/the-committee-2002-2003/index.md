@@ -1,42 +1,53 @@
 ---
 title: 'The Committee 2002-2003'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Nikki Kenny
+    nick: kamili
+  - position: Secretary
+    name: Trevor Johnston
+    nick: trevj
+  - position: Secretary
+    name: Andrew MacCann
+    nick: montoya
+    resigned: true
+  - position: Treasurer
+    name: Grainne Sheerin
+    nick: dimples
+  - position: Treasurer
+    name: Neil Walsh
+    nick: marvin
+    resigned: true
+  - position: Events Officer
+    name: Micheal Glennon
+    nick: magluby
+  - position: Public Relations Officer
+    name: Shane Tallon
+    nick: del_boy
+  - position: System Administrators
+    name: Cillian Sharkey
+    nick: cns
+  - position: System Administrators
+    name: Dermot Duffy
+    nick: dizer
+  - position: System Administrators
+    name: Mark Dunne
+    nick: pixies
+  - position: Webmaster
+    name: David Johnston
+    nick: emperor
+  - position: Education Officers
+    name: Eoin Campbell
+    nick: cambo
+  - position: Education Officers
+    name: Declan McMullen
+    nick: skyhawk
+  - position: Education Officers
+    name: Declan O'Neill
+    nick: dec
+  - position: Education Officers
+    name: Mark Campbell
+    nick: mark
+    resigned: true
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Nikki Kenny ( kamili )](http://www.redbrick.dcu.ie/about/contact/kamili)
-
-<span>**Secretary:**</span>
-
-*   [Trevor Johnston ( trevj )](http://www.redbrick.dcu.ie/about/contact/trevj)
-*   <s>[Andrew MacCann ( montoya )](http://www.redbrick.dcu.ie/about/contact/montoya)</s>
-
-<span>**Treasurer:**</span>
-
-*   [Grainne Sheerin ( dimples )](http://www.redbrick.dcu.ie/about/contact/dimples)
-*   <s>[Neil Walsh ( marvin )](http://www.redbrick.dcu.ie/about/contact/marvin)</s>
-
-<span>**Events Officer:**</span>
-
-*   [Micheal Glennon ( magluby )](http://www.redbrick.dcu.ie/about/contact/magluby)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Shane Tallon ( del_boy )](http://www.redbrick.dcu.ie/about/contact/del_boy)
-
-<span>**System Administrators:**</span>
-
-*   [Cillian Sharkey ( cns )](http://www.redbrick.dcu.ie/about/contact/cns)
-*   [Dermot Duffy ( dizer )](http://www.redbrick.dcu.ie/about/contact/dizer)
-*   [Mark Dunne ( pixies )](http://www.redbrick.dcu.ie/about/contact/pixies)
-
-<span>**Webmaster:**</span>
-
-*   [David Johnston ( emperor )](http://www.redbrick.dcu.ie/about/contact/emperor)
-
-<span>**Education Officers:**</span>
-
-*   [Eoin Campbell ( cambo )](http://www.redbrick.dcu.ie/about/contact/cambo)
-*   [Declan McMullen ( skyhawk )](http://www.redbrick.dcu.ie/about/contact/skyhawk)
-*   [Declan O'Neill ( dec )](http://www.redbrick.dcu.ie/about/contact/dec)
-*   <s>[Mark Campbell](http://www.redbrick.dcu.ie/about/contact/drjolt)</s>

@@ -1,41 +1,41 @@
 ---
 title: "The Committee 2014-2015"
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Richard Walsh
+    nick: koffee
+    image: koffee.jpg
+  - position: Secretary
+    name: Gillian Morrisson
+    nick: socks
+  - position: Treasurer
+    name: Kirill Sloka
+    nick: macspayn
+  - position: Public Relations Officer
+    name: Michael Wall
+    nick: thewall
+  - position: Events Officer
+    name: Seán Healy
+    nick: space
+  - position: System Administrator
+    name: Lorcan Boyle
+    nick: zergless
+    image: zergless.jpg
+  - position: System Administrator
+    name: Robert Devereux
+    nick: kylar
+  - position: Webmaster
+    name: Wojtek Bednarzak
+    nick: voy
+  - position: Helpdesk
+    name: Cian Butler
+    nick: butlerx
+    image: butlerx.jpg
+  - position: Helpdesk
+    name: Niall Gaffney
+    nick: gamma
+  - position: First Year Rep
+    name: Robert McConnell
+    nick: faust
 ---
-
-<div>**Chairperson:**</div>
-
-*   Richie Walsh (koffee)
-
-**Secretary:**
-
-*   Gillian Morrisson (socks)
-
-**Treasurer:**
-
-*   Kirill Sloka (macspayn)
-
-**Events Officer:**
-
-*   Seán Healy (space)
-
-**Public Relations Officer:**
-
-*   Michael Wall (thewall)
-
-**First Year Representative**
-
-*   Robert McConnell (faust)
-
-**System Administrators:**
-
-*   Robert Devereux (kylar)
-*   Lorcan Boyle (zergless)
-
-**Webmaster:**
-
-*   Wojtek Bednarzak (voy)
-
-**Education Officers:**
-
-*   Cian Butler (butlerx)
-*   Niall Gaffney (gamma)

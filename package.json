@@ -1,7 +1,7 @@
 {
   "name": "Redbrick-site",
   "version": "1.0.0",
-  "description": "Statically generated sight for redbrick.dcu.ie",
+  "description": "Statically generated site for redbrick.dcu.ie",
   "private": false,
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "generate": "npm run postinstall && hexo g",
     "start": "npm run generate && node ./bin/www ",
     "clean": "hexo clean",
-    "regenerate": "npm run clean && npm run generate"
+    "regenerate": "npm run postinstall && npm run clean && hexo g"
   },
   "hexo": {
     "version": "3.2.2"
