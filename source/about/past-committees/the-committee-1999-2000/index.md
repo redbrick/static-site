@@ -2,28 +2,28 @@
 title: 'The Committee 1999-2000'
 type: cmt
 cmt:
- - position: Chairperson
+  - position: Chairperson
     name: Jonathan Lundberg
     nick: spock
- - position: Secretary
+  - position: Secretary
     name: Caroline Sheedy
     nick: bootie
- - position: Treasurer
+  - position: Treasurer
     name: Damien Martin
     nick: otto
- - position: Events Officer
+  - position: Events Officer
     name: Orla McGan
     nick: orly
- - position: Public Relations Officer
+  - position: Public Relations Officer
     name: Julie Kerin
     ncik: julie
- - position: System Administrators
+  - position: System Administrators
     name: Adam Kelly
     nick: cthulhu
- - position: System Administrators
+  - position: System Administrators
     name: Hoi Chau Wong
     nick: whc
- - position: System Administrators
+  - position: System Administrators
     name: Robert Crosbie
     nick: bobb
   - position: Webmaster
