@@ -2,7 +2,7 @@
 title: 'The Committee 1999-2000'
 type: cmt
 cmt:
-  - position: Chairperson
+ - position: Chairperson
     name: Jonathan Lundberg
     nick: spock
  - position: Secretary
