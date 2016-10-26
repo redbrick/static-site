@@ -12,7 +12,7 @@ cmt:
     name: Caroline Sheedy
     nick: bootie
   - position: Events Officer
-    name:Kevin O'Donovan
+    name: Kevin O'Donovan
     nick: kod
   - position: Public Relations Officer
     name: Cecily Murray
