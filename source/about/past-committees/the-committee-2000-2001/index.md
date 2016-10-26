@@ -31,7 +31,7 @@ cmt:
     nick: pixies
   - position: System Administrators
     name: Robert Crosbie
-    nick; bobb
+    nick: bobb
   - position: Webmaster
     name: Barry O'Neill
     nick: bubble

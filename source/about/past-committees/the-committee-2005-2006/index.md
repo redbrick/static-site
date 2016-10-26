@@ -19,7 +19,7 @@ cmt:
     nick: jesjes
   - position: Public Relations Officer
     name: Padraig O'Connor
-    nick; landa2
+    nick: landa2
     resigned: true
   - position: System Administrators
     name: Charlie Von Metzradt
