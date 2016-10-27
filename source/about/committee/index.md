@@ -81,7 +81,7 @@ Elected System Administrators:
 -  Cormac Smartt (pints)
 
 Esteemed Holders Of Root:
--  Cian Butler (bulerx)
+-  Cian Butler (butlerx)
 -  Cormac Smartt (pints)
 -  tbolt
 -  voy
