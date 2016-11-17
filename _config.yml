@@ -108,20 +108,14 @@ thumbnails:
   profiles:
     banner:
       resize:
-        - 800
-        - 800
+        - 700
+        - 700
     thumb:
       resize:
         - 200
         - 200
 ## Themes: https://hexo.io/themes/
 theme: redbrick-theme
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-- type: git
-  repo: git@github.com:redbrick/redbrick.github.io.git
 
 # Server Config
 server:
