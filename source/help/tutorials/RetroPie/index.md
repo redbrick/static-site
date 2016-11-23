@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf http://redbrick.dcu.ie/help/tutorials/RetroPie/RetroPie.pdf %}
+{% pdf ./RetroPie.pdf %}

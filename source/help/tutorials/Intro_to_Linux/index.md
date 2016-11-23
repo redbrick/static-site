@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf http://redbrick.dcu.ie/help/tutorials/Intro_To_Linux/Intro_To_Linux.pdf %}
+{% pdf ./Intro_To_Linux.pdf %}

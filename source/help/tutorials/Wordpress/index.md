@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf http://redbrick.dcu.ie/help/tutorials/Wordpress/Wordpress.pdf %}
+{% pdf ./Wordpress.pdf %}
