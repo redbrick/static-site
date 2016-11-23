@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf http://redbrick.dcu.ie/help/tutorials/Jargon_buster/Jargon_buster.pdf %}
+{% pdf ./Jargon_buster.pdf %}
