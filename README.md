@@ -1,5 +1,5 @@
 # Static-Site
-[![Build Status](https://travis-ci.org/redbrick/static-site.svg?branch=master)](https://travis-ci.org/redbrick/static-site)
+[![CircleCI](https://circleci.com/gh/redbrick/static-site.svg?style=svg)](https://circleci.com/gh/redbrick/static-site)
 
 A Static Site for [redbrick](http://redbrick.dcu.ie) generated with [hexo](hexo.io) using a theme
 based off [icarus](https://github.com/redbrick/hexo-theme-icarus)
