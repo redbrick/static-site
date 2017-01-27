@@ -58,7 +58,7 @@ function getLatestPosts (options, callback) {
         // strip out images
         const content = (
           frontMatter._content
-            .split(/!\[[\w\W]*\]\([\w\W]*\)/)
+            .split(/!\[[\w\W]*]\([\w\W]*\)/)
             .join('')
         );
 
