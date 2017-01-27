@@ -84,7 +84,7 @@ Esteemed Holders Of Root:
 -  Cian Butler (butlerx)
 -  Cormac Smartt (pints)
 -  tbolt
--  voy
+-  Wojtek Bednarzak (voy)
 -  Lorcan Boyle (zergless)
 -  Emmanuel Caillé (Twister)
 -  Richard Walsh (koffee)
