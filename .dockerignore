@@ -1,0 +1,7 @@
+node_modules
+db.json
+.npm
+.deploy_git
+public
+source
+.DS_stores
