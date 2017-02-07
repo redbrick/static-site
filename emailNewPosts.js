@@ -58,7 +58,7 @@ function getEmailBody (postData) {
   const plainTextContents = (
     postData.contents
       .split(/<[\w\W]+>/).join('') // strip html
-      .split(/!\[[\w\W]*\]\([\w\W]*\)/).join('') // strip images
+      .split(/!\[[\w\W]*]\([\w\W]*\)/).join('') // strip images
   );
   let directory = moment(date).format('YYYY/MM/DD');
   let permalink = config.siteroot + '/' + path.join(directory, postData.slug);
