@@ -18,7 +18,9 @@
     "preinstall": "./bin/setup.sh",
     "postinstall": "cd themes/redbrick-theme && npm install",
     "generate": "npm run postinstall && hexo g",
-    "hexo": "hexo -s",
+    "hexo": "hexo s",
+    "page": "hexo new page",
+    "post": "hexo new post",
     "start": "npm run generate && node ./bin/www ",
     "clean": "hexo clean",
     "regenerate": "npm run postinstall && npm run clean && hexo g"
