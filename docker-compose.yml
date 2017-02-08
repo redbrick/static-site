@@ -1,0 +1,10 @@
+version: "2"
+services:
+  redbrick:
+    image: 'redbrick/site:latest'
+    container_name: 'redbrick-site'
+    restart: 'always'
+    volumes:
+      - ./source:/usr/src/app/source
+    ports:
+      - '3000:3000'
