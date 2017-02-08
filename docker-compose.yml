@@ -8,3 +8,5 @@ services:
       - ./source:/usr/src/app/source
     ports:
       - '3000:3000'
+    environment:
+      SECRET_API_TOKEN: 'somethingThatMustChange'
