@@ -22,7 +22,7 @@ what we have planned:
 
  <!-- more -->
 
-##Admin Talk: How to Avoid Phishing
+## Admin Talk: How to Avoid Phishing
 
 - When: Wednesday 8th, 3-4pm
 - Where: LG25
@@ -40,7 +40,7 @@ to hackers and social engineering; giving away too much info to the people
 you think you
 can trust.
 
-##InterSocs Social
+## InterSocs Social
 
 - When: Friday 10th, 6:30-9pm
 - Where: The Brew Dock - 1 Amiens Street, Dublin
@@ -50,7 +50,7 @@ For the second year running, come join us along with five other NetSocs
 from five other
 lesser universities for some food and drinks and no doubt arguing.
 
-##Google #HashCode 2017
+## Google #HashCode 2017
 
 - When: Thursday 23rd, 5-9pm
 - Where: LG25
@@ -68,7 +68,7 @@ East and Africa. Participants compete in teams of two to four.
 Registration is free of charge and will close on 20th February 2017 at
 17:00 GMT.
 
-##FOSDEM
+## FOSDEM
 Finally - for those of you who got enough sleep, ate well and thus weren't
 present at FOSDEM
 this year - all the videos of the talks are now available here:
