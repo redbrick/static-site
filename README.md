@@ -54,7 +54,6 @@ You can create a service to run the server on startup if you want refer to expre
 
 ### Docker
 There is a docker file if you want to generate a container that runs in production mode.
-To build just run `docker build . -t redbrick/site`
-Then to start just run `docker run -it --rm -p=3000:3000 -v source:/usr/src/app/source --name redbrick-site redbrick/site`
-Source volume needs to be specified otherwise it wont have anything to generate
-Or Just run `docker-compose up`
+ - To build just run `docker build . -t redbrick/site`
+ - Then to start just run `docker run -it --rm -p=3000:3000 -v source:/usr/src/app/source --name redbrick-site redbrick/site`
+ - Source volume needs to be specified otherwise it wont have anything to generate Or Just run `docker-compose up`
