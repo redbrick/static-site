@@ -23,8 +23,8 @@ const app = express();
 const configFile = fs.readFileSync('./_config.yml', 'utf8');
 const config = yaml.safeLoad(configFile).server;
 const recaptcha = new ReCAPTCHA({
-  siteKey: config.recaptcha.siteKey,
-  secretKey: config.recaptcha.secretKey
+  siteKey: process.env.RECAPTCHA_SITE_KEY || config.recaptcha.siteKey,
+  secretKey: process.env.RECAPTCHA_SECRET_KEY || config.recaptcha.secretKey
 });
 const baseUrl = '/api/';
 
@@ -34,7 +34,7 @@ fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
 const accessLogStream = FileStreamRotator.getStream({
   date_format: 'YYYYMMDD',
   filename: path.join(logDirectory, 'access-%DATE%.log'),
-  frequency: config.logRotationFreqency,
+  frequency: process.env.LOG_ROTATE || config.logRotationFreqency,
   verbose: false
 });
 
