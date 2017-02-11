@@ -14,3 +14,8 @@ services:
       RECAPTCHA_SITE_KEY: ''
       RECAPTCHA_SECRET_KEY: ''
       LOG_ROTATE: '24h'
+      SMTP_HOST: 'smtp.gmail.com'
+      SMTP_PORT: '465'
+      SMTP_SECURE: 'true'
+      SMTP_USER: ''
+      SMTP_PASS: ''

@@ -13,10 +13,10 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const spawn = require('child_process').spawn;
 const FileStreamRotator = require('file-stream-rotator');
-const logger = require('./logger');
+const logger = require('./lib/logger');
 
-const getLatestPosts = require('./getLatestPosts');
-const emailNewPosts = require('./emailNewPosts');
+const getLatestPosts = require('./lib/getLatestPosts');
+const emailNewPosts = require('./lib/emailNewPosts');
 
 const app = express();
 
@@ -38,7 +38,7 @@ const accessLogStream = FileStreamRotator.getStream({
   verbose: false
 });
 
-const smtpTransport = require('./smtpTransport');
+const smtpTransport = require('./lib/smtpTransport');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
