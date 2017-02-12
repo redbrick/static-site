@@ -39,6 +39,15 @@ router.get('/regenerate', function (req, res) {
       logger.error(buffer.toString());
     });
 
+    logger.info('Pulling Submodules');
+    const gitModule = spawn('git', ['submodule', 'update', '--remote']);
+    gitModule.stdout.on('data', function (buffer) {
+      logger.info(buffer.toString());
+    });
+    gitModule.stderr.on('data', function (buffer) {
+      logger.error(buffer.toString());
+    });
+
     logger.info('Generating hexo static files...');
     let generateOk = true;
     const hexoGenerate = spawn(
