@@ -15,8 +15,8 @@
     "server": "node ./bin/www",
     "test": "npm run lint && npm run generate",
     "lint": "./node_modules/.bin/semistandard",
-    "theme": "./bin/setup.sh",
-    "postinstall": "./bin/setup.sh && cd themes/redbrick-theme && npm install",
+    "theme": "git submodule init && git submodule update --remote",
+    "postinstall": "npm run theme && cd themes/redbrick-theme && npm install",
     "generate": "npm run postinstall && hexo g",
     "hexo": "hexo s",
     "page": "hexo new page",
@@ -27,6 +27,11 @@
   },
   "hexo": {
     "version": "3.2.2"
+  },
+  "semistandard": {
+    "ignore": [
+      "themes"
+    ]
   },
   "dependencies": {
     "async": "^2.0.1",
