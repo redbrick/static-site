@@ -6,6 +6,7 @@ services:
     restart: 'always'
     volumes:
       - ./source:/usr/src/app/source
+      - ./public:/usr/src/app/public
       - ./logs:/usr/src/app/logs
     ports:
       - '3000:3000'
