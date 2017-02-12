@@ -8,25 +8,17 @@ const favicon = require('serve-favicon');
 const morgan = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const ReCAPTCHA = require('recaptcha2');
 const yaml = require('js-yaml');
 const fs = require('fs');
-const spawn = require('child_process').spawn;
 const FileStreamRotator = require('file-stream-rotator');
 const logger = require('./lib/logger');
-
-const getLatestPosts = require('./lib/getLatestPosts');
 const emailNewPosts = require('./lib/emailNewPosts');
 
 const app = express();
 
 const configFile = fs.readFileSync('./_config.yml', 'utf8');
 const config = yaml.safeLoad(configFile).server;
-const recaptcha = new ReCAPTCHA({
-  siteKey: process.env.RECAPTCHA_SITE_KEY || config.recaptcha.siteKey,
-  secretKey: process.env.RECAPTCHA_SECRET_KEY || config.recaptcha.secretKey
-});
-const baseUrl = '/api/';
+const baseUrl = '/api';
 
 const logDirectory = path.join(__dirname, config.logDirectory);
 fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
@@ -38,12 +30,11 @@ const accessLogStream = FileStreamRotator.getStream({
   verbose: false
 });
 
-const smtpTransport = require('./lib/smtpTransport');
-
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // Serve Static files generate from hexo
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(morgan('combined', {
   stream: accessLogStream
@@ -52,130 +43,26 @@ app.use(bodyParser.json());
 app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
-// dynamically create contact page
-app.get('/about/contact/*', function (req, res) {
-  let options = {
-    root: path.join(__dirname, '/public/'),
-    dotfiles: 'deny',
-    headers: {
-      'x-timestamp': Date.now(),
-      'x-sent': true
-    }
-  };
-  const fileName = 'about/contact/contact.html';
-  res.sendFile(fileName, options, function (err) {
-    if (err) {
-      logger.error(err);
-      res.status(err.status).end();
-    }
-  });
-});
+// Dynamic generated contact forms
+const contactFormRoute = require('./routes/contactForm');
+app.use('/about/contact/', contactFormRoute);
 
-// contact form email sender
-app.get(baseUrl + 'contact', function (req, res) {
-  recaptcha.validate(req.query.recaptcha).then(function () {
-    // validated and secure
-    let to = req.query.to;
-    let mailOptions = {
-      from: req.query.name + ' <' + req.query.email + '>',
-      to: to + '@redbrick.dcu.ie',
-      subject: '[Sent from the website] ' + req.query.subject,
-      text: req.query.text,
-      replyTo: req.query.email
-    };
-    smtpTransport.sendMail(mailOptions, function (error, info) {
-      if (error) {
-        logger.error(error);
-        res.send('error');
-      } else {
-        logger.info(info);
-        res.send('sent');
-      }
-    });
-  })
-  .catch(function (errorCodes) {
-    // invalid
-    logger.error(errorCodes);
-    res.send('error');
-  });
-});
+// /api/posts returns latets blog posts as json
+const postsRoute = require('./routes/posts');
+app.use(baseUrl, postsRoute);
 
-/* fetches latest blog posts as JSON list
- * optional query params:
- *  - offset (0-indexed starting point - default 0)
- *  - limit (0-indexed maximum number of returned results - default 10)
- *  - include (comma-separated list possibly including 'content,excerpt')
- */
-app.get(path.join(baseUrl, 'posts'), function (req, res) {
-  getLatestPosts({
-    offset: parseInt(req.query.offset),
-    limit: parseInt(req.query.limit),
-    include: (req.query.include || '').split(',')
-  }, function (err, posts) {
-    if (err) {
-      return res.status(500).json(err).end();
-    }
-    res.json(posts).end();
-  });
-});
+// /api/regenerate regenerates content without restarting the server
+const regenerateRoute = require('./routes/regenerate');
+app.use(baseUrl, regenerateRoute);
 
-app.get(baseUrl + 'fetchMeSomeTea', function (req, res) {
+// /api/contact endpoint for sending messages to rb users
+const contactRoute = require('./routes/contact');
+app.use(baseUrl, contactRoute);
+
+// /api/fetchMeSomeTea 418 responce
+app.get(path.join(baseUrl, 'fetchMeSomeTea'), function (req, res) {
   res.status(418).json({message: "I'm a teapot", image: 'https://httpstatusdogs.com/img/418.jpg'});
-});
-
-/* This pretty much violates REST since it has side effects
- * and doesn't GET anything of substance, but making it a GET
- * request means you can easily run this from a browser window.
- * also, normal users won't be hitting this endpoint.
- */
-app.get(path.join(baseUrl, 'regenerate'), function (req, res) {
-  if (req.query.token !== process.env.SECRET_API_TOKEN) {
-    return res.status(401).end('Bad token.');
-  }
-
-  /* Using wx write flag to combine check and write into one atomic operation;
-   * This prevents concurrent initiation of hexo child processes.
-   */
-  fs.writeFile('hexo_lock', 'hexo_lock', { flag: 'wx' }, function (err) {
-    if (err) {
-      if (err.code === 'EEXIST') {
-        return res.status(423).end('Site generation already in progress. Please wait.');
-      }
-      fs.unlink('hexo_lock'); // async delete just in case write started
-      return res.status(500).end('Unable to create lock file for site generation.');
-    }
-    // don't wait for whole process; go ahead and respond optimistically.
-    res.end('Re-generating static site...');
-
-    logger.info('Generating hexo static files...');
-    let generateOk = true;
-    const hexoGenerate = spawn(
-      path.join(process.cwd(), 'node_modules/.bin/hexo'),
-      ['generate']
-    );
-    hexoGenerate.stdout.on('data', function (buffer) {
-      logger.info(buffer.toString());
-    });
-    hexoGenerate.stderr.on('data', function (buffer) {
-      logger.error(buffer.toString());
-      generateOk = false;
-    });
-    hexoGenerate.on('close', function () {
-      if (!generateOk) {
-        fs.unlink('hexo_lock'); // async delete
-        return logger.error('Hexo generation failed.');
-      }
-      logger.log('Hexo generation was successful.');
-      emailNewPosts(function (err) {
-        if (err) {
-          logger.error(err);
-        }
-        fs.unlink('hexo_lock'); // async delete
-      });
-    });
-  });
 });
 
 // catch 404 and forward to error handler
@@ -208,5 +95,6 @@ app.use(function (err, req, res, next) {
 });
 
 emailNewPosts();
+logger.info('Server running on port', process.env.PORT || '3000');
 
 module.exports = app;
