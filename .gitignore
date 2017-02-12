@@ -47,6 +47,5 @@ node_modules
 public
 db.json
 _bower_components
-themes
 banner-*
 thumb-*
