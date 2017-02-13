@@ -1,44 +1,56 @@
 ---
 title: 'The Committee 1998-1999'
+type: cmt
+cmt:
+  - postion: Chairperson
+    name: Justin Moran
+    nick: cain
+  - position: Secretary
+    name: Jonathan Lundberg
+    nick: spock
+  - position: Treasurer
+    name: Caroline Sheedy
+    nick: bootie
+  - position: Events Officer
+    name: Kevin O'Donovan
+    nick: kod
+  - position: Public Relations Officer
+    name: Cecily Murray
+    nick: celery
+  - position: System Administrator
+    name: Adam Kelly
+    nick: cthulhu
+  - position: System Administrator
+    name: John Looney
+    nick: valen
+  - position: System Administrator
+    name: Hoi Chau Wong
+    nick: whc
+  - position: System Administrator
+    name: Colin Whittaker
+    nick: grimnar
+  - position: System Administrator
+    name: John Bolger
+    nick: jbolger
+  - position: System Administrator
+    name: Cian Synnott
+    nick: pooka
+  - position: System Administrator
+    name: Ka Chun Leung
+    nick: plop
+  - position: Webmaster
+    name: Brian Scanlan
+    nick: singer
+  - position: Webmaster
+    name: David Murphy
+    nick: drjolt
+  - position: Helpdesk
+    name: Aoife Cahill
+    nick: ace
+  - position: Helpdesk
+    name: Sarvesh Singh
+    nick: macbain
+  - position: Helpdesk
+    name: Eoin McGrath
+    nick: bob
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Justin Moran ( cain )](http://www.redbrick.dcu.ie/about/contact/thalia)
-
-<span>**Secretary:**</span>
-
-*   [Jonathan Lundberg ( spock )](http://www.redbrick.dcu.ie/about/contact/spock)
-
-<span>**Treasurer:**</span>
-
-*   [Caroline Sheedy ( bootie )](http://www.redbrick.dcu.ie/about/contact/hms)
-
-<span>**Events Officer:**</span>
-
-*   [Kevin O'Donovan ( kod )](http://www.redbrick.dcu.ie/about/contact/kod)
-
-<span>**Public Relations Officer:**</span>
-
-*   [Cecily Murray ( celery )](http://www.redbrick.dcu.ie/about/contact/firefly)
-
-<span>**System Administrators:**</span>
-
-*   [Adam Kelly ( cthulhu )/a>](http://www.redbrick.dcu.ie/about/contact/wibble)
-*   [John Looney ( valen )](http://www.redbrick.dcu.ie/about/contact/wibble)
-*   [Hoi Chau Wong ( whc )](http://www.redbrick.dcu.ie/about/contact/wibble)
-*   [Colin Whittaker ( grimnar)](http://www.redbrick.dcu.ie/about/contact/wibble)
-*   [John Bolger (jbolger )](http://www.redbrick.dcu.ie/about/contact/wibble)
-*   [Cian Synnott ( pooka )](http://www.redbrick.dcu.ie/about/contact/plop)
-*   [Ka Chun Leung ( plop )](http://www.redbrick.dcu.ie/about/contact/drjolt)
-
-<span>**Webmaster:**</span>
-
-*   [Brian Scanlan ( singer )](http://www.redbrick.dcu.ie/about/contact/andy)
-*   [David Murphy ( drjolt )](http://www.redbrick.dcu.ie/about/contact/andy)
-
-<span>**Education Officers:**</span>
-
-*   [Aoife Cahill ( ace )](http://www.redbrick.dcu.ie/about/contact/wibble)
-*   [Sarvesh Singh ( macbain )](http://www.redbrick.dcu.ie/about/contact/plop)
-*   [Eoin McGrath ( bob )](http://www.redbrick.dcu.ie/about/contact/drjolt)

@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf http://redbrick.dcu.ie/help/tutorials/AdvancedJavaScript/Advanced_JavaScript.pdf %}
+{% pdf ./Advanced_JavaScript.pdf %}

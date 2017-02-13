@@ -3,8 +3,8 @@ title: Week 3 Google Week
 date: 2014-10-07 21:15:00
 author: kylar
 tags:
-- Google
-- Associate
+- google
+- associates
 banner: googleAtDcu2.jpg
 thumbnail: googleAtDcu2.jpg
 ---

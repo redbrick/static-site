@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf http://redbrick.dcu.ie/help/tutorials/usingtb2016/usingtb2016.pdf %}
+{% pdf ./usingrb.pdf %}

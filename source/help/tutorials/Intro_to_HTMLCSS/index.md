@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf http://redbrick.dcu.ie/help/tutorials/Intro_to_HTMLCSS/Intro_to_HTMLCSS.pdf %}
+{% pdf ./Intro_to_HTMLCSS.pdf %}

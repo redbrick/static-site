@@ -1,46 +1,57 @@
 ---
 title: 'The Committee 2009-2010'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Lotta Mikkonen
+    nick: attol
+  - position: Secretary
+    name: Emma Gallagher
+    nick: emma
+  - position: Treasurer
+    name: Seán Hand
+    nick: revenant
+  - position: Events Officer
+    name: Caroline Fuery
+    nick: carri
+    resigned: true
+  - position: Events Officer
+    name: Stephanie Coleman
+    nick: steph
+  - position: Public Relations Officer
+    name: Daniel Fox
+    nick: maiden
+    resigned: true
+  - position: First Year Representative
+    name: David Glennon
+    nick: azrael
+  - position: System Administrators
+    name: Eoghan Cotter
+    nick: johan
+  - position: System Administrators
+    name: Alan Walsh
+    nick: sonic
+  - position: System Administrators
+    name: David Ó Laigheanáin
+    nick: coconut
+    resigned: true
+  - position: System Administrators
+    name: Andrew Martin
+    nick: werdz
+  - position: Webmaster
+    name: Kat Farrell
+    nick: angelkat
+  - position: Education Officers
+    name: Diamuid McManus
+    nick: elephant
+  - position: Education Officers
+    name: Gautam Wadhwa
+    nick: gw
+  - position: Education Officers
+    name: Austin Halpin
+    nick: haus
+    resigned: true
+  - position: Education Officers
+    name: Craig Gavagan
+    nick: creadak
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Lotta Mikkonen ( attol )](../../about/contact/attol)
-
-<span>**Secretary:**</span>
-
-*   [Emma Gallagher ( emma )](../../about/contact/emma)
-
-<span>**Treasurer:**</span>
-
-*   [Seán Hand ( revenant )](../../about/contact/revenant)
-
-<span>**Events Officer:**</span>
-
-*   [<span style="text-decoration: line-through;">Caroline Fuery ( carri )</span>](../../about/contact/carri)
-*   [Stephanie Coleman ( steph )](../../about/contact/steph)
-
-<span>**Public Relations Officer:**</span>
-
-*   [<span style="text-decoration: line-through;">Daniel Fox ( maiden )</span>](../../about/contact/maiden)
-
-<span>**First Year Representative**</span>
-
-*   [David Glennon ( azrael )](../../about/contact/azrael)
-
-<span>**System Administrators:**</span>
-
-*   [Eoghan Cotter ( johan )](../../about/contact/johan)
-*   [Alan Walsh ( sonic )](../../about/contact/sonic)
-*   [<span style="text-decoration: line-through;">David Ó Laigheanáin (coconut)</span>](../../about/contact/coconut)
-*   [Andrew Martin ( werdz )](../../about/contact/werdz)
-
-<span>**Webmaster:**</span>
-
-*   [Kat Farrell ( angelkat )](../../about/contact/angelkat)
-
-<span>**Education Officers:**</span>
-
-*   [Diamuid McManus ( elephant )](../../about/contact/elephant)
-*   [Gautam Wadhwa ( gw )](../../about/contact/gw)
-*   [<span style="text-decoration: line-through;">Austin Halpin ( haus )</span>](../../about/contact/haus)
-*   [Craig Gavagan ( creadak )](../../about/contact/creadak)

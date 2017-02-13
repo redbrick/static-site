@@ -1,42 +1,40 @@
 ---
 title: "The Committee 2013-2014"
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Vadim Clyne-Kelly
+    nick: vadimCK
+  - position: Secretary
+    name: Jessica McGowan
+    nick: teapott
+  - position: Treasurer
+    name: Lorcan Boyle
+    nick: zergless
+    image: zergless.jpg
+  - position: Public Relations Officer
+    name: Tríona Barrow
+    nick: polka
+  - position: Events Officer
+    name: Jerry Onianwa
+    nick: jerbumz
+  - position: System Administrator
+    name: Richard Walsh
+    nick: koffee
+    image: koffee.jpg
+  - position: System Administrator
+    name: Ciaran McNally
+    nick: mak
+  - position: System Administrator
+    name: Emmanuel Caillé
+    nick: twister
+  - position: Helpdesk
+    name: Niall Gaffney
+    nick: gamma
+  - position: Helpdesk
+    name: Andrew Boylan
+    nick: fructus
+  - position: First Year Rep
+    name: Seán Healy
+    nick: space
 ---
-
-<div>**Chairperson:**</div>
-
-*   [Vadim Clyne-Kelly (VadimCK)](../../about/contact/vadimck)
-
-**Secretary:**
-
-*   [Jessica McGowan (teapott)](../../about/teapott)
-
-**Treasurer:**
-
-*   [Lorcan Boyle (zergless)](../../about/zergless)
-
-**Events Officer:**
-
-*   [Jerry Onianwa  (jerbumz)](../../about/contact/jerbumz)
-
-**Public Relations Officer:**
-
-*   [Tríona Barrow (polka)](../../about/contact/polka)
-
-**First Year Representative**
-
-*   [Sean Healey (space)](../../about/contact/space)
-
-**System Administrators:**
-
-*   [Richie Walsh (koffee)](../../about/contact/koffee)
-*   [Ciaran McNally (mak)](../../about/contact/mak)
-*   [Emmanuel Caillé (twister)](../../about/contact/twister)
-
-**Webmaster:**
-
-*   
-
-**Education Officers:**
-
-*   [Andrew Boylan (fructus)](../../about/contact/fructus)
-*   [Niall Gaffney (gamma)](../../about/contact/gamma)

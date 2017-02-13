@@ -5,8 +5,7 @@ author: polka
 banner: linux.png
 tags:
 - Linux
-- Installfest
-- Linux Install
+- installfest
 ---
 
 This year we were able to host our annual Installfest, thanks to the support of

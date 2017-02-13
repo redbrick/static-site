@@ -4,11 +4,11 @@ author: polka
 date: '2011-12-03 14:30:52'
 thumbnail: pubquiz.png
 banner: pubquiz.png
-tags: 
+tags:
  - ideas
- - intersocs
+ - Intersocs
  - clubs and socs
- - christmas
+ - Christmas
 ---
 It's nearly Christmas time, and with the season to be jolly stepping into gear and DCU quieting down for the end of semester, Redbrick has a few choice events to keep you going! Events this week include;
 
