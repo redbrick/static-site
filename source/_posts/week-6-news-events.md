@@ -7,11 +7,10 @@ banner: wbdateexm.png
 tags:
   - irlcpc
   - pints
-  - agm
-  - admin training
-  - webmaster exam
-  - helpdesk exam
-  - admin exam
+  - AGM
+  - admin
+  - webmaster
+  - helpdesk
 ---
 
 Reading week is here, though not all of us get a break! There's still a few things happening this week.

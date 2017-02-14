@@ -10,11 +10,11 @@ type: about
 3. Spamming other users is an offense (e.g. mass mailing, system-wide write messages, or flooding chat rooms) unless a practical need to do so has been presented to the committee, and their permission obtained for such a mass communication.
 4. Users are requested to take all reasonable precautions to ensure the security of their account, and to comply with the instructions of Redbrick's System Administrators and with their guidelines on security.
 5. The reprovision of Dublin City University Networking Society Services or Equipment requires the approval of the committee.
-6. Certain file types are banned by our web server and users should not try to circumvent this rule. For more information on the restricted file types and getting access, contact<a href="mailto:helpdesk@redbrick.dcu.ie?Subject=[sent from website]"target="_top"> Helpdesk</a>.
+6. Certain file types are banned by our web server and users should not try to circumvent this rule. For more information on the restricted file types and getting access, contact [Helpdesk](/about/contact/helpdesk).
 
 
 The following regulations are additional to the Society's own rules...
-- [Code of Conduct for the use of Computing Resources in Dublin City University[1]
+- [Code of Conduct for the use of Computing Resources in Dublin City University][1]
 - [HEAnet Acceptable Usage Policy][2]
 
 ## Reasoning

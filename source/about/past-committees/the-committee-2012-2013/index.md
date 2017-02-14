@@ -1,42 +1,42 @@
 ---
 title: "The Committee 2012-2013\t"
+type: cmt
+cmt:
+  - position: Chairperson
+    name: James Reilly
+    nick: fun
+  - position: Secretary
+    name: Robert Devereux
+    nick: kylar
+  - position: Treasurer
+    name: Richard Walsh
+    nick: koffee
+    image: koffee.jpg
+  - position: Public Relations Officer
+    name: Andrew Boylan
+    nick: fructus
+  - position: Events Officer
+    name: Aine Duffy
+    nick: pedro
+  - position: System Administrator
+    name: Gautam Wadhwa
+    nick: gw
+  - position: System Administrator
+    name: Shane Stacey
+    nick: isaac702
+  - position: System Administrator
+    name: Vadim Clyne-Kelly
+    nick: vadimCK
+  - position: Webmaster
+    name: Ciaran McNally
+    nick: mak
+  - position: Helpdesk
+    name: Eimear Tyrell
+    nick: beimear
+  - position: Helpdesk
+    name: Craig Duff
+    nick: duff
+  - position: First Year Rep
+    name: Freddie Hayden
+    nick:  mercury7
 ---
-
-<div>**Chairperson:**</div>
-
-*   [James Reilly (fun)](../../about/contact/fun)
-
-**Secretary:**
-
-*   [Robert Devereux (kylar)](../../about/contact/kylar)
-
-**Treasurer:**
-
-*   [Richie Walsh (koffee)](../../about/contact/koffee)
-
-**Events Officer:**
-
-*   [Aine Duffy (pedro)](../../about/contact/pedro)
-
-**Public Relations Officer:**
-
-*   [Andrew Boylan (fructus)](../../about/contact/fructus)
-
-**First Year Representative**
-
-*   [Freddie Hayden (mercury7)](../../about/contact/mercury7)
-
-**System Administrators:**
-
-*   [Shane Stacey (isaac702)](../../about/contact/isaac702)
-*   [Vadim Clyne-Kelly (VadimCK)](../../about/contact/vadimck)
-*   [Gautam Wadhwa (gw)](../../about/contact/gw)
-
-**Webmaster:**
-
-*   [Ciaran McNally (mak)](../../about/contact/mak)
-
-**Education Officers:**
-
-*   [Eimear Tyrell (beimear)](../../about/contact/beimear)
-*   [Craig Duff (duff)](../../about/contact/duff)

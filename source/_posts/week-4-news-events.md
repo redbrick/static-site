@@ -5,8 +5,8 @@ date: '2012-02-26 00:15:51'
 thumbnail: shdd-rb.jpg
 banner: shdd-rb.jpg
 tags:
-  - admin training
-  - techweek
+  - admin
+  - TechWeekDCU
   - science hackday
   - chromebook
 ---

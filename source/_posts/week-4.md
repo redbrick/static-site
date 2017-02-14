@@ -6,7 +6,7 @@ tags:
   - announce
   - intercom
   - screen
-  - associate
+  - associates
 thumbnail: logo.png
 banner: intercom.png
 ---

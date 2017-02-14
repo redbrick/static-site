@@ -8,7 +8,7 @@ tags:
   - committee
   - FOSDEM
   - Intersocs
-  - christmas
+  - Christmas
 ---
 Week 10 has arrived and Christmas is coming ever closer, but the semester isn’t over yet! While the rest of college is winding down, Redbrick is planning a few events to keep you occupied.
 

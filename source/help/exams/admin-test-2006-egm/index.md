@@ -1,5 +1,5 @@
 ---
-title: 'Admin test 2006 egm'
+title: 'Admin test 2006 EGM'
 ---
 
 # DCU Networking Society System Administrator Test 2006

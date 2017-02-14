@@ -6,7 +6,7 @@ thumbnail: code.png
 banner: code.png
 tags:
   - science hackday
-  - admin training
+  - admin
   - irlcpc
 ---
 

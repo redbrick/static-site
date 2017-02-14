@@ -1,40 +1,46 @@
 ---
 title: 'The Committee 2004-2005'
+type: cmt
+cmt:
+  - position: Chairperson
+    name: Michelle Graham
+    nick: drusilla
+  - position: Secretary
+    name: Aisling Devlin
+    nick: aeris
+  - position: Secretary
+    name: Donal Mulligan
+    nick: thor
+  - position: Treasurer
+    name: Charlene Barrett
+    nick: charlene
+  - position: Public Relations Officer
+    name: Martina Frain
+    nick: dramaq
+  - position: System Administrators
+    name: Martin Clarke
+    nick: prolix
+    resigned: true
+  - position: System Administrators
+    name: Michael Dowling
+    nick: mickeyd
+  - position: System Administrators
+    name: Padraic Hallinan
+    nick: halenger
+  - position: Webmaster
+    name: David Whelan
+    nick: biteme
+  - position: Education Officers
+    name: John Doyle
+    nick: art_wolf
+  - position: Education Officers
+    name: Una Kehoe
+    nick: keloe
+    resigned: true
+  - position: Education Officers
+    name: Stephen Doyle
+    nick: igy
+  - position: Education Officers
+    name: Eoghan Gaffney
+    nick: atlas
 ---
-
-<span>**Chairperson:**</span>
-
-*   [Michelle Graham (drusilla)](http://www.redbrick.dcu.ie/about/contact/drusilla)
-
-<span>**Secretary:**</span>
-
-*   [Aisling Devlin ( aeris )](http://www.redbrick.dcu.ie/about/contact/aeris)
-*   [Donal Mulligan ( thor )](http://www.redbrick.dcu.ie/about/contact/thor)
-
-<span>**Treasurer:**</span>
-
-*   [Charlene Barrett ( charlene )](http://www.redbrick.dcu.ie/about/contact/charlene)
-
-<span>**Events Officer:**</span>
-
-<span>**Public Relations Officer:**</span>
-
-*   [Martina Frain ( dramaq )](http://www.redbrick.dcu.ie/about/contact/dramaq)
-
-<span>**System Administrators:**</span>
-
-*   <s>[Martin Clarke ( prolix )](http://www.redbrick.dcu.ie/about/contact/prolix)</s>
-
-*   [Michael Dowling ( mickeyd )](http://www.redbrick.dcu.ie/about/contact/mickeyd)
-*   [Padraic Hallinan ( halenger )](http://www.redbrick.dcu.ie/about/contact/halenger)
-
-<span>**Webmaster:**</span>
-
-*   [David Whelan ( biteme )](http://www.redbrick.dcu.ie/about/contact/biteme)
-
-<span>**Education Officers:**</span>
-
-*   [John Doyle ( art_wolf )](http://www.redbrick.dcu.ie/about/contact/art_wolf)
-*   <s>[Una Kehoe ( keloe )](http://www.redbrick.dcu.ie/about/contact/keloe)</s>
-*   [Stephen Doyle ( igy )](http://www.redbrick.dcu.ie/about/contact/igy)
-*   [Eoghan Gaffney ( atlas )](http://www.redbrick.dcu.ie/about/contact/atlas)
