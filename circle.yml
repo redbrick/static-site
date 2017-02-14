@@ -9,4 +9,4 @@ deployment:
   production:
     branch: master
     commands:
-      - curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
+        - curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
