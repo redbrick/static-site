@@ -10,7 +10,7 @@ keywords:
 
 ## 2017
 
-[![How To Build a Webserver](./HowToBuildAWebserver/HowToBuildAWebserver.png)](./HowToBuildAWebserver)
+[![How To Make a Webserver](./HowToMakeAWebserver/HowToMakeAWebserver.png)](./HowToMakeAWebserver)
 [![Phishing and Scams](./PhishingAndScams/How_not_to_conduct_yourself_on_social_media.jpg)](./PhishingAndScams)
 
 ## 2016

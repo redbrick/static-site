@@ -17,12 +17,12 @@
     "lint": "./node_modules/.bin/semistandard",
     "theme": "git submodule init && git submodule update --remote",
     "postinstall": "npm run theme && cd themes/redbrick-theme && npm install",
-    "generate": "npm run postinstall && hexo g",
+    "generate": "hexo g",
     "hexo": "hexo s",
     "page": "hexo new page",
     "post": "hexo new post",
     "start": "npm run generate && node ./bin/www ",
-    "clean": "hexo clean",
+    "fresh": "hexo clean",
     "regenerate": "npm run postinstall && npm run clean && hexo g"
   },
   "hexo": {
@@ -57,6 +57,7 @@
     "hexo-generator-json-content": "^3.0.1",
     "hexo-generator-search": "^1.0.2",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-generator-to-json": "^1.1.12",
     "hexo-pdf": "^1.1.1",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
