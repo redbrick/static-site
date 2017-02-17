@@ -11,7 +11,6 @@ timezone: Europe/Dublin
 url: http://redbrick.dcu.ie
 root: /
 permalink: :year/:month/:day/:title/
-permalink_defaults:
 
 # Directory
 source_dir: source
@@ -20,8 +19,6 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -61,6 +58,34 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+# Api
+toJson:
+  enablePagination: true # chunk the index.json array based on per_page in _config.yml
+  configs: false # donnot generate the global and theme config api.
+  pages:
+    selectors:
+      - title # string selector
+      - date
+      - updated
+      - permalink
+      - excerpt
+      - photos
+      - link
+    extracts: [content]
+  posts:
+    selectors:
+      - title
+      - date
+      - updated
+      - excerpt
+      - permalink
+      - photos
+      - {path: tags, childrenSelectors: ['name', 'slug', 'permalink']} # object selector
+      - {path: categories, childrenSelectors: ['name', 'slug', 'permalink']}
+    extracts: [content]
+  tags: true
+  categories: true
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
