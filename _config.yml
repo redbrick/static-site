@@ -115,7 +115,7 @@ hfc_favicons:
     windows: false
     yandex: false
 hfc_img:
-  enable: false
+  enable: true
   interlaced: false
   multipass: false
   optimizationLevel: 2
@@ -128,17 +128,8 @@ hfc_img:
   jpegrecompress: false
   jpegrecompressQuality: 'medium'
   optipng: true
-  svgo: true
-thumbnails:
-  profiles:
-    banner:
-      resize:
-        - 700
-        - 700
-    thumb:
-      resize:
-        - 200
-        - 200
+  svgo: false
+
 ## Themes: https://hexo.io/themes/
 theme: redbrick-theme
 
