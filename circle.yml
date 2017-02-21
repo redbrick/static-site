@@ -1,10 +1,6 @@
 machine:
   node:
     version: 6.9.1
-dependencies:
-  pre:
-    - sudo apt-get update
-    - sudo apt-get install imagemagick
 deployment:
   production:
     branch: master
