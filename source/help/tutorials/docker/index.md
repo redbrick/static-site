@@ -8,7 +8,7 @@ keywords:
   - helpdesk
 ---
 
-{% iframe https://redbrick.github.io/admin-training/docker/ 800 600 %}
+{% reveal https://redbrick.github.io/admin-training/docker/ 800 600 %}
 
 # Setting up docker-compose for services
 

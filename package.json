@@ -62,6 +62,7 @@
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
+    "hexo-reveal": "^1.0.3",
     "hexo-server": "^0.2.0",
     "hexo-util": "^0.6.0",
     "js-yaml": "^3.6.1",
