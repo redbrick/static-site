@@ -2,6 +2,7 @@
 title: Joining
 date: 2016-04-17 16:15:35
 type: help
+banner: join.jpg
 keywords:
   - join
   - help

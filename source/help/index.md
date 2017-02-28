@@ -2,6 +2,7 @@
 title: Helpdesk
 date: 2016-04-17 16:15:35
 type: cmt
+banner: helpdesk.jpg
 cmt:
   - position: Helpdesk
     name: Tom Doyle
