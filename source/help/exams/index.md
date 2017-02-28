@@ -2,6 +2,7 @@
 title: Exams
 type: help
 date: 2016-04-17 16:15:35
+banner: exam.jpg
 keywords:
 - help
 - exams
