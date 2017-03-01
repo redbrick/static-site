@@ -10,7 +10,7 @@ keywords:
 ---
 
 ## 2017
-
+[![Static Web Design](./static-web/static.png)](./static-web)
 [![Docker: The Cloud in a box](./docker/docker.png)](./docker)
 [![How To Make a Webserver](./HowToMakeAWebserver/HowToMakeAWebserver.png)](./HowToMakeAWebserver)
 [![Phishing and Scams](./PhishingAndScams/How_not_to_conduct_yourself_on_social_media.jpg)](./PhishingAndScams)
