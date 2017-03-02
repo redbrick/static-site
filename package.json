@@ -19,6 +19,7 @@
     "postinstall": "npm run theme && cd themes/redbrick-theme && npm install",
     "generate": "hexo g",
     "hexo": "hexo s",
+    "dev": "npm run hexo",
     "page": "hexo new page",
     "post": "hexo new post",
     "start": "npm run generate && node ./bin/www ",
