@@ -1,4 +1,3 @@
-'use strict';
 require('dotenv-safe').load();
 
 const express = require('express');
@@ -25,9 +24,9 @@ fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
 
 const accessLogStream = FileStreamRotator.getStream({
   date_format: 'YYYYMMDD',
-  filename: path.join(logDirectory, 'access-%DATE%.log'),
-  frequency: process.env.LOG_ROTATE || config.logRotationFreqency,
-  verbose: false
+  filename   : path.join(logDirectory, 'access-%DATE%.log'),
+  frequency  : process.env.LOG_ROTATE || config.logRotationFreqency,
+  verbose    : false,
 });
 
 app.set('views', path.join(__dirname, 'views'));
@@ -36,9 +35,11 @@ app.set('view engine', 'ejs');
 // Serve Static files generate from hexo
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(morgan('combined', {
-  stream: accessLogStream
-}));
+app.use(
+  morgan('combined', {
+    stream: accessLogStream,
+  })
+);
 app.use(bodyParser.json());
 app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -61,26 +62,26 @@ const contactRoute = require('./routes/contact');
 app.use(baseUrl, contactRoute);
 
 // /api/fetchMeSomeTea 418 responce
-app.get(path.join(baseUrl, 'fetchMeSomeTea'), function (req, res) {
-  res.status(418).json({message: "I'm a teapot", image: 'https://httpstatusdogs.com/img/418.jpg'});
+app.get(path.join(baseUrl, 'fetchMeSomeTea'), (req, res) => {
+  res.status(418).json({ message: "I'm a teapot", image: 'https://httpstatusdogs.com/img/418.jpg' });
 });
 
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
+app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
   res.status(err.status).sendFile(path.join(__dirname, '/public/404.html'));
 });
 
 // error handlers
-app.use(function (err, req, res, next) {
+app.use((err, req, res, next) => {
   if (app.get('env') === 'development') {
     // development error handler
     // will print stacktrace
     res.status(err.status || 500);
     res.render('error', {
       message: err.message,
-      error: err
+      error  : err,
     });
   } else {
     // production error handler
@@ -90,8 +91,8 @@ app.use(function (err, req, res, next) {
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function (err, req, res, next) {
-  res.status(err.status || 500).sendFile(path.join(__dirname, '/public/404.html'));
+app.use(({ status }, req, res, next) => {
+  res.status(status || 500).sendFile(path.join(__dirname, '/public/404.html'));
 });
 
 emailNewPosts();
