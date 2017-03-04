@@ -5,6 +5,7 @@ const fs = require('fs');
 const ReCAPTCHA = require('recaptcha2');
 const logger = require('../lib/logger');
 const smtpTransport = require('../lib/smtpTransport');
+const sendMailTransport = require('../lib/sendMailTransport');
 
 const configFile = fs.readFileSync('./_config.yml', 'utf8');
 const config = yaml.safeLoad(configFile).server;
@@ -30,7 +31,15 @@ router.get('/contact', ({ query }, res) => {
       smtpTransport.sendMail(mailOptions, (error, info) => {
         if (error) {
           logger.error(error);
-          res.json({ formSubmit: true, errors: 'error in SMTP Server' });
+          sendMailTransport.sendMail(mailOptions, (error, info) => {
+            if (error) {
+              logger.error(error);
+              res.json({ formSubmit: true, errors: 'error in SMTP Server' });
+            } else {
+              logger.info(info);
+              res.json({ formSubmit: true, errors: null });
+            }
+          });
         } else {
           logger.info(info);
           res.json({ formSubmit: true, errors: null });
