@@ -1,7 +1,7 @@
 # Static-Site
 [![CircleCI](https://circleci.com/gh/redbrick/static-site.svg?style=svg)](https://circleci.com/gh/redbrick/static-site)
 
-A Static Site for [redbrick](http://redbrick.dcu.ie) generated with [hexo](hexo.io) using a theme
+A Static Site for [redbrick](http://redbrick.dcu.ie) generated with [hexo](https://hexo.io/) using a theme
 based off [icarus](https://github.com/redbrick/hexo-theme-icarus)
 
 ## Requirements
