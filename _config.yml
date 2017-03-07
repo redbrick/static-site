@@ -201,7 +201,7 @@ theme: redbrick-theme
 # Server Config
 server:
   email:
-    host: smtp.gmail.com
+    host: smtp.redbrick.dcu.ie
     port: '465'
     secure: 'true'
     auth:
