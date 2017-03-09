@@ -1,5 +1,5 @@
 ---
-title: Using Redbrick 2015
+title: Intro To Bash
 date: 2016-04-17 16:15:35
 type: tutorial
 keywords:
@@ -8,4 +8,4 @@ keywords:
 - helpdesk
 ---
 
-{% pdf ./usingrb2015.pdf %}
+{% pdf ./IntroToBash.pdf %}
