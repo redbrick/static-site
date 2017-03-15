@@ -8,7 +8,7 @@ keywords:
   - web
 ---
 
-{% reveal https://redbrick.github.io/admin-training/static-webdesign 800 600 %}
+{% reveal https://redbrick.github.io/admin-training/static-webdesign/ 800 600 %}
 
 # Static Site
 
