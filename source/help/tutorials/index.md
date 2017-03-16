@@ -19,11 +19,9 @@ keywords:
 [![Using Redbrick](./usingrb2016/usingrb.png)](./usingrb2016)
 [![](./AdvancedJavaScript/Advanced_JavaScript.png)](./AdvancedJavaScript)
 [![](./IntroToGit/IntroToGit.png)](./IntroToGit)
-
 [![](./IntroToBash/IntroToBash.png)](./IntroToBash)
 [![](./IntroToHTMLCSS/IntroToHTMLCSS.png)](./IntroToHTMLCSS)
 [![](./IntroToLinux/IntroToLinux.png)](./IntroToLinux)
-
 [![](./IntrotoJS/IntrotoJS.png)](./IntrotoJS)
 [![](./Jargon_buster/Jargon_buster.png)](./Jargon_buster)
 [![](./RetroPie/RetroPie.png)](./RetroPie)
