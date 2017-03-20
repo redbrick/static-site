@@ -1,11 +1,11 @@
-version: "2"
+version: "3"
 services:
   redbrick:
     image: 'redbrick/site:latest'
     container_name: 'redbrick-site'
     restart: 'always'
+    command: ["npm", "run", "docker"]
     volumes:
-      - ./source:/usr/src/app/source
       - ./public:/usr/src/app/public
       - ./logs:/usr/src/app/logs
     ports:
