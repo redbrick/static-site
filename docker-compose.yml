@@ -4,10 +4,9 @@ services:
     image: 'redbrick/site:latest'
     container_name: 'redbrick-site'
     restart: 'always'
-    command: ["npm", "run", "docker"]
+    command: ["npm", "run", "start"]
     volumes:
-      - ./public:/usr/src/app/public
-      - ./logs:/usr/src/app/logs
+      - $PWD:/usr/src/app
     ports:
       - '3000:3000'
     environment:
