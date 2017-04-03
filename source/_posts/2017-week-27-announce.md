@@ -15,6 +15,8 @@ Dear Redbrick members,
 
 This is what we have coming up this week:
 
+ <!-- more -->
+
 ## Tech Week Day Two
 
  - When: Wednesday 22nd March, 3-6pm
