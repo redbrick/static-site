@@ -6,7 +6,7 @@ date: 2016-04-17 16:22:40
 
 ## DUBLIN CITY UNIVERSITY: Dublin City University Networking Society CONSTITUTION
 ## 1. Name of Society:
-  1. The official name of the society will be Dublin City University Networking Society. this shall appear on correspondence with official bodies.
+  1. The official name of the society will be Dublin City University Networking Society. This shall appear on correspondence with official bodies.
     1. The society operates under the name Redbrick.
 
 
@@ -60,7 +60,7 @@ _Other suggested positions include:_
 1. The Committee Members shall be democratically elected at the Annual General Meeting (AGM) or at an Extra-ordinary General Meeting (EGM).
 2. To seek election to the Committee, each candidate must have two nominations by current members of the Society.
 3. To be deemed fit for election to the position of Systems Administrator or Webmaster, the candidate must either:
-  1. Pass an Aptitude test, as devised by the outgoing webmaster for webmaster candidates, or system administrators for system administrator candidates. If it is deemed preferable to do so, the test may be set by a third party nominated by the webmaster (in the case of the webmaster examination), or by a majority of the system administrators (in the case of the system administrator exams). The current committee will nominate this third party. Be an outgoing Webmaster or Systems Administrator
+  1. Pass an Aptitude test, as devised by the outgoing Webmaster for Webmaster candidates, or system administrators for system administrator candidates. If it is deemed preferable to do so, the test may be set by a third party nominated by the Webmaster (in the case of the Webmaster examination), or by a majority of the system administrators (in the case of the system administrator exams). The current committee will nominate this third party. Be an outgoing Webmaster or Systems Administrator
 4. All Helpdesk candidates must sit and pass a test as devised by the outgoing education officer(s)
 
 
@@ -115,8 +115,7 @@ _Other suggested positions include:_
 2. The membership fee for the Society shall be in compliance with the conditions set down by the OSL
 3. Each member of the Society shall be entitled to receive a copy of this Constitution, on demand, free of charge.
 4. In the event of a clash with the Society Life Committee Constitution, the Society Life Committee Constitution shall take precedence above this constitution and is subject to the Society Life Committee at all times.
-5. There is no provision for a Society to amend this Constitution.
-6. In joining the Society, members agree to be bound by the rules and regulations of the Society as laid down in this constitution and by the Governing Executive Committee. Members violating these rules and regulations
+5. In joining the Society, members agree to be bound by the rules and regulations of the Society as laid down in this constitution and by the Governing Executive Committee. Members violating these rules and regulations
     shall be answerable to the committee and may have
     1. Computer system account suspended for a period of time decided by the System Administrators.
     2. Their membership revoked and no monies refunded, for persistent breaches or extremely serious breaches, as deemed by a majority of the committee. In the event that the committee cannot resolve a dispute with a member(s), The Society Life Committee shall rule on the matter and its decision is final.
@@ -130,3 +129,8 @@ _Other suggested positions include:_
   1. Any equipment donated to the society shall therein be the property of the society.
   2. Any equipment which is damaged or destroyed whilst on loan to the society will have its replacement cost paid to it's loaner.
   3.  Administration of loaned or donated equipment shall be the exclusive responsibility of the committee.
+
+
+# 11.	Amendments to this Constitution:
+1 Notice of a proposal to seek an amendment to this Constitution shall be given to the members at least 4 working days prior to the meeting at which such a proposal shall be considered.
+2 A proposal to amend this Constitution must receive the approval of 2/3 of the members present and entitled to vote at the relevant meeting.
