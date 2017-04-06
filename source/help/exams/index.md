@@ -16,8 +16,10 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Admins Tests
 
+*   [2017 AGM](./admin-test-2017-agm)
 *   [2016 EGM](./admin-test-2016-egm)
 *   [2016 AGM](./admin-test-2016-agm)
+*   [2015 AGM](./admin-test-2015-agm)
 *   [2014 EGM](./admin-test-2014-egm)
 *   [2014 AGM](./admin-test-2014-agm)
 *   [2013 EGM](./admin-test-2013-egm)
@@ -44,6 +46,7 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Webmaster Tests
 
+*   [2017 AGM](http://webmaster.redbrick.dcu.ie/2017) - [If you dont get it](https://webmaster.redbrick.dcu.ie/2017) and if you cant get that one heres the [easy one](https://webmaster.redbrick.dcu.ie/2017/fixed)
 *   There was no exam in 2016
 *   [2014 AGM](./webmaster-test-2014-agm)
 *   [2013 EGM](./webmaster-test-2013-egm)
