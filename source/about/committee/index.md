@@ -1,56 +1,43 @@
 ---
 title: Committee
-date: 2016-04-17 16:22:40
+date: 2017-04-06 09:22:40
 type: cmt
 cmt:
   - position: Chairperson
-    name: Noah O' Donnaile
-    nick: cac
-    image: cac.jpg
+    name: Terry Bolt
+    nick: tbolt
   - position: Secretary
-    name: Oskar McDermott
-    nick: oskar
-    image: oskar.jpg
+    name: Wojtek Bednarzak
+    nick: voy
   - position: Treasurer
-    name: Ross O' Sullivan
-    nick: sully
-    image: sully.jpg
+    name: Ciara Godwin
+    nick: hexagon
   - position: Public Relations Officer
-    name: Senan Kelly
-    nick: sentriz
-    image: sentriz.jpg
+    name: Chris Dowling
+    nick: winesnob
   - position: Events Officer
-    name: Cliodhna Harrison
-    nick: thegirl
-    image: thegirl.jpg
+    name: James Mc Dermott
+    nick: mctastic
   - position: System Administrator
-    name: Richard Walsh
-    nick: koffee
-    image: koffee.jpg
+    name: Alex Mcgrath Kraak
+    nick: akraak
   - position: System Administrator
     name: Cormac Smartt
     nick: pints
     image: pints.jpg
   - position: System Administrator
-    name: Lorcan Boyle
-    nick: zergless
-    image: zergless.jpg
-  - position: Webmaster
-    name: Cian Butler
-    nick: butlerx
-    image: butlerx.jpg
-  - position: Helpdesk
     name: Tom Doyle
     nick: greenday
     image: greenday.jpg
+  - position: Webmaster
+    name: Ben McMahon
+    nick: mcmahon
   - position: Helpdesk
-    name: Dylan McDonald
-    nick: grace
-    image: grace.jpg
-  - position: First Year Rep
-    name: George Burac
-    nick: georgey
-    image: georgey.jpg
+    name: Sahil Mehra
+    nick: pr0n
+  - position: Helpdesk
+    name: Michal Durinik
+    nick: mikello
 ---
 
 The Committee is a 12 person team which is elected yearly to run all aspects of the society
@@ -76,25 +63,27 @@ Webmaster who are current members of the Committee, as well as previous elected
 root holders who have volunteered to keep doing stuff.
 
 Elected System Administrators:
-- Richard Walsh (koffee)
--  Lorcan Boyle (zergless)
--  Cormac Smartt (pints)
+- Cormac Smartt (pints)
+- Tom Doyle (greenday)
+- Alex Mcgrath Kraak (akraak)
 
 Esteemed Holders Of Root:
--  Cian Butler (butlerx)
--  Cormac Smartt (pints)
--  tbolt
--  Wojtek Bednarzak (voy)
--  Lorcan Boyle (zergless)
--  Emmanuel Caillé (Twister)
--  Richard Walsh (koffee)
--  vadimck
--  isaac702
--  gw
--  fun
--  haus
--  receive
--  werdz
--  johan
--  sonic
--  lil_cain
+- Tom Doyle (greenday)
+- Alex Mcgrath Kraak (akraak)
+- Cian Butler (butlerx)
+- Cormac Smartt (pints)
+- tbolt
+- Wojtek Bednarzak (voy)
+- Lorcan Boyle (zergless)
+- Emmanuel Caillé (Twister)
+- Richard Walsh (koffee)
+- vadimck
+- isaac702
+- gw
+- fun
+- haus
+- receive
+- werdz
+- johan
+- sonic
+- lil_cain
