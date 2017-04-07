@@ -30,7 +30,7 @@ Please attempt all 25 questions. Marks awarded indicated alongside each question
 
 13. My account expired why did redbrick screw up? (2)
 
-14. \"Hey there my website is down http://www.redbrick.dcu.ie/~dorkydork\"
+14. "Hey there my website is down http://www.redbrick.dcu.ie/~dorkydork"
     What is your first move? (2)
 
 15. Hi there! Im a psychology student completing a study on social media use and impulse control. I was thinking that your society members might be interested in taking part in my research. Would it be possible for you to share the link to my study? Or else I could come down to one of your events and explain what my study is all about! (2)
