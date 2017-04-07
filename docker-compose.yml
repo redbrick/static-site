@@ -1,13 +1,12 @@
-version: "2"
+version: "3"
 services:
   redbrick:
     image: 'redbrick/site:latest'
     container_name: 'redbrick-site'
     restart: 'always'
+    command: ["npm", "run", "start"]
     volumes:
-      - ./source:/usr/src/app/source
-      - ./public:/usr/src/app/public
-      - ./logs:/usr/src/app/logs
+      - $PWD:/usr/src/app
     ports:
       - '3000:3000'
     environment:

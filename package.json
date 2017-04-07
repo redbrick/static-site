@@ -21,6 +21,7 @@
     "dev": "npm run hexo",
     "page": "hexo new page",
     "post": "hexo new post",
+    "docker": "git pull origin master && npm start",
     "start": "npm run generate && node ./bin/www ",
     "fresh": "hexo clean",
     "regenerate": "npm run postinstall && hexo clean && hexo g",
