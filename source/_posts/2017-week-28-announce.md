@@ -46,7 +46,7 @@ Exams for all 3 positions from previous years can be found [here](https://redbri
 Additionally, we will be voting on a minor change to the Constitution, see the
 proposed changes [here](https://github.com/redbrick/static-site/pull/145)
 
-## Rebdrick Table Quiz
+## Redbrick Table Quiz
 
  - When: 7PM, Wednesday 5/4/2017
  - Where: NuBar, DCU
