@@ -3,11 +3,11 @@
 Some questions are phrased as emails/messages from users seeking help. try to respond in kind in the case of these questions.
 Please attempt all 25 questions. Marks awarded indicated alongside each question, out of a total of 69. 
 
-1. I’m a first year, and don’t know a lot about computers. How do I log into Redbrick? (2)
+1. I'm a first year, and don't know a lot about computers. How do I log into Redbrick? (2)
 
-2. I would love to use Linux. I hear there’s some way of doing this without actually getting rid of windows on my laptop. How can I do this? (2)
+2. I would love to use Linux. I hear there's some way of doing this without actually getting rid of windows on my laptop. How can I do this? (2)
 
-3. I got an account at the start of the year but never used it. Now I don’t remember the password and login, how do I get them? (2)
+3. I got an account at the start of the year but never used it. Now I don't remember the password and login, how do I get them? (2)
 
 4. When I visit my website I am getting the following error 403 - Permission Denied. What is the problem and how do I fix it? (3)
 
@@ -22,9 +22,9 @@ Please attempt all 25 questions. Marks awarded indicated alongside each question
 9. *message come in at 1:30am* "Sorry it's late, how do I make a web server?"
     How would you reply? (2)
 
-10. I’m getting the "Pop-up login box" for .htaccess, but a "500 Error" afterwards. Any suggestions? (4)
+10. I'm getting the "Pop-up login box" for .htaccess, but a "500 Error" afterwards. Any suggestions? (4)
 
-11. I’ve just installed a sweet linux distro on my laptop, and I’m having some trouble connecting to Eduroam. Help? (2)
+11. I've just installed a sweet linux distro on my laptop, and I'm having some trouble connecting to Eduroam. Help? (2)
 
 12.  Oh no! Some societies are complaining their website is down (again) how do you reply? (2)
 
@@ -39,7 +39,7 @@ Please attempt all 25 questions. Marks awarded indicated alongside each question
 
 17. All of my redbrick email goes to my dcu account, can I stop this? (3)
 
-18. I’m trying to use vim but I am used to gedit and I pressed ctrl+s now it is frozen what do I do? (3)
+18. I'm trying to use vim but I am used to gedit and I pressed ctrl+s now it is frozen what do I do? (3)
 
 19. You were making changes to a helpdesk script to go on the redbrick github but your partner also made a change to the script and you have a merge conflict. How would you get around this. (4) 
 
@@ -51,18 +51,18 @@ Please attempt all 25 questions. Marks awarded indicated alongside each question
 
 23. How would I make a tar archive file for my home directory (4)
 
-24. When I try to compile a java program on redbrick I just get this
+24. ``` When I try to compile a java program on redbrick I just get this
 Error occurred during initialization of VM
 Could not reserve enough space for object heap
 Could not create the Java virtual machine.
-what am I doing wrong? (3)
+what am I doing wrong? (3) ```
 
 25. Hello im setting up a new society in dcu and ive been told that you will give me a website and mailing list so i can stay in contact with my members. where do i set this up and how do i use it? (2)
 
 26. hi guys. Im a business student and i have been trying to get a project up and running since about a year and havent been able to as I require a better MVP for my the website. How could i get in contact with some of you guys who may be interested in the project? I can’t pay them but there may be stock later. They would have to make it exactly how I want it and very quickly. I expect them to put hours into it.  
 
 ## BONUS ROUND:
-* Explain, in old Engish,  why Tom’s hair is better than Dylans in every way.(10)
+* Explain, in old Engish,  why Tom's hair is better than Dylans in every way.(10)
 
 * Pineapple on a pizza?(50)
 
