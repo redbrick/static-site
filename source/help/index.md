@@ -5,13 +5,13 @@ type: cmt
 banner: helpdesk.jpg
 cmt:
   - position: Helpdesk
-    name: Tom Doyle
-    nick: greenday
-    image: greenday.jpg
+    name: Sahil Mehra
+    nick: pr0n
+    image: pr0n.jpg
   - position: Helpdesk
-    name: Dylan McDonald
-    nick: grace
-    image: grace.jpg
+    name: Michal Durinik
+    nick: mikello
+    image: mikello.jpg
 keywords:
 - help
 - helpdesk
