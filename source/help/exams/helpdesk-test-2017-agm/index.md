@@ -51,11 +51,13 @@ Please attempt all 25 questions. Marks awarded indicated alongside each question
 
 23. How would I make a tar archive file for my home directory (4)
 
-24. ``` When I try to compile a java program on redbrick I just get this
+24. When I try to compile a java program on redbrick I just get this
+``` 
 Error occurred during initialization of VM
 Could not reserve enough space for object heap
 Could not create the Java virtual machine.
-what am I doing wrong? (3) ```
+what am I doing wrong? (3) 
+```
 
 25. Hello im setting up a new society in dcu and ive been told that you will give me a website and mailing list so i can stay in contact with my members. where do i set this up and how do i use it? (2)
 
