@@ -9,6 +9,7 @@ cmt:
   - position: Secretary
     name: Wojtek Bednarzak
     nick: voy
+    image: voy.jpg
   - position: Treasurer
     name: Ciara Godwin
     nick: hexagon
@@ -18,6 +19,7 @@ cmt:
   - position: Events Officer
     name: James Mc Dermott
     nick: mctastic
+    image: james.jpg
   - position: System Administrator
     name: Alex Mcgrath Kraak
     nick: akraak
