@@ -19,7 +19,7 @@ cmt:
   - position: Events Officer
     name: James Mc Dermott
     nick: mctastic
-    image: james.jpg
+    image: mctastic.jpg
   - position: System Administrator
     name: Alex Mcgrath Kraak
     nick: akraak
