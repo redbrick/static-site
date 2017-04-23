@@ -1,6 +1,5 @@
 ---
 title: Announce 31 | New Committee | Good Luck | Hoodies
-banner: exams_coming.jpg
 date: 2017-04-27 22:33:55
 author: voy
 tags:
