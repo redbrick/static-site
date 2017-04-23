@@ -9,7 +9,7 @@ tags:
 ---
 Dear Brickies,
 
-Exams in the distance, but we're nearly there! Too cheer you up, the hoodies
+Exams in the distance, but we're nearly there! To cheer you up, hoodies
 have arrived!
 
 For those of you finishing college, good luck to you too, we'll miss you :(
@@ -39,9 +39,8 @@ committee.
 	- Helpdesk: Sahil Mehra (pr0n)
 	- Helpdesk: Michal Durinik (mikello)
 
-On behalf of the new committee we would also like to thank the 2016-2017
-committee for their hard work, as well as giving us suggestions and ideas they
-didn't have time to execute. Best of luck!
+We would also like to thank the 2016-2017 committee for their hard work, as well
+as giving us suggestions and ideas they didn't have time to execute.
 
 ## Good Luck in the exams
 
@@ -56,10 +55,10 @@ get a chance next year, so don't worry :)
 
 "How does this announce thing work again?"
 Wojtek Bednarzak (~voy)
-Redbrick Secretary
+Redbrick Secretary 2017-2018
 
 s o c i a l m e d i a
 Twitter: @RedbrickDCU
 Facebook: https://www.facebook.com/dcuredbrick
 Snapchat: RedbrickDCU
-Google Calendar: http://tinyurl.com/redbrickCalendar
+Events: https://events.redbrick.dcu.ie/
