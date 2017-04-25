@@ -1,5 +1,5 @@
 ---
-title: Announce 32 | New Committee | Good Luck | Hoodies
+title: Announce 32 | New Committee | Good Luck | Hoodies | Survey
 banner: hoodies.jpg
 date: 2017-04-27 22:33:55
 author: voy
@@ -57,8 +57,11 @@ get a chance next year, so don't worry :)
 Wojtek Bednarzak (~voy)
 Redbrick Secretary 2017-2018
 
-s o c i a l m e d i a
-Twitter: @RedbrickDCU
-Facebook: https://www.facebook.com/dcuredbrick
-Snapchat: RedbrickDCU
-Events: https://events.redbrick.dcu.ie/
+## Programming Survey
+We have been asked by a Trinity College professor to answer a survey regarding
+programming experience before starting college:
+
+https://goo.gl/fMPurv
+
+Such surveys help to improve the computer courses in Ireland, and will only take
+10 minutes of your time. We would be graceful for your response.
