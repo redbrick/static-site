@@ -101,6 +101,16 @@ highlight:
   auto_detect: false
   tab_replace:
 
+# Markdown
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: false
+
 # Category & Tag
 default_category: Redbrick
 category_map:
