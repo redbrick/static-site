@@ -1,5 +1,6 @@
 ---
-title: Announce 31 | New Committee | Good Luck | Hoodies
+title: Announce 32 | New Committee | Good Luck | Hoodies
+banner: hoodies.jpg
 date: 2017-04-27 22:33:55
 author: voy
 tags:
@@ -26,17 +27,17 @@ make it better than all the previous ones. In case you don't know who is
 responsible for all the mess next year, let me re-introduce you to the new
 committee.
 
-	- Chairperson: Terry Bolt (tbolt)
-	- Secretary: Wojtek Bednarzak (voy)
-	- Treasurer: Ciara Godwin (hexagon)
-	- Public Relations Officer: Chris Dowling (winesnob)
-	- Events Officer: James Mc Dermott (mctastic)
-	- System Administrator: Alex Mcgrath Kraak (akraak)
-	- System Administrator: Cormac Smartt (pints)
-	- System Administrator: Tom Doyle (greenday)
-	- Webmaster: Ben McMahon (mcmahon)
-	- Helpdesk: Sahil Mehra (pr0n)
-	- Helpdesk: Michal Durinik (mikello)
+- Chairperson: Terry Bolt (tbolt)
+- Secretary: Wojtek Bednarzak (voy)
+- Treasurer: Ciara Godwin (hexagon)
+- Public Relations Officer: Chris Dowling (winesnob)
+- Events Officer: James Mc Dermott (mctastic)
+- System Administrator: Alex Mcgrath Kraak (akraak)
+- System Administrator: Cormac Smartt (pints)
+- System Administrator: Tom Doyle (greenday)
+- Webmaster: Ben McMahon (mcmahon)
+- Helpdesk: Sahil Mehra (pr0n)
+- Helpdesk: Michal Durinik (mikello)
 
 We would also like to thank the 2016-2017 committee for their hard work, as well
 as giving us suggestions and ideas they didn't have time to execute.
