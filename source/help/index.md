@@ -7,11 +7,9 @@ cmt:
   - position: Helpdesk
     name: Sahil Mehra
     nick: pr0n
-    image: pr0n.jpg
   - position: Helpdesk
     name: Michal Durinik
     nick: mikello
-    image: mikello.jpg
 keywords:
 - help
 - helpdesk
