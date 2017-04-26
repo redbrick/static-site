@@ -30,6 +30,7 @@ cmt:
   - position: System Administrator
     name: Wojtek Bednarzak
     nick: voy
+    image: voy.jpg
   - position: Webmaster
     name: Seán Healy
     nick: space
