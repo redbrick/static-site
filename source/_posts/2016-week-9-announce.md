@@ -40,14 +40,13 @@ networking could mean for you.
 - Where: TBD
 - More information here: https://www.facebook.com/events/902199496580631/
 
-John Looney from Google will be doing a talk on Burnout, convering a range of topics from
-defining it, all the way to its prevention and cure.
+John Looney from Google will be doing a talk on Burnout, covering a range of topics from defining it, all the way to its prevention and cure.
 
 ## RedBrick Secret Santa:
-RedBrick is doing a secret santa (you're anonymously given the name of a person to buy a gift for
+RedBrick is doing a secret Santa (you're anonymously given the name of a person to buy a gift for
 and someone else is made to buy you a gift) the gifts will be exchanged at our Christmas event in
-the last week of the semester - where maybe if you're all extra good, Santa Claus will make an appearence.
-If you want to sign up to the secret santa the link is: events.redbrick.dcu.ie/christmas
+the last week of the semester - where maybe if you're all extra good, Santa Claus will make an appearance.
+If you want to sign up to the secret Santa the link is: events.redbrick.dcu.ie/christmas
 
 Also, as a reminder to anybody going on the FOSDEM trip, the payment deadline is this Wednesday
 the 16th. Payment details can be found in the email sent out to everyone by Cormac (pints).

@@ -13,7 +13,7 @@ keywords:
 # Setting up docker-compose for services
 
 ## Prerequisites
-CentOS 7 || ubuntu 16.04 || Arch || coreOS
+CentOS 7 || Ubuntu 16.04 || Arch || coreOS
 
 ## Set up Docker
 
@@ -51,7 +51,7 @@ You should get `docker-compose version: 1.10.0` or higher
   docker-compose up -d
 ```
 
-Thats is do to port 443 on your domain and it'll be your nginx  
+That's is do to port 443 on your domain and it'll be your nginx  
 To explain what we did we created a network for all the containers to communicate over then using docker compose the containers where created with the specifications we set in the docker-compose.yml  
 We can manage these containers like any other containers with `docker stop` and `docker restart` or use docker-compose, such as the command `docker-compose logs`
 

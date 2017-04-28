@@ -21,7 +21,7 @@ Some of the services Redbrick offers include the following;
   - [Email](https://webmail.redbrick.dcu.ie/)
   - [IRC Chat](https://webchat.redbrick.dcu.ie) - [IRC on the Wiki](http://wiki.redbrick.dcu.ie/mw/IRC)
   - [Wiki](https://wiki.redbrick.dcu.ie)
-  - Programming Enviroments
+  - Programming Environments
   - Newsgroups
 
 ## Logging in to Redbrick.
@@ -31,4 +31,4 @@ You can login to redbrick using a number of different methods.
 Click [here](https://anyterm.redbrick.dcu.ie/) to open a terminal in your web browser. Enter your username and password when prompted.
 
 ### Desktop Client.
-Click [here](http://wiki.redbrick.dcu.ie/mw/Connect) to view our guide on using ssh and setting up PuTTY on your windows computer.
+Click [here](http://wiki.redbrick.dcu.ie/mw/Connect) to view our guide on using SSH and setting up PuTTY on your windows computer.

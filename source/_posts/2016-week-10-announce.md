@@ -12,8 +12,7 @@ tags:
 ---
 Dear Redbrick members,
 
-It's week 10! Double digits! We did it friends, we survived the single digited weeks and are now in double digit bliss.
-Here are the events we're throwing in celebration:
+It's week 10! Double digits! We did it friends, we survived the single digit weeks and are now in double digit bliss. Here are the events we're throwing in celebration:
 
  <!-- more -->
 
@@ -38,10 +37,10 @@ So you want to buy a pi but people keep asking you, 'what can you do with that?'
 Drop by and hear the ever-glowing helpdesk give you project ideas and a basis to get you started.
 
 ## RedBrick Secret Santa:
-RedBrick is doing a secret santa (you're anonymously given the name of a person to buy a gift for
+RedBrick is doing a secret Santa (you're anonymously given the name of a person to buy a gift for
 and someone else is made to buy you a gift) the gifts will be exchanged at our Christmas event in
-the last week of the semester - where maybe if you're all extra good, Santa Claus will make an appearence.
-If you want to sign up to the secret santa the link is: events.redbrick.dcu.ie/christmas
+the last week of the semester - where maybe if you're all extra good, Santa Claus will make an appearance.
+If you want to sign up to the secret Santa the link is: events.redbrick.dcu.ie/christmas
 
 Here’s our social media in case you miss us:
 Twitter: @RedbrickDCU

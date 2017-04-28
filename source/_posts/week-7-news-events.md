@@ -30,7 +30,7 @@ As we said at the start of the year, today is the final day of the grace periods
 <!-- more -->
 ### Boolette
 
-A boolette tournament will be held in conjunction with Gamessoc tomorrow (Monday) at 6pm in C165\. Boolette is a card game which combines strategy card lay with the concepts of Boolean logic. For more information : [http://boolette.alamzy.com/](http://boolette.alamzy.com/)
+A boolette tournament will be held in conjunction with Gamessoc tomorrow (Monday) at 6pm in C165. Boolette is a card game which combines strategy card lay with the concepts of Boolean logic. For more information : [http://boolette.alamzy.com/](http://boolette.alamzy.com/)
 
 ### Qzar
 
