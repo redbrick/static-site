@@ -28,6 +28,7 @@ cmt:
   - position: Webmaster
     name: Wojtek Bednarzak
     nick: voy
+    image: voy.jpg
   - position: Helpdesk
     name: Cian Butler
     nick: butlerx
