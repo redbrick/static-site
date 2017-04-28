@@ -132,5 +132,5 @@ _Other suggested positions include:_
 
 
 # 11.	Amendments to this Constitution:
-1 Notice of a proposal to seek an amendment to this Constitution shall be given to the members at least 4 working days prior to the meeting at which such a proposal shall be considered.
-2 A proposal to amend this Constitution must receive the approval of 2/3 of the members present and entitled to vote at the relevant meeting.
+1. Notice of a proposal to seek an amendment to this Constitution shall be given to the members at least 4 working days prior to the meeting at which such a proposal shall be considered.
+2. A proposal to amend this Constitution must receive the approval of 2/3 of the members present and entitled to vote at the relevant meeting.

@@ -17,10 +17,11 @@ That's a good question! Redbrick is DCU's Computer Networking Society. Want to k
 Membership is open to all past and present students and staff of Dublin City University, and St. Pat's, Drumcondra.
 
 ## How much does it cost?
-Students - €4
-Associates - €8
-Staff - €8
-Guests - €10
+ - Students - €4
+ - Associates - €8
+ - Staff - €8
+ - Guests - €10
+
 ## What username can I have?
 Almost anything you want - providing the username is available and no more than eight characters in length!
 
