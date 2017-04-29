@@ -26,7 +26,7 @@ The aims and objectives of the Society are as follows:
 1. Membership of the Society shall be open to all students, staff and former
 students of the University,
 2. Membership shall be obtained by paying the appropriate fee and registering with the OSL Database for the current academic year.
-3. The Society recognizes the important role that former students and staff can play in Societies . Therefore there shall be a class of “Associate Member” of the Society for former students of the University and staff.
+3. The Society recognizes the important role that former students and staff can play in Societies . Therefore there shall be a class of "Associate Member" of the Society for former students of the University and staff.
 4. Associate Members shall pay an annual membership fee to the Society. The amount of this fee shall not be less than the ordinary membership fee and no more than 10 (ten) times the ordinary membership fee.Application for a higher Associate Member fee made be made to the OSL by the Society involved.
   1. In consultation with OSL as outlined (see section 3.4) associate members shall pay an annual membership fee that will be twice that of the ordinary membership fee.This will be re-evaluated in the event of a change to the ordinary membership fee.
 5. Associate Members are not eligible for election to the Society’s Governing Executive committee
@@ -70,7 +70,7 @@ _Other suggested positions include:_
 3. The Secretary’s function shall be to deal with all correspondence and records of the Society.
 4. The Secretary keeps minutes of all committee meetings, of all general meetings, of the Annual General Meeting or any other meetings related to the business of the Society when requested by the committee.
 5. The Secretary may keep a record of authorization of expenditure.
-6. The Secretary shall give notice to all members of the Society's’ meetings, events, and functions.
+6. The Secretary shall give notice to all members of the Society's meetings, events, and functions.
 7. The Secretary shall assist the Public Relations Officer (PRO) or other officers to organize fundraising events and sponsorship where necessary.
 8. The Treasurer’s function shall be to administer the funds of the Society and to maintain accounts and budgets.
 9. The Treasurer shall be responsible for the maintenance of accounts subject to the decision of the committee in compliance with the regulations set down by the Society Life Committee.
@@ -106,7 +106,7 @@ _Other suggested positions include:_
   3.  A vacancy on the current committee occurs and there is a need to elect a replacement.
 6.  Notice of all meetings shall be given to the membership at least five working days prior to the date of the meeting.
 7.  At a meeting, a member may propose a resolution relating to the business of the Society. The resolution shall be voted on by a show of hands and a declaration of the Chairperson that the resolution is carried (unless a secret ballot is demanded by any 5 members) shall be conclusive evidence that the resolution has passed or failed.
-8. In the event that the Chairperson’s resolution (8.7) is challenged a recount of the votes will be administered in which a number of appropriate people will be appointed by the committee as “tellers” to count the votes. The result will be announced by the Chairperson or the Vice-Chairperson (where requested by the general meeting).
+8. In the event that the Chairperson’s resolution (8.7) is challenged a recount of the votes will be administered in which a number of appropriate people will be appointed by the committee as "tellers" to count the votes. The result will be announced by the Chairperson or the Vice-Chairperson (where requested by the general meeting).
 9. No resolution may contravene DCU, DCU OSL or CLC policy.
 
 

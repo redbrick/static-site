@@ -36,7 +36,7 @@ title: 'Helpdesk Exam EGM 2014'
                  """""             "So you want to helpdesk?".
 ```
 
-28 questions. Assume questions are emails from the user. Please answer as if you were replying to the user. “Google it” or “Check the wiki” are not acceptable answers. Bonus marks may be awarded for amusing answers, but probably not. You have one hour. GO!  
+28 questions. Assume questions are emails from the user. Please answer as if you were replying to the user. "Google it" or "Check the wiki" are not acceptable answers. Bonus marks may be awarded for amusing answers, but probably not. You have one hour. GO!  
 
 **1.** I'm a first year and don't know how to compute. How do I log into Redbrick? (2 marks)  
 
@@ -94,7 +94,7 @@ Could not create the Java virtual machine.
 ```
 what am I doing wrong? (5 marks)  
 
-**27.** 
+**27.**
 ```
 Hi all  
 I am a final year business student.  

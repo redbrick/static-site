@@ -2,7 +2,7 @@
 title: 'Helpdesk test 2001 AGM'
 ---
 
-1.  I want to make a webpage but I can’t copy my files from my floppy. I type in : “cp a:\webpage\*.htm ~/public_html” but it doesn’t work. What am I doing wrong?
+1.  I want to make a webpage but I can’t copy my files from my floppy. I type in : "cp a:\webpage\*.htm ~/public_html" but it doesn’t work. What am I doing wrong?
 2.  My friend changed his password but he has forgotten what he changed it to (excess alcohol seems to be the problem!). Can you mail me his password please?
 3.  Please can you tell me how to attach a word file to an e-mail. the file is on the a: drive When I try to attach it won't let me select a:
 4.  Just writing to ask if there is any way that I can access the newsgroups on redbrick via email.  I'd like to be able to get them at home.
@@ -35,12 +35,12 @@ title: 'Helpdesk test 2001 AGM'
 		104: Unrecognized directive: `n'
 		```
     Know what causes it?
-12. I suddenly realised that I’m not subscibed to the babble board! How could this happen? Please help me get it back, because I can’t survive long without my daily dose of babble!!!!!
-13. Hi, I’m the new treasurer of the film soc. Can you tell me how to set up a mailing list so that I can send a mail to all my members at once?
-14. I’m using elm, since I despise mutt, can you tell me how to set up my signature please?</span>
-15. I’m an erasmus student studying here for the year. I’d like to telnet to my account over in Germany,is it possible to telnet outside of DCU?
-16. I’m in the Henry Gratten building at the moment, how can I telnet to Redbrick? I can’t find the Start button. (ooh, and how am I writing this mail to you? ;) )
+12. I suddenly realised that I'm not subscibed to the babble board! How could this happen? Please help me get it back, because I can't survive long without my daily dose of babble!!!!!
+13. Hi, I'm the new treasurer of the film soc. Can you tell me how to set up a mailing list so that I can send a mail to all my members at once?
+14. I'm using elm, since I despise mutt, can you tell me how to set up my signature please?</span>
+15. I'm an erasmus student studying here for the year. I'd like to telnet to my account over in Germany,is it possible to telnet outside of DCU?
+16. I'm in the Henry Gratten building at the moment, how can I telnet to Redbrick? I can't find the Start button. (ooh, and how am I writing this mail to you? ;) )
 17. What unix command lets you compare 2 similar text files? Can u view them side by side?
 18. Hi, I just joined last week, and I have a wee problem. How in the name of God do you set up an address book?! Please help. I'm tearing my hair out here.
 19. I was trying to send mail, and the system asked me for a keyId, what does that mean?
-20.  What does it mean when it says that slrn is 'locked'? I wanna read the messages. *Sniff*
+20. What does it mean when it says that slrn is 'locked'? I wanna read the messages. *Sniff*
