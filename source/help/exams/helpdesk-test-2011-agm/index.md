@@ -29,7 +29,7 @@ Does redbrick have an FTP Server and if so what username and password do I use?
 Thanks.  
 
 3:  
-So like, I’m trying to ssh out to my own server, warez.illegalactivities.org with the command “ssh cokefiend@warez.illegalactivies.org” but the program just hangs there and never connects.  
+So like, I’m trying to ssh out to my own server, warez.illegalactivities.org with the command "ssh cokefiend@warez.illegalactivies.org" but the program just hangs there and never connects.  
 Why is your server so shit and how can I get it to work?  
 
 4:  
@@ -108,7 +108,7 @@ Thanks.
 17:  
 Hi,  
     I’m trying to install 1337-program-1.2.3 with the instructions on its website.  
-    When I run “sudo make install” and type my password it tells me I’m not allowed to do this.  
+    When I run "sudo make install" and type my password it tells me I’m not allowed to do this.  
     Is there a way to use this program on Redbrick?  
 
 18:  
@@ -208,7 +208,7 @@ In what situation would it be ridiculously stupid to genocide this class?
 3: It is Friday, you have had a bowl of cereal and decided on which seat to occupy.  
 What do you do next?  
 
-4: “As a matter of principle, I don't own a real tie” ~ Richard Stallman.  
+4: "As a matter of principle, I don't own a real tie" ~ Richard Stallman.  
 Discuss the impact Richard Stallman has had on your life, giving at least 3 examples of positive changes to your lifestyle that have directly arisen from his actions or words.  
 
 5: What redbrick talks/tutorials would you like to see/run in your term as helpdesk?  
