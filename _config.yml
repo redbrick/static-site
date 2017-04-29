@@ -109,7 +109,7 @@ marked:
   tables: true
   breaks: false
   smartLists: true
-  smartypants: false
+  smartypants: true
 
 # Category & Tag
 default_category: Redbrick
