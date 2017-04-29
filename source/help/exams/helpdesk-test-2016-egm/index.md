@@ -77,7 +77,7 @@ what's that all about and how can I switch to it? (3 marks)
 
 _This section carries no marks. It will however affect our mood as we mark your paper._
 
-1. As a matter of principle, I don't own a real tie” ~ Richard Stallman.
+1. "As a matter of principle, I don't own a real tie" ~ Richard Stallman.
 Discuss the impact Richard Stallman has had on your life, giving at least 3 examples of positive changes to your lifestyle that have directly arisen from his actions or words.
 
 2. What redbrick talks/tutorials would you like to see/run in your term as helpdesk?

@@ -46,7 +46,7 @@ Thanks for the help with the uploading files earlier. I am now having another is
 When I visit my website I am getting the following error 403 - Permission Denied.  
 What is the problem and how do I fix it?(Marks also awarded for what you can do to check what is wrong)  
 
-1\. I love knowing all the latest gossip on redbrick and I heard you have something called “news”, so I typed news at my terminal and it was just the oldies talking about their grand jobs and growing chillies. Why don’t you have better boards with a nice interface? :(  
+1\. I love knowing all the latest gossip on redbrick and I heard you have something called "news", so I typed news at my terminal and it was just the oldies talking about their grand jobs and growing chillies. Why don’t you have better boards with a nice interface? :(  
 
 1\. Message from newb@azazel on pts/45 at 22:54 ...  
 oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo  
@@ -141,9 +141,9 @@ What is going on here?
 
 Newb.  
 
-1\. Hey, I just joined #lobby and some weirdo called moju keeps telling me he’s “fingering” me. How is he doing this and how can I change my information? He already knows my real name!  
+1\. Hey, I just joined #lobby and some weirdo called moju keeps telling me he’s "fingering" me. How is he doing this and how can I change my information? He already knows my real name!  
 
-1\. Hey Helpdesk, I’m having some trouble becoming a leet spammer. At a given opportunity I have to type “/exec -o cat ~newb/spam/baconcorn.txt” . I find this overly time consuming. Is there any way I could shorten the command to “/spam” or something?  
+1\. Hey Helpdesk, I’m having some trouble becoming a leet spammer. At a given opportunity I have to type "/exec -o cat ~newb/spam/baconcorn.txt" . I find this overly time consuming. Is there any way I could shorten the command to "/spam" or something?  
 
 1\. I have an urgent problem.  
 I was storing an assignment for one of my modules on redbrick.  

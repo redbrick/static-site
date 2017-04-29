@@ -2,7 +2,7 @@
 
 ======================
 
-General (32 marks) - 
+General (32 marks) -
 
 ======================
 
@@ -30,11 +30,11 @@ General (32 marks) -
 
 ======================
 
-Linux (36 marks) 
+Linux (36 marks)
 
 ======================
 
-1. What flavour of linux do we use on the majority of Redbrick Servers? And what version have we been attempting to move to over the last couple of months? (3 marks) 
+1. What flavour of linux do we use on the majority of Redbrick Servers? And what version have we been attempting to move to over the last couple of months? (3 marks)
 
 3. List the steps that occur in the startup of a linux machine(5 marks)
 
@@ -44,7 +44,7 @@ Linux (36 marks)
 
 6. What is LDAP? Why do we use it? (3 marks)
 
-7. There are two main ways you’ll have to kill a process using the “kill” command.Graceful and ungraceful, list the syntax for both ways. Name the SIGNAL that is sent to to a process that is terminated gracefully(3 marks)
+7. There are two main ways you’ll have to kill a process using the "kill" command.Graceful and ungraceful, list the syntax for both ways. Name the SIGNAL that is sent to to a process that is terminated gracefully(3 marks)
 
 8. What command would you use to find the process id running as a particular user? (3 marks)
 
@@ -88,7 +88,7 @@ BSD (30 marks)
 
 ======================
 
-Security (30 marks) 
+Security (30 marks)
 
 ======================
 
@@ -112,7 +112,7 @@ Security (30 marks)
 
 10. You left a root terminal unlocked and someone has used it to do something. The history files has been deleted. How do you go about finding out what they did? (4 marks)
 
-11.Somebody posted a security exploit in #lobby that you are vulnerable to. What do you do? (4 marks) 
+11.Somebody posted a security exploit in #lobby that you are vulnerable to. What do you do? (4 marks)
 
 12 You find a guide to help you install and configure $program on some random site. Why should you never blindly follow the commands there. (1 marks)
 
@@ -136,7 +136,7 @@ Files & Filesystems (30 marks)
 
 7. What is NFS? Do we use it in Redbrick? If so where? (4 marks)
 
-8. What are the following? 
+8. What are the following?
 
 i) ctime
 
@@ -176,7 +176,7 @@ root:test
 
 3. It looks like ssh is enabled for root. Disable it. (6 marks)
 
-4. update and upgrade the current packages. Once this is done install pwgen. (3 marks) 
+4. update and upgrade the current packages. Once this is done install pwgen. (3 marks)
 
 7. Ok now that we know no one can ssh in as root(fingers crossed) lets change the password. use pwgen to generate a password of 8 characters that has at least 1 special character and change the root password. make sure this is included in answers so we can correct this section.(4 marks)
 
@@ -186,7 +186,7 @@ root:test
 
 10. Some sketchy user is logged in. kill his session and stop him from logging in again. extra marks for interesting ways of doing this(5 marks)
 
-11. Create a cron job that will synchronise the contents of /etc/ every night 
+11. Create a cron job that will synchronise the contents of /etc/ every night
 
 to your home dir on redbrick over ssh. (10 marks)
 
@@ -206,9 +206,9 @@ Scripting (40 marks) - done
 
 3. Redbrick is running out of space quicker than the admins can delete files. Write a script that checks the size of users home directorys. if the directory is more that 90% full email the admins the user and the biggest 3 files. (15 marks)
 
-4. There has been a new wordpress vulnerability, scan the webtree for the file "wp-fucked.php", delete it and then email and inform any member who has this file that it has been removed.(15 marks) 
+4. There has been a new wordpress vulnerability, scan the webtree for the file "wp-fucked.php", delete it and then email and inform any member who has this file that it has been removed.(15 marks)
 
-5. Write a script to amuse us! (1 mark) 
+5. Write a script to amuse us! (1 mark)
 
 ======================
 
@@ -218,7 +218,7 @@ Hardware (30 marks) - done
 
 1. You enter the server room, there’s orange flashing lights, beeping, and a faint clicking sound coming from somewhere within the racks, give a possible cause for the problem based on the evidence. (2 mark)
 
-2. Which one of the RAID arrangement is a bastardized version that is not regarded as being true “RAID”? (5 marks)
+2. Which one of the RAID arrangement is a bastardized version that is not regarded as being true "RAID"? (5 marks)
 
 3. The air conditioning in the server room has broken. What do you do? (2 marks)
 
@@ -244,7 +244,7 @@ Networking (30 marks) - done
 
 1. What are the 3 'private' IPv4 address spaces (3 marks)
 
-2. What is the subnet mask of a 
+2. What is the subnet mask of a
 
 i) /8
 
@@ -258,7 +258,7 @@ IPv4 Subnet. (2 marks)
 
 5. What protocol is used to distribute routes on the internet? (2 marks)
 
-6. What do 
+6. What do
 
 i) HTTPS
 
