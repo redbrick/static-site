@@ -17,7 +17,7 @@ title: Helpdesk Exam AGM 2014
       |:____|/  "So you want to be helpdesk?".
 ```
 
-30 questions. Assume questions are emails from the user. Please answer as if you were replying to the user. “Google it” or “Check the wiki” are not acceptable answers. Bonus marks may be awarded for amusing answers, but probably not. You have one hour. GO!
+30 questions. Assume questions are emails from the user. Please answer as if you were replying to the user. "Google it" or "Check the wiki" are not acceptable answers. Bonus marks may be awarded for amusing answers, but probably not. You have one hour. GO!
 
 1. How do I log into Redbrick? (2 marks)
 2. How do I go onto IRC? (2 marks)
@@ -30,7 +30,7 @@ title: Helpdesk Exam AGM 2014
 9. I’d like to get a MySQL Database for my Third Year Project. Can you give me one? (2 marks)
 10. When I try to compile a java program on redbrick I just get this, what am I doing wrong?
 ```
-        Error occurred during initialization of VMCould 
+        Error occurred during initialization of VMCould
         not reserve enough space for object heap
         Could not create the Java virtual machine. (5 marks)
 ```
@@ -50,7 +50,7 @@ title: Helpdesk Exam AGM 2014
 24. Can I view my Redbrick email on a web browser? What’s the address for it? (2 marks)
 25. I know how to set file permissions, but how do I see what permissions files in a folder have? (3 marks)
 26. How do I change what shell I’m using on Redbrick? I tried typing the name of the shell but it resets when I log out. (3 marks)
-27. I hate having to type in screen -r when I log in to reattach my screen. How do I make it so that I can just type, say, “r” and it’d do it for me? (3 marks)
+27. I hate having to type in screen -r when I log in to reattach my screen. How do I make it so that I can just type, say, "r" and it’d do it for me? (3 marks)
 28. People keep sending me heys and it messes up my terminal, how can I turn off heys? (2 marks)
 29. What program can you recommend for uploading files to Redbrick from Windows? Also, is there a Linux equivalent in a command line? (4 marks)
 30. ```
@@ -59,7 +59,7 @@ I am a final year business student.
 I am currently working on My FYP and have run into difficulty in a particular section.
 The project is to develop a conceptual framework for the development of an e-Supply Chain Management (e-SCM) System for small-to-medium enterprises (SMEs).
 The goal is not to develop the product, rather to envision:
--What the product should look like. 
+-What the product should look like.
 -What features and functionalities it should have.
 -What tools could be used to develop the modules of the software system.
 -What are the commercialisation pathways for such a tool
@@ -71,7 +71,7 @@ I am having issues with a particular section where I must devise a software deve
 ## SUPER LOL BONUS ROUND
 1. What is the best pizza topping?
 2. What is the worst pizza topping?
-3. Why is anyone who answers “pineapple” to question one the worst person in the world?
+3. Why is anyone who answers "pineapple" to question one the worst person in the world?
 4. Fructus has just gotten the gift of a kazoo what do you now do?
 5. Do you think that Helpdesk will be a fun and rewarding experience? (Yes/No)
 6. If you answered yes to the last question, write the name of your mental disorder and give us an idea of how severe it is.
