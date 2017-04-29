@@ -16,7 +16,7 @@ cmt:
   - position: Public Relations Officer
     name: Chris Dowling
     nick: winesnob
-    iamge: winesnob.jpg
+    image: winesnob.jpg
   - position: Events Officer
     name: James Mc Dermott
     nick: mctastic
