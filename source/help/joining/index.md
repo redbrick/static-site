@@ -26,12 +26,12 @@ Almost anything you want - providing the username is available and no more than 
 
 ## How can I pay?
 Visit our stand on Clubs & Societies day in the first couple of weeks of either semester.
-Bank transfer or lodgment - see below for our bank details.
-Paypal - see below for our paypal payment form. This is the fastest way to join or renew your membership!
+Bank transfer or lodgement - see below for our bank details.
+PayPal - see below for our PayPal payment form. This is the fastest way to join or renew your membership!
 If all else fails, you can arrange to meet a Committee member on-campus.
 ## Help
 If you have any difficulty, please Email [Treasurer](/about/contact/treasurer).
-## Pay By Paypal
+## Pay By PayPal
 In the payment notes, please make sure you provide us with:
   - Your __Redbrick username__.
   - If you are a new user, we __require__ your DCU student / staff ID number.
@@ -40,6 +40,7 @@ In the payment notes, please make sure you provide us with:
 
 ## Pay by bank transfer / lodgement
 Please contact the [Treasurer](/about/contact/treasurer) to make arrangements to pay via bank transfer.
+
 ```
 a/c name: DCU Redbrick Society
 IBAN: IE59BOFI90675027999600

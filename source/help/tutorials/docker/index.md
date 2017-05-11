@@ -13,11 +13,11 @@ keywords:
 # Setting up docker-compose for services
 
 ## Prerequisites
-CentOS 7 || ubuntu 16.04 || Arch || coreOS
+CentOS 7 || Ubuntu 16.04 || Arch || coreOS
 
 ## Set up Docker
 
-coreOs all ready comes with docker so it can skip to the next step  
+CoreOS all ready comes with docker so it can skip to the next step  
 If your on arch just run `pacman -S docker docker-compose`  
 For centos and ubuntu follow the instructions below  
 Add docker repos and install it
@@ -38,7 +38,7 @@ You should get `docker-compose version: 1.10.0` or higher
 
 ## Set Up services
 
-1. First Create a folder to keep all the files. I suggest `/ect/docker-compose/services/`
+1. First create a folder to keep all the files. I suggest `/ect/docker-compose/services/`
   run `sudo mkdir /ect/docker-compose/services/`
 2. Add services
   ``` bash
@@ -51,11 +51,11 @@ You should get `docker-compose version: 1.10.0` or higher
   docker-compose up -d
 ```
 
-Thats is do to port 443 on your domain and it'll be your nginx  
+If you browse to port HTTPS on 443 on your domain and it'll be your docker nginx instance running.
 To explain what we did we created a network for all the containers to communicate over then using docker compose the containers where created with the specifications we set in the docker-compose.yml  
 We can manage these containers like any other containers with `docker stop` and `docker restart` or use docker-compose, such as the command `docker-compose logs`
 
-We Created a landing page which servers html from `/var/www/main` on the host machine  
+We created a landing page which servers html from `/var/www/main` on the host machine  
 A Plex server is now running bound to port 32400 on the host machine serving media from `/var/tv` and `/var/movies`  
 A next cloud server that acts as your private dropbox
 

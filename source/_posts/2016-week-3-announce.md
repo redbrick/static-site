@@ -27,7 +27,7 @@ days:
  - Location: LG25
  - More info: https://facebook.com/events/1788596538064082
 
-Redbrick by name sounds like an architectural society, so why do we keephanging around computers? Join us on Wednesday to find out why Redbrickdoesn't design buildings, hear our plans for the year, learn some of ourlong and sexy history, and ask what exactly Redbrick will do for you.
+Redbrick by name sounds like an architectural society, so why do we keep hanging around computers? Join us on Wednesday to find out why Redbrick doesn't design buildings, hear our plans for the year, learn some of our long and sexy history, and ask what exactly Redbrick will do for you.
 
 ## EGM (and pizza)
  - Date: Wednesday 12/10/16
@@ -46,4 +46,3 @@ send us an email with which of the above positions you'd like to run for.
 You'll need to do an exam beforehand for the positions of Webmaster,
 Helpdesk, and Admin, to make sure you're sufficiently incompetent for the
 job. Don't be shy, apply!
-
