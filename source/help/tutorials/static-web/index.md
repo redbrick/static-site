@@ -15,7 +15,7 @@ keywords:
 ## Why
 There are many [Problem with cms](http://blog.theinternets.be/the-problem-with-modern-content-management-systems/) some due to security others dues to infrastructure dependency, database or running a server
 Allows us to separate layout from content.  
-Produces HTML which is easy to host ans share.  
+Produces HTML which is easy to host and share.  
 
 ## Dynamic vs static
 ### Static Site
@@ -24,9 +24,9 @@ A static site is one that does not change once the content is set.
 - redbrick
 
 ### Dynamic Site
-A dynamic is one that is generated everytime you load it.  
-- wordpress
-- facebook
+A dynamic is one that is generated every time you load it.  
+- WordPress
+- Facebook
 - twitter
 
 # Hugo
@@ -34,7 +34,7 @@ Written in go, so runs on anything
 Uses markdown and yaml to store setting and contents
 
 ## Using Hugo
-Hugo is already installed on pygmalion, so everyone just needs to ssh there to use it
+Hugo is already installed on pygmalion, so everyone just needs to SSH there to use it
 ```
 ssh username@pygmalion.redbrick.dcu.ie
 ```
@@ -62,14 +62,14 @@ $ nano content/index.md
 
 ## Making it your own
 ### Changing images
-To get started you will want to add your own picutres for your avatar, banner and about photos. To change these you will need to add these to your `/static/img/` folder.
+To get started you will want to add your own pictures for your avatar, banner and about photos. To change these you will need to add these to your `/static/img/` folder.
 - avatar.jpg
 - banner.jpg
 - about.jpg
 
 ### Customising pages
 * Change the baseURL `baseURL: "http://www.redbrick.dcu.ie/~username/"` to inclue your username
-* Change `title: A Redbrick users site` to the title of your main page 
+* Change `title: A Redbrick users site` to the title of your main page
 * You can also add your social media links in here after `link: '#'`
 
 ### Adding new pages
@@ -88,7 +88,7 @@ To build your site we type the command
 $ hugo
 ```
 This will output all the code into the `public` folder.  
-*Note:* Hugo can be weird if you don't delete your public before you generate everytime  
+*Note:* Hugo can be weird if you don't delete your public before you generate every time  
 *Warning*: rm -rf is sometimes dangerous. Don't run in sudo unless you know what you are doing
 
 ```
@@ -101,7 +101,7 @@ $ hugo --cleanDestinationDir
 ```
 ## Looking at the site locally
 
-If you wanna look at your site before you go and deplot it (recomended)
+If you wanna look at your site before you go and deploy it (recommended)
 
 ```
 $ hugo server
@@ -129,5 +129,5 @@ Tools for minification:
 
 ## Blog
 hugo can be used for a blog.
-Youll need a theme that supports blog posts.
+You'll need a theme that supports blog posts.
 Just run `hugo new post/my-post-name.md`
