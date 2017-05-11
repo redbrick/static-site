@@ -12,15 +12,15 @@ tags:
 ---
 It's nearly Christmas time, and with the season to be jolly stepping into gear and DCU quieting down for the end of semester, Redbrick has a few choice events to keep you going! Events this week include;
 
-*   “What's the Bright Idea”
+*   "What's the Bright Idea"
 *   Netsoc Intersocs LAN
 *   Clubs & Societies Ball
 *   Inter-society Christmas Party
 
 <!-- more -->
-## “What's the Bright Idea” Undergraduate Awards
+## "What's the Bright Idea" Undergraduate Awards
 
-“What’s the Bright Idea” is an event organised by the non-profit awards organisation, The Undergraduate Awards. This event is going to be a celebration of bright, young individuals and their bright ideas. The event is on this Monday, the 5th of December in the Odessa.
+"What’s the Bright Idea" is an event organised by the non-profit awards organisation, The Undergraduate Awards. This event is going to be a celebration of bright, young individuals and their bright ideas. The event is on this Monday, the 5th of December in the Odessa.
 
 Doors open at 6.30pm, and first seventy students in get two free drinks! Speakers on the night include: Caroline Casey, Founder of Kanchi & the O2 Ability Awards; James Whelton, Webpreneur and Hacker; David & Stephen Flynn, Organic Ambassadors and founders of the Happy Pear; and Maria Parodi, Deputy Lord Mayor of Dublin. Entry is free, and prizes from Ticketmaster, food, and live music from The Dying Seconds will be available on the night!
 

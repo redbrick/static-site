@@ -40,8 +40,11 @@ In the payment notes, please make sure you provide us with:
 
 ## Pay by bank transfer / lodgement
 Please contact the [Treasurer](/about/contact/treasurer) to make arrangements to pay via bank transfer.
->a/c name: DCU Redbrick Society
->IBAN: IE59BOFI90675027999600
->BIC: BOFIIE2D
->a/c number: 27999600
->sort code: 90 - 67 - 50
+
+```
+a/c name: DCU Redbrick Society
+IBAN: IE59BOFI90675027999600
+BIC: BOFIIE2D
+a/c number: 27999600
+sort code: 90 - 67 - 50
+```

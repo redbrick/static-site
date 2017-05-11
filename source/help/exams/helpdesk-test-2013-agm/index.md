@@ -21,7 +21,7 @@ Sincerely, nub___
 **7.** I keep getting asl messages from isaac. How do I stop seeing these?
 
 **8.** Hi,
-I’m trying to get my site up and running, but when I visit it all I see is “Error 403 - Permission Denied.” Why is this?
+I’m trying to get my site up and running, but when I visit it all I see is "Error 403 - Permission Denied." Why is this?
 
 **9.** I heard there’s a way to skip typing your password in to redbrick. How can I set this up and how does it work?
 
@@ -34,7 +34,7 @@ Gimmeh
 I’ve been sent a file called rbnudez2k13.tar.gz How do I open this strange and mysterious file?
 
 **13.** Hey guys,
-I hear people are doing this “logging” thing to save their chat history, how do I do this?
+I hear people are doing this "logging" thing to save their chat history, how do I do this?
 From,
 Lumb R. Jack.
 
@@ -56,7 +56,7 @@ Could not create the Java virtual machine.
 
 How do I fix this?
 
-**19.** I was cleaning cheeto dust out of my keyboard and when I looked back at my terminal it said “zsh: suspended irssi” and now nothing works.
+**19.** I was cleaning cheeto dust out of my keyboard and when I looked back at my terminal it said "zsh: suspended irssi" and now nothing works.
 How???
 
 **20.** Azazel is pretty cool and all but what other servers does Redbrick have and what are they used for?
@@ -79,11 +79,11 @@ I currently have a website online at redbrick.dcu.ie/~dicks , but I find it quit
 Your sincerely,
 Penis
 
-**26.** Hey, I was trying to get my website working on redbrick and I had to run “chmod 777” on my files. It works now, but what do those numbers actually mean? Do I have to do this with every website I make?
+**26.** Hey, I was trying to get my website working on redbrick and I had to run "chmod 777" on my files. It works now, but what do those numbers actually mean? Do I have to do this with every website I make?
 
 **27.** Hello, how do I make those giant big huge letters in chat? I want to know so I can be super cool like beimear.
 
-**28.** Hey, I am trying to cat the file “2guysfucking.txt” but it is too big for my screen and scrolls past too quickly. How can I make it go slower so I can look at it all?
+**28.** Hey, I am trying to cat the file "2guysfucking.txt" but it is too big for my screen and scrolls past too quickly. How can I make it go slower so I can look at it all?
 From, ahugefag
 
 - Sent from my iPhone
