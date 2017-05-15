@@ -66,7 +66,7 @@ Registration is free of charge and will close on 20th February 2017 at
  - Where: LG26
  - More information here: https://www.facebook.com/events/184569888696957/
 
-Diarmiud McManus (elephant), a former Redbrick member and now a Security
+Diarmaid McManus (elephant), a former Redbrick member and now a Security
 Engineer is coming into to give a talk on safer sexting.
 If you're worried about Donald Trump seeing your private parts and dirty
 messages this is the event for you.
