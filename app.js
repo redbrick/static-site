@@ -9,6 +9,7 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const yaml = require('js-yaml');
 const fs = require('fs');
+const protect = require('@risingstack/protect');
 const FileStreamRotator = require('file-stream-rotator');
 const logger = require('./lib/logger');
 const emailNewPosts = require('./lib/emailNewPosts');
@@ -44,6 +45,10 @@ app.use(bodyParser.json());
 app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(protect.express.xss({
+  body          : true,
+  loggerFunction: logger.error,
+}));
 
 // Dynamic generated contact forms
 const contactFormRoute = require('./routes/contactForm');
