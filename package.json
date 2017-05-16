@@ -32,6 +32,7 @@
     "version": "3.3.1"
   },
   "dependencies": {
+    "@risingstack/protect": "^1.0.0",
     "async": "^2.0.1",
     "body-parser": "~1.15.1",
     "compression": "^1.6.2",
