@@ -4,3 +4,14 @@ db.json
 .deploy_git
 public
 .DS_stores
+docker-compose.yml
+docker-production.yml
+Dockerfile
+LICENSE.md
+README.md
+website.service
+CONTRIBUTING.md
+circle.yml
+.env*
+.eslint*
+.nvm*
