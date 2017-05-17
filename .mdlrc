@@ -1,0 +1,3 @@
+git_recurse true
+ignore-front-matter true
+style ".markdown.style.rb"
