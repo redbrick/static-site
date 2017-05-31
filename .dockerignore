@@ -11,7 +11,7 @@ production
 *.md
 .circleci
 circle.yml
-.env*
+.env
 .eslint*
 .nvm*
 .codeclimate.yml

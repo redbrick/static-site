@@ -214,6 +214,7 @@ server:
     host: smtp.redbrick.dcu.ie
     port: '465'
     secure: 'true'
+    authMethod: 'plain'
     auth:
       user: ''
       pass: ''
