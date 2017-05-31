@@ -1,15 +1,15 @@
 node_modules
 db.json
 .npm
+scaffolds
 .deploy_git
 public
 .DS_stores
 docker-compose.yml
 Dockerfile
-LICENSE.md
-README.md
 production
-CONTRIBUTING.md
+*.md
+.circleci
 circle.yml
 .env*
 .eslint*
@@ -20,3 +20,4 @@ circle.yml
 .mdlrc
 logs
 npm-shrinkwrap.json
+themes
