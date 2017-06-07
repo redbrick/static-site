@@ -1,3 +1,4 @@
+---
 # Site
 title: Redbrick
 subtitle: DCU's Networking Society
@@ -52,15 +53,29 @@ menu:
     Services:
       url: /help/services
       icon: database
-  Mail:
-    url: https://webmail.redbrick.dcu.ie
-    icon: envelope
-  Wiki:
-    url: https://wiki.redbrick.dcu.ie
-    icon: university
-  Chat:
-    url: https://webchat.redbrick.dcu.ie
-    icon: wechat
+  Services:
+    icon: linux
+    Mail:
+      url: https://webmail.redbrick.dcu.ie
+      icon: envelope
+    Wiki:
+      url: https://wiki.redbrick.dcu.ie
+      icon: university
+    Chat:
+      url: https://webchat.redbrick.dcu.ie
+      icon: wechat
+    Git:
+      url: https://git.redbrick.dcu.ie
+      icon: git
+    Mastodon:
+      url: https://mastodon.redbrick.dcu.ie
+      icon: retweet
+    Hackmd:
+      url: https://md.redbrick.dcu.ie
+      icon: file-code-o
+    Hastebin:
+      url: https://paste.redbrick.dcu.ie
+      icon: clipboard
   Events:
     url: /events
     icon: calendar
@@ -86,10 +101,10 @@ category_dir: categories
 code_dir: downloads/code
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :title.md  # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false  # Transform title into titlecase
+external_link: true  # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -136,11 +151,11 @@ feed:
 
 # Api
 toJson:
-  enablePagination: true # chunk the index.json array based on per_page in _config.yml
-  configs: false # donnot generate the global and theme config api.
+  enablePagination: true  # chunk the index.json array based on per_page in _config.yml
+  configs: false  # donnot generate the global and theme config api.
   pages:
     selectors:
-      - title # string selector
+      - title  # string selector
       - date
       - updated
       - permalink
@@ -156,7 +171,7 @@ toJson:
       - excerpt
       - permalink
       - photos
-      - {path: tags, childrenSelectors: ['name', 'slug', 'permalink']} # object selector
+      - {path: tags, childrenSelectors: ['name', 'slug', 'permalink']}  # object selector
       - {path: categories, childrenSelectors: ['name', 'slug', 'permalink']}
     extracts: [content]
   tags: true
@@ -221,7 +236,7 @@ server:
   mailsubject: Redbrick Update
   siteroot: http://redbrick.dcu.ie
   logDirectory: ./logs
-  logRotationFreqency: 168h # 1 week in hours
+  logRotationFreqency: 168h  # 1 week in hours
   recaptcha:
     siteKey: '6LfClyATAAAAAErMssL8Y2iCwGx2JfdcxQHD8biq'
     secretKey: ''
