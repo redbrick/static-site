@@ -1,5 +1,7 @@
 # Static-Site
-[![CircleCI](https://circleci.com/gh/redbrick/static-site.svg?style=svg)](https://circleci.com/gh/redbrick/static-site)
+[![CircleCI](https://circleci.com/gh/redbrick/static-site.svg?style=shield)](https://circleci.com/gh/redbrick/static-site)
+[![Code Climate](https://codeclimate.com/github/redbrick/static-site/badges/gpa.svg)](https://codeclimate.com/github/redbrick/static-site)
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/redbrick/site/)
 
 A Static Site for [redbrick](http://redbrick.dcu.ie) generated with [hexo](https://hexo.io/) using a theme
 based off [icarus](https://github.com/redbrick/hexo-theme-icarus)
