@@ -225,11 +225,13 @@ theme: redbrick-theme
 
 # Server Config
 server:
+  useSendMail: false
   email:
-    host: smtp.redbrick.dcu.ie
-    port: '465'
-    secure: 'true'
-    authMethod: 'plain'
+    host: mailhost.redbrick.dcu.ie
+    port: 25
+    secure: false
+    authMethod: plain
+    disableAuth: false
     auth:
       user: ''
       pass: ''
