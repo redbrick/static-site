@@ -6,6 +6,7 @@ services:
     volumes:
       - $PWD/logs:/usr/src/app/logs
       - $PWD/public:/usr/src/app/public
+      - $PWD/mailing_list:/usr/src/app/public/mailing_list
     ports:
       - '3000:3000'
     env_file: .env
