@@ -18,9 +18,9 @@ To set up the for development
 - `yarn start` to create start the serve
 
 - To generate new posts
-  - Run `yarn posts [title]` This will create a new post in source/_post/[title].md
+  - Run `yarn posts [title]` This will create a new post in `source/_post/[title].md`
 - To generate new pages:
-  - Run `yarn page [title]` this will create a new page in source/[title]/index.md
+  - Run `yarn page [title]` this will create a new page in `source/[title]/index.md`
 - To edit the sidebar:
   - Edit `themes/redbrick-theme/_config.yaml` - this is where all the theme configuration is controlled from.
 
@@ -38,8 +38,8 @@ Theres a `docker-compose.yml` for development.
 
 ### CSS and Templates
 
-- You can edit the css for the theme in themes/redbrick-theme/source/css
-- You can edit the templates in themes/redbrick-theme/layout
+- You can edit the css for the theme in `themes/redbrick-theme/source/css`
+- You can edit the templates in `themes/redbrick-theme/layout`
 
 ### Google analytics
 
@@ -62,7 +62,7 @@ You will also need to create three files:
 - `mailing_list` a newline-separated list of email addresses
 - `email_update_log` a newline-separated reverse-chronological list of times email updates were sent
 - `.env` by copying `.env.example` and **modifying values (*important*)**
-- Set any Enviroment Variables through the env file
+- Set any Environment Variables through the env file
 
 `mailing_list` and `email_update_log` can be left blank, though updates for every post in history
 will be sent if no previous send date is specified.
@@ -74,8 +74,10 @@ And done.
 ### Docker
 
 To use docker in production theres a `docker-compose.yml` in the production folder.
-Copy the `.env.example` to `.env` relative to the `docker-compose.yml`.
-Modify `.env` and run `docker-compose up -d`
+- Copy the `.env.example` to `.env` relative to the `docker-compose.yml`.
+- Modify `.env`
+- Create a file called `mailing_list` and add email addresses for announce
+- run `docker-compose up -d`
 
 ### Generate via API
 - While the server is live, a visit to `http://[sitehost]/api/regenerate?token=your_secret_token`
@@ -83,25 +85,25 @@ Modify `.env` and run `docker-compose up -d`
 
 ### Mail Options
 
-To  use sendmail rather then smtp in the `_config.yml` set `useSendMail` to `true`.
+To use sendmail rather then SMTP in the `_config.yml` set `useSendMail` to `true`.
 
-To disable auth on smtp leave `auth.user` and `auth.pass` as empty.
+To disable auth on SMTP leave `auth.user` and `auth.pass` as empty.
 
-Modify the host, and port options as needed for smtp either in the config or using the env
+Modify the host, and port options as needed for SMTP either in the config or using the env
 variables.
 
 ## Environment Variables
 
-| Variable             | Example                  | Description                                                    |
-| :---                 | :---:                    | ---:                                                           |
-| SECRET_API_TOKEN     |                          | API key for regenerating the site                              |
-| RECAPTCHA_SECRET_KEY |                          | Recaptcha server key from google                               |
-| RECAPTCHA_SITE_KEY   |                          | Recaptcha site key same as the on in the theme                 |
-| LOG_ROTATE           | 24h                      | When to rotate logs                                            |
-| SMTP_HOST            | mailhost.redbrick.dcu.ie | smtp host address                                              |
-| SMTP_PORT            | 25                       | smtp port for server                                           |
-| SMTP_SECURE          | false                    | if using ssl or not                                            |
-| SMTP_USER            | no-reply                 | redbrick username for smtp auth leave off the @redbrick.dcu.ie |
-| SMTP_PASS            |                          | account password                                               |
-| SMTP_AUTH_METHOD     | plain                    | auth method to use with smtp. defaults to plain                |
-| PORT                 | 3000                     | port to run the server on defaults to 300                      |
+| Variable               | Example                    | Description                                                      |
+| :---                   | :---:                      | ---:                                                             |
+| `SECRET_API_TOKEN`     |                            | API key for regenerating the site                                |
+| `RECAPTCHA_SECRET_KEY` |                            | Recaptcha server key from Google                                 |
+| `RECAPTCHA_SITE_KEY`   |                            | Recaptcha site key same as the on in the theme                   |
+| `LOG_ROTATE`           | `24h`                      | When to rotate logs                                              |
+| `SMTP_HOST`            | `mailhost.redbrick.dcu.ie` | SMTP host address                                                |
+| `SMTP_PORT`            | `25`                       | SMTP port for server                                             |
+| `SMTP_SECURE`          | `false`                    | if using SSL or not                                              |
+| `SMTP_USER`            | `no-reply`                 | redbrick username for SMTP auth leave off the `@redbrick.dcu.ie` |
+| `SMTP_PASS`            |                            | account password                                                 |
+| `SMTP_AUTH_METHOD`     | `plain`                    | auth method to use with SMTP. Defaults to plain                  |
+| `PORT`                 | `3000`                     | port to run the server on defaults to 3000                       |
