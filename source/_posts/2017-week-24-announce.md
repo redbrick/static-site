@@ -47,7 +47,7 @@ Diarmaid McManus (elephant), a former Redbrick member and now a Security Enginee
 Redbrick is making hoodies! If you're interested in some
 primo-nice-cool-trendy-zip-up-hoodies, fill out your interest here:
 https://hoodies.redbrick.dcu.ie/
-They'll cost 35 euros and will have a logo on the chest and the back. If you want you can get your name on the sleeve. You have until the end of the month to register. For those of you who have registered, please pay a member of committee or paypal us here: accounts@redbrick.dcu.ie
+They'll cost 35 euros and will have a logo on the chest and the back. If you want you can get your name on the sleeve. You have until the end of the month to register. For those of you who have registered, please pay a member of committee or PayPal us here: accounts@redbrick.dcu.ie
 
 If you're interested in becoming a member of the redbrick helpdesk, admin or webmaster team, contact us here: committee@redbrick.dcu.ie
 

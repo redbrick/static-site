@@ -64,4 +64,4 @@ programming experience before starting college:
 https://goo.gl/fMPurv
 
 Such surveys help to improve the computer courses in Ireland, and will only take
-10 minutes of your time. We would be graceful for your response.
+10 minutes of your time. We would be grateful for your response.

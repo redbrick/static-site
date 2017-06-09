@@ -77,7 +77,7 @@ https://video.fosdem.org/2017/
 Thank you all,
 Oskar McDermott (oskar)
 
-Here's our social media links in case you want to kiss us thru the phone:
+Here are our social media links in case you want to kiss us thru the phone:
 Twitter: @RedbrickDCU
 Facebook: https://www.facebook.com/dcuredbrick
 Snapchat: RedbrickDCU
