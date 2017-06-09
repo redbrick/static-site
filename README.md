@@ -20,6 +20,8 @@ You will also need to create three files:
 
 `mailing_list` and `email_update_log` can be left blank, though updates for every post in history will be sent if no previous send date is specified.
 
+### Mail Options
+
 ## Generate
 - To demo the site run `npm start`. This will create a server that runs on localhost:3000
 - To work on css and have it auto regenerate use `yarn hexo`. This will create a server that runs on localhost:4000

@@ -231,7 +231,6 @@ server:
     port: 25
     secure: false
     authMethod: plain
-    disableAuth: false
     auth:
       user: ''
       pass: ''
