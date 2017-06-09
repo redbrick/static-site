@@ -64,7 +64,8 @@ You will also need to create three files:
 - `.env` by copying `.env.example` and **modifying values (*important*)**
 - Set any Enviroment Variables through the env file
 
-`mailing_list` and `email_update_log` can be left blank, though updates for every post in history will be sent if no previous send date is specified.
+`mailing_list` and `email_update_log` can be left blank, though updates for every post in history
+will be sent if no previous send date is specified.
 
 Then using apache or nginx proxy traffic to port 3000.
 
@@ -77,12 +78,30 @@ Copy the `.env.example` to `.env` relative to the `docker-compose.yml`.
 Modify `.env` and run `docker-compose up -d`
 
 ### Generate via API
-- While the server is live, a visit to `http://[sitehost]/api/regenerate?token=your_secret_token` will run `hexo generate` and send emails for any new posts so long as that process is not already underway.
+- While the server is live, a visit to `http://[sitehost]/api/regenerate?token=your_secret_token`
+  will run `hexo generate` and send emails for any new posts so long as that process is not already underway.
 
 ### Mail Options
 
+To  use sendmail rather then smtp in the `_config.yml` set `useSendMail` to `true`.
+
+To disable auth on smtp leave `auth.user` and `auth.pass` as empty.
+
+Modify the host, and port options as needed for smtp either in the config or using the env
+variables.
+
 ## Environment Variables
 
-| Variable | Example | Description |
-| ---      | ---     | ---         |
-|          |         |             |
+| Variable             | Example                  | Description                                                    |
+| :---                 | :---:                    | ---:                                                           |
+| SECRET_API_TOKEN     |                          | API key for regenerating the site                              |
+| RECAPTCHA_SECRET_KEY |                          | Recaptcha server key from google                               |
+| RECAPTCHA_SITE_KEY   |                          | Recaptcha site key same as the on in the theme                 |
+| LOG_ROTATE           | 24h                      | When to rotate logs                                            |
+| SMTP_HOST            | mailhost.redbrick.dcu.ie | smtp host address                                              |
+| SMTP_PORT            | 25                       | smtp port for server                                           |
+| SMTP_SECURE          | false                    | if using ssl or not                                            |
+| SMTP_USER            | no-reply                 | redbrick username for smtp auth leave off the @redbrick.dcu.ie |
+| SMTP_PASS            |                          | account password                                               |
+| SMTP_AUTH_METHOD     | plain                    | auth method to use with smtp. defaults to plain                |
+| PORT                 | 3000                     | port to run the server on defaults to 300                      |
