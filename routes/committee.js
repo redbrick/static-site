@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const cmt = require('../lib/getCommittee');
+const getCommittee = require('../lib/getCommittee');
 
 /*
  * Fetches Array of Current committee
  */
 router.get('/committee', ({ query }, res) => {
-  cmt.getCurrentCommittee().then((committee) => {
+  getCommittee(query.year).then((committee) => {
     res.json(committee).end();
   })
   .catch((err) => {
