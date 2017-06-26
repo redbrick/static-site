@@ -58,6 +58,10 @@ app.use('/about/contact/', contactFormRoute);
 const postsRoute = require('./routes/posts');
 app.use(baseUrl, postsRoute);
 
+// /api/committee returns committee as json
+const committeeRoute = require('./routes/committee');
+app.use(baseUrl, committeeRoute);
+
 // /api/regenerate regenerates content without restarting the server
 const regenerateRoute = require('./routes/regenerate');
 app.use(baseUrl, regenerateRoute);
