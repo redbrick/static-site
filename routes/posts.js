@@ -9,19 +9,16 @@ const getLatestPosts = require('../lib/getLatestPosts');
  *  - include (comma-separated list possibly including 'content,excerpt')
  */
 router.get('/posts', ({ query }, res) => {
-  getLatestPosts(
-    {
-      offset : parseInt(query.offset),
-      limit  : parseInt(query.limit),
-      include: (query.include || '').split(','),
-    },
-    (err, posts) => {
-      if (err) {
-        return res.status(500).json(err).end();
-      }
-      res.json(posts).end();
-    }
-  );
+  getLatestPosts({
+    offset : parseInt(query.offset),
+    limit  : parseInt(query.limit),
+    include: (query.include || '').split(','),
+  }).then((posts) => {
+    res.json(posts).end();
+  })
+  .catch((err) => {
+    return res.status(500).json(err).end();
+  });
 });
 
 module.exports = router;
