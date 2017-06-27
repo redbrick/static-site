@@ -1,0 +1,42 @@
+---
+version: 2
+jobs:
+  build:
+    docker:
+      - image: 18fgsa/html-proofer
+        environment:
+          ENV: CI
+    working_directory: ~/static-site
+    steps:
+      - run: apk add --no-cache git build-base file nasm autoconf libpng-dev openssl yarn nodejs=6.10.3-r0
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run: yarn
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - .node_modules
+      - run:
+          name: Test Build
+          command: yarn generate
+      - run:
+          name: Test Internal Links
+          command: |
+            set -eo pipefail
+            htmlproofer --allow-hash-href --check-html --empty-alt-ignore --disable-external ~/static-site/public | tee results.txt
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
+            fi
+      - store_artifacts:
+          path: results.txt
+          prefix: tests
+      - store_test_results:
+          path: "results.txt"
+
+deployment:
+  production:
+    branch: master
+    commands:
