@@ -9,9 +9,9 @@ router.get('/committee', ({ query }, res) => {
   getCommittee(query.year).then((committee) => {
     res.json(committee).end();
   })
-  .catch((err) => {
-    return res.status(500).json(err).end();
-  });
+    .catch((err) => {
+      return res.status(500).json(err).end();
+    });
 });
 
 module.exports = router;
