@@ -1,19 +1,23 @@
+import express from 'express';
+import compression from 'compression';
+import path from 'path';
+import favicon from 'serve-favicon';
+import morgan from 'morgan';
+import cookieParser from 'cookie-parser';
+import bodyParser from 'body-parser';
+import yaml from 'js-yaml';
+import fs from 'fs';
+import protect from '@risingstack/protect';
+import FileStreamRotator from 'file-stream-rotator';
+import logger from './lib/logger';
+import emailNewPosts from './lib/emailNewPosts';
+import contactFormRoute from './routes/contactForm';
+import postsRoute from './routes/posts';
+import committeeRoute from './routes/committee';
+import regenerateRoute from './routes/regenerate';
+import contactRoute from './routes/contact';
+
 require('dotenv-safe').load();
-
-const express = require('express');
-const compression = require('compression');
-const path = require('path');
-const favicon = require('serve-favicon');
-const morgan = require('morgan');
-const cookieParser = require('cookie-parser');
-const bodyParser = require('body-parser');
-const yaml = require('js-yaml');
-const fs = require('fs');
-const protect = require('@risingstack/protect');
-const FileStreamRotator = require('file-stream-rotator');
-const logger = require('./lib/logger');
-const emailNewPosts = require('./lib/emailNewPosts');
-
 const app = express();
 
 const configFile = fs.readFileSync('./_config.yml', 'utf8');
@@ -51,23 +55,18 @@ app.use(protect.express.xss({
 }));
 
 // Dynamic generated contact forms
-const contactFormRoute = require('./routes/contactForm');
 app.use('/about/contact/', contactFormRoute);
 
 // /api/posts returns latets blog posts as json
-const postsRoute = require('./routes/posts');
 app.use(baseUrl, postsRoute);
 
 // /api/committee returns committee as json
-const committeeRoute = require('./routes/committee');
 app.use(baseUrl, committeeRoute);
 
 // /api/regenerate regenerates content without restarting the server
-const regenerateRoute = require('./routes/regenerate');
 app.use(baseUrl, regenerateRoute);
 
 // /api/contact endpoint for sending messages to rb users
-const contactRoute = require('./routes/contact');
 app.use(baseUrl, contactRoute);
 
 // /api/fetchMeSomeTea 418 responce
@@ -107,4 +106,4 @@ app.use(({ status }, req, res, next) => {
 emailNewPosts();
 logger.info('Server running on port', process.env.PORT || '3000');
 
-module.exports = app;
+export default app;

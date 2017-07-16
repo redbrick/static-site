@@ -1,11 +1,11 @@
-const express = require('express');
-const path = require('path');
-const fs = require('fs');
-const spawn = require('child_process').spawn;
-const router = express.Router();
-const logger = require('../lib/logger');
-const emailNewPosts = require('../lib/emailNewPosts');
+import express from 'express';
+import path from 'path';
+import fs from 'fs';
+import {spawn} from 'child_process';
+import logger from '../lib/logger';
+import emailNewPosts from '../lib/emailNewPosts';
 
+const router = express.Router();
 /* This pretty much violates REST since it has side effects
  * and doesn't GET anything of substance, but making it a GET
  * request means you can easily run this from a browser window.
@@ -73,4 +73,4 @@ router.get('/regenerate', ({ query }, res) => {
   });
 });
 
-module.exports = router;
+export default router;

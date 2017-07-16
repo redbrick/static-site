@@ -1,12 +1,12 @@
-const express = require('express');
-const router = express.Router();
-const yaml = require('js-yaml');
-const fs = require('fs');
-const ReCAPTCHA = require('recaptcha2');
-const logger = require('../lib/logger');
-const smtpTransport = require('../lib/smtpTransport');
-const sendMailTransport = require('../lib/sendMailTransport');
+import express from 'express';
+import yaml from 'js-yaml';
+import fs from 'fs';
+import ReCAPTCHA from 'recaptcha2';
+import logger from '../lib/logger';
+import smtpTransport from '../lib/smtpTransport';
+import sendMailTransport from '../lib/sendMailTransport';
 
+const router = express.Router();
 const configFile = fs.readFileSync('./_config.yml', 'utf8');
 const config = yaml.safeLoad(configFile).server;
 const sendMailDefault = true;
@@ -58,4 +58,4 @@ router.get('/contact', ({ query }, res) => {
     });
 });
 
-module.exports = router;
+export default router;

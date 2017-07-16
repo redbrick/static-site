@@ -1,8 +1,8 @@
-const express = require('express');
-const path = require('path');
-const router = express.Router();
-const logger = require('../lib/logger');
+import express from 'express';
+import path from 'path';
+import logger from '../lib/logger';
 
+const router = express.Router();
 // dynamically create contact page
 router.get('*', (req, res) => {
   const options = {
@@ -22,4 +22,4 @@ router.get('*', (req, res) => {
   });
 });
 
-module.exports = router;
+export default router;

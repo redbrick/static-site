@@ -31,7 +31,7 @@
     "version": "3.3.1"
   },
   "dependencies": {
-    "@risingstack/protect": "^1.0.0",
+    "@risingstack/protect": "^1.2.0",
     "async": "^2.0.1",
     "body-parser": "~1.15.1",
     "compression": "^1.6.2",
@@ -41,7 +41,7 @@
     "ejs": "^2.5.5",
     "express": "^4.14.0",
     "file-stream-rotator": "0.0.7",
-    "hexo": "^3.2.2",
+    "hexo": "^3.3.7",
     "hexo-cli": "^1.0.2",
     "hexo-cli-extras": "^1.0.3",
     "hexo-deployer-rsync": "^0.1.1",
@@ -66,7 +66,7 @@
     "lodash.isundefined": "^3.0.1",
     "moment": "^2.15.1",
     "morgan": "~1.7.0",
-    "nodemailer": "^2.5.0",
+    "nodemailer": "^4.0.1",
     "recaptcha2": "^1.0.8",
     "serve-favicon": "^2.3.0",
     "winston": "^2.2.0",

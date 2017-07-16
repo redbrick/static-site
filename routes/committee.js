@@ -1,6 +1,6 @@
-const express = require('express');
+import getCommittee from '../lib/getCommittee';
+import express from 'express';
 const router = express.Router();
-const getCommittee = require('../lib/getCommittee');
 
 /*
  * Fetches Array of Current committee
@@ -14,4 +14,4 @@ router.get('/committee', ({ query }, res) => {
   });
 });
 
-module.exports = router;
+export default router;

@@ -1,7 +1,7 @@
-const express = require('express');
-const router = express.Router();
-const getLatestPosts = require('../lib/getLatestPosts');
+import express from 'express';
+import getLatestPosts from '../lib/getLatestPosts';
 
+const router = express.Router();
 /* fetches latest blog posts as JSON list
  * optional query params:
  *  - offset (0-indexed starting point - default 0)
@@ -21,4 +21,4 @@ router.get('/posts', ({ query }, res) => {
   });
 });
 
-module.exports = router;
+export default router;
