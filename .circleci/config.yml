@@ -8,7 +8,7 @@ jobs:
           ENV: CI
     working_directory: ~/static-site
     steps:
-      - run: apk add --no-cache git build-base file nasm autoconf libpng-dev openssl nodejs
+      - run: apk add --no-cache git ssh build-base file nasm autoconf libpng-dev openssl nodejs
       - checkout
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
