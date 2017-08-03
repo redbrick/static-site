@@ -8,10 +8,11 @@ jobs:
           ENV: CI
     working_directory: ~/static-site
     steps:
-      - run: apk add --no-cache git build-base file nasm autoconf libpng-dev openssl yarn nodejs=6.10.3-r0
+      - run: apk add --no-cache git openssh-client build-base file nasm autoconf libpng-dev openssl nodejs
       - checkout
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
+      - run: npm -g i yarn
       - run: yarn
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
