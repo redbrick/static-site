@@ -8,18 +8,19 @@ jobs:
           ENV: CI
     working_directory: ~/static-site
     steps:
-      - run: apk add --no-cache git openssh-client build-base file nasm autoconf libpng-dev openssl nodejs
+      - run: apk add --no-cache git openssh-client build-base file nasm autoconf libpng-dev openssl npm nodejs
       - checkout
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
-      - run: npm install
+      - run: npm -g i yarn
+      - run: yarn
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - .node_modules
       - run:
           name: Test Build
-          command: npm run generate
+          command: yarn generate
       - run:
           name: Test Internal Links
           command: |
