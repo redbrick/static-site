@@ -12,14 +12,14 @@ jobs:
       - checkout
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
-      - run: npm
+      - run: yarn
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - .node_modules
       - run:
           name: Test Build
-          command: npm generate
+          command: yarn generate
       - run:
           name: Test Internal Links
           command: |
