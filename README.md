@@ -11,7 +11,7 @@ based off [icarus](https://github.com/redbrick/hexo-theme-icarus)
 
 ## Requirements
 
-1. **Node** : v6.9(LTS)  Download [Node](https://nodejs.org/download/)
+1. **Node(latest)**: Download [Node](https://nodejs.org/download/)
 
 ## Development
 

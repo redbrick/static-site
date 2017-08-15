@@ -1,6 +1,7 @@
-const express = require('express');
+import express from 'express';
+import getLatestPosts from '../lib/getLatestPosts.mjs';
+
 const router = express.Router();
-const getLatestPosts = require('../lib/getLatestPosts');
 
 /* fetches latest blog posts as JSON list
  * optional query params:
@@ -8,17 +9,16 @@ const getLatestPosts = require('../lib/getLatestPosts');
  *  - limit (0-indexed maximum number of returned results - default 10)
  *  - include (comma-separated list possibly including 'content,excerpt')
  */
-router.get('/posts', ({ query }, res) => {
+router.get('/posts', ({ query }, res, next) => {
   getLatestPosts({
-    offset : parseInt(query.offset),
-    limit  : parseInt(query.limit),
+    offset : parseInt(query.offset, 10),
+    limit  : parseInt(query.limit, 10),
     include: (query.include || '').split(','),
-  }).then((posts) => {
-    res.json(posts).end();
   })
-  .catch((err) => {
-    return res.status(500).json(err).end();
-  });
+    .then(posts => {
+      res.json(posts).end();
+    })
+    .catch(next);
 });
 
-module.exports = router;
+export default router;
