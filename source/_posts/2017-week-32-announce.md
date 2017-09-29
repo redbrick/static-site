@@ -53,8 +53,8 @@ The hoodies have (finally) arrived! If you have ordered a hoodie you should
 get an email shortly regarding the collection. If you didn't order, you might
 get a chance next year, so don't worry :)
 
-"How does this announce thing work again?"
-Wojtek Bednarzak (~voy)
+"How does this announce thing work again?"  
+Wojtek Bednarzak (~voy)  
 Redbrick Secretary 2017-2018
 
 ## Programming Survey
