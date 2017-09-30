@@ -1,6 +1,6 @@
 ---
 title: Tutorials
-date: 2016-04-17 16:15:35
+date: 2017-09-26 16:15:35
 type: helpList
 banner: tutor.jpg
 keywords:
@@ -10,6 +10,7 @@ keywords:
 ---
 
 ## 2017
+[![Intro To Redbrick](./IntroToRedbrick/IntroToRedbrick.png)](./IntroToRedbrick)
 [![Static Web Design](./static-web/static.png)](./static-web)
 [![Docker: The Cloud in a box](./docker/docker.png)](./docker)
 [![How To Make a Webserver](./HowToMakeAWebserver/HowToMakeAWebserver.png)](./HowToMakeAWebserver)
