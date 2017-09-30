@@ -21,11 +21,11 @@ jobs:
       - run:
           name: Test Build
           command: yarn generate
-      - run:
-          name: Test Internal Links
-          command: |
-            set -eo pipefail
-            htmlproofer --allow-hash-href --check-html --empty-alt-ignore --disable-external ~/static-site/public | tee results.txt
+      #- run:
+      #    name: Test Internal Links
+      #    command: |
+      #      set -eo pipefail
+      #      htmlproofer --allow-hash-href --check-html --empty-alt-ignore --disable-external ~/static-site/public | tee results.txt
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
