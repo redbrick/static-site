@@ -216,10 +216,12 @@ Note: This section has quite a high answer to marks ratio. It's acceptable to re
 1.  Do you prefer Vi or Emacs? <span class="mark">(Vi = 0 marks, Emacs = -10 marks)</span>
 2.  What does this do?
 
+```
     <pre>@P=split//,".URRUU\c8R";@d=split//,"\nrekcah xinU / lreP rehtona tsuJ";sub p{
     @p{"r$p","u$p"}=(P,P);pipe"r$p","u$p";++$p;($q*=2)+=$f=!fork;map{$P=$P[$f^ord
     ($p{$_})&6];$p{$_}=/ ^$P/ix?$P:close$_}keys%p}p;p;p;p;p;map{$p{$_}=~/^[P.]/&&
     close$_}%p;wait until$?;map{/^r/&&<$_>}%p;$_=$d[$q];sleep rand(2)if/\S/;print</pre>
+```
 
 3.  Rate these operating systems in order of preference:
     *   Solaris
