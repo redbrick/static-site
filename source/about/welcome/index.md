@@ -28,7 +28,7 @@ Some of the services Redbrick offers include the following;
 You can login to redbrick using a number of different methods.
 
 ### Web Client.
-Click [here](https://anyterm.redbrick.dcu.ie/) to open a terminal in your web browser. Enter your username and password when prompted.
+Click [here](https://www.redbrick.dcu.ie/wetty) to open a terminal in your web browser. Enter your username and password when prompted.
 
 ### Desktop Client.
 Click [here](http://wiki.redbrick.dcu.ie/mw/Connect) to view our guide on using SSH and setting up PuTTY on your windows computer.
