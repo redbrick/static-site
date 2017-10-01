@@ -2,42 +2,82 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/static-site
+    docker:
+      - image: node:8
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dep
+          command: yarn
+      - save_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+      - run:
+          name: Build Site
+          command: |
+            set -eo pipefail
+            yarn generate
+      - run:
+          name: Get Cache Checksum
+          command: ls -lnR source > deps_checksum
+      - save_cache:
+          key: build-cache-{{ .Branch }}-{{ checksum "deps_checksum" }}
+          paths:
+            - public
+  test:
     docker:
       - image: 18fgsa/html-proofer
         environment:
           ENV: CI
     working_directory: ~/static-site
     steps:
-      - run: apk add --no-cache curl git openssh-client build-base file nasm autoconf libpng-dev openssl nodejs
       - checkout
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-      - run: npm -g i yarn
-      - run: yarn
-      - save_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-          paths:
-            - .node_modules
       - run:
-          name: Test Build
-          command: yarn generate
-      #- run:
-      #    name: Test Internal Links
-      #    command: |
-      #      set -eo pipefail
-      #      htmlproofer --allow-hash-href --check-html --empty-alt-ignore --disable-external ~/static-site/public | tee results.txt
-      - deploy:
+          name: Get Cache Checksum
+          command: ls -lnR source > deps_checksum
+      - restore_cache:
+          keys:
+            - build-cache-{{ .Branch }}-{{ checksum "deps_checksum" }}
+            - build-cache-{{ .Branch }}
+      - run:
+          name: Test Internal Links
           command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
-            fi
+            set -eo pipefail
+            htmlproofer --allow-hash-href --check-html --empty-alt-ignore \
+              --disable-external --url-ignore "/\/about\/contact\/*/" \
+              --file-ignore "/public\/about\/contact\/*/" ~/static-site/public
       - store_artifacts:
           path: results.txt
           prefix: tests
       - store_test_results:
           path: "results.txt"
+  deploy:
+    docker:
+      - image: alpine
+    steps:
+      - run:
+        name: Install Curl
+        command: apk add --no-cache curl
+      - run:
+        name: Trigger Regeneration
+        command: curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
 
-deployment:
-  production:
-    branch: master
-    commands:
+workflows:
+  version: 2
+  build-test-and-deploy:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master

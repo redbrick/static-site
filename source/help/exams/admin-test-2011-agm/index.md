@@ -2,30 +2,15 @@
 title: 'Admin Test 2011'
 ---
 
-<pre>	##############
-	# Scripting  #
-	# (40 marks) #
-	##############
-	</pre>
+## Scripting - (40 marks)
 
-1 - So, upstart is shit. You've noticed that it doesn't seem to start syslog-ng.  
-Write a script to check if it's running. If it isn't, start it. (13 marks)  
+1. So, upstart is shit. You've noticed that it doesn't seem to start syslog-ng.  Write a script to check if it's running. If it isn't, start it. (13 marks)
+2. Some cunts keep housing warez on their webspace and the IRMA or IMRO or whatever they're calling themselves this week are fed up sending us cease and desists. Once more strike and we're out. Write me a script that searches /webtree for files of the following types (mp3, avi, wma, wmv, aac, flac), chmods the files to 000, emails the user with a warning to take it down, and emails a list of files to admins (15 marks)
+3. We're moving /storage from minerva to azazel. Some users (cough cough) have a bigger quota than the default 2G. This will mess everythig up for cunts like fun when we move. Write me a script to check all users quotas and email a list of all users with non-default quotas to admins@redbrick.dcu.ie in the following format: Username Quota (8 marks)
+4. Some users also have a different filesize quota (default is 150M), email a list of users with a bigger filesize quota to admins in the form: Username Filesize_quota. Hint: limits.conf (5 marks)
+5. Write a script that amuses me. (2 mark)
 
-2 - Some cunts keep housing warez on their webspace and the IRMA or IMRO or whatever they're calling themselves this week are fed up sending us cease and desists. Once more strike and we're out. Write me a script that searches /webtree for files of the following types (mp3, avi, wma, wmv, aac, flac), chmods the files to 000, emails the user with a warning to take it down, and emails a list of files to admins@(15 marks)  
-
-3 -We're moving /storage from minerva to azazel. Some users (cough cough) have a bigger quota than the default 2G. This will mess everythig up for cunts like fun when we move. Write me a script to check all users quotas and email a list of all users with non-default quotas to admins@redbrick.dcu.ie in the following format:  
-Username Quota  
-(8 marks) Some users also have a different filesize quota (default is 150M), email a list of users with a bigger filesize quota to admins in the form:  
-Username Filesize_quota  
-Hint: limits.conf (5 marks)  
-
-4 - Write a script that amuses me. (2 mark)  
-
-<pre>	##############
-	# General	 #
-	# (35 marks)  #
-	##############
-	</pre>
+## General - (35 marks)
 
 1.  Minerva has booted without any swap space because the line in fstab was commented out. What command would you use to activate the swap space and stop asplosions? (3 marks)
 2.  What does DHCP stand for? What does it do? Why would redbrick want a DHCP server?(2 marks)
@@ -35,12 +20,10 @@ Hint: limits.conf (5 marks)
 6.  What signal is sent to a process when it's suspended? What signal is sent to it when it's resumed? (2 marks)
 7.  Some spa has pissed you off, how would you kill all of their processes in one go? (1 mark)
 8.  Tell me what the following are and give me a brief description of what they do:
-
-*   openntp
-*   nginx
-*   apparmor
-*   git
-
+  *   openntp
+  *   nginx
+  *   apparmor
+  *   git
 10.  You've updated LDAP, but the old information is still appearing. What the hell is causing this? (1 mark)
 11.  What's utmp? (1 mark)
 12.  How do you change the root password? Now that you've changed it, how do you inform the other rootholders securely? (1 mark)
@@ -50,11 +33,7 @@ Hint: limits.conf (5 marks)
 16.  What is a umask? What is a suitable value for a umask and why? (3 marks)
 17.  What is chkrootkit? (1 mark)
 
-<pre>	##########
-	# Linux  #
-   #20 marks#
-	##########
-	</pre>
+## Linux - 20 marks
 
 1.  Give me 2 different ways of searching for a specific man page.(1 mark)
 2.  How would I find out if a specific package is installed? (2 marks)
@@ -66,11 +45,7 @@ Hint: limits.conf (5 marks)
 8.  5\. Grub 2 on 10.04 doesn't like giving you a grub menu on boot. Where do I change this? What option needs to be unset/set?(3 marks)
 9.  What is selinux? What does it do? (4 marks)
 
-<pre>############
-Networking
-20 marks
-############
-</pre>
+## Networking - 20 marks
 
 1.  What is NAT? How does it work?(2 marks)
 2.  How would I go about activating a port on hadron?(5 marks)
@@ -81,30 +56,25 @@ Networking
 7.  A command to show the routing table on your linux or BSD of choice plox.(1 marks)
 8.  what is inetd? (2 marks)
 
-<pre>	gwsma-gwsma-gwsma-gws-ma
-	w							  m
-	s	Security				  s	
-	m	20 marks            w
-	amswg-amsgw-amsgw--amswg							  
-	</pre>
+## Security - 20 marks
 
-1.  What is a buffer overfow, and how can it be used in an attack?( 2 marks)
-2.  So like, what could be possibly be wrong with this code?
+1.  What is a buffer overfow, and how can it be used in an attack? ( 2 marks)
+2.  So like, what could be possibly be wrong with this code? (2 marks)
 
-<pre>			#include <stdio.h>
-			#include <syscall.h>
-			#include <sys types.h="">
-			#include <unistd.h>int main(void)
-			{  
-	   		int uid;
-		   	uid=getuid();
-			   setuid(0);
-				system("useradm resetpw");
-				setuid(uid);
-				return(0);
-			}  
-
-         (2 marks)</unistd.h> </sys></syscall.h></stdio.h></pre>
+```
+#include <stdio.h>
+#include <syscall.h>
+#include <sys types.h="">
+#include <unistd.h>
+int main(void) {
+  int uid;
+  uid=getuid();
+  setuid(0);
+  system("useradm resetpw");
+  setuid(uid);
+  return(0);
+}
+ ```
 
 4.  What does it mean to chroot a process? What effect does this have on security?(2 marks)
 5.  What lists should a young elected admin subscribe to to keep abreast of security issues? (1 mark)
@@ -112,13 +82,9 @@ Networking
 7.  How does ssl help ensure secure data transmission? How do you know that the SSL cert is legit? (3 marks)
 8.  What's a canary? (2 marks)
 9.  What is a honeypot? How does it work? (2 marks)
-10.  .:/bin:/sbin:local/bin:/bin::/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin Why is this insecure? (3 marks)
+10. `.:/bin:/sbin:local/bin:/bin::/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin` Why is this insecure? (3 marks)
 
-<pre>	##################
-	# (Open|Free)BSD #
-   # 14 marks       #
-   ##################
-	</pre>
+## (Open|Free)BSD - 14 marks
 
 1.  Why should you not mount anything on b? (1 mark)
 2.  You're trying to install something on OpenBSD because it's not in the damn base system. You run: _pkg_add -v http://ftp.heanet.ie/pub/OpenBSD/4.7/packages/i386/wget-1.12p0.tgz_  
@@ -129,11 +95,7 @@ Networking
 6.  Give me the command to install screen from ports. (2 marks)
 7.  What is a securelevel? Explain how they work. (3 marks)
 
-<pre>	###############
-	# Filesystems # 
-   # 25 marks    #
-	###############
-	</pre>
+## Filesystems - 25 marks
 
 1.  What's an inode? How would you find out a file's inode number? (2 marks)
 2.  Give me the command to delete a file by it's inode number. Why would I ever need to do that? (3 marks)
@@ -146,11 +108,7 @@ Networking
 9.  You have an ext2 filesystem. You cannot create a file on a partition. Permissions are fine. The partition is not mounted read-only. What else could be the culprit? (2 marks)
 10.  UUID=0a57784e-0867-49be-995b-343a2e1a8682 /webmasterporn ext3 relatime 0 2 What the fuck is this shit? Where is it from? FOR THE LOVE OF GOD WHAT DOES IT MEAN? (3 marks)
 
-<pre>	##########
-	Hardware
-   16 marks
-	##########
-   </pre>
+## Hardware - 16 marks
 
 1.  Why are ALOMs the sex? (1 mark)
 2.  *Generic RAID question* Explain the following RAID levels, advantages and disadvantages and minimum number of disks: RAID 0 RAID 1 RAID 5 RAID 10 and for shits and giggles, RAID 6 (6 marks)
@@ -160,9 +118,7 @@ Networking
 6.  I need to know the UUID of a disk pronto. What command could I use to find this out? (2 marks)
 7.  DDR2 and DDR3\. What's the difference? (2 marks)
 
-<pre>/*Bonus*/
-+- 1,000,000 marks
-</pre>
+## Bonus* - 1,000,000 marks
 
 1.  Pet swans. Why can't redbrick have any?
 2.  Obviously fun cannot be bought, but if he could, how many pints would you buy him?
