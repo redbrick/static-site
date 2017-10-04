@@ -10,6 +10,7 @@ keywords:
 ---
 
 ## 2017
+[![How To Set Up Your Dev Space](./SettingUpDevEnv/HowToSetUpYourDevSpace.png)](./SettingUpDevEnv)
 [![Intro To Redbrick](./IntroToRedbrick/IntroToRedbrick.png)](./IntroToRedbrick)
 [![Static Web Design](./static-web/static.png)](./static-web)
 [![Docker: The Cloud in a box](./docker/docker.png)](./docker)
