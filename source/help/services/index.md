@@ -74,7 +74,7 @@ Mastodon is a federated social network which shares similarities to Twitter, but
 
 The distributed, open-source platform offers better tools for privacy and fighting harassment than Twitter offers, but coupled with this is a steep learning curve. Mastodon’s federated nature means there’s no single website to use, and learning how to sift through its timeline of toots can take some time.
 
-If you miss "the old Twitter”, i.e the days of purely chronological timelines and no ads, Mastodon is perfect for you! You can find Mastodon hosted on Redbrick at mastodon.redbrick.dcu.ie/.
+If you miss "the old Twitter”, i.e the days of purely chronological timelines and no ads, Mastodon is perfect for you! You can find Mastodon hosted on Redbrick at [mastodon.redbrick.dcu.ie/](mastodon.redbrick.dcu.ie/).
 
 
 ## Hastebin
