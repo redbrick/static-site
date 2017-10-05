@@ -67,7 +67,7 @@ Redbrick hosts HackMD, a multiplatform collaborative markdown note editor which 
 
 It's real time that means you can write and edit notes with your peers at the same time. As you write, you can view he changes you make in HackMD's split screen view. Needless to say, it works very uniquely, all you have to do is to write an article over there and if you need any corrections or additions from your peers, then you can send them that article's web URL and they can edit and rewrite it as they think fit plus an original copy will always remain with you.
 
-Check out HackMD at md.redbrick.dcu.ie/.
+Check out HackMD at [md.redbrick.dcu.ie](md.redbrick.dcu.ie).
 
 ## Mastodon
 Mastodon is a federated social network which shares similarities to Twitter, but differs from Twitter in how it is administrated as a decentralized federation of servers running open source software. Basically Mastodon takes the best part from Twitter, and then it does it a little better.
@@ -77,10 +77,10 @@ The distributed, open-source platform offers better tools for privacy and fighti
 If you miss "the old Twitter”, i.e the days of purely chronological timelines and no ads, Mastodon is perfect for you! You can find Mastodon hosted on Redbrick at mastodon.redbrick.dcu.ie/.
 
 
-## hastebin
-Ever hear of a pastebin? It's just like that, except you're in a hurry! hastebin is a service we host for storing and sharing text and code snippets with your peers.
+## Hastebin
+Ever hear of a pastebin? It's just like that, except you're in a hurry! Hastebin is a service we host for storing and sharing text and code snippets with your peers.
 
 Paste your code, markdown or whatever you feel like pasting into the provided space. After that, just save it, get your link and then share it!
 
-Try out hastebin at paste.redbrick.dcu.ie.
+Try out Hastebin at [paste.redbrick.dcu.ie](paste.redbrick.dcu.ie).
 
