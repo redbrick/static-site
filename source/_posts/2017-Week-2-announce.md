@@ -13,6 +13,8 @@ Dear Brickies, old and new,
 First of all, we would like to welcome all new members to Redbrick, the best
 society in DCU, holding strong since 1996.
 
+<!-- more -->
+
 ## Intro To Redbrick
 
 To get you started, we have a n00b friendly introduction session into what

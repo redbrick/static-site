@@ -22,6 +22,8 @@ TL;DR
   - Engineering & Computing Ball: we are taking deposits!
   - FOSDEM: we're going!
 
+<!-- more -->
+
 ## Downtime Over Weekend
 
 Redbrick will be going down for maintenance this Sunday, at 1pm, for approximately 2 hours. This is to facilitate updates to our hosts, and a general health check on the network. All services will be affected, and logins will be disabled prior to the shutdown. If you have any questions, please contact admins@redbrick.dcu.ie
