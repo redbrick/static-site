@@ -60,11 +60,11 @@ jobs:
       - image: alpine
     steps:
       - run:
-        name: Install Curl
-        command: apk add --no-cache curl
+          name: Install Curl
+          command: apk add --no-cache curl
       - run:
-        name: Trigger Regeneration
-        command: curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
+          name: Trigger Regeneration
+          command: curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
 
 workflows:
   version: 2
