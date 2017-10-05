@@ -12,4 +12,4 @@ As most of you know, we've asked members to fill out a survey with some question
 
 Finally, we've been getting tonnes of feedback for the new site which has been extremely helpful. We know there are a few little things here and there that need to be done but we're working hard on getting it all sorted. As some of you may have noticed, Webmail has received a makeover. We are now back to running Roundcube. The boards are being themed in the coming weeks and you may notice a few little UI tweaks around the site as well.
 
-If you have any feedback at all please [contact the committee](/about/contact/committee) and let us know.
+If you have any feedback at all please [contact the committee](mailto:committee@redbrick.dcu.ie) and let us know.

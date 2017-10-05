@@ -31,7 +31,7 @@ Facebook event: [https://www.facebook.com/events/1381206022127635/](https://www.
 
 ## Exams
 
-Interested in running for one of our open positions as System Administrator, Webmaster, or Helpdesk? Let us know! You must register to sit an exam before running for these positions. Email [committee](/about/contact/committee) to register to sit one of these exams as soon as possible, if you are interested.
+Interested in running for one of our open positions as System Administrator, Webmaster, or Helpdesk? Let us know! You must register to sit an exam before running for these positions. Email [committee](mailto:committee@redbrick.dcu.ie) to register to sit one of these exams as soon as possible, if you are interested.
 
 ## EGM
 
@@ -40,7 +40,7 @@ Facebook event: [https://www.facebook.com/events/454988594620806/](https://www.f
 
 ## Project Services
 
-Making a web application for your third or fourth year project and need somewhere to host it? Redbrick provide free Virtual Private Servers (VPS) with port 80 and 443 publicly accessible from the internet for all members. More info can be found on our wiki at [http://wiki.redbrick.dcu.ie/mw/Rbvm](http://wiki.redbrick.dcu.ie/mw/Rbvm), or by contacting [admins](/about/contact/admins)
+Making a web application for your third or fourth year project and need somewhere to host it? Redbrick provide free Virtual Private Servers (VPS) with port 80 and 443 publicly accessible from the internet for all members. More info can be found on our wiki at [http://wiki.redbrick.dcu.ie/mw/Rbvm](http://wiki.redbrick.dcu.ie/mw/Rbvm), or by contacting [admins](mailto:admins@redbrick.dcu.ie)
 
 ## Facebook Page
 

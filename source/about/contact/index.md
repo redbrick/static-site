@@ -34,9 +34,9 @@ Redbrick hosts many discussion and announce lists which can be viewed [here][1].
 [2]: http://lists.redbrick.dcu.ie/mailman/listinfo/admin-discuss
 [3]: http://lists.redbrick.dcu.ie/mailman/listinfo/trainee-admins
 [4]: https://github.com/redbrick/website
-[5]: ./admins
-[6]: ./helpdesk
-[7]: ./treasurer
-[8]: ./webmaster
-[9]: ./committee
-[10]: ./abuse
+[5]: mailto:admins@redbrick.dcu.ie
+[6]: mailto:helpdesk@redbrick.dcu.ie
+[7]: mailto:treasurer@redbrick.dcu.ie
+[8]: mailto:webmaster@redbrick.dcu.ie
+[9]: mailto:committee@redbrick.dcu.ie
+[10]: mailto:abuse@redbrick.dcu.ie

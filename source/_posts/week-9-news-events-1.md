@@ -33,7 +33,7 @@ Interested in running for our webmaster and/or admin position this year? Or even
 
 ## Project Services
 
-Making a web application for your third or fourth Year Project and need somewhere to host it? Redbrick provide free Virtual Private Servers (VPS) with port 80 and 443 publicly accessible from the internet for all members. More info can be found on our wiki [http://wiki.redbrick.dcu.ie/mw/Rbvm](http://wiki.redbrick.dcu.ie/mw/Rbvm) or by contacting [admins](/about/contact/admins)
+Making a web application for your third or fourth Year Project and need somewhere to host it? Redbrick provide free Virtual Private Servers (VPS) with port 80 and 443 publicly accessible from the internet for all members. More info can be found on our wiki [http://wiki.redbrick.dcu.ie/mw/Rbvm](http://wiki.redbrick.dcu.ie/mw/Rbvm) or by contacting [admins](mailto:admins@redbrick.dcu.ie)
 
 ## EGM
 
@@ -53,8 +53,8 @@ We'll be hosting our annual Intersocs Christmas party in week 11 as well as our 
 
 ## Irish Cancer Society Fundraiser
 
-Some of our members who have been affected by cancer are working together to raise funds for the Irish Cancer Society. The members will be dying their hair, getting their legs waxed (ouch!) and getting cancer related tattoos, all to reach their goal of &3,000\. If you would like to donate, you can contact [lithium](/about/contact/lithium) or check out their fundraising page at [http://www.mycharity.ie/event/katia_valadeaus_event/](http://www.mycharity.ie/event/katia_valadeaus_event/).
+Some of our members who have been affected by cancer are working together to raise funds for the Irish Cancer Society. The members will be dying their hair, getting their legs waxed (ouch!) and getting cancer related tattoos, all to reach their goal of &3,000\. If you would like to donate, you can contact [lithium](mailto:lithium@redbrick.dcu.ie) or check out their fundraising page at [http://www.mycharity.ie/event/katia_valadeaus_event/](http://www.mycharity.ie/event/katia_valadeaus_event/).
 
 ## Trip Away
 
-We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](/about/contact/committee) if you have any ideas!
+We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](mailto:committee@redbrick.dcu.ie) if you have any ideas!

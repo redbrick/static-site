@@ -44,7 +44,7 @@ Redbrick and Engineering Soc have received 30 Chromebooks to distribute to its m
 
 You will be responsible for the Chromebook for the remainder of the semester and will be required to fill out a 5 minute survey at the end of the trial, with the possibility of winning a prize.
 
-If this sounds good to you, email either the [redbrick committee](/about/contact/committee) or dcuengineeringsoc@gmail.com for a form. Closing date is Friday the 2nd of March.
+If this sounds good to you, email either the [redbrick committee](mailto:committee@redbrick.dcu.ie) or dcuengineeringsoc@gmail.com for a form. Closing date is Friday the 2nd of March.
 
 ## Missing Member
 

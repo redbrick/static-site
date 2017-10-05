@@ -20,4 +20,4 @@ keywords:
 The Redbrick Helpdesk is staffed by our team of highly skilled volunteer Education Officers.
 The Helpdesk write and maintain a series of tutorials on RedBrick's systems. These are available on our wiki.
 The Helpdesk team can also be contacted by Email, and over IRC in the channel #helpdesk. You can access IRC by using one of the methods available here.
-The Helpdesk can be emailed at the [Helpdesk Email address](/about/contact/helpdesk).
+The Helpdesk can be emailed at the [Helpdesk Email address](mailto:helpdesk@redbrick.dcu.ie).

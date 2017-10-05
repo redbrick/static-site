@@ -80,8 +80,7 @@ back and if you want you can get your name on the sleeve.
 You have until the end of the month to register.
 
 Finally, if you're interested in becoming a member of the redbrick
-helpdesk team, contact us here:
-https://www.redbrick.dcu.ie/about/contact/helpdesk
+helpdesk team, contact us [here](mailto:helpdesk@redbrick.dcu.ie)
 
 i love u,
 - Oskar McDermott (oskar)
