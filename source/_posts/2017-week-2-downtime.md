@@ -16,11 +16,13 @@ So, we have a few bits and bobs to clear up, hence the special midweek announce!
 
 TL;DR
   - Downtime Over Weekend
-  - RB Webspace Setup (L114 , Thu @ 15:00)
-  - Competitive Programming Practice (L114, Thu @ 16:00)
+  - RB Webspace Setup (L114 , Thu @ 16:00)
+  - Competitive Programming Practice (L114, Thu @ 17:00)
   - Microsoft Programming Competition (LG25, 11th Oct @ 15:00)
   - Engineering & Computing Ball: we are taking deposits!
   - FOSDEM: we're going!
+
+<!-- more -->
 
 ## Downtime Over Weekend
 
@@ -28,12 +30,12 @@ Redbrick will be going down for maintenance this Sunday, at 1pm, for approximate
 
 ## Webspace Setup
 
-Webspace was originally at 16:00 today, but due to unforeseen circumstances, we've had to move it an hour earlier. Webspace is now at 15:00 in L114. Our webmaster will show you how to upload any* file to your website so you can show your friends how awesome you are!
+Webspace was originally at 16:00 today, but due to unforeseen circumstances, we've had to move it an hour earlier. Webspace is now at 16:00 in L114. Our webmaster will show you how to upload any* file to your website so you can show your friends how awesome you are!
 https://www.facebook.com/events/152571942006133/
 
 ## Competitive Programming Practice Evening
 
-We wanted Webspace Setup and our Practice evening to run back to back, so when Webspace changed, this in turn had to change. Our practice evening is now at 16:00 (not really evening time) in L114. Come to brush up on your skills, chill with some brickies and of course, indulge in some pizza.
+We wanted Webspace Setup and our Practice evening to run back to back, so when Webspace changed, this in turn had to change. Our practice evening is now at 17:00 (not really evening time) in L114. Come to brush up on your skills, chill with some brickies and of course, indulge in some pizza.
 https://www.facebook.com/events/1801483303480200
 
 ## Microsoft Programming Competition
