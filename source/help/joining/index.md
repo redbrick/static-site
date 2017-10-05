@@ -30,9 +30,10 @@ Bank transfer or lodgement - see below for our bank details.
 PayPal - see below for our PayPal payment form. This is the fastest way to join or renew your membership!
 If all else fails, you can arrange to meet a Committee member on-campus.
 ## Help
-If you have any difficulty, please Email [Treasurer](/about/contact/treasurer).
+If you have any difficulty paying, please Email [Treasurer](/about/contact/treasurer). If you have any other issues, please Email [Admins](/about/contact/admins).
 ## Pay By PayPal
-In the payment notes, please make sure you provide us with:
+Please send an Email to [Admins](/about/contact/admins) with:
+  - Your transaction ID.
   - Your __Redbrick username__.
   - If you are a new user, we __require__ your DCU student / staff ID number.
 
