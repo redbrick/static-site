@@ -36,12 +36,12 @@ With a few available positions on the committee, we will be holding an EGM in th
 *   Events Officer
 *   Secretary
 
-If you think you would be interested in running for any of the above positions, you can contact us at [committee](/about/contact/committee) to learn more about the positions. If you are interested in running for our admin or webmaster, you must sit and pass an exam to run. Previous exams can be found at: [http://www.redbrick.dcu.ie/help/exams](http://www.redbrick.dcu.ie/help/exams).
+If you think you would be interested in running for any of the above positions, you can contact us at [committee](mailto:committee@redbrick.dcu.ie) to learn more about the positions. If you are interested in running for our admin or webmaster, you must sit and pass an exam to run. Previous exams can be found at: [http://www.redbrick.dcu.ie/help/exams](http://www.redbrick.dcu.ie/help/exams).
 
 ## Irish Cancer Society Fundraiser
 
-Some of our members who have been affected by cancer are working together to raise funds for the Irish Cancer Society. The members will be dying their hair, getting their legs waxed (ouch!) and getting cancer related tattoos, all to reach their goal of €3,000\. If you would like to donate, you can contact [lithium](/about/contact/lithium) or check out their fundraising page at [http://www.mycharity.ie/event/katia_valadeaus_event/](http://www.mycharity.ie/event/katia_valadeaus_event/).
+Some of our members who have been affected by cancer are working together to raise funds for the Irish Cancer Society. The members will be dying their hair, getting their legs waxed (ouch!) and getting cancer related tattoos, all to reach their goal of €3,000\. If you would like to donate, you can contact [lithium](mailto:lithium@redbrick.dcu.ie) or check out their fundraising page at [http://www.mycharity.ie/event/katia_valadeaus_event/](http://www.mycharity.ie/event/katia_valadeaus_event/).
 
 ## Trip Away
 
-We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](/about/contact/committee) if you have any ideas!
+We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](mailto:committee@redbrick.dcu.ie) if you have any ideas!

@@ -24,7 +24,7 @@ Week 10 has arrived and Christmas is coming ever closer, but the semester isn’
 
 ## Committee Changes
 
-At our EGM last week, we elected new members to our committee to fill the roles of Secretary, Helpdesk and System Administrator. We’d like to welcome Niall Gaffney (gamma) and Craig Duff (duff) to the committee, and welcome back Shane Stacey (isaac702). The committee would also like to thank Lotta Mikkonen (attol) and Paul Bunbury (bunbun) for all their work and dedication while involved with the committee! The position of Public Relations Officer has also become available as Meabh Landers (timelady) has decided to step down. Please contact [committee](/about/contact/committee) for more information about the position if you’re interested in running!
+At our EGM last week, we elected new members to our committee to fill the roles of Secretary, Helpdesk and System Administrator. We’d like to welcome Niall Gaffney (gamma) and Craig Duff (duff) to the committee, and welcome back Shane Stacey (isaac702). The committee would also like to thank Lotta Mikkonen (attol) and Paul Bunbury (bunbun) for all their work and dedication while involved with the committee! The position of Public Relations Officer has also become available as Meabh Landers (timelady) has decided to step down. Please contact [committee](mailto:committee@redbrick.dcu.ie) for more information about the position if you’re interested in running!
 
 ## “What's the Bright Idea?” Undergraduate Awards
 
@@ -40,7 +40,7 @@ Coming up, the event we’ve all been waiting for! The Christmas party will be a
 
 ## FOSDEM Trip
 
-There are still places available for the trip to Brussels in February, so if you’re interested in attending FOSDEM, let us know! Email [mak](/about/contact/mak) to register your interest. Deadline is Tuesday the 29th of November, which means you must have paid the €90 in full and provided us with passport details by then. This is a trip not to be missed!
+There are still places available for the trip to Brussels in February, so if you’re interested in attending FOSDEM, let us know! Email [mak](mailto:mak@redbrick.dcu.ie) to register your interest. Deadline is Tuesday the 29th of November, which means you must have paid the €90 in full and provided us with passport details by then. This is a trip not to be missed!
 
 ## Intersocs LAN
 

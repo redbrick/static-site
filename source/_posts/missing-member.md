@@ -14,7 +14,7 @@ If anyone has seen Paul Bunbury(bunbun) since Thursday the 2nd of February at ap
 **Update: A poster has been made. Please print it off and put it up in your local area, no matter where you are.  
 ![bunbun_small%}](bunbun_small.jpg)
 
-[Email Us](/about/contact/committee)
+[Email Us](mailto:committee@redbrick.dcu.ie)
 
 Here's the post made on boards.ie about him, it includes a picture of him: [http://tinyurl.com/75bhc5j](http://tinyurl.com/75bhc5j)
 ![bunbun](bunbun.jpg)

@@ -34,7 +34,7 @@ A boolette tournament will be held in conjunction with Gamessoc tomorrow (Monday
 
 ### Qzar
 
-A little delayed, but better late than never, right? We'll be meeting up in the Hub at 2 on Wednesday and then heading off to Leisureplex Coolock. We have 20 pots available so if you're interested then send an email to [committee](/about/contact/committee) with "Qzar" in the title. First come first served! It will be just 4 euros per person for bowling and Qzar. Bring bus fare as we'll be getting the 17a there.
+A little delayed, but better late than never, right? We'll be meeting up in the Hub at 2 on Wednesday and then heading off to Leisureplex Coolock. We have 20 pots available so if you're interested then send an email to [committee](mailto:committee@redbrick.dcu.ie) with "Qzar" in the title. First come first served! It will be just 4 euros per person for bowling and Qzar. Bring bus fare as we'll be getting the 17a there.
 
 ### Admin Training
 
@@ -46,7 +46,7 @@ We'll be showing off the Redbrick/Engineering soc common room(N109) on Tuesday f
 
 ### Resignations and EGM
 
-Shane Stacey (Isaac702) has resigned from his post as Helpdesk as he wishes to run for the open admin position. So the positions currently up for grabs are admin and Helpdesk. If you're interested in running for either position email [committee](/about/contact/committee). In order to be eligible for either position you will need to pass a test so please let us know ASAP if you're interested in applying. Previous tests are available online to give you a rough idea of what to expect ([http://www.redbrick.dcu.ie/help/exams](http://www.redbrick.dcu.ie/help/exams)).
+Shane Stacey (Isaac702) has resigned from his post as Helpdesk as he wishes to run for the open admin position. So the positions currently up for grabs are admin and Helpdesk. If you're interested in running for either position email [committee](mailto:committee@redbrick.dcu.ie). In order to be eligible for either position you will need to pass a test so please let us know ASAP if you're interested in applying. Previous tests are available online to give you a rough idea of what to expect ([http://www.redbrick.dcu.ie/help/exams](http://www.redbrick.dcu.ie/help/exams)).
 
 The EGM will be held on Wednesday 21/11(week 9) at 2pm. Location TBC.
 

@@ -50,10 +50,6 @@ app.use(protect.express.xss({
   loggerFunction: logger.error,
 }));
 
-// Dynamic generated contact forms
-const contactFormRoute = require('./routes/contactForm');
-app.use('/about/contact/', contactFormRoute);
-
 // /api/posts returns latets blog posts as json
 const postsRoute = require('./routes/posts');
 app.use(baseUrl, postsRoute);
@@ -65,10 +61,6 @@ app.use(baseUrl, committeeRoute);
 // /api/regenerate regenerates content without restarting the server
 const regenerateRoute = require('./routes/regenerate');
 app.use(baseUrl, regenerateRoute);
-
-// /api/contact endpoint for sending messages to rb users
-const contactRoute = require('./routes/contact');
-app.use(baseUrl, contactRoute);
 
 // /api/fetchMeSomeTea 418 responce
 app.get(path.join(baseUrl, 'fetchMeSomeTea'), (req, res) => {
