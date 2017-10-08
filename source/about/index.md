@@ -21,4 +21,4 @@ Our current main server is [Azazel][6], with Pygmalion also providing login serv
 [4]: http://wiki.redbrick.dcu.ie/mw/RedBrick_Anniversary
 [5]: ../help/joining
 [6]: http://wiki.redbrick.dcu.ie/mw/Azazel
-[7]: http://wiki.redbrick.dcu.ie/mw/Redbrick_Hardware
+[7]: https://docs.redbrick.dcu.ie/#hardware
