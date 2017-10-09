@@ -36,11 +36,21 @@ https://www.facebook.com/events/312772709198090
 
 
 "If I send it today it would be a good step :P"
+
+
 Wojtek Bednarzak (voy)
+
+
 Redbrick Secretary 2017-2018
 
 ## s o c i a l m e d i a
 Twitter: @RedbrickDCU
+
+
 Facebook: https://www.facebook.com/dcuredbrick
+
+
 Snapchat: RedbrickDCU
+
+
 Events: https://events.redbrick.dcu.ie
