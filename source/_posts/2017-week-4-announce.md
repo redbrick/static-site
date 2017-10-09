@@ -24,14 +24,20 @@ TL;DR
 
 ## Microsoft Programming Competition
 We will be welcoming Microsoft, who will be running a programming competition. You will have a chance to win some nice prizes, and talk to a few engineers. You don't need to be a wizard in the art of competitive programming to attend. The event is aimed mostly at second years onwards, but first years can challange themselves if they want. Come to LG25 on Wednesday at 15:30 participate.
+
+
 https://www.facebook.com/events/150523242215382
 
 ## HackerClub
 We will step through the basics of competitive programming, helping you understand how you should interpret the question and to understand STDIN and STDOUT. We will have questions of various difficulties, even for beginners, so relax. In case you are hungry we will give you pizza to boost your algorithms by O(n^2)! In the second hour we will run some harder problems, so you can release your inner programming beast. Come to L101 at 16:00 on Thursday for 2 hour session of fun!
+
+
 https://www.facebook.com/events/144497879493359
 
 ## Engineering and Computing Ball
 In case you forgot, we are running this thing where we eat, dance (hah), and party until we fall asleep in Bonnington Hotel (formerly Regency Hotel), on Thursday the 16th of November. Tickets are €50.
+
+
 https://www.facebook.com/events/312772709198090
 
 
