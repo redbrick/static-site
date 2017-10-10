@@ -26,6 +26,12 @@ TL;DR
 We will be welcoming Microsoft, who will be running a programming competition. You will have a chance to win some nice prizes, and talk to a few engineers. You don't need to be a wizard in the art of competitive programming to attend. The event is aimed mostly at second years onwards, but first years can challange themselves if they want. Come to LG25 on Wednesday at 15:30 participate.
 
 
+Sign up here:
+
+
+http://tinyurl.com/yaxuj479
+
+
 https://www.facebook.com/events/150523242215382
 
 ## HackerClub
