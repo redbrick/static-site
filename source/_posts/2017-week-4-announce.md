@@ -26,6 +26,12 @@ We will be welcoming Microsoft, who will be running a programming competition. Y
 
 Sign up [here](http://tinyurl.com/yaxuj479)
 
+Sign up here:
+
+
+http://tinyurl.com/yaxuj479
+
+
 https://www.facebook.com/events/150523242215382
 
 ## HackerClub
