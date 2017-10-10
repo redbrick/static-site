@@ -13,6 +13,7 @@ cmt:
   - position: Treasurer
     name: Ciara Godwin
     nick: hexagon
+    image: hexagon.jpg
   - position: Public Relations Officer
     name: Chris Dowling
     nick: winesnob
@@ -41,12 +42,15 @@ cmt:
   - position: Helpdesk
     name: Michal Durinik
     nick: mikello
+  - position: First Year Rep
+    name: Neven Oman Crowe
+    nick: branch
 ---
 
 The Committee is a 12 person team which is elected yearly to run all aspects of the society
 
 ## Helpdesk
-The Helpdesk is made up of the friendly team of two Tom Doyle(greenday) & Dylan McDonald(grace).
+The Helpdesk is made up of the friendly team of two Sahil Mehra (pr0n) & Michal Durinik (mikello).
 
 The Helpdesk is what it sounds like, a desk for help. No seriously, we're here
 to help out and answer any questions at all to help you make the most of
