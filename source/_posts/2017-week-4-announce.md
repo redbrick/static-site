@@ -28,7 +28,6 @@ Sign up [here](http://tinyurl.com/yaxuj479)
 
 Sign up here:
 
-
 http://tinyurl.com/yaxuj479
 
 
