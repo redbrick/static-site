@@ -115,7 +115,8 @@ variables.
 ## License
 
 Official website of DCU Redbrick Society.
-Copyright (C) 2017 Redbrick
+
+Copyright (C) 2017 Redbrick and the official Redbrick website contributors.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
