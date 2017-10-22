@@ -20,17 +20,17 @@ TL;DR
 
 <!-- more -->
 
-##Intro to Git
+## Intro to Git
 
 A quick reminder that Intro to Git is on today in LG25 @15:00. Stephen Blott will give a talk on the wondrous world of git.
 
 https://www.facebook.com/events/148090412473470/
 
-##Common Room
+## Common Room
 
 As all of you know, we have repeatedly highlighted that members must clean up after themselves in the Common Room. Over the past week, the room has been left messy repeatedly. As a result, the Room Committee have elected to close the room for the following 2 days. Further closures and/or loss of access to the room can be expected if this situation does not improve.
 
-##HvZ
+## HvZ
 
 The zombies are coming!
 GamesSoc's zombie-themed chase game, Humans vs Zombies, takes place next week - all week. Humans must fend off the zombies with Nerf guns, rolled-up socks, or their wit.
@@ -44,7 +44,7 @@ GamesSoc will also have a stand in the Henry Grattan building from 12pm until 2p
 
 GamesSoc are hosting an info and raffle event in C124 at 6pm on Thursday to explain HvZ. If you are lucky you may even win a nerf gun.  
 
-##PyCon
+## PyCon
 
 As you may have heard, PyCon will be taking place this Saturday & Sunday in Dublin! As in previous years, Redbrick will be offering subsidised tickets for our members who wish to attend.
 
@@ -59,7 +59,7 @@ Chris Dowling (winesnob)
 
 Redbrick PRO 2017-2018
 
-##s o c i a l m e d i a
+## s o c i a l m e d i a
 Twitter: @RedbrickDCU
 
 Facebook: https://www.facebook.com/dcuredbrick
