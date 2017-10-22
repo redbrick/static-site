@@ -49,3 +49,4 @@ db.json
 _bower_components
 banner-*
 thumb-*
+.esm-cache
