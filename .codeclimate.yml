@@ -4,20 +4,18 @@ engines:
     enabled: true
     config:
       languages:
-      - javascript
+        - javascript
   eslint:
     enabled: true
   fixme:
     enabled: true
   markdownlint:
     enabled: true
-  nodesecurity:
-    enabled: true
 ratings:
   paths:
-  - "**.js"
-  - "**.md"
+    - "**.js"
+    - "**.md"
 exclude_paths:
-- node_modules/
-- public/
-- themes/
+  - node_modules/
+  - public/
+  - themes/

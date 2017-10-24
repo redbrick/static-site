@@ -16,9 +16,9 @@ router.get('/posts', ({ query }, res) => {
   }).then((posts) => {
     res.json(posts).end();
   })
-  .catch((err) => {
-    return res.status(500).json(err).end();
-  });
+    .catch((err) => {
+      return res.status(500).json(err).end();
+    });
 });
 
 module.exports = router;
