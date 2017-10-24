@@ -10,7 +10,7 @@
   "bugs": {
     "url": "http://github.com/redbrick/static-site/issues"
   },
-  "license": "MIT",
+  "license": "GPL-3.0",
   "scripts": {
     "server": "node ./bin/www",
     "test": "yarn lint && yarn generate",
