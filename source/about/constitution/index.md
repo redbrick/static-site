@@ -46,7 +46,9 @@ students of the University,
   - Secretary
   - Treasurer
   - Public Relations Officer
+
 _Other suggested positions include:_
+
   - 3x Systems Administrators
   - 2x Helpdesk
   - 1st Year Liaison Officer
