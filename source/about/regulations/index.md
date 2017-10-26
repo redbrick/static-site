@@ -60,9 +60,9 @@ The following regulations are additional to the Society's own rules...
 
 ## Authorized Bots in #lobby
 - butlerx (actually a user but runs a script)
-- mincebot
-- teh
-- twit
+- mincebot (owned by DoC)
+- teh (owned by d_fens)
+- twit (owned by mickeyd)
 
 ## User Agreement
 By logging into Redbrick you agree to these terms and conditions.
