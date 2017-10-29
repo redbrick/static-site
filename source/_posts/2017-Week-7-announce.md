@@ -57,7 +57,7 @@ Feel free to pop down at any time, it's a great opportunity to get to know other
 
 https://www.facebook.com/events/1749574815336991/
 
-##Ball
+## Ball
 
 The Engineering and Redbrick societies have been working hard over the past few months to bring you one of the top highlights of the year!
 
@@ -79,7 +79,7 @@ http://bit.ly/2yLpDNI
 
 https://www.facebook.com/events/312772709198090
 
-##Hacktoberfest
+## Hacktoberfest
 
 Hacktoberfest is ending this week sadly. So get your pull requests in by the 31st!
 
@@ -97,7 +97,7 @@ Chris Dowling (winesnob)
 
 Redbrick PRO 2017-2018
 
-##s o c i a l m e d i a
+## s o c i a l m e d i a
 
 Twitter: @RedbrickDCU
 
