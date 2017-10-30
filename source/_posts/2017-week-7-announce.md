@@ -2,7 +2,7 @@
 title: Week 7 | Microsoft | HackerClub | Nubar | Ball | Hacktoberfest
 date: '2017-10-28'
 author: winesnob
-banner: microsoft.png
+banner: rb-microsoft.png
 tags:
   - Microsoft
   - Hackerclub
