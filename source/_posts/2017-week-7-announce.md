@@ -30,6 +30,10 @@ Microsoft are back again! Last time Microsoft came in we had a fantastic coding 
 
 What's the talk? They'll be telling us about how they deliver services to their Office Customers on a day to day basis.
 
+Sign up here, so we know how much pizza to order:
+
+http://tinyurl.com/y89d3krv
+
 Come along to LG26 on the first day of November at 15:30. Redbrick, Microsoft and pizza is turning out to be quite the combination.
 
 See y'all there!
