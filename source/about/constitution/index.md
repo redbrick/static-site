@@ -4,7 +4,7 @@ type: about
 date: 2016-04-17 16:22:40
 ---
 
-#DUBLIN CITY UNIVERSITY: Dublin City University Networking Society CONSTITUTION
+# DUBLIN CITY UNIVERSITY: Dublin City University Networking Society CONSTITUTION
 ## 1. Name of Society:
   1. The official name of the society will be Dublin City University Networking Society. This shall appear on correspondence with official bodies.
     1. The society operates under the name Redbrick.
@@ -22,7 +22,7 @@ The aims and objectives of the Society are as follows:
 7. To help educate people in the usage of Internet utilities and resources.
 
 
-## 3. Members:
+## 3. Members:
 1. Membership of the Society shall be open to all students, staff and former
 students of the University,
 2. Membership shall be obtained by paying the appropriate fee and registering with the OSL Database for the current academic year.
