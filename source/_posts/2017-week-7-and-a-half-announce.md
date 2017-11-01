@@ -34,8 +34,12 @@ This means we will be looking to fill a few positions.
 The positions up for grabs are:
 - Secretary
 - PRO
-- Helpdesk x2
 - First Year Rep
+- Helpdesk x2
+
+If you would like to run for helpdesk, please email committee@redbrick.dcu.ie 
+This is to facilitate running the necessary helpdesk exam. 
+Past exams are available on redbrick.dcu.ie/help/exams
 
 https://www.facebook.com/events/177316799488056
 
