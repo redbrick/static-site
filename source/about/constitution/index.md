@@ -53,7 +53,7 @@ _Other suggested positions include:_
   - 2x Helpdesk
   - 1st Year Liaison Officer
   - Events Officer
-  - Webmaster
+  - webmashter
 6. The Term of Office of these elected officers shall be one academic year.
 7. No student may hold an obligatory Officer (as above) position for more than two consecutive years.
 
@@ -61,8 +61,8 @@ _Other suggested positions include:_
 ## 5. Election of the Governing Executive Committee:
 1. The Committee Members shall be democratically elected at the Annual General Meeting (AGM) or at an Extra-ordinary General Meeting (EGM).
 2. To seek election to the Committee, each candidate must have two nominations by current members of the Society.
-3. To be deemed fit for election to the position of Systems Administrator or Webmaster, the candidate must either:
-  1. Pass an Aptitude test, as devised by the outgoing Webmaster for Webmaster candidates, or system administrators for system administrator candidates. If it is deemed preferable to do so, the test may be set by a third party nominated by the Webmaster (in the case of the Webmaster examination), or by a majority of the system administrators (in the case of the system administrator exams). The current committee will nominate this third party. Be an outgoing Webmaster or Systems Administrator
+3. To be deemed fit for election to the position of Systems Administrator or webmashter, the candidate must either:
+  1. Pass an Aptitude test, as devised by the outgoing webmashter for webmashter candidates, or system administrators for system administrator candidates. If it is deemed preferable to do so, the test may be set by a third party nominated by the webmashter (in the case of the webmashter examination), or by a majority of the system administrators (in the case of the system administrator exams). The current committee will nominate this third party. Be an outgoing webmashter or Systems Administrator
 4. All Helpdesk candidates must sit and pass a test as devised by the outgoing education officer(s)
 
 
@@ -81,7 +81,7 @@ _Other suggested positions include:_
 12. Where the Treasurer is decreed as unavailable, another designated person may countersign cheques and withdrawal forms for the Society in consultation with the Society Life Committee.
 13. The Public Relations Officer (along with the Secretary) shall be responsible for the advertising of all functions of the Society through all means possible.
 14. The System Administrators shall be held ultimately responsible for the administration, security, and maintenance of the society's computer systems. They shall be responsible for the notification of the committee in regard to any breaches of the rules and regulations of the system. They are hereby authorised to take any administrative action necessary to discharge their duties, so long as such actions are constitutional. Such actions are open to review by the committee.
-15. The Webmaster shall be responsible for the design, implementation, and maintenance of the web site. They shall work in conjunction with other members of the committee in order to publicise society details via the web.
+15. The webmashter shall be responsible for the design, implementation, and maintenance of the web site. They shall work in conjunction with other members of the committee in order to publicise society details via the web.
 16. The Helpdesk's role is to answer the system-related questions of the society's membership, and to detail, organise, and implement beneficial tutorials for the members.
 17. The Events Officer shall have the responsibility of organising all receptions held by the society.
 18. 1st Year Liaison Officer shall work with the committee to make the society  more accessible for first years. As part of this they shall work with the Events, Public Relations & Helpdesk where applicable. The 1st Year Liaison Officer shall be elected at an EGM in semester one, and must be in their first year as an undergraduate student at DCU
