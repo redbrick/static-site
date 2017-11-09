@@ -12,7 +12,7 @@ First off, we give you 2GB of disk space by default - having somewhere online to
 
 If you're feeling conversational and want to spread the love, you can use hey, an instant message program that lets you send messages to other users. You can also use the UNIX talk service for some one-on-one action. Our very own IRC server is great for meeting new people online, having group discussions, or just blabbing to the general Redbrick populace about your latest grievance.
 
-Many people love to code, you can log on to Pygmalion, our development server, which has every compiler under the sun installed, and if you find we don't have the one that you need, let us know and we will try help you out. You should always back up your code. What better way to do this than with a distributed source code management system. We have git installed on Redbrick so have a look [here](https://wiki.redbrick.dcu.ie/mw/Git) at how to get started.
+Many people love to code, you can log on to Pygmalion, our development server, which has every compiler under the sun installed, and if you find we don't have the one that you need, let us know and we will try help you out. You should always back up your code. What better way to do this than with a distributed source code management system. We have git installed on Redbrick so have a look [here](https://wiki.redbrick.dcu.ie/mw/Git) at how to get started, and check out [Redbrick Git](https://git.redbrick.dcu.ie/) for free git hosting!
 
 
 You can read more about the various services we offer in their respective sections:
@@ -56,7 +56,7 @@ We also have various frameworks
 
 ## Databases
 
-We currently offer 2 different database accounts:
+We currently offer 3 different database accounts:
 
 *   MySQL- cutting edge, multi-tasking easy-to-use popular database engine.
 *   PostgreSQL - enterprise-level production quality and highly stable with extended and advanced SQL support.
@@ -74,10 +74,10 @@ Check out HackMD at [md.redbrick.dcu.ie](https://md.redbrick.dcu.ie).
 
 ## Mastodon
 
-Mastodon is a federated social network which shares similarities to Twitter,
+Mastodon is a federated social network which shares similarities with Twitter,
 but differs from Twitter in how it is administrated as a decentralized
 federation of servers running open source software. Basically Mastodon takes
-the best part from Twitter, and then it does it a little better.
+the best parts from Twitter, and then it does it a little better.
 
 The distributed, open-source platform offers better tools for privacy and
 fighting harassment than Twitter offers, but coupled with this is a steep
