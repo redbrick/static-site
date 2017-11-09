@@ -5,11 +5,13 @@ type: cmt
 banner: helpdesk.jpg
 cmt:
   - position: Helpdesk
-    name: Sahil Mehra
-    nick: pr0n
+    name: Cliodhna Harrison
+    nick: thegirl
+    image: thegirl.jpg
   - position: Helpdesk
-    name: Michal Durinik
-    nick: mikello
+    name: Nevan Oman Crowe
+    nick: branch
+    image: branch.jpg 
 keywords:
 - help
 - helpdesk
@@ -18,6 +20,6 @@ keywords:
 ---
 
 The Redbrick Helpdesk is staffed by our team of highly skilled volunteer Education Officers.
-The Helpdesk write and maintain a series of tutorials on RedBrick's systems. These are available on our wiki.
-The Helpdesk team can also be contacted by Email, and over IRC in the channel #helpdesk. You can access IRC by using one of the methods available here.
+The Helpdesk write and maintain a series of tutorials on Redbrick's systems. These are available on our wiki.
+The Helpdesk team can also be contacted by Email, and over IRC in the channel #helpdesk. You can access IRC by using one of the methods available [here](https://redbrick.dcu.ie/help/tutorials/IntroToRedbrick/).
 The Helpdesk can be emailed at the [Helpdesk Email address](mailto:helpdesk@redbrick.dcu.ie).

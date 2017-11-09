@@ -27,7 +27,7 @@ cmt:
     nick: mctastic
     image: mctastic.jpg
   - position: System Administrator
-    name: Alex Mcgrath Kraak
+    name: Alex McGrath Kraak
     nick: akraak
   - position: System Administrator
     name: Cormac Smartt
@@ -45,7 +45,8 @@ cmt:
     nick: branch
   - position: Helpdesk
     name: Cliodhna Harrison
-    nick: thrgirl
+    nick: thegirl
+    image: thegirl.jpg
   - position: Helpdesk
     name: Sahil Mehra
     nick: pr0n
@@ -62,7 +63,7 @@ cmt:
 The Committee is a 12 person team which is elected yearly to run all aspects of the society
 
 ## Helpdesk
-The Helpdesk is made up of the friendly team of two Sahil Mehra (pr0n) & Michal Durinik (mikello).
+The Helpdesk is made up of the friendly team of two Cliodhna Harrison (thegirl) & Nevan Oman Crowe (branch).
 
 The Helpdesk is what it sounds like, a desk for help. No seriously, we're here
 to help out and answer any questions at all to help you make the most of
@@ -73,7 +74,7 @@ We also run regular tutorial in the CA labs in DCU, any member can attend and we
 will guide you through the basics and answer any queries, watch out for notices
 and posters around campus or on Redbrick.
 
-The Helpdesk tutorials start [here](http://wiki.redbrick.dcu.ie/mw/Helpdesk).
+The Helpdesk tutorials can be found [here](https://redbrick.dcu.ie/help/tutorials/).
 
 ## Admins
 An elite team of individuals dedicated to keeping the society's hardware and
@@ -84,14 +85,14 @@ root holders who have volunteered to keep doing stuff.
 Elected System Administrators:
 - Cormac Smartt (pints)
 - Tom Doyle (greenday)
-- Alex Mcgrath Kraak (akraak)
+- Alex McGrath Kraak (akraak)
 
 Esteemed Holders Of Root:
 - Tom Doyle (greenday)
-- Alex Mcgrath Kraak (akraak)
+- Alex McGrath Kraak (akraak)
 - Cian Butler (butlerx)
 - Cormac Smartt (pints)
-- tbolt
+- Terry Bolt (tbolt)
 - Wojtek Bednarzak (voy)
 - Lorcan Boyle (zergless)
 - Emmanuel Caillé (Twister)
