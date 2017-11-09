@@ -10,14 +10,18 @@ cmt:
     name: Wojtek Bednarzak
     nick: voy
     image: voy.jpg
+    resigned: true
+  - position: Secretary (Formerly PRO)
+    name: Chris Dowling
+    nick: winesnob
+    image: winesnob.jpg
   - position: Treasurer
     name: Ciara Godwin
     nick: hexagon
     image: hexagon.jpg
   - position: Public Relations Officer
-    name: Chris Dowling
-    nick: winesnob
-    image: winesnob.jpg
+    name: Josh Malone
+    nick: sangreal
   - position: Events Officer
     name: James Mc Dermott
     nick: mctastic
@@ -36,15 +40,23 @@ cmt:
   - position: Webmaster
     name: Ben McMahon
     nick: mcmahon
+  - position: Helpdesk (Formerly First Year Rep)
+    name: Nevan Oman Crowe
+    nick: branch
+  - position: Helpdesk
+    name: Cliodhna Harrison
+    nick: thrgirl
   - position: Helpdesk
     name: Sahil Mehra
     nick: pr0n
+    resigned: true
   - position: Helpdesk
     name: Michal Durinik
     nick: mikello
+    resigned: true
   - position: First Year Rep
-    name: Neven Oman Crowe
-    nick: branch
+    name: Anthony Doran
+    nick: albino
 ---
 
 The Committee is a 12 person team which is elected yearly to run all aspects of the society
