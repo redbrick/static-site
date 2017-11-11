@@ -12,18 +12,18 @@ First off, we give you 2GB of disk space by default - having somewhere online to
 
 If you're feeling conversational and want to spread the love, you can use hey, an instant message program that lets you send messages to other users. You can also use the UNIX talk service for some one-on-one action. Our very own IRC server is great for meeting new people online, having group discussions, or just blabbing to the general Redbrick populace about your latest grievance.
 
-Many people love to code, you can log on to Pygmalion, our development server, which has every compiler under the sun installed, and if you find we don't have the one that you need, let us know and we will try help you out. You should always back up your code. What better way to do this then with a distributed source code management system. We have git installed on Redbrick so have a look [here](https://wiki.redbrick.dcu.ie/mw/Git) at how to get started.
+Many people love to code, you can log on to Pygmalion, our development server, which has every compiler under the sun installed, and if you find we don't have the one that you need, let us know and we will try help you out. You should always back up your code. What better way to do this than with a distributed source code management system. We have git installed on Redbrick so have a look [here](https://wiki.redbrick.dcu.ie/mw/Git) at how to get started, and check out [Redbrick Git](https://git.redbrick.dcu.ie/) for free git hosting!
 
 
 You can read more about the various services we offer in their respective sections:
 
 ## Wiki
 
-Login and edit wiki.redbrick.dcu.ie as you learn. The Redbrick Wiki was made by users for users. In turn, it is to be maintained by users, so if you find any information out of date, feel free to update it. The wiki is all encompassing in realtion to all things Redbrick, it's pretty much our "How To Redbrick" guide. Login, edit and learn to your heart's content!
+Login and edit wiki.redbrick.dcu.ie as you learn. The Redbrick Wiki was made by users for users. In turn, it is to be maintained by users, so if you find any information out of date, feel free to update it. The wiki is all encompassing in relation to all things Redbrick, it's pretty much our "How To Redbrick" guide. Login, edit and learn to your heart's content!
 
 ## Mail
 
-Once you have your username and password you can use the webmail service we offer on Redbrick. Mail from your Redbrick address auto goes to your DCU email. This can stop by typing ```forward off``` in terminal on Redbrick, but we don't now why you'd want to do a thng like that. Read more about webmail [here](https://wiki.redbrick.dcu.ie/mw/Webmail).
+Once you have your username and password you can use the webmail service we offer on Redbrick. Mail from your Redbrick address auto goes to your DCU email. This can stop by typing ```forward off``` in terminal on Redbrick, but we don't know why you'd want to do a thing like that. Read more about webmail [here](https://wiki.redbrick.dcu.ie/mw/Webmail).
 
 ## Hosting
 
@@ -56,34 +56,28 @@ We also have various frameworks
 
 ## Databases
 
-We currently offer 2 different database accounts:
+We currently offer 3 different database accounts:
 
 *   MySQL- cutting edge, multi-tasking easy-to-use popular database engine.
 *   PostgreSQL - enterprise-level production quality and highly stable with extended and advanced SQL support.
-*   SQLite - its lite?
+*   SQLite - it's lite?
 
 Email Admins for a database account.
 
 ## HackMD
 
-Redbrick hosts HackMD, a multiplatform collaborative markdown note editor
-which allows the creation of realtime markdown notes on all platforms.
+Redbrick hosts HackMD, a multiplatform collaborative markdown note editor which allows the creation of collaborative markdown notes in your browser.
 
-It's real time that means you can write and edit notes with your peers at the
-same time. As you write, you can view he changes you make in HackMD's split
-screen view. Needless to say, it works very uniquely, all you have to do is to
-write an article over there and if you need any corrections or additions from
-your peers, then you can send them that article's web URL and they can edit
-and rewrite it as they think fit plus an original copy will always remain with you.
+As you write, you can view the changes you make in HackMD’s split screen view. Needless to say, it works very uniquely, all you have to do is to write an article over there and if you need any corrections or additions from your peers, then you can send them that article’s web URL and they can edit and rewrite it as they see fit.
 
 Check out HackMD at [md.redbrick.dcu.ie](https://md.redbrick.dcu.ie).
 
 ## Mastodon
 
-Mastodon is a federated social network which shares similarities to Twitter,
+Mastodon is a federated social network which shares similarities with Twitter,
 but differs from Twitter in how it is administrated as a decentralized
 federation of servers running open source software. Basically Mastodon takes
-the best part from Twitter, and then it does it a little better.
+the best parts from Twitter, and then it does it a little better.
 
 The distributed, open-source platform offers better tools for privacy and
 fighting harassment than Twitter offers, but coupled with this is a steep
