@@ -17,7 +17,7 @@ TL;DR
 - HackerClub, Thursday L101 @ 16:00
 - Engineering and Computing Ball
 
- <!-- more -->
+<!-- more -->
 
 ## EGM
 
