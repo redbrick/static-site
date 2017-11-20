@@ -58,6 +58,7 @@ cmt:
   - position: First Year Rep
     name: Anthony Doran
     nick: albino
+    image: albino.jpg
 ---
 
 The Committee is a 12 person team which is elected yearly to run all aspects of the society
