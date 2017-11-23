@@ -1,4 +1,4 @@
----
+﻿---
 title: Committee
 date: 2017-04-06 09:22:40
 type: cmt
@@ -22,6 +22,7 @@ cmt:
   - position: Public Relations Officer
     name: Josh Malone
     nick: sangreal
+    image: sangreal.jpg
   - position: Events Officer
     name: James Mc Dermott
     nick: mctastic
