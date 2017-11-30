@@ -74,8 +74,3 @@ _This round carries no marks but will make correcting your exam far less boring!
 
 ### SUPER TURBO BONUS ROUND WOOOOO
 Please complete the attached colouring section as accurately as possible.
-
-<sub><sup>
-No EngSoc members were harmed in the making of this unit of educational assesment. Who even told you that anyway? We will not answer further questions without a lawyer present.
-This exam is gluten-free, Scientology-free, almost cruelty-free and suitable for children aged 3 years and up.
-</sup></sub>
