@@ -62,6 +62,8 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Helpdesk Test
 
+*   [2017 EGM](./helpdesk-test-2017-egm)
+*   [2017 AGM](./helpdesk-test-2017-agm)
 *   [2016 EGM](./helpdesk-test-2016-egm)
 *   [2016 AGM](./helpdesk-test-2016-agm)
 *   [2015 AGM](./helpdesk-test-2015-agm)
