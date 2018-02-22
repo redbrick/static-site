@@ -23,6 +23,8 @@ TL;DR
   - B.Y.O.P, Thursday LG125 @ 16:00
   - FOSDEM 2018 talks at https://video.fosdem.org/2018/
 
+<!-- more -->
+
 ## Google Hash Code
 
 Step into the shoes of a Google engineer during Hash Code, a team programming competition that tasks students and professionals across Europe, the Middle East and Africa with solving a Google engineering problem. Are you up for the challenge? The first round (an Online Qualification Round) is on 1st March at 18:30 CET.

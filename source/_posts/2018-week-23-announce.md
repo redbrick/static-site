@@ -24,6 +24,8 @@ TL;DR
   - Google Hash Code qualification round 1st of March @ 18:30.
   - Redbrick are going to IrlCPC 10th March
 
+<!-- more -->
+
 ## Interpints
 
 This coming Friday (16th of February) is Interpints! Interpints is a somewhat cool name for a bunch of the networking societies around the city getting together and mingling to their herts content over a few drinks.

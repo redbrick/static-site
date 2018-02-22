@@ -11,6 +11,8 @@ tags:
   - IrlCPC
 ---
 
+<!-- more -->
+
 Hey Everyone,
 
 Boy, have we got a lot going on at the moment!
