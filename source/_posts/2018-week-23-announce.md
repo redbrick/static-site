@@ -1,82 +1,64 @@
 ---
-title: 'Week 3 | Interpints | Automate & Chill | HackerClub | B.Y.O.P. | Google Hash Code | IrlCPC'
-date: '2018-02-12'
+title: 'Week 4: SISTEM | Bash | HackerClub | B.Y.O.P. | Google Hash Code | IrlCPC'
+date: '2018-02-18'
 banner: 2018-week-23-announce.jpg
-author: winesnob
+author: thegirl
 tags:
-  - Interpints
-  - Automation
+  - SISTEM
+  - Bash
   - HackerClub
   - B.Y.O.P
-  - Hash code
   - IrlCPC
 ---
 
 Hey Everyone,
 
-We have some events on this week to get you through your exam results!
+Boy, have we got a lot going on at the moment!
 
 TL;DR
-  - Interpints, Friday Alfie Byrne's by Galway Bay Brewery @ 19:00
-  - Automate & Chill, Wednesday LG26 @ 15:00
+  - SISTEM, Saturday 24th March @ The Innovation Academy
+  - BASH: Seizing the Memes of Production, Wednesday LG26 @ 15:00
   - HackerClub, Tuesday L101 @ 16:00
   - B.Y.O.P, Thursday LG125 @ 16:00
   - Google Hash Code qualification round 1st of March @ 18:30.
-  - Redbrick are going to IrlCPC 10th March
+  - Redbrick is going to IrlCPC! 10th March
 
 <!-- more -->
 
-## Interpints
+## SISTEM - Student's Inter-Society Tech & Enterprise Meetup
 
-This coming Friday (16th of February) is Interpints! Interpints is a somewhat cool name for a bunch of the networking societies around the city getting together and mingling to their herts content over a few drinks.
+SISTEM is a meetup style conference run by students, for students. We hope SISTEM helps provide a link between students and those in the world of tech and enterprise in a casual meetup environment.
 
-Everyone is welcome to come, it's always fun to meet new like-minded people and an inter-society event is the perfect place to do it!
+Redbrick DCU, DUCSS, DIT Compsoc and DU Netsoc have come together to organise the tech event of the year! Those involved in organising SISTEM are undergraduates, and they recognised the lack of an event in Ireland that targets topics in a way that doesn’t leave students with heavy eyes & boggled minds.
 
-Societies present at interpints:
-Redbrick, DU Netsoc, DIT CompSoc, and DUCSS.
+We hope this conference helps provide a link between students and those in the world of tech and enterprise in a casual meetup environment.
 
-We hope to meet up in Alfie Byrne's at around 7:00pm on Friday.
+SISTEM will take place on the 24th of March 2018 at The Innovation Academy. The conference will start at 9:00 AM and conclude around 5:00 PM that day. During the conference, there will be speakers from an array of different companies as well as workshops and lightning talks.
 
-See you then!
+We have a very exciting list of speakers and workshops that will be announced shortly, as will ticket sales. Tickets will be selling at €10 per person.
 
-https://www.facebook.com/events/194581361289170/
+https://www.facebook.com/events/183840945679947/
 
-## Automate & Chill
+## BASH: Seizing the Memes of Production
 
-No plans for Valentine's Day yet? Rather eat pizza and find out how to make your life a little less hectic? Well then LG26 is where you need to be at 15:00 on Wednesday the 14th my friend!
+Bash is a scripting language widely used for automating day-to-day tasks, like backups, software updates, and email alerts. However, we think we can do better.
 
-Over the past few months, some of the current Redbrick committee members have found ways to automate certain aspects of their roles. On Wednesday we look at what they've done and how you can apply it to your own jobs.
+Come on down to LG26 at 3pm sharp on Wednesday the 21st for a workshop where we build our own meme generator script! We'll cover conditions, I/O redirection, and all the other things that go into serving up a spicy meme.
 
-No one likes having to do the same thing over and over again, so come along to LG26 on Wednesday at 15:00 and start eliminating the tedious day-to-day tasks from your life!
-
-https://www.facebook.com/events/189345721824940/
+https://www.facebook.com/events/1619231874829047/
 
 ## HackerClub
 
-Finding programming hard? At a point where you are too afraid to ask for help?
-
-Never fear - HackerClub is here!
-
-Come along to L101 on Tuesdays at 16:00 to improve your programming skills by solving competitive programming problems. Practice makes perfect right?
-
-People who attended HackerClub last semester improved more and more with each passing week, but most of all, they became increasingly confident in their code. HackerClub is run by people who know how chaotic it is as a newbie programmer, so this kind of development and growth is very important to us.
-
-Pop along to L101 at or indeed between 16:00 to 18:00 on a Tuesday this semester Rest assured that Redbrick will be there to help out!
+Come along to L101 on Tuesdays at 16:00 to improve your programming skills by solving competitive programming problems. Practice makes perfect, right?
 
 https://www.facebook.com/events/219722591921142/
 
 ## B.Y.O.P
-
-Welcome to Redbrick's brand new weekly workshop, Build Your Own Projects! Running in L128 on Thursday from 16:00 to 18:00 this week, BYOP is a workshop focused on project based learning, i.e applying what you already know to projects.
-
-Along the way you will show you some handy tools you can use to enhance and improve your projects.
-
-So have a brainstorm and then come on down on Thursday and pick up some new skills as you build!
+Redbrick's weekly workshop, Build Your Own Projects is on again! Running in L128 on Thursday from 16:00 to 18:00 this week, BYOP is a workshop focused on project-based learning, i.e applying what you already know to projects.
 
 https://www.facebook.com/events/410559502725777/
 
 ## Google Hash Code
-
 Step into the shoes of a Google engineer during Hash Code, a team programming competition that tasks students and professionals across Europe, the Middle East and Africa with solving a Google engineering problem. Are you up for the challenge? The first round (an Online Qualification Round) is on 1st March at 18:30 CET.
 
 You can take part from anywhere you'd like, or you can participate in one of the Hash Code hubs. DCU's School of Computing is once again a Hash Code hub, providing a fun and exciting environment where teams compete side-by-side.
@@ -84,14 +66,12 @@ You can take part from anywhere you'd like, or you can participate in one of the
 Top scoring teams from this round will be invited to Google Dublin to compete for the title of Hash Code 2018 champion.
 
 ## IrlCPC
-
-The 2018 Irish Collegiate Programming Competition will be held on Saturday the 10th of March in UCC. If you intend to travel down with Redbrick to IrlCPC, please respond s soon as possible as we can give 50% off to the first seven teams that sign up to travel with us.
+The 2018 Irish Collegiate Programming Competition will be held on Saturday the 10th of March in UCC. If you intend to travel down with Redbrick to IrlCPC, please emailcommittee@redbrick.dcu.ie as soon as possible as we can give 50% off to the first seven teams that sign up to travel with us.
 
 If you're thinking of entering, head on over to http://acm.ucc.ie/node/add/registration to register your team!
 
-
-Chris Dowling (winesnob)
-Redbrick Secretary 2017-2018
+Clíodhna Harrison (~thegirl)
+Redbrick Helpdesk 2017 - 2018
 
 s o c i a l m e d i a
 Twitter: @RedbrickDCU
