@@ -1,41 +1,31 @@
 ---
-title: 'Week 5 | SISTEM | HackerClub | B.Y.O.P. | Google Hash Code | IrlCPC'
-<<<<<<< HEAD
-date: '2018-02-25'
-=======
-date: '2018-02-05'
->>>>>>> 66db632... changed to correct image name for banner
-banner: 2018-week-24-announce.jpg
-author: winesnob
+title: 'Week 4: SISTEM | Bash | HackerClub | B.Y.O.P. | Google Hash Code | IrlCPC'
+date: '2018-02-18'
+banner: 2018-week-24-announce.png
+author: thegirl
 tags:
-  - Hash Code
-  - IrlCPC
-  - Linux
+  - SISTEM
+  - Bash
   - HackerClub
   - B.Y.O.P
-  - SISTEM
+  - IrlCPC
 ---
-
-Hey Everyone,
-
-Tonnes of stuff happening this week!
-
-TL;DR
-- SISTEM, Saturday 24th March @ The Innovation Academy
-- SISTEM Tickets on Sale Monday @ 11:00
-- Linux Fundamentals, Wednesday LG26 @ 15:00
-- HackerClub, Tuesday L101 @ 16:00
-- B.Y.O.P, Thursday LG125 @ 16:00
-- Google Hash Code qualification round 1st of March @ 18:30.
-- Redbrick are going to IrlCPC 10th March
 
 <!-- more -->
 
-SISTEM - Student's Inter-Society Tech & Enterprise Meetup
-We're proud to announce #SISTEM tickets will go on sale on Monday 26th February at 11AM!
-The link for tickets will be live on the facebook event page! https://www.facebook.com/events/183840945679947/
+Hey Everyone,
 
-## SISTEM Website: https://sistem.redbrick.dcu.ie/
+Boy, have we got a lot going on at the moment!
+
+TL;DR
+  - SISTEM, Saturday 24th March @ The Innovation Academy
+  - BASH: Seizing the Memes of Production, Wednesday LG26 @ 15:00
+  - HackerClub, Tuesday L101 @ 16:00
+  - B.Y.O.P, Thursday LG125 @ 16:00
+  - Google Hash Code qualification round 1st of March @ 18:30.
+  - Redbrick is going to IrlCPC! 10th March
+
+## SISTEM - Student's Inter-Society Tech & Enterprise Meetup
 
 SISTEM is a meetup style conference run by students, for students. We hope SISTEM helps provide a link between students and those in the world of tech and enterprise in a casual meetup environment.
 
@@ -49,20 +39,16 @@ We have a very exciting list of speakers and workshops that will be announced sh
 
 https://www.facebook.com/events/183840945679947/
 
+## BASH: Seizing the Memes of Production
 
-## Linux Fundamentals
-Following the success of our BASH talk, we are doing Redbrick by request this week! You asked for it, so here's Linux Fundamentals!
+Bash is a scripting language widely used for automating day-to-day tasks, like backups, software updates, and email alerts. However, we think we can do better.
 
-Sure, you could 'cd' and 'ls' your way around the terminal for the rest of your life, but you're going to need a bit more than that.
+Come on down to LG26 at 3pm sharp on Wednesday the 21st for a workshop where we build our own meme generator script! We'll cover conditions, I/O redirection, and all the other things that go into serving up a spicy meme.
 
-On Wednesday we will be talking to you about what a kernel is, the structure of the filesystem, and your processes. We will also be diving into a lot of important commands, covering file permissions, piping, redirection, and process management, along with a multitude of other things!
-
-Come along to LG26 on Wednesday at 15:00 to learn some Linux and eat some pizza !
-
-https://www.facebook.com/events/121984521891527/
-
+https://www.facebook.com/events/1619231874829047/
 
 ## HackerClub
+
 Come along to L101 on Tuesdays at 16:00 to improve your programming skills by solving competitive programming problems. Practice makes perfect, right?
 
 https://www.facebook.com/events/219722591921142/
@@ -84,12 +70,11 @@ The 2018 Irish Collegiate Programming Competition will be held on Saturday the 1
 
 If you're thinking of entering, head on over to http://acm.ucc.ie/node/add/registration to register your team!
 
-Chris Dowling (winesnob)
-Redbrick Secretary 2017-2018
+Clíodhna Harrison (~thegirl)
+Redbrick Helpdesk 2017 - 2018
 
 s o c i a l m e d i a
 Twitter: @RedbrickDCU
 Facebook: https://www.facebook.com/dcuredbrick
 Instagram: RedbrickDCU
 Events: https://events.redbrick.dcu.ie
-
