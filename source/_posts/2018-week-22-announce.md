@@ -1,29 +1,79 @@
 ---
-title: 'Week 2 | Google Hash Code | IrlCPC | HackerClub | Reintroduction to Redbrick | B.Y.O.P (Build Your Own Projects) | FOSDEM'
-date: '2018-02-05'
-banner: 2018-week-22-announce.jpg
-author: mctastic
+title: 'Week 3 | Interpints | Automate & Chill | HackerClub | B.Y.O.P. | Google Hash Code | IrlCPC'
+date: '2018-02-12'
+banner: 2018-week-23-announce.jpg
+author: winesnob
 tags:
+  - Interpints
+  - Automation
+  - HackerClub
+  - B.Y.O.P
   - Hash code
   - IrlCPC
-  - Intro
-  - B.Y.O.P
-  - FOSDEM
 ---
 
-Hello all,
+Hey Everyone,
 
-Week two is here. If that has you feeling somewhat lethargic, then we have a few events/workshops to help liven up your week!
+We have some events on this week to get you through your exam results!
 
 TL;DR
-  - Google Hash Code qualification round 1st March @ 18:30.
-  - Rebrick are going to IrlCPC 10th March
-  - HackerClub, Tuesday L101 @ 16:00.
-  - Reintroduction to Redbrick, Wednesday LG26 @ 15:00.
+  - Interpints, Friday Alfie Byrne's by Galway Bay Brewery @ 19:00
+  - Automate & Chill, Wednesday LG26 @ 15:00
+  - HackerClub, Tuesday L101 @ 16:00
   - B.Y.O.P, Thursday LG125 @ 16:00
-  - FOSDEM 2018 talks at https://video.fosdem.org/2018/
+  - Google Hash Code qualification round 1st of March @ 18:30.
+  - Redbrick are going to IrlCPC 10th March
 
 <!-- more -->
+
+## Interpints
+
+This coming Friday (16th of February) is Interpints! Interpints is a somewhat cool name for a bunch of the networking societies around the city getting together and mingling to their herts content over a few drinks.
+
+Everyone is welcome to come, it's always fun to meet new like-minded people and an inter-society event is the perfect place to do it!
+
+Societies present at interpints:
+Redbrick, DU Netsoc, DIT CompSoc, and DUCSS.
+
+We hope to meet up in Alfie Byrne's at around 7:00pm on Friday.
+
+See you then!
+
+https://www.facebook.com/events/194581361289170/
+
+## Automate & Chill
+
+No plans for Valentine's Day yet? Rather eat pizza and find out how to make your life a little less hectic? Well then LG26 is where you need to be at 15:00 on Wednesday the 14th my friend!
+
+Over the past few months, some of the current Redbrick committee members have found ways to automate certain aspects of their roles. On Wednesday we look at what they've done and how you can apply it to your own jobs.
+
+No one likes having to do the same thing over and over again, so come along to LG26 on Wednesday at 15:00 and start eliminating the tedious day-to-day tasks from your life!
+
+https://www.facebook.com/events/189345721824940/
+
+## HackerClub
+
+Finding programming hard? At a point where you are too afraid to ask for help?
+
+Never fear - HackerClub is here!
+
+Come along to L101 on Tuesdays at 16:00 to improve your programming skills by solving competitive programming problems. Practice makes perfect right?
+
+People who attended HackerClub last semester improved more and more with each passing week, but most of all, they became increasingly confident in their code. HackerClub is run by people who know how chaotic it is as a newbie programmer, so this kind of development and growth is very important to us.
+
+Pop along to L101 at or indeed between 16:00 to 18:00 on a Tuesday this semester Rest assured that Redbrick will be there to help out!
+
+https://www.facebook.com/events/219722591921142/
+
+## B.Y.O.P
+
+Welcome to Redbrick's brand new weekly workshop, Build Your Own Projects! Running in L128 on Thursday from 16:00 to 18:00 this week, BYOP is a workshop focused on project based learning, i.e applying what you already know to projects.
+
+Along the way you will show you some handy tools you can use to enhance and improve your projects.
+
+So have a brainstorm and then come on down on Thursday and pick up some new skills as you build!
+
+https://www.facebook.com/events/410559502725777/
 
 ## Google Hash Code
 
@@ -35,48 +85,16 @@ Top scoring teams from this round will be invited to Google Dublin to compete fo
 
 ## IrlCPC
 
-The 2018 Irish Collegiate Programming Competition will be held on Saturday the 10th of March. If you intend to travel down with Redbrick to IrlCPC, please respond s soon as possible as we can give 50% off to the first seven teams that sign up to travel with us.
+The 2018 Irish Collegiate Programming Competition will be held on Saturday the 10th of March in UCC. If you intend to travel down with Redbrick to IrlCPC, please respond s soon as possible as we can give 50% off to the first seven teams that sign up to travel with us.
 
 If you're thinking of entering, head on over to http://acm.ucc.ie/node/add/registration to register your team!
 
-## HackerClub
 
-Come down to L101 on Tuesday at 16:00 for HackerClub. Here we help you improve your problem solving and programming in a series of competitive programmig workshops.. Whether you've attended a HackerClub session before or not make sure you come along on Tuesday at 16:00 so you can start making HackerClub a staple of your weekly college diet!
-
-https://www.facebook.com/events/219722591921142/?event_time_id=219722621921139
-
-## Reintroduction to Redbrick
-
-Unfortunately, our previously scheduled talk for the 7th of February needs to be reorganized for another Wednesday later this semester. But never fear, we still have a great Wednesday talk!
-
-As the academic year progresses, you end up with a number of people who missed some of the more important and fundamental Redbrick talks.
-
-This one is for all the new faces, and for those not so new faces that need a friendly reintroduction to what Redbrick does, along with a crash course in how to become a part of the not so elite IRC squad.
-
-Come along to LG26 on Wednesday at 15:00 and catch up on all the action!
-
-https://www.facebook.com/events/587073878359328/
-
-## B.Y.O.P (Build Your Own Projects)
-
-Our brand new weekly workshop is back! Running in L125 on Thursday from 16:00 to 18:00 this week, B.Y.O.P is a workshop focused on project based learning, i.e applying what you already know to projects. Along the way you will show you some handy tools you can use to enhance and improve your projects.
-
-So come on down on Thursday if you want to improve your software development skill-set!
-
-https://www.facebook.com/events/1766529560309030/?event_time_id=1766529590309027
-
-## FOSDEM
-
-Last but not least, for all those who ate and slept regularly this weekend, and thus as a result couldn't make it to FOSDEM, videos of some of the talks have already been made available already at https://video.fosdem.org/2018/
-
-Also a big shout out to the traveling members who flew back into Dublin airport late last night. Hope you all enjoy your lectures today!
-
-James McDermott (~mctastic)
-Redbrick Events Officer 2017-2018
+Chris Dowling (winesnob)
+Redbrick Secretary 2017-2018
 
 s o c i a l m e d i a
 Twitter: @RedbrickDCU
 Facebook: https://www.facebook.com/dcuredbrick
-Snapchat: RedbrickDCU
-Instagram: @redbrickdcu
+Instagram: RedbrickDCU
 Events: https://events.redbrick.dcu.ie

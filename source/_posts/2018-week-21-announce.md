@@ -1,39 +1,29 @@
 ---
-title: 'Week 1 | Semester Two Membership | Google Hash Code | IrlCPC | HackerClub | FOSDEM | Agile & Friends | B.Y.O.P (Build Your Own Projects)'
-date: '2018-01-28'
-banner: 2018-week-21-announce.jpg
+title: 'Week 2 | Google Hash Code | IrlCPC | HackerClub | Reintroduction to Redbrick | B.Y.O.P (Build Your Own Projects) | FOSDEM'
+date: '2018-02-05'
+banner: 2018-week-22-announce.jpg
 author: mctastic
 tags:
-  - Membership
-  - Hashcode
-  - Google
+  - Hash code
   - IrlCPC
-  - HackerClub
-  - FOSDEM
-  - Agile
+  - Intro
   - B.Y.O.P
+  - FOSDEM
 ---
 
-Hey all,
+Hello all,
 
-Hope everyone enjoyed the break, even if it was littered with exams. Semester two has begun, and with it, Redbrick is here to brighten up your first week back!
+Week two is here. If that has you feeling somewhat lethargic, then we have a few events/workshops to help liven up your week!
 
 TL;DR
-  - Semester Two Membership is half price!
   - Google Hash Code qualification round 1st March @ 18:30.
   - Rebrick are going to IrlCPC 10th March
   - HackerClub, Tuesday L101 @ 16:00.
-  - FOSDEM, Talk on Wednesday LG26 @ 1400.
-  - Agile & Friends, Wednesday LG26 15:00.
-  - B.Y.O.P, Thursday L125 @ 14:00
+  - Reintroduction to Redbrick, Wednesday LG26 @ 15:00.
+  - B.Y.O.P, Thursday LG125 @ 16:00
+  - FOSDEM 2018 talks at https://video.fosdem.org/2018/
 
 <!-- more -->
-
-## Semester Two Membership
-
-Have a friend who feels it's too late to join a society? Have a friend who wants to get in on the Redbrick action? Well lucky for them, we are taking new memberships, but this time around it's half price!
-
-It's a pretty solid deal, it means you can avail of the multiple services we provide, and all for the low, low price of €2.00. Get all your friends to sign up. We know and you know that they are missing out.
 
 ## Google Hash Code
 
@@ -51,31 +41,35 @@ If you're thinking of entering, head on over to http://acm.ucc.ie/node/add/regis
 
 ## HackerClub
 
-Last semester we saw a lot of our attending members develop as both problem solvers and programmers because of HackerClub and we hope this semester is just as successful!
+Come down to L101 on Tuesday at 16:00 for HackerClub. Here we help you improve your problem solving and programming in a series of competitive programmig workshops.. Whether you've attended a HackerClub session before or not make sure you come along on Tuesday at 16:00 so you can start making HackerClub a staple of your weekly college diet!
 
-HackerClub is back once again, but this week it's on Tuesday at 16:00 in L101. Whether you've attended a HackerClub session before or not make sure you come along on Tuesday at 16:00 so you can start making HackerClub a staple of your weekly college diet in Semester Two!
+https://www.facebook.com/events/219722591921142/?event_time_id=219722621921139
 
-https://www.facebook.com/events/585509961786360/
+## Reintroduction to Redbrick
 
-## FOSDEM
+Unfortunately, our previously scheduled talk for the 7th of February needs to be reorganized for another Wednesday later this semester. But never fear, we still have a great Wednesday talk!
 
-Redbrick are off to FOSDEM once again. We fly out to Brussels this coming Friday. Needless to say we are all super excited and are anticipating a great weekend.
+As the academic year progresses, you end up with a number of people who missed some of the more important and fundamental Redbrick talks.
 
-For our traveling members, there will be a final talk to run over all details of our trip. This will take place at 14:00 on Wednesday in LG26. If you cannot attend this get together on Wednesday please let us know as soon as possible so we can organize and alternative time to talk to you individually.
+This one is for all the new faces, and for those not so new faces that need a friendly reintroduction to what Redbrick does, along with a crash course in how to become a part of the not so elite IRC squad.
 
-## Agile & Friends
-Wait you're meant to actually plan how you program? Why is waterfall bad? What does scrum have to do with software?? Ever ask yourself these questions? Then come along to Agile & Friends in LG26 on Wednesday at 15:00, where our friendly helpdesk will explain why project management might actually be useful and how to do it!
+Come along to LG26 on Wednesday at 15:00 and catch up on all the action!
 
-https://www.facebook.com/events/203863537019965/
+https://www.facebook.com/events/587073878359328/
 
 ## B.Y.O.P (Build Your Own Projects)
 
-Lastly to round the week off we have our brand new weekly project workshop - B.Y.O.P! Running in L125 on Thursday from 14:00 to 16:00 this week, B.Y.O.P is a workshop focused on project based learning, i.e applying what you already know to projects. Along the way you will show you some handy tools you can use to enhance and improve your projects.
+Our brand new weekly workshop is back! Running in L125 on Thursday from 16:00 to 18:00 this week, B.Y.O.P is a workshop focused on project based learning, i.e applying what you already know to projects. Along the way you will show you some handy tools you can use to enhance and improve your projects.
 
-So come on down on Thursday with a project idea. If you don't have one, don't fret! We always come prepared with a few stock projects!
+So come on down on Thursday if you want to improve your software development skill-set!
 
-https://www.facebook.com/events/339015276585338/
+https://www.facebook.com/events/1766529560309030/?event_time_id=1766529590309027
 
+## FOSDEM
+
+Last but not least, for all those who ate and slept regularly this weekend, and thus as a result couldn't make it to FOSDEM, videos of some of the talks have already been made available already at https://video.fosdem.org/2018/
+
+Also a big shout out to the traveling members who flew back into Dublin airport late last night. Hope you all enjoy your lectures today!
 
 James McDermott (~mctastic)
 Redbrick Events Officer 2017-2018
