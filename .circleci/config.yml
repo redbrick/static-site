@@ -63,7 +63,7 @@ jobs:
           command: apk add --no-cache curl
       - run:
           name: Trigger Regeneration
-          command: curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
+          command: curl https://www.redbrick.dcu.ie/api/v1/regenerate?token=$KEY
 
 workflows:
   version: 2

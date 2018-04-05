@@ -1,4 +1,4 @@
-FROM node:boron-alpine
+FROM node:carbon-alpine
 WORKDIR /usr/src/app
 VOLUME /usr/src/app/public /usr/src/app/logs
 EXPOSE 3000
