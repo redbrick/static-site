@@ -16,8 +16,8 @@
 1. Why would you use a managed PDU instead of a PDU? What does PDU stand for? (3
    marks)
 1. What is SNMP used for, name a tool which we use that makes use of SNMP (2
-   marks) 1 .What protocol allows us to mount /storage over multiple servers? (3
    marks)
+1 .What protocol allows us to mount /storage over multiple servers? (3 marks)
 1. adduser vs useradd which is better? why? (2 marks).
 
 # Linux (36 marks)
@@ -27,7 +27,7 @@
    marks)
 1. List the steps that occur in the startup of a linux machine(5 marks)
 1. Package managers are great, name some. Why should you never "apt purge"?
-   (3marks)
+   (3 marks)
 1. How would you show what version of OS you're running (assume this is on a
    Redbrick server)? (1 marks)
 1. What is LDAP? Why do we use it? (3 marks)
@@ -56,9 +56,9 @@
    marks)
 1. Show me how to find the routing table in BSD (3 marks)
 1. What is ports in BSD? How do I update them? (3 marks)
-1. In FreeBSD; what is a jail? Why would one use it? (3 marks) 10.You just got
-   your root talk as an admin, and were added to the root group on a freebsd
-   box, Why does this allow you to do jack all? (3 marks)
+1. In FreeBSD; what is a jail? Why would one use it? (3 marks)
+1. You just got your root talk as an admin, and were added to the root group 
+   on a freebsd box, Why does this allow you to do jack all? (3 marks)
 
 # Security (30 marks)
 
@@ -163,7 +163,8 @@ provided. You man use the man pages for this section.
 1. What is the UUiD of a disk, why would you need it? (2 marks)
 1. Why do our servers have two power supplies? What 2 pieces of hardware do we
    use in conjunction with them to ensure maximum redundancy and uptime? (5
-   marks) 10.Where would you mount a UPS? Why? (2 marks)
+   marks)
+1. Where would you mount a UPS? Why? (2 marks)
 
 # Networking (30 marks) - done
 
