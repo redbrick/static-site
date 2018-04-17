@@ -1,0 +1,74 @@
+$support-for-ie: 0;
+$vendor-prefixes: webkit moz ms official;
+
+// Colors;
+$color-default: #565a5f;
+$color-white: #fff;
+$color-red: #aa0202;
+$color-grey: #999;
+$color-grey-dark: #585858;
+$color-grey-light: #eee;
+$color-border: #eceff2;
+$color-link: #38b7ea;
+$color-button-background: #e8e8e8;
+$color-background: $color-grey-light;
+$color-sidebar-text: #777;
+$color-sidebar-text-dark: #333;
+$color-widget-background: #ddd;
+$color-widget-border: #ccc;
+
+$shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+// Fonts;
+$font-sans: 'open sans' 'Helvetica Neue' Helvetica Arial 'Microsoft Yahei'
+  sans-serif;
+$font-serif: Georgia 'Times New Roman' Arial 'Microsoft Yahei' serif;
+$font-mono: 'Source Code Pro' Consolas Monaco Menlo Consolas monospace;
+$font-size: 14px;
+$line-height: 1.6em;
+$line-height-title: 1.3em;
+
+// Header;
+$header-height: 64px;
+$header-sub-height: 48px;
+$logo-url: 'images/logo.png';
+$logo-width: 160px;
+$logo-height: 40px;
+
+$thumbnail-default-small: 'images/thumb-default-small.png';
+
+$profile-avatar-size: 128px;
+
+// Layout;
+$block-margin: 40px;
+$article-padding: 20px;
+$mobile-nav-width: 280px;
+$main-column: 8;
+$sidebar-column: 3;
+$profile-column: 3;
+$sidebar-column-tablet: 4;
+
+$_sidebar-column: $sidebar-column;
+
+$_profile-column: $profile-column;
+
+$column-width: 80px;
+$gutter-width: 20px;
+$columns: $main-column + $_sidebar-column;
+
+$main-column-tablet: 5;
+$main-column-tablet: 7;
+
+// Media queries
+$mq-sub-par: '290px';
+$mq-tiny: '320px';
+$mq-mobile: '560px';
+$mq-tablet: '800px';
+$mq-normal: '1200px';
+$mq-header: '1020px';
+
+// Miscellaneous;
+$color-twitter: #00aced;
+$color-facebook: #3b5998;
+$color-pinterest: #cb2027;
+$color-google: #dd4b39;

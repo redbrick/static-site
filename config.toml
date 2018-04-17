@@ -1,0 +1,174 @@
+baseURL = "http://redbrick.dcu.ie/"
+languageCode = "en-uk"
+title = "Redbrick"
+googleAnalytics = "UA-85359173-1"
+paginate = 10
+footnotereturnlinkcontents = "↩"
+disablePathToLower = true
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  author = "Redbrick"
+  subtitle = "DCU's Networking Society"
+  site_description = "Redbrick is DCU’s Computer Networking society. We host events for everything computing related this ranges from; how to setup your own website and storing your photos online to System Administration and Computer Programming Tutorials. We also host a number of services for our membership."
+  email = "committee@redbrick.dcu.ie"
+  location = "Clubs and Societies Office, Dublin City University, Glasnevin, Dublin 9."
+  avatar = "images/avatar.png"
+  logo = "images/logo.png"
+  date_format = "2006-01-02" # Format dates with Go's time formatting
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home'></i>"
+    url = "/"
+    weight = -110
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-info'></i>"
+    url = "#"
+    identifier = "about"
+    weight = -90
+  [[menu.main]]
+    name = "The Society"
+    pre = "<i class='fa fa-info'></i>"
+    url = "/about"
+    parent = "about"
+  [[menu.main]]
+    name = "Committee"
+    pre = "<i class='fa fa-users'></i>"
+    url = "/about/committee"
+    parent = "about"
+  [[menu.main]]
+    name = "Minutes"
+    pre = "<i class='fa fa-clipboard'></i>"
+    url = "/about/minutes"
+    parent = "about"
+  [[menu.main]]
+    name = "Constitution"
+    pre = "<i class='fa fa-book'></i>"
+    url = "/about/constitution"
+    parent = "about"
+  [[menu.main]]
+    name = "Regulations"
+    pre = "<i class='fa fa-file-text-o'></i>"
+    url = "/about/regulations"
+    parent = "about"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-reply'></i>"
+    url = "/about/contact"
+    parent = "about"
+  [[menu.main]]
+    name = "Past Committee"
+    pre = "<i class='fa fa-users'></i>"
+    url = "/about/past-committees"
+    parent = "about"
+  [[menu.main]]
+    name = "Help"
+    pre = "<i class='fa fa-question'></i>"
+    url = "/help/"
+    identifier = "help"
+    weight = -70
+  [[menu.main]]
+    name = "Helpdesk"
+    pre = "<i class='fa fa-question'></i>"
+    url = "/help"
+    parent = "help"
+  [[menu.main]]
+    name = "Joining"
+    pre = "<i class='fa fa-sign-in'></i>"
+    url = "/help/joining"
+    parent = "help"
+  [[menu.main]]
+    name = "Tutorial"
+    pre = "<i class='fa fa-bank'></i>"
+    url = "/help/tutorials"
+    parent = "help"
+  [[menu.main]]
+    name = "Exams"
+    pre = "<i class='fa fa-graduation-cap'></i>"
+    url = "/help/exams"
+    parent = "help"
+  [[menu.main]]
+    name = "Services"
+    pre = "<i class='fa fa-database'></i>"
+    url = "/help/services"
+    parent = "help"
+  [[menu.main]]
+    name = "Services"
+    pre = "<i class='fa fa-linux'></i>"
+    url = "#"
+    identifier = "services"
+    weight = -60
+  [[menu.main]]
+    name = "Mail"
+    pre = "<i class='fa fa-envelope'></i>"
+    url = "https://webmail.redbrick.dcu.ie"
+    parent = "services"
+  [[menu.main]]
+    name = "Wiki"
+    pre = "<i class='fa fa-university'></i>"
+    url = "https://wiki.redbrick.dcu.ie"
+    parent = "services"
+  [[menu.main]]
+    name = "Chat"
+    pre = "<i class='fa fa-wechat'></i>"
+    url = "https://webchat.redbrick.dcu.ie"
+    parent = "services"
+  [[menu.main]]
+    name = "Git"
+    pre = "<i class='fa fa-git'></i>"
+    url = "https://git.redbrick.dcu.ie"
+    parent = "services"
+  [[menu.main]]
+    name = "HackMD"
+    pre = "<i class='fa fa-file-code-o'></i>"
+    url = "https://md.redbrick.dcu.ie"
+    parent = "services"
+  [[menu.main]]
+    name = "Hastebin"
+    pre = "<i class='fa fa-clipboard'></i>"
+    url = "https://paste.redbrick.dcu.ie"
+    parent = "services"
+  [[menu.main]]
+    name = "Events"
+    pre = "<i class='fa fa-calendar'></i>"
+    url = "/events/"
+    weight = -10
+  [[menu.footer]]
+    name = "events"
+    url = "/events"
+  [[menu.footer]]
+    name = "contact"
+    url = "/about/contact"
+  [[menu.footer]]
+    name = "Call for Talks"
+    url = "/CFT"
+
+[params.widgets]
+  recent_articles = true
+  categories = false
+  tags = false
+  tag_cloud = true
+
+[params.profile]
+  follow_button = "https://twitter.com/redbrickdcu"
+
+[social]
+  github = "redbrick"
+  twitter = "redbrickdcu"
+  facebook = "dcuredbrick"
+  youtube = "redbrickdcu"
+  status = "redbrick.status.io"
+
+[params.googleCal]
+  api = "AIzaSyAV0PnlM4b3k2NoBPglIuMD8vfQwlD31zY"
+  id = "r2l6edh5l8jm5t9dbfi84rn26s"
+
+[outputs]
+    page = ["HTML", "json"]
+    home = ["HTML", "RSS", "json"]
+    section = ["HTML", "RSS", "json"]

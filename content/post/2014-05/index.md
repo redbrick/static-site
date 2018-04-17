@@ -1,0 +1,24 @@
+---
+author: kylar
+banner: webMaster.png
+date: '2014-10-10'
+tags:
+  - webmaster
+title: Webmaster Exam
+---
+
+Hey all,
+
+As there's been a lot of interest from you talented folks in the position of
+webmaster, I've decided to resign and will be running for one of the open admin
+positions at the EGM on the 22nd. The more talented and enthusiastic folks we
+have on committee the better!
+
+As such, I'll be holding the webmaster exam sometime next week! Please email me
+by 5pm on Monday to register your interest in taking the exam.
+
+The exam will probably be Tuesday/Thursday next week.
+
+Your friendly neighbourhood webmaster,
+
+Rob.

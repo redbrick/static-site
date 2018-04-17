@@ -1,0 +1,33 @@
+<div class="timeline-row">
+  <span class="node"></span>
+  <div class="content">
+    <h1 itemprop="name">
+      <a class="timeline-article-title" href="{{ .Permalink }}" target="_blank" itemprop="url">{{ .Title }}</a>
+    </h1>
+    <div class="article-meta">
+      <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="{{ .Permalink }}">
+          <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
+        </a>
+      </div>
+      {{ with .Params.categories }}
+        <div class="article-category">
+          <i class="fa fa-folder"></i>
+          {{ range . }}
+            <a href="{{ printf "categories/%s" . | urlize | absURL }}">#{{ . }}</a>
+            <i class="fa fa-angle-right"></i>'
+          {{ end }}
+        </div>
+      {{ end }}
+      {{ with .Params.tags }}
+        <div class="article-tag">
+          <i class="fa fa-tag"></i>
+          {{ range . }}
+            <a href="{{ printf "tags/%s" . | urlize | absURL }}">#{{ . }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

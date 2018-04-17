@@ -1,0 +1,32 @@
+#toTop {
+  @extend %block;
+  background: $color-default;
+  border-radius: 4px;
+  bottom: 20px;
+  box-shadow: $shadow;
+  color: $color-white;
+  cursor: pointer;
+  display: none;
+  font-size: 50px;
+  height: 60px;
+  line-height: 55px;
+  opacity: 0.8;
+  position: fixed;
+  text-align: center;
+  width: 60px;
+  z-index: 4;
+
+  @include mq-mobile {
+    font-size: 34px;
+    height: 52px;
+    line-height: 52px;
+    width: 52px;
+  }
+
+  @include mq-mini {
+    font-size: 32px;
+    height: 48px;
+    line-height: 48px;
+    width: 48px;
+  }
+}

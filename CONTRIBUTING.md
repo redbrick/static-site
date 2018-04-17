@@ -8,12 +8,14 @@ This document will guide you through the contribution process.
 
 ### Step 1: Fork
 
-Fork the project [on GitHub](https://github.com/redbrick/static-site) and check out your copy locally.
+Fork the project [on GitHub](https://github.com/redbrick/static-site) and check
+out your copy locally.
 
 #### Which branch?
 
-For developing new features and bug fixes, the `master` branch needs to be pulled
-and built upon. We follows a [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
+For developing new features and bug fixes, the `master` branch needs to be
+pulled and built upon. We follows a
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 model, where the master branch is always deployed to production.
 
 ### Step 2: Branch
@@ -33,8 +35,8 @@ $ git config --global user.name "J. Random User"
 $ git config --global user.email "j.random.user@example.com"
 ```
 
-Writing good commit logs is important.  A commit log needs to describe what
-changed and why.  Follow these guidelines when writing one:
+Writing good commit logs is important. A commit log needs to describe what
+changed and why. Follow these guidelines when writing one:
 
 1. The first line ideally should be 50 characters or less and contain a short
    description of the change
@@ -67,33 +69,32 @@ Use `git rebase` (not `git merge`) to sync your work from time to time.
 $ git fetch upstream
 $ git rebase upstream/master
 ```
+
 ### Step 5: Push
 
 ```text
 $ git push origin my-feature-branch
 ```
 
-Go to https://github.com/yourusername/static-site and select your feature branch.
-Click the 'Pull Request' button and fill out the form.
+Go to https://github.com/yourusername/static-site and select your feature
+branch. Click the 'Pull Request' button and fill out the form.
 
-Pull requests are usually reviewed within a few days.  If there are comments
-to address, apply your changes in a separate commit and push that to your
-feature branch.  Post a comment in the pull request afterwards; GitHub does
-not send out notifications when you add commits.
-
+Pull requests are usually reviewed within a few days. If there are comments to
+address, apply your changes in a separate commit and push that to your feature
+branch. Post a comment in the pull request afterwards; GitHub does not send out
+notifications when you add commits.
 
 ## Developer's Certificate of Origin 1.0
 
 By making a contribution to this project, I certify that:
 
-* (a) The contribution was created in whole or in part by me and I
-  have the right to submit it under the open source license indicated
-  in the file; or
-* (b) The contribution is based upon previous work that, to the best
-  of my knowledge, is covered under an appropriate open source license
-  and I have the right under that license to submit that work with
-  modifications, whether created in whole or in part by me, under the
-  same open source license (unless I am permitted to submit under a
-  different license), as indicated in the file; or
-* (c) The contribution was provided directly to me by some other
-  person who certified (a), (b) or (c) and I have not modified it.
+- (a) The contribution was created in whole or in part by me and I have the
+  right to submit it under the open source license indicated in the file; or
+- (b) The contribution is based upon previous work that, to the best of my
+  knowledge, is covered under an appropriate open source license and I have the
+  right under that license to submit that work with modifications, whether
+  created in whole or in part by me, under the same open source license (unless
+  I am permitted to submit under a different license), as indicated in the file;
+  or
+- (c) The contribution was provided directly to me by some other person who
+  certified (a), (b) or (c) and I have not modified it.

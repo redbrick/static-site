@@ -1,0 +1,102 @@
+.highlight {
+  background: $color-white;
+  color: #4d4d4c;
+  display: block;
+  font-family: $font-mono;
+  font-size: $font-size;
+  line-height: (($font-size/16px) * 1.6em);
+  margin: 0;
+  overflow-x: auto;
+  padding: 15px 20px;
+
+  table {
+    margin: 0;
+    width: auto;
+
+    td {
+      border: 0;
+
+      &.code {
+        padding-right: 20px;
+      }
+    }
+  }
+
+  .gutter {
+    pre {
+      color: #666;
+      padding-right: 20px;
+      text-align: right;
+    }
+  }
+
+  .code {
+    .comment,
+    .quote {
+      color: #8e908c;
+    }
+
+    .variable,
+    .template-variable,
+    .tag,
+    .name,
+    .selector-id,
+    .selector-class,
+    .regexp,
+    .deletion {
+      color: #c82829;
+    }
+
+    .number,
+    .built_in,
+    .builtin-name,
+    .literal,
+    .type,
+    .params,
+    .meta,
+    .link {
+      color: #f5871f;
+    }
+
+    .attribute {
+      color: #eab700;
+    }
+
+    .string,
+    .symbol,
+    .bullet,
+    .addition {
+      color: #718c00;
+    }
+
+    .title,
+    .section {
+      color: #4271ae;
+    }
+
+    .keyword,
+    .selector-tag {
+      color: #8959a8;
+    }
+
+    .emphasis {
+      font-style: italic;
+    }
+
+    .strong {
+      font-weight: bold;
+    }
+  }
+}
+
+.article-entry {
+  .highlight {
+    margin: 1.6em 0;
+
+    .line {
+      height: 1.6em;
+    }
+  }
+}
+
+@import 'monokai';

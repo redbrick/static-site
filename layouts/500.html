@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner not-found">
+      <div class="article-entry" itemprop="articleBody">
+        <header class="not-found-header">
+          <h1 class="not-found-header-title" itemprop="name">{{with .Site.Data.l10n.server_error.title}}{{.}}{{end}}</h1>
+        </header>
+        <img src="{{ "images/404.png" | absURL }}" />
+        <div class="not-found-message">
+          {{with .Site.Data.l10n.server_error.subtitle}}{{.}}{{end}}
+        </div>
+      <div>
+    </div>
+  </article>
+{{ end }}

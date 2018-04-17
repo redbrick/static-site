@@ -1,0 +1,28 @@
+<ul class="menu">
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+      <li class="menu-list">
+        <a class="main-nav-link dropdown-toggle" aria-haspopup="true">
+          {{ .Pre }}{{ .Name }}
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </a>
+        <ul class="dropdown-menu">
+          {{ range .Children }}
+            <li>
+              <a class="main-nav-link" href="{{ .URL }}">
+                {{ .Pre }}{{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </li>
+    {{ else }}
+      <li>
+        <a class="main-nav-link" href="{{ .URL }}">
+          {{ .Pre }}{{ .Name }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

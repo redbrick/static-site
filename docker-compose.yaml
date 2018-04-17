@@ -1,0 +1,11 @@
+---
+version: '3'
+services:
+  redbrick:
+    build: .
+    image: 'redbrick/site:latest'
+    restart: 'unless-stopped'
+    # entrypoint: /bin/sh
+    ports:
+      - '2015:2015'
+      - '9180:9180'

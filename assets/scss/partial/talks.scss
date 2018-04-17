@@ -1,0 +1,16 @@
+.talks-list {
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      margin: 20px;
+      width: 200px;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.cmt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &-member {
+    margin: 0 16px;
+    width: 184px;
+
+    a {
+      color: $color-grey-dark;
+
+      &:hover {
+        color: $color-link;
+        text-decoration: none;
+      }
+    }
+
+    &-title {
+      font-weight: bold;
+      margin: 8px 0;
+      text-align: center;
+    }
+
+    &-text {
+      margin: 8px 0;
+      text-align: center;
+    }
+
+    &-image {
+      border-radius: 50%;
+      display: block;
+      height: 126px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+      width: 126px;
+
+      &-cover {
+        background-position: center;
+        background-size: cover;
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+
+      &-none {
+        background-image: url($thumbnail-default-small);
+        background-position: center;
+        background-size: cover;
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+
+      &-resigned {
+        border: 8px solid #f00;
+      }
+    }
+  }
+}

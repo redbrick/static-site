@@ -1,0 +1,10 @@
+<div class="timeline timeline-wrap">
+  <div class="timeline-row timeline-row-major">
+    <span class="node"><i class="fa fa-tag"></i></span>
+    <h1 class="title">#{{ .Title }}</h1>
+  </div>
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+</div>

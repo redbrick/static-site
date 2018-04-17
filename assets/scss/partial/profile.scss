@@ -1,0 +1,200 @@
+.bio {
+  text-align: center;
+}
+
+#profile {
+  .inner {
+    .bio {
+      h2 {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-top: 15px;
+      }
+
+      p {
+        line-height: 1.5em;
+        margin: 5px 20px 10px;
+        max-width: 300px;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+.profile-block {
+  border-bottom: 1px solid $color-border;
+  padding: 15px 20px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+#profile {
+  @include column($profile-column);
+  display: none;
+
+  .inner {
+    @extend %block;
+    background: $color-white;
+
+    .base-info {
+      #avatar {
+        display: block;
+        height: $profile-avatar-size;
+        margin: 10px auto 20px;
+        width: $profile-avatar-size;
+      }
+
+      #name,
+      #title,
+      #location {
+        display: block;
+        text-align: center;
+      }
+
+      #name {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      #location {
+        color: mix($color-default, #444);
+        font-size: $font-size - 2;
+        margin-top: 5px;
+        .fa {
+          margin-right: 5px;
+        }
+      }
+
+      #follow {
+        background: $color-link;
+        border-radius: 20px;
+        color: $color-white;
+        display: block;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        margin: 20px auto 10px;
+        text-align: center;
+        transition: 0.2s ease;
+        width: 150px;
+
+        &:hover {
+          background: mix($color-link, #111);
+        }
+      }
+    }
+
+    .article-info {
+      @include clearfix();
+      padding: 0;
+
+      .article-info-block {
+        box-sizing: border-box;
+        float: left;
+        font-size: $font-size + 6px;
+        padding: 20px 15px;
+        text-align: center;
+        width: 50%;
+
+        span {
+          display: block;
+          font-size: $font-size;
+          text-transform: uppercase;
+        }
+
+        &:first-child {
+          border-right: 1px solid $color-border;
+        }
+      }
+    }
+
+    .social-links {
+      & > table {
+        width: 100%;
+
+        td {
+          font-size: $font-size + 10px;
+          text-align: center;
+
+          a {
+            color: mix($color-default, #333);
+            position: relative;
+            transition: 0.2s ease;
+
+            &:hover {
+              color: $color-default;
+            }
+
+            &.tooltip:hover {
+              &::after {
+                background: #333;
+                border-radius: 2px;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+                color: $color-white;
+                content: attr(title);
+                display: block;
+                font-size: 14px;
+                padding: 5px 15px;
+                position: absolute;
+                right: -50%;
+                text-transform: uppercase;
+                top: -41px;
+                white-space: nowrap;
+                z-index: 1;
+              }
+
+              &::before {
+                border: solid;
+                border-color: $color-sidebar-text-dark transparent;
+                border-width: 5px 5px 0;
+                content: '';
+                display: block;
+                position: absolute;
+                right: 8px;
+                top: -12px;
+                z-index: 2;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.card {
+    @extend %block;
+    display: block;
+    margin-top: 30px;
+    max-width: 100px;
+    min-width: 280px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    z-index: 999;
+
+    .profile-inner {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+
+      &::before,
+      &::after {
+        border-color: transparent transparent $color-white transparent;
+        border-style: solid;
+        border-width: 10px;
+        content: '';
+        position: absolute;
+        right: 10px;
+        top: -20px;
+        z-index: 1;
+      }
+
+      &::after {
+        border-color: transparent transparent,
+          mix($color-border, #111) transparent;
+        z-index: 0;
+      }
+    }
+  }
+}

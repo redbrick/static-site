@@ -1,0 +1,8 @@
+{
+  "title": "{{- replace .Title "\t" " " -}}",
+  "date": "{{ .Date }}",
+  "type": "{{ .Type }}",
+  "permalink": "{{ .Permalink }}",
+  {{- $summary := replace .Summary "\n" "\\n" }}
+  "summary" : "{{- replace $summary "\"" "\\\"" | htmlUnescape -}}"
+}

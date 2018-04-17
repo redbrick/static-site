@@ -1,0 +1,29 @@
+{{ template "_internal/google_analytics.html" . }}
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js"
+  integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50="
+  crossorigin="anonymous"
+></script>
+{{ $secureJS := resources.Get "js/script.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script
+  type="text/javascript"
+  src="{{ $secureJS.Permalink }}"
+  integrity="{{ $secureJS.Data.Integrity }}"
+></script>
+
+{{ $menu := resources.Get "js/menu.js" | resources.Minify | resources.Fingerprint "sha512" }}
+<script
+  type="text/javascript"
+  src="{{ $menu.Permalink }}"
+  integrity="{{ $menu.Data.Integrity }}"
+></script>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"
+  integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU="
+  crossorigin="anonymous"
+></script>
+
+<script>
+  hljs.initHighlightingOnLoad();
+</script>

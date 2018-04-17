@@ -1,0 +1,22 @@
+---
+author: koffee
+banner: downTime.jpg
+date: '2014-10-17'
+tags:
+  - downtime
+title: Emergency Downtime - Security Patching
+---
+
+All,
+
+We will be undertaking emergency downtime later this morning to mitigate any
+possible vulnerabilities to the recent SSL v3.0 (the exploit that must not be
+named) issues.
+
+We apologise for the short notice.
+
+Regards,
+
+Richard Walsh (koffee)
+
+Redbrick Admin

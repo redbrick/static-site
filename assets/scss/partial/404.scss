@@ -1,0 +1,16 @@
+.not-found {
+  text-align: center;
+
+  &-header {
+    font-size: 6em;
+    margin: 16px;
+  }
+
+  &-message {
+    margin: 32px;
+  }
+
+  img {
+    border-radius: 100%;
+  }
+}

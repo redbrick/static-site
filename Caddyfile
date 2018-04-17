@@ -1,0 +1,22 @@
+0.0.0.0:2015 {
+  root /srv/public
+
+  # sync the repo and then gen public site
+  git {
+      repo github.com/redbrick/static-site
+      path ../src
+      hook /webhook
+      then hugo --destination=/srv/public
+  }
+
+  # write log to stdout for docker
+  log stdout
+  errors stdout
+
+  # minify and gzip all traffic
+  minify
+  gzip
+  cache
+  # serve metrics for prometheus
+  prometheus
+}
