@@ -1,20 +1,16 @@
 ﻿---
 title: Committee
-date: 2017-04-06 09:22:40
+date: 2018-04-06 09:22:40
 type: cmt
 cmt:
   - position: Chairperson
-    name: Terry Bolt
-    nick: tbolt
+    name: James Mc Dermott
+    nick: mctastic
+    image: mctastic.jpg
   - position: Secretary
-    name: Wojtek Bednarzak
-    nick: voy
-    image: voy.jpg
-    resigned: true
-  - position: Secretary (Formerly PRO)
-    name: Chris Dowling
-    nick: winesnob
-    image: winesnob.jpg
+    name: Nevan Oman Crowe
+    nick: branch
+    image: branch.jpg
   - position: Treasurer
     name: Ciara Godwin
     nick: hexagon
@@ -24,48 +20,35 @@ cmt:
     nick: sangreal
     image: sangreal.jpg
   - position: Events Officer
-    name: James Mc Dermott
-    nick: mctastic
-    image: mctastic.jpg
+    name: Cliodhna Harrison
+    nick: thegirl
+    image: thegirl.jpg
   - position: System Administrator
-    name: Alex McGrath Kraak
-    nick: akraak
+    name: Lucas Savva
+    nick: m1cr0man
+    image: m1cr0man.jpg
   - position: System Administrator
-    name: Cormac Smartt
-    nick: pints
-    image: pints.jpg
+    name: Ben McMahon
+    nick: mcmahon
+    image: mcmahon.jpg
   - position: System Administrator
     name: Tom Doyle
     nick: greenday
     image: greenday.jpg
   - position: Webmaster
-    name: Ben McMahon
-    nick: mcmahon
-  - position: Helpdesk (Formerly First Year Rep)
-    name: Nevan Oman Crowe
-    nick: branch
+    name: Sean Fradl
+    nick: fraz
+    image: fraz.jpg
   - position: Helpdesk
-    name: Cliodhna Harrison
-    nick: thegirl
-    image: thegirl.jpg
-  - position: Helpdesk
-    name: Sahil Mehra
-    nick: pr0n
-    resigned: true
-  - position: Helpdesk
-    name: Michal Durinik
-    nick: mikello
-    resigned: true
-  - position: First Year Rep
-    name: Anthony Doran
-    nick: albino
-    image: albino.jpg
+    name: Conor Berns
+    nick: berns
+    image: berns.jpg
 ---
 
 The Committee is a 12 person team which is elected yearly to run all aspects of the society
 
 ## Helpdesk
-The Helpdesk is made up of the friendly team of two Cliodhna Harrison (thegirl) & Nevan Oman Crowe (branch).
+The Helpdesk is made up of the wonderful Conor Berns (berns).
 
 The Helpdesk is what it sounds like, a desk for help. No seriously, we're here
 to help out and answer any questions at all to help you make the most of
@@ -85,11 +68,13 @@ Webmaster who are current members of the Committee, as well as previous elected
 root holders who have volunteered to keep doing stuff.
 
 Elected System Administrators:
-- Cormac Smartt (pints)
 - Tom Doyle (greenday)
-- Alex McGrath Kraak (akraak)
+- Lucas Savva (m1cr0man)
+- Ben McMahon (mcmahon)
 
 Esteemed Holders Of Root:
+- Lucas Savva (m1cr0man)
+- Ben McMahon (mcmahon)
 - Tom Doyle (greenday)
 - Alex McGrath Kraak (akraak)
 - Cian Butler (butlerx)
