@@ -5,13 +5,9 @@ type: cmt
 banner: helpdesk.jpg
 cmt:
   - position: Helpdesk
-    name: Cliodhna Harrison
-    nick: thegirl
-    image: thegirl.jpg
-  - position: Helpdesk
-    name: Nevan Oman Crowe
-    nick: branch
-    image: branch.jpg 
+    name: Conor Berns
+    nick: berns
+    image: berns.jpg
 keywords:
 - help
 - helpdesk
