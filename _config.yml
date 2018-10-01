@@ -26,7 +26,7 @@ menu:
       icon: users
     Minutes:
       url: about/minutes
-      icon: clock
+      icon: clipboard
     Constitution:
       url: about/constitution
       icon: book
