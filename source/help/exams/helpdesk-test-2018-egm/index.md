@@ -1,7 +1,6 @@
 ## Redbrick Helpdesk Exam: EGM March 2019
 ##### Created with love by mctastic. branch was just guilted into it.
 
-- Exam found at [helpdeskexam.redbrick.dcu.ie](helpdeskexam.redbrick.dcu.ie)
 - This exam consists of 30 questions, each worth 3 marks, for a total of 90.
 - 40% (36 marks) is required to pass.
 - Attempt marks will be granted where appropriate.
