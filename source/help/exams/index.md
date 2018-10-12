@@ -15,7 +15,7 @@ If you are thinking of running for the position of Admin, Webmaster or Helpdesk
 you must first pass an exam. Here are some exams from previous years.
 
 ## Admins Tests
-
+*   [2018 AGM](./admin-test-2018-agm)
 *   [2017 AGM](./admin-test-2017-agm)
 *   [2016 EGM](./admin-test-2016-egm)
 *   [2016 AGM](./admin-test-2016-agm)
@@ -62,6 +62,10 @@ you must first pass an exam. Here are some exams from previous years.
 
 ## Helpdesk Test
 
+*   [2018 EGM](./helpdesk-test-2018-egm)
+*   [2018 AGM](./helpdesk-test-2018-agm)
+*   [2017 EGM](./helpdesk-test-2017-egm)
+*   [2017 AGM](./helpdesk-test-2017-agm)
 *   [2016 EGM](./helpdesk-test-2016-egm)
 *   [2016 AGM](./helpdesk-test-2016-agm)
 *   [2015 AGM](./helpdesk-test-2015-agm)

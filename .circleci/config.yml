@@ -48,8 +48,7 @@ jobs:
           command: |
             set -eo pipefail
             htmlproofer --allow-hash-href --check-html --empty-alt-ignore \
-              --disable-external --url-ignore "/\/about\/contact\/*/" \
-              --file-ignore "/public\/about\/contact\/*/" ~/static-site/public
+              --disable-external ~/static-site/public
       - store_artifacts:
           path: results.txt
           prefix: tests
@@ -60,11 +59,11 @@ jobs:
       - image: alpine
     steps:
       - run:
-        name: Install Curl
-        command: apk add --no-cache curl
+          name: Install Curl
+          command: apk add --no-cache curl
       - run:
-        name: Trigger Regeneration
-        command: curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
+          name: Trigger Regeneration
+          command: curl https://www.redbrick.dcu.ie/api/regenerate?token=$KEY
 
 workflows:
   version: 2

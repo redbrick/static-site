@@ -5,10 +5,10 @@ cmt:
   - position: Chairperson
     name: Patrick Grant
     nick: floppy
-    resigned: true
   - position: Chairperson
     name: Mike Bennet
     nick: thalia
+    resigned: true
   - position: Secretary
     name: Jonathan Lundberg
     nick: spock

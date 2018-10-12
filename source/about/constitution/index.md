@@ -4,7 +4,7 @@ type: about
 date: 2016-04-17 16:22:40
 ---
 
-## DUBLIN CITY UNIVERSITY: Dublin City University Networking Society CONSTITUTION
+# DUBLIN CITY UNIVERSITY: Dublin City University Networking Society CONSTITUTION
 ## 1. Name of Society:
   1. The official name of the society will be Dublin City University Networking Society. This shall appear on correspondence with official bodies.
     1. The society operates under the name Redbrick.
@@ -22,7 +22,7 @@ The aims and objectives of the Society are as follows:
 7. To help educate people in the usage of Internet utilities and resources.
 
 
-## 3. Members:
+## 3. Members:
 1. Membership of the Society shall be open to all students, staff and former
 students of the University,
 2. Membership shall be obtained by paying the appropriate fee and registering with the OSL Database for the current academic year.
@@ -46,12 +46,17 @@ students of the University,
   - Secretary
   - Treasurer
   - Public Relations Officer
+
 _Other suggested positions include:_
+
   - 3x Systems Administrators
   - 2x Helpdesk
   - 1st Year Liaison Officer
-  - Events Officer
+  - 2x Events Officer
   - Webmaster
+  - 2x Ordinary Member
+  - Vice Chair
+  - Graphics Design Officer (G.D.O)
 6. The Term of Office of these elected officers shall be one academic year.
 7. No student may hold an obligatory Officer (as above) position for more than two consecutive years.
 
@@ -82,9 +87,12 @@ _Other suggested positions include:_
 15. The Webmaster shall be responsible for the design, implementation, and maintenance of the web site. They shall work in conjunction with other members of the committee in order to publicise society details via the web.
 16. The Helpdesk's role is to answer the system-related questions of the society's membership, and to detail, organise, and implement beneficial tutorials for the members.
 17. The Events Officer shall have the responsibility of organising all receptions held by the society.
-18. 1st Year Liaison Officer shall work with the committee to make the society  more accessible for first years. As part of this they shall work with the Events, Public Relations & Helpdesk where applicable. The 1st Year Liaison Officer shall be elected at an EGM in semester one, and must be in their first year as an undergraduate student at DCU
-19. The committee shall endeavour to meet fortnightly during term time, at which a majority of the committee must attend.
-20. Any committee member that misses more than 3 committee meetings without the permission of the chair will be deemed to have reasonable grounds for dismissal
+18. 1st Year Liaison Officer shall work with the committee to make the society  more accessible for first years. As part of this they shall work with the Events, Public Relations & Helpdesk where applicable. The 1st Year Liaison Officer shall be elected at an EGM in semester one, and must be in their first year as an undergraduate student at DCU.
+19. The Ordinary member shall be an assiting figure within the society. The shall be involved in assiting other committee members in their duties and the organisation and running of events.
+20. The Vice Chair shall act as a stand in chair in the absence of the elected one and shall be required to assume all their aforementioned duties. In the event that neither is available, a stand in may be elected ad hoc.
+21. The Graphics Design Officer (G.D.O) shall be responsible for the design and creation of art assets for events and promotional materials. They shall also be required to liase with the Events officer(s) and PRO in the commissioning and distribution of said materials
+22. The committee shall endeavour to meet weekly during term time, at which a majority of the committee must attend.
+23. Any committee member that misses more than 3 committee meetings without the permission of the chair will be deemed to have reasonable grounds for dismissal subject to section 7
 
 
 ## 7. Dismissal and Resignation of Committee Members:
@@ -131,6 +139,6 @@ _Other suggested positions include:_
   3.  Administration of loaned or donated equipment shall be the exclusive responsibility of the committee.
 
 
-# 11.	Amendments to this Constitution:
+## 11.	Amendments to this Constitution:
 1. Notice of a proposal to seek an amendment to this Constitution shall be given to the members at least 4 working days prior to the meeting at which such a proposal shall be considered.
 2. A proposal to amend this Constitution must receive the approval of 2/3 of the members present and entitled to vote at the relevant meeting.

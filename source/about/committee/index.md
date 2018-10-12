@@ -1,52 +1,54 @@
----
+﻿---
 title: Committee
-date: 2017-04-06 09:22:40
+date: 2018-04-06 09:22:40
 type: cmt
 cmt:
   - position: Chairperson
-    name: Terry Bolt
-    nick: tbolt
-  - position: Secretary
-    name: Wojtek Bednarzak
-    nick: voy
-    image: voy.jpg
-  - position: Treasurer
-    name: Ciara Godwin
-    nick: hexagon
-  - position: Public Relations Officer
-    name: Chris Dowling
-    nick: winesnob
-    image: winesnob.jpg
-  - position: Events Officer
     name: James Mc Dermott
     nick: mctastic
     image: mctastic.jpg
+  - position: Secretary
+    name: Nevan Oman Crowe
+    nick: branch
+    image: branch.jpg
+  - position: Treasurer
+    name: Ciara Godwin
+    nick: hexagon
+    image: hexagon.jpg
+  - position: Public Relations Officer
+    name: Josh Malone
+    nick: sangreal
+    image: sangreal.jpg
+  - position: Events Officer
+    name: Cliodhna Harrison
+    nick: thegirl
+    image: thegirl.jpg
   - position: System Administrator
-    name: Alex Mcgrath Kraak
-    nick: akraak
+    name: Lucas Savva
+    nick: m1cr0man
+    image: m1cr0man.jpg
   - position: System Administrator
-    name: Cormac Smartt
-    nick: pints
-    image: pints.jpg
+    name: Ben McMahon
+    nick: mcmahon
+    image: mcmahon.jpg
   - position: System Administrator
     name: Tom Doyle
     nick: greenday
     image: greenday.jpg
   - position: Webmaster
-    name: Ben McMahon
-    nick: mcmahon
+    name: Sean Fradl
+    nick: fraz
+    image: fraz.jpg
   - position: Helpdesk
-    name: Sahil Mehra
-    nick: pr0n
-  - position: Helpdesk
-    name: Michal Durinik
-    nick: mikello
+    name: Conor Berns
+    nick: berns
+    image: berns.jpg
 ---
 
 The Committee is a 12 person team which is elected yearly to run all aspects of the society
 
 ## Helpdesk
-The Helpdesk is made up of the friendly team of two Tom Doyle(greenday) & Dylan McDonald(grace).
+The Helpdesk is made up of the wonderful Conor Berns (berns).
 
 The Helpdesk is what it sounds like, a desk for help. No seriously, we're here
 to help out and answer any questions at all to help you make the most of
@@ -57,7 +59,7 @@ We also run regular tutorial in the CA labs in DCU, any member can attend and we
 will guide you through the basics and answer any queries, watch out for notices
 and posters around campus or on Redbrick.
 
-The Helpdesk tutorials start [here](http://wiki.redbrick.dcu.ie/mw/Helpdesk).
+The Helpdesk tutorials can be found [here](https://redbrick.dcu.ie/help/tutorials/).
 
 ## Admins
 An elite team of individuals dedicated to keeping the society's hardware and
@@ -66,16 +68,18 @@ Webmaster who are current members of the Committee, as well as previous elected
 root holders who have volunteered to keep doing stuff.
 
 Elected System Administrators:
-- Cormac Smartt (pints)
 - Tom Doyle (greenday)
-- Alex Mcgrath Kraak (akraak)
+- Lucas Savva (m1cr0man)
+- Ben McMahon (mcmahon)
 
 Esteemed Holders Of Root:
+- Lucas Savva (m1cr0man)
+- Ben McMahon (mcmahon)
 - Tom Doyle (greenday)
-- Alex Mcgrath Kraak (akraak)
+- Alex McGrath Kraak (akraak)
 - Cian Butler (butlerx)
 - Cormac Smartt (pints)
-- tbolt
+- Terry Bolt (tbolt)
 - Wojtek Bednarzak (voy)
 - Lorcan Boyle (zergless)
 - Emmanuel Caillé (Twister)

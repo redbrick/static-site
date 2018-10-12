@@ -19,6 +19,6 @@ If you are interested in running for either Webmaster or Systems Administrator y
 
 Previous exams can be found [here](http://www.redbrick.dcu.ie/help/exams).
 
-The dates for these exams will be advertised shortly, please [get in touch with us](/about/contact/committee) by Monday night (21st October) if you would like to sit either exam.
+The dates for these exams will be advertised shortly, please [get in touch with us](mailto:committee@redbrick.dcu.ie) by Monday night (21st October) if you would like to sit either exam.
 
-Any questions on individual exams can be directed to [admins](/about/contact/admins) or [webmaster](/about/contact/webmaster).
+Any questions on individual exams can be directed to [admins](mailto:admins@redbrick.dcu.ie) or [webmaster](mailto:webmaster@redbrick.dcu.ie).

@@ -48,18 +48,18 @@ Our AGM will be held on the 27th of March at 6pm. Venue to be confirmed, but be 
 
 ## Webmaster Exam
 
-If you want to run for the Webmaster position at this year's AGM, contact [webmaster](http://www.redbrick.dcu.ie/about/contact/webmaster) to register your interest for the exam.
+If you want to run for the Webmaster position at this year's AGM, contact [webmaster](mailto:webmaster@redbrick.dcu.ie) to register your interest for the exam.
 
 We will be holding the exam the week before the AGM, so please do this as soon as possible!
 
 ## System Administrator Exam
 
-If you want to run for one of the System Administrator positions at this year's AGM, contact [admins](http://www.redbrick.dcu.ie/about/contact/admins) to register your interest for the exam.
+If you want to run for one of the System Administrator positions at this year's AGM, contact [admins](mailto:admins@redbrick.dcu.ie) to register your interest for the exam.
 
 We will be holding the exam the week before the AGM, so please do this soon!
 
 ## Helpdesk Exam
 
-If you want to run for one of the Helpdesk positions at this year's AGM, contact [helpdesk](http://www.redbrick.dcu.ie/about/contact/helpdesk) to register your interest for the exam.
+If you want to run for one of the Helpdesk positions at this year's AGM, contact [helpdesk](mailto:helpdesk@redbrick.dcu.ie) to register your interest for the exam.
 
 We will be holding the exam the week before the AGM, so please do this as soon as possible.

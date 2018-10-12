@@ -34,11 +34,11 @@ This Thursday, we'll be hosting our annual Linux Installfest instead of admin tr
 
 ## Admin Exam
 
-We're still looking for our third Sysadmin to elect to the committee, so within the next week or two we will be hosting our admin exam. You must sit and pass the exam to be considered for election as an admin, so if you are looking into running please email [admins](/about/contact/admins) to register your interest.
+We're still looking for our third Sysadmin to elect to the committee, so within the next week or two we will be hosting our admin exam. You must sit and pass the exam to be considered for election as an admin, so if you are looking into running please email [admins](mailto:admins@redbrick.dcu.ie) to register your interest.
 
 ## Trip Away
 
-We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](/about/contact/committee) if you have any ideas!
+We here on committee are busy planning a trip away for the inter-semester break; between exams and semester two. Two years ago we went to Brussels to attend the Free Open Source Developers European Meeting (FOSDEM), which members really enjoyed - however this year the first day or FOSDEM falls on the last day of the exam period (31st of January). So we're looking for something a bit more suitable and asking for your suggestions. Please email [committee](mailto:committee@redbrick.dcu.ie) if you have any ideas!
 
 ## Irish Cancer Society Fundraiser
 

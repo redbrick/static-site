@@ -24,6 +24,9 @@ menu:
     Committee:
       url: about/committee
       icon: users
+    Minutes:
+      url: about/minutes
+      icon: clipboard
     Constitution:
       url: about/constitution
       icon: book
