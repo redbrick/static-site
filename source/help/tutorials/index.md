@@ -9,6 +9,9 @@ keywords:
 - helpdesk
 ---
 
+## 2018
+[![Intro To Redbrick 2018](./IntroToRedbrick2018/IntroToRedbrick2018.png)](./IntroToRedbrick2018)
+
 ## 2017
 [![How To Set Up Your Dev Space](./SettingUpDevEnv/HowToSetUpYourDevSpace.png)](./SettingUpDevEnv)
 [![Intro To Redbrick](./IntroToRedbrick/IntroToRedbrick.png)](./IntroToRedbrick)
