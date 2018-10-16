@@ -31,7 +31,8 @@ What's a Redbrick and how do I use it? On the last day of Clubs & Socs on Wednes
 Come along and learn more about us, our community and what we can do for you!
 
 Current members and associates are welcome to come along, if you have friends who'd like to join, bring them along to the event if they didn't make it to C&S days!
-[https://www.facebook.com/events/307132060077125](https://www.facebook.com/events/307132060077125)
+
+https://www.facebook.com/events/307132060077125
 
 
 ## Freshers Party
