@@ -28,7 +28,8 @@ To solve problems that affect billions of people, you need to think about them i
 
 Eoin O'Brien has been a software engineer in Microsoft Office for over 2 years currently driving knowledge from insights on the One Microsoft Enterprise Acceleration team. Eoin has worked on services, data processing and publicly facing websites, including working on both the consumer and enterprise side of Office, driving growth and adoption.
 Come along and see what this great talk has to offer, meet some great industry professionals and maybe learn something new!
-[https://www.facebook.com/events/329208467843184/](https://www.facebook.com/events/329208467843184/)
+
+https://www.facebook.com/events/329208467843184/
 
 
 ## Hackerclub
@@ -36,7 +37,8 @@ Come along and see what this great talk has to offer, meet some great industry p
 Are you finding programming hard? Little bit stuck or at a point where you’re too afraid to ask questions? Never fear! Hackerclub is back and better than ever!
 
 Come along down to L101 Thursday at 4pm to find out what it’s all about and maybe learn a few new things about tackling those pesky programming problems!
-[https://www.facebook.com/events/442473026277313/](https://www.facebook.com/events/442473026277313/)
+
+https://www.facebook.com/events/442473026277313/
 
 ## EGM
 
@@ -50,7 +52,8 @@ Here are all the positions available:
 - Second Helpdesk Officer
 - Two Ordinary Members
 Talk to any of the committee members beforehand if you have any questions!
-[https://www.facebook.com/events/1798124463599298/]( https://www.facebook.com/events/1798124463599298/)
+
+https://www.facebook.com/events/1798124463599298/
 
 ## UKIEPC
 This year Redbrick will be hosting a Hub in DCU for UKIEPC, at the moment it's all getting set up and we will have further emails and more information about it during the week. Just keep watching those emails!

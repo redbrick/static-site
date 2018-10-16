@@ -30,7 +30,7 @@ Congratulations to all our new committee members! I'm looking forward to an undo
 So... what do we have in store for you this week?
 
 TL;DR
-- Accenture Analytics Graduate Programme Talk - Monday @ 6pm CG86
+- Accenture Analytics Graduate Programme Talk - Monday @ 5pm CG86
 - Intro To Linux - Wednesday @ 3pm LG25
 - Hackerclub - Thursday @ 4pm L101
 - UKIEPC - Register your team now before Thursday 18th October: https://icpc.baylor.edu/regionals/finder/ukiepc-2018
@@ -45,10 +45,9 @@ Do you want to use Advanced Analytics, Machine Learning & Applied Intelligence t
 
 If you are interested in finding out more about the Accenture Analytics graduate programme then come along to our Analytics evening in DCU.
 
-Sign up here: [https://www.eventbrite.ie/e/accenture-analytics-graduate-programme-talk-tickets-51016658198](https://www.eventbrite.ie/e/accenture-analytics-graduate-programme-talk-tickets-51016658198)
+Sign up here: https://www.eventbrite.ie/e/accenture-analytics-graduate-programme-talk-tickets-51016658198
 
-
-[https://www.facebook.com/events/710213876003101/]( https://www.facebook.com/events/710213876003101/)
+https://www.facebook.com/events/710213876003101/
 
 ## Intro To Linux
 
@@ -56,7 +55,7 @@ Meet your new home! The surroundings of Linux can be quite intimidating at first
 
 On Wednesday you'll receive a brief Intro to Linux courtesy of Redbrick's very own Helpdesk! We will be (hopefully) covering something new for everyone here!! Make sure you come along to LG25 on Wednesday at 15:00 to learn you some Linux and eat you some pizza !
 
-[https://www.facebook.com/events/2196757460598738/](https://www.facebook.com/events/2196757460598738/)
+https://www.facebook.com/events/2196757460598738/
 
 ## HackerClub
 
@@ -64,21 +63,21 @@ Are you finding programming hard? Little bit stuck or at a point where you’re 
 
 Come along down to L101 Thursday at 4pm to find out what it’s all about and maybe learn a few new things about tackling those pesky programming problems!
 
-[https://www.facebook.com/events/252014042065001/](https://www.facebook.com/events/252014042065001/)
+https://www.facebook.com/events/252014042065001/
 
 ## UKIEPC
 
 This year Redbrick will be hosting a Hub in DCU for UKIEPC. Prizes and food on the day will be graciously sponsored by Mastercard, and trust us, you won't want to miss out on what's on offer!
 
-If you want to compete on the day, make sure to register for the competition at [https://icpc.baylor.edu/regionals/finder/ukiepc-2018](https://icpc.baylor.edu/regionals/finder/ukiepc-2018) before this coming Thursday!
-For more information on Redbrick's UKIEPC Hub or UKIEPC in general, check out [https://ukiepc.redbrick.dcu.ie](https://ukiepc.redbrick.dcu.ie)
+If you want to compete on the day, make sure to register for the competition at https://icpc.baylor.edu/regionals/finder/ukiepc-2018 before this coming Thursday!
+For more information on Redbrick's UKIEPC Hub or UKIEPC in general, check out https://ukiepc.redbrick.dcu.ie
 
 
 ## FOSDEM
 
 Redbrick are bound for Brussels once again this February! FOSDEM is taking place on the 2nd & 3rd of February, 2019. For those not in the know, FOSDEM is the Free and Open source Software Developers' European Meeting. Basically, it's a huge meetup of developer's from across the world, taking place on the ULB Solbosch campus in Brussels.
 
-Redbrick have made it tradition to fly out each year for some time now. If you're at all interested in coming along in 2019, please make your interest know at [https://fosdem.redbrick.dcu.ie](https://fosdem.redbrick.dcu.ie)
+Redbrick have made it tradition to fly out each year for some time now. If you're at all interested in coming along in 2019, please make your interest know at https://fosdem.redbrick.dcu.ie
 
 Have a good week peoples,
 
