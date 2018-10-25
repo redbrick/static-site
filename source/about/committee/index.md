@@ -1,12 +1,16 @@
 ﻿---
 title: Committee
-date: 2018-04-06 09:22:40
+date: 2018-17-10 18:00:00
 type: cmt
 cmt:
   - position: Chairperson
     name: James Mc Dermott
     nick: mctastic
     image: mctastic.jpg
+  - position: Vice Chair
+    name: Eamon Crawford
+    nick: eamon_c
+    image: eamonc.jpg
   - position: Secretary
     name: Nevan Oman Crowe
     nick: branch
@@ -19,10 +23,18 @@ cmt:
     name: Josh Malone
     nick: sangreal
     image: sangreal.jpg
+  - position: Graphic Design Officer 
+    name: Theo Coyne Morgan
+    nick: depp
+    image: depp.png
   - position: Events Officer
     name: Cliodhna Harrison
     nick: thegirl
     image: thegirl.jpg
+  - position: Events Officer
+    name: Jack Liston
+    nick: chill
+    image: chill.jpg  
   - position: System Administrator
     name: Lucas Savva
     nick: m1cr0man
@@ -43,12 +55,29 @@ cmt:
     name: Conor Berns
     nick: berns
     image: berns.jpg
+  - position: Helpdesk
+    name: Connor Mulready 
+    nick: mulreac
+    image: mulreac.jpg
+  - position: First Year Rep
+    name: Maciej Zamoyski Swierad
+    nick: wolfer
+    image: wolfer.jpg
+  - position: Ordinary Member
+    name: Daniel Christie
+    nick: sun
+    image: sun.jpg
+  - position: Ordinary Member
+    name: Cian Kehoe
+    nick: cianky
+    image: cianky.jpg
+  
 ---
 
-The Committee is a 12 person team which is elected yearly to run all aspects of the society
+The Committee is a 17 person team which is elected yearly to run all aspects of the society.
 
 ## Helpdesk
-The Helpdesk is made up of the wonderful Conor Berns (berns).
+The Helpdesk is made up of the wonderful Conor Berns (berns) and Connor Mulready (mulreac).
 
 The Helpdesk is what it sounds like, a desk for help. No seriously, we're here
 to help out and answer any questions at all to help you make the most of
