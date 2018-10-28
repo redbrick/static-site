@@ -3,7 +3,7 @@ title: 'Past Committees'
 type: about
 ---
 
-Over the years Redbrick has had many many people serve on its committee. Bellow is a list of each year and the names of the people who were a part of the committee. There is also an interesting page on our wiki which shows this is one [diagram](http://wiki.redbrick.dcu.ie/mw/Committee_Timeline).
+Over the years Redbrick has had many many people serve on its committee. Below is a list of each year and the names of the people who were a part of the committee. There is also an interesting page on our wiki which shows this in one [diagram](http://wiki.redbrick.dcu.ie/mw/Committee_Timeline).
 
 *   [Committee 2017-2018](./the-committee-2017-2018)
 *   [Committee 2016-2017](./the-committee-2016-2017)
