@@ -1,10 +1,10 @@
 ---
-title: 'Week 2 | C&S | Intro to Redbrick | Freshers Party'
+title: 'Week 2 | Clubs and Socs | Intro to Redbrick | Freshers Party'
 date: '2018-09-30'
 banner: 2018-week-2-announce.jpg
 author: branch
 tags:
-  - C&amp;S
+  - Clubs and Socs
   - Intro to Redbrick
   - Freshers Party
 ---

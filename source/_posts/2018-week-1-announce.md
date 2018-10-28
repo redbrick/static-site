@@ -1,10 +1,10 @@
 ---
-title: 'Week 1 | C&S | Intro to Redbrick'
+title: 'Week 1 | Clubs and Socs | Intro to Redbrick'
 date: '2018-09-24'
 banner: 2018-week-1-announce.jpg
 author: branch
 tags:
-  - C&amp;S
+  - Clubs and Socs
   - Intro to Redbrick
 ---
 
