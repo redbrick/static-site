@@ -1,10 +1,10 @@
 ---
-title: 'Week 2 | C&S | Intro to Redbrick | Freshers Party'
+title: 'Week 2 | Clubs and Socs | Intro to Redbrick | Freshers Party'
 date: '2018-09-30'
 banner: 2018-week-2-announce.jpg
 author: branch
 tags:
-  - C&S
+  - Clubs and Socs
   - Intro to Redbrick
   - Freshers Party
 ---
@@ -31,7 +31,8 @@ What's a Redbrick and how do I use it? On the last day of Clubs & Socs on Wednes
 Come along and learn more about us, our community and what we can do for you!
 
 Current members and associates are welcome to come along, if you have friends who'd like to join, bring them along to the event if they didn't make it to C&S days!
-[https://www.facebook.com/events/307132060077125](https://www.facebook.com/events/307132060077125)
+
+https://www.facebook.com/events/307132060077125
 
 
 ## Freshers Party
