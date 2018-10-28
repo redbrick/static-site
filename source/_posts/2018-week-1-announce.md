@@ -4,7 +4,7 @@ date: '2018-09-24'
 banner: 2018-week-1-announce.jpg
 author: branch
 tags:
-  - C&S
+  - C&amp;S
   - Intro to Redbrick
 ---
 

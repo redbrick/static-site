@@ -4,7 +4,7 @@ date: '2018-09-30'
 banner: 2018-week-2-announce.jpg
 author: branch
 tags:
-  - C&S
+  - C&amp;S
   - Intro to Redbrick
   - Freshers Party
 ---
