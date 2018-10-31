@@ -8,6 +8,10 @@ cmt:
     name: Conor Berns
     nick: berns
     image: berns.jpg
+  - position: Helpdesk
+    name: Connor Mulready
+    nick: mulreac
+    image: mulreac.jpg
 keywords:
 - help
 - helpdesk
