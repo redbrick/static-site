@@ -41,7 +41,7 @@ email committee@redbrick.dcu.ie to express your interest on or before this
 Wednesday (29/3/17), as eligibility to run for these positions requires
 passing an exam devised by the current holders of said position.
 
-Exams for all 3 positions from previous years can be found [here](https://redbrick.dcu.ie/help/exams/)
+Exams for all 3 positions from previous years can be found [here](/help/exams/)
 
 Additionally, we will be voting on a minor change to the Constitution, see the
 proposed changes [here](https://github.com/redbrick/static-site/pull/145)
