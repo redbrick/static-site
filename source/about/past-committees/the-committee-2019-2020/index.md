@@ -24,7 +24,7 @@ cmt:
     nick: tara
     image: tara.jpg
   - position: Graphics Design Officer
-    name: Theo Morgan Coyne
+    name: Theo Coyne Morgan
     nick: depp
     image: depp.jpg
   - position: Events Officer

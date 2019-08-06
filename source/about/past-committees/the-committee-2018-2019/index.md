@@ -24,7 +24,7 @@ cmt:
     nick: sangreal
     image: sangreal.jpg
   - position: Graphics Design Officer
-    name: Theo Morgan Coyne
+    name: Theo Coyne Morgan
     nick: depp
     image: depp.jpg
   - position: Events Officer
