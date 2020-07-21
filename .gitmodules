@@ -1,4 +1,0 @@
-[submodule "themes/redbrick-theme"]
-	path = themes/redbrick-theme
-	url = https://github.com/redbrick/hexo-theme-icarus.git
-	branch = master

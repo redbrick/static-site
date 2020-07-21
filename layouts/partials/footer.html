@@ -1,0 +1,13 @@
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; {{ now.Format "2006"}}
+      {{ with .Site.Params.author }}{{ . | markdownify}}{{ end }}</br>
+      |
+      {{ range .Site.Menus.footer }}
+        <a class="footer-info-link" href="{{ .URL }}">{{ .Name }}</a> |
+      {{ end }}
+    </div>
+  </div>
+</footer>
+{{ partial "footer_js" . }}

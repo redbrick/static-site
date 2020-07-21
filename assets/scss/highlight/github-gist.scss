@@ -1,0 +1,68 @@
+/**
+ * GitHub Gist Theme
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+.highlight {
+  color: #333;
+  padding: 0.5em;
+  .code {
+    .comment,
+    .meta {
+      color: #969896;
+    }
+
+    .string,
+    .variable,
+    .template-variable,
+    .strong,
+    .emphasis,
+    .quote {
+      color: #df5000;
+    }
+
+    .keyword,
+    .selector-tag,
+    .type {
+      color: #a71d5d;
+    }
+
+    .literal,
+    .symbol,
+    .bullet,
+    .attribute {
+      color: #0086b3;
+    }
+
+    .section,
+    .name {
+      color: #63a35c;
+    }
+
+    .tag {
+      color: #333;
+    }
+
+    .title,
+    .attr,
+    .selector-id,
+    .selector-class,
+    .selector-attr,
+    .selector-pseudo {
+      color: #795da3;
+    }
+
+    .addition {
+      background-color: #eaffea;
+      color: #55a532;
+    }
+
+    .deletion {
+      background-color: #ffecec;
+      color: #bd2c00;
+    }
+
+    .link {
+      text-decoration: underline;
+    }
+  }
+}

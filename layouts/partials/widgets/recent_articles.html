@@ -1,0 +1,46 @@
+{{ if .Site.Params.widgets.recent_articles }}
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      {{with .Site.Data.l10n.widgets.recent_articles.title}}{{.}}{{end}}
+    </h3>
+    <div class="widget">
+      <ul id="recent-post">
+        {{ range first 5 (where .Site.RegularPages "Type" "post") }}
+          <li class="card hoverable">
+            <a href="{{ .Permalink }}">
+              <div class="item-thumbnail">
+                <div class="thumbnail">
+                  {{ if and (isset .Params "banner") (not (eq .Params.banner "")) }}
+                    <span
+                      style="background-image:url({{ .Permalink }}{{ .Params.banner | relURL }})"
+                      alt="{{ $.Title }}"
+                      class="thumbnail-image"
+                    ></span>
+                  {{else}}
+                    <span class="thumbnail-image thumbnail-none"></span>
+                  {{ end }}
+                </div>
+              </div>
+              <div class="item-inner">
+                {{ if isset .Params "categories" }}
+                  {{ if gt (len .Params.categories) 0 }}
+                    <p class="item-category">
+                      {{ $url := printf "%s/%s" "categories" (index .Params.categories 0 | urlize | lower)}}
+                      {{ index .Params.categories 0 }}
+                    </p>
+                  {{ end }}
+                {{ end }}
+                <p class="item-title">{{ .Title }}</p>
+                <p class="item-date">
+                  <time datetime="{{ .Date }}" itemprop="datePublished"
+                    >{{ .Date.Format .Site.Params.date_format }}</time
+                  >
+                </p>
+              </div>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}

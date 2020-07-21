@@ -1,0 +1,35 @@
+<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <nav id="main-nav-mobile">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span id="bar1"></span>
+          <span id="bar2"></span>
+          <span id="bar3"></span>
+          <div class="scrim"></div>
+          {{ partial "nav" . }}
+        </div>
+      </nav>
+      <a href="{{ .Site.BaseURL }}" id="logo">
+        {{ if .Site.Params.logo }}
+          <i
+            class="logo"
+            style="background-image: url('{{ .Site.Params.logo | absURL }}')"
+          ></i>
+        {{end}}
+      </a>
+      <nav id="main-nav">
+        {{ partial "nav" . }}
+      </nav>
+      {{ partial "search" . }}
+      <nav id="sub-nav">
+        <div class="profile" id="profile-nav">
+          <a id="profile-anchor" href="javascript:;">
+            <i class="icon" aria-hidden="true"></i>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>

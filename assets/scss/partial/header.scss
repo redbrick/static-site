@@ -1,0 +1,461 @@
+#header {
+  @extend %block;
+  background: $color-white;
+  position: relative;
+
+  a {
+    color: $color-sidebar-text-dark;
+    transition: 0.2s ease;
+    white-space: nowrap;
+
+    &:visited {
+      color: $color-sidebar-text-dark;
+      transition: 0.2s ease;
+      white-space: nowrap;
+    }
+
+    &:hover {
+      color: $color-link;
+    }
+  }
+
+  #header-main {
+    .outer {
+      display: flex;
+    }
+  }
+}
+
+%header-block {
+  height: $logo-height;
+  line-height: $logo-height;
+  padding: ($header-height - $logo-height) / 2 2px;
+}
+
+%header-block-left {
+  float: left;
+}
+
+%header-block-right {
+  float: right;
+}
+
+.header-inner {
+  height: 100%;
+  position: relative;
+
+  #logo {
+    @extend %header-block;
+    @extend %header-block-left;
+    display: inline-block;
+    float: none;
+    margin: 12px 0 0 8px;
+    padding: 0;
+    @include mq-header-mobile {
+      width: 100%;
+    }
+
+    .logo {
+      background-repeat: no-repeat;
+      background-size: 160px 40px;
+      display: inline-block;
+      height: 40px;
+      margin-right: 5px;
+      width: 160px;
+      @include mq-header {
+        padding-bottom: 12px;
+      }
+
+      @include mq-sub-par {
+        display: none;
+      }
+    }
+
+    .site-title {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+  }
+}
+
+#header-title {
+  height: $logo-height;
+  left: 0;
+  margin-top: $logo-height * -0.5;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+}
+
+.header-sub {
+  border-top: 1px solid $color-border;
+  @include mq-mini {
+    display: none;
+  }
+  @include mq-mobile {
+    display: none;
+  }
+
+  ul {
+    @include clearfix;
+    margin: 0 15px;
+
+    li {
+      float: left;
+      margin: 0 10px;
+
+      a {
+        display: inline-block;
+        line-height: $header-sub-height;
+      }
+    }
+  }
+
+  .main-nav-link {
+    display: inline-block;
+    line-height: $header-sub-height;
+  }
+}
+
+#header-sub {
+  @include mq-mobile {
+    display: none;
+  }
+
+  @include mq-mini {
+    display: none;
+  }
+}
+
+%dropdown {
+  .menu {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .main-nav-link {
+    display: block;
+    line-height: 32px;
+    padding: 0 14px;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: solid 5px $color-red;
+    }
+
+    .fa {
+      padding-right: 8px;
+    }
+  }
+
+  .active {
+    .dropdown-toggle {
+      border-bottom: solid 5px $color-red;
+    }
+
+    .dropdown-menu {
+      filter: unquote('alpha(opacity=100)');
+      opacity: 1;
+      visibility: visible;
+
+      .main-nav-link {
+        &:hover {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+
+  li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    .current-menu-item {
+      background: #ddd;
+    }
+  }
+
+  .dropdown-toggle {
+    background: $color-white;
+    border: 0;
+    cursor: pointer;
+    font-weight: inherit;
+  }
+
+  .dropdown-menu {
+    background: #e2e2e2;
+    display: flex;
+    filter: unquote('alpha(opacity=0)');
+    flex-direction: column;
+    left: 0;
+    min-width: 100%;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    transition: 0.4s ease;
+    visibility: hidden;
+    z-index: 2;
+    li {
+      float: none;
+    }
+
+    a {
+      line-height: 120%;
+      padding: 10px 15px;
+    }
+
+    .fa {
+      padding-right: 4px;
+    }
+  }
+}
+
+#main-nav {
+  @extend %header-block;
+  @extend %header-block-left;
+  @extend %dropdown;
+  display: inline-block;
+  float: none;
+  font-size: 13px;
+  height: 40px;
+  padding: 12px 0;
+  width: 100%;
+  @include mq-header-mobile {
+    display: none;
+  }
+}
+
+#main-nav-mobile {
+  @extend %dropdown;
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+  width: 33px;
+  @include mq-header {
+    display: none;
+  }
+
+  #menuToggle {
+    display: block;
+    left: 50px;
+    top: 50px;
+    user-select: none;
+
+    input {
+      -webkit-touch-callout: none;
+      cursor: pointer;
+      display: block;
+      height: 32px;
+      opacity: 0; /* hide this */
+      position: absolute;
+      width: 40px;
+      z-index: 4; /* and place it over the hamburger */
+
+      &:checked ~ {
+        #bar1 {
+          background: #232323;
+          opacity: 1;
+          transform: rotate(45deg) translate(-2px, -1px);
+        }
+
+        #bar2 {
+          opacity: 0;
+          transform: rotate(0deg) scale(0.2, 0.2);
+        }
+
+        #bar3 {
+          background: #232323;
+          opacity: 1;
+          transform: rotate(-45deg) translate(0, -1px);
+        }
+
+        ul {
+          opacity: 1;
+          transform: scale(1, 1);
+          z-index: 2;
+        }
+
+        .scrim {
+          opacity: 0.4;
+          visibility: visible;
+        }
+      }
+    }
+
+    span {
+      background: #cdcdcd;
+      border-radius: 3px;
+      display: block;
+      height: 4px;
+      margin-bottom: 5px;
+      position: relative;
+      transform-origin: 4px 0;
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+      width: 33px;
+      z-index: 3;
+
+      &:first-child {
+        transform-origin: 0% 0%;
+      }
+
+      &:nth-last-child(3) {
+        transform-origin: 0% 100%;
+      }
+    }
+
+    .menu {
+      background: #ededed;
+      font-size: 22px;
+      height: 1000vh;
+      margin: -110px 0 0 -50px;
+      padding: 150px 50px 20px 40px;
+      position: absolute;
+      text-decoration: none;
+      transform: translate(-100%, 0);
+      transform-origin: 0% 0%;
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+      width: 250px;
+      z-index: 1;
+
+      .main-nav-link {
+        border-bottom: 0;
+        color: #232323;
+        padding: 20px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        .fa {
+          margin-right: 16px;
+        }
+
+        &:hover {
+          border-bottom: 0;
+          color: $color-red;
+        }
+      }
+    }
+
+    .dropdown-toggle {
+      background: #ededed;
+      font-size: 22px;
+    }
+
+    .dropdown-menu {
+      transition: none;
+    }
+
+    .active {
+      .main-nav-link {
+        .dropdown-toggle {
+          border-bottom: 5px solid $color-red;
+        }
+      }
+
+      .dropdown-menu {
+        display: inline;
+        position: initial;
+
+        .main-nav-link {
+          margin: 0 0 0 16px;
+        }
+      }
+    }
+  }
+}
+
+%nav-link {
+  display: block;
+  float: left;
+}
+
+.nav-icon {
+  @extend %nav-link;
+  cursor: pointer;
+  font-size: $font-size;
+  height: $logo-height !important;
+  line-height: $logo-height !important;
+  position: relative;
+  text-align: center;
+  width: $font-size;
+}
+
+.main-nav-link {
+  @extend %nav-link;
+  font-weight: 300;
+}
+
+#sub-nav {
+  @extend %header-block;
+  @extend %header-block-right;
+
+  #profile-nav {
+    #profile-anchor {
+      @include clearfix;
+      border: 1px solid #eceff2 !important;
+      border-radius: 50%;
+      display: block;
+      height: $logo-height;
+      line-height: $logo-height;
+      padding: 0 4px;
+    }
+
+    .avatar,
+    .icon {
+      float: left;
+    }
+
+    .avatar {
+      height: $logo-height;
+      margin-right: 8px;
+      width: $logo-height;
+    }
+
+    .icon {
+      font: 13px font-icon;
+      font-family: 'FontAwesome';
+      line-height: $logo-height;
+      margin: 0 9px;
+
+      &::before {
+        content: '\f2ba';
+      }
+    }
+  }
+}
+
+#main-nav-mobile {
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  .menu {
+    @include clearfix;
+    height: $header-sub-height;
+    margin: 0;
+
+    .search-form-input {
+      border-radius: $header-sub-height - 16 / 2;
+      display: none;
+      height: $header-sub-height - 16;
+      line-height: $header-sub-height - 16;
+      margin-right: 15px;
+      padding: 0 10px;
+      @include mq-mini {
+        display: block;
+      }
+
+      &::search-results-decoration,
+      &::search-cancel-button {
+        appearance: none;
+      }
+    }
+  }
+}

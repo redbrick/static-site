@@ -1,0 +1,43 @@
+@function gridsystem-width($_columns: $columns) {
+  @return ($column-width + $gutter-width) * $_columns;
+}
+
+$total-width: 100%;
+
+body {
+  @include clearfix;
+  width: 100%;
+}
+
+@mixin row($_columns: $columns) {
+  @include clearfix;
+  display: block;
+  margin: 0 $total-width *
+    ((($gutter-width * 0.5) / gridsystem-width($_columns)) * -1);
+  width: $total-width *
+    (
+      ($gutter-width + gridsystem-width($_columns)) /
+        gridsystem-width($_columns)
+    );
+}
+
+@mixin column($x, $_columns: $columns) {
+  display: inline;
+  float: left;
+  margin: 0 $total-width * (($gutter-width * 0.5) / gridsystem-width($_columns));
+  width: $total-width *
+    (
+      ((($gutter-width + $column-width) * $x) - $gutter-width) /
+        gridsystem-width($_columns)
+    );
+}
+
+@mixin push($offset: 1) {
+  margin-left: $total-width *
+    ((($gutter-width + $column-width) * $offset) / gridsystem-width($columns));
+}
+
+@mixin pull($offset: 1) {
+  margin-right: $total-width *
+    ((($gutter-width + $column-width) * $offset) / gridsystem-width($columns));
+}

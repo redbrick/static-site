@@ -1,0 +1,18 @@
+.paypal {
+  &-selection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 16px 8px;
+    width: 70%;
+
+    &-text {
+      margin-left: 4px;
+    }
+  }
+
+  &-button {
+    padding: 8px 16px 0;
+  }
+}

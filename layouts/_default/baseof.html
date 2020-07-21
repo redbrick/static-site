@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  {{ partial "head" . }}
+  <body>
+    <div id="container">
+      {{ partialCached "header" . }}
+      <div class="outer">
+        {{ partialCached "profile" . }}
+        <section id="main">
+          {{ block "main" . }}{{ end }}
+        </section>
+        {{ partial "sidebar" . }}
+      </div>
+      {{ partialCached "footer" . }}
+  </body>
+</html>

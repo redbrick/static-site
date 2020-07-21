@@ -1,0 +1,52 @@
+{{ define "main" }}
+  <div class="article-inner calendar">
+    <header class="calendar-header">
+      <h1 class="calendar-header-title" itemprop="name">Events</h1>
+    </header>
+    <div class="calendar-container">
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css"
+        integrity="sha256-Kpo67ZL4Mq+OPqdedHe9lvnMI6i6gZOI1+7NqujLdq0="
+        crossorigin="anonymous"
+      />
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"
+        integrity="sha256-SYIz/7Qe8avYdBE3w2kKVL1PB/mS05GGgKVn5qa86SY="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/gcal.min.js"
+        integrity="sha256-5axzynoOFRH6xONzFE7ASn7hp2OiD0A8+i52FpQuZRY="
+        crossorigin="anonymous"
+      ></script>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('#calendar').fullCalendar({
+            googleCalendarApiKey: '{{ .Site.Params.googleCal.api }}',
+            events: {
+              googleCalendarId:
+                '{{ .Site.Params.googleCal.id }}@group.calendar.google.com',
+            },
+          });
+        });
+      </script>
+      <div id="calendar"></div>
+    </div>
+    {{ with .Params.subscribe }}
+      <div class="calendar-message">
+        <a class="footer-info-link" href="{{ .url }}">{{ .text }}</a>
+      </div>
+    {{ end }}
+    {{ with .Params.message }}
+      <div class="calendar-message">
+        <a class="footer-info-link" href="{{ .url }}">{{ .text }}</a>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

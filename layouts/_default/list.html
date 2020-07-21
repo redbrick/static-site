@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ $context := . }}
+  {{ with .Content }}
+    {{ partial "single_page" $context }}
+  {{ else }}
+    {{ partial "archive" . }}
+    {{ partial "pagination" . }}
+  {{ end }}
+{{ end }}

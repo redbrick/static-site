@@ -1,0 +1,26 @@
+{{ with .Params.cmt }}
+  <div class="cmt">
+    {{ range . }}
+      <div class="cmt-member">
+        <a href="mailto:{{ .nick }}@redbrick.dcu.ie">
+          <div class="cmt-member-title">{{ .position }}</div>
+            {{ if (isset . "resigned") | and .resigned }}
+              <div class="cmt-member-image cmt-member-image-resigned">
+            {{ else }}
+              <div class="cmt-member-image">
+            {{ end }}
+            {{ if (isset . "image") }}
+              <span class="cmt-member-image-cover" style="background-image: url({{ printf "images/%s" .image | absURL }})"></span>
+            {{ else }}
+              <span class="cmt-member-image-none"></span>
+            {{ end }}
+          </div>
+          <div class="cmt-member-text">{{ .name }} - {{ .nick }}</div>
+          {{ if (isset . "resigned") | and .resigned }}
+            <div class="cmt-member-text" style="color: red">Resigned</div>
+          {{ end }}
+        </a>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
