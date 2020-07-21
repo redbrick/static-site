@@ -1,0 +1,40 @@
+name: Build and Validate
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1.39.0
+        with:
+          ruby-version: ruby
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.2'
+          extended: true
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Install dependencies
+        run: |
+          gem install html-proofer mdl
+      - name: Run markdownlint (mdl)
+        run: mdl -s .markdown.style.rb content/
+      - name: Build site
+        run: make build
+      - name: Validate site's HTML
+        run: |
+          htmlproofer \
+          --allow-hash-href \
+          --check-html \
+          --empty-alt-ignore \
+          --disable-external \
+          ./public
